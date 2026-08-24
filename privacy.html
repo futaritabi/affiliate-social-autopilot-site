@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>プライバシーポリシー | Affiliate Social Autopilot</title>
+<meta name="description" content="サイトのプライバシーポリシー。アフィリエイト広告の利用について明記しています。">
+<link rel="canonical" href="https://futaritabi.github.io/affiliate-social-autopilot-site/privacy.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Affiliate Social Autopilot">
+<meta property="og:title" content="プライバシーポリシー | Affiliate Social Autopilot">
+<meta property="og:description" content="サイトのプライバシーポリシー。アフィリエイト広告の利用について明記しています。">
+<meta property="og:url" content="https://futaritabi.github.io/affiliate-social-autopilot-site/privacy.html">
+
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="assets/style.css">
+
+</head>
+<body class="legal-page">
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="index.html">Affiliate Social Autopilot</a>
+    <p>楽天でみつけた気になるアイテムまとめ</p>
+  </div>
+</header>
+<main class="wrap">
+<h1>プライバシーポリシー</h1>
+<section>
+<h2>アフィリエイト広告の利用について</h2>
+<p>当サイト「Affiliate Social Autopilot」は、楽天アフィリエイトを利用し、各商品ページに商品の紹介と共にアフィリエイトリンクを掲載しています。リンクを経由して商品を購入された場合、当サイト運営者に成果報酬が支払われることがあります。</p>
+</section>
+<section>
+<h2>取得する情報について</h2>
+<p>当サイトは静的なページのみで構成されており、現時点では独自のアクセス解析ツールやCookieによる個人情報の収集は行っていません。将来的にアクセス解析や広告配信のためのCookie等を導入する場合は、本ページを更新してお知らせします。</p>
+<p>リンク先の楽天市場および各広告配信事業者(Google、X、Pinterest等)が独自に取得する情報については、各社のプライバシーポリシーをご確認ください。</p>
+</section>
+<section>
+<h2>免責事項</h2>
+<p>当サイトに掲載する商品情報(価格・在庫・レビュー件数・評価等)は、楽天市場より取得した情報およびAIが生成した紹介文であり、掲載後に変更されている場合があります。正確な最新情報は必ず商品ページ本体でご確認ください。当サイトの情報を用いて生じたいかなる損害についても、運営者は責任を負いかねます。</p>
+</section>
+<section>
+<h2>お問い合わせ</h2>
+<p>当サイトの内容に関するお問い合わせ方法は現在準備中です。</p>
+</section>
+<section>
+<h2>制定日・改定</h2>
+<p>本ページは必要に応じて予告なく改定されることがあります。</p>
+</section>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <div>本サイトはアフィリエイト広告(楽天アフィリエイト)を利用しています。掲載中の価格・在庫・ポイント倍率・レビュー件数等は取得時点の情報であり、実際の販売ページの表示が最新です。ご購入前に必ず商品ページでご確認ください。</div>
+    <div><a href="privacy.html">プライバシーポリシー</a> ・ <a href="terms.html">利用上の注意</a></div>
+    <div>&copy; 2026 Affiliate Social Autopilot</div>
+  </div>
+</footer>
+<script>
+// Click-tracking hook (no-op today, safe to extend later).
+// Currently sends nothing anywhere; it only tags outbound Rakuten links
+// with the traffic source (?src=x / ?src=pinterest / direct) so a future
+// analytics backend can attribute clicks without any template changes.
+(function(){
+  var params = new URLSearchParams(window.location.search);
+  var src = params.get('src') || 'direct';
+  document.querySelectorAll('.btn-rakuten').forEach(function(a){
+    a.setAttribute('data-src', src);
+    a.addEventListener('click', function(){
+      if (window.trackAffiliateClick) {
+        try { window.trackAffiliateClick({item: a.getAttribute('data-item-code'), src: src}); } catch(e){}
+      }
+    });
+  });
+})();
+</script>
+</body>
+</html>

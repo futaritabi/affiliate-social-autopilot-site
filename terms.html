@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>利用上の注意 | Affiliate Social Autopilot</title>
+<meta name="description" content="サイトの利用上の注意・免責事項。">
+<link rel="canonical" href="https://futaritabi.github.io/affiliate-social-autopilot-site/terms.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Affiliate Social Autopilot">
+<meta property="og:title" content="利用上の注意 | Affiliate Social Autopilot">
+<meta property="og:description" content="サイトの利用上の注意・免責事項。">
+<meta property="og:url" content="https://futaritabi.github.io/affiliate-social-autopilot-site/terms.html">
+
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="assets/style.css">
+
+</head>
+<body class="legal-page">
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="index.html">Affiliate Social Autopilot</a>
+    <p>楽天でみつけた気になるアイテムまとめ</p>
+  </div>
+</header>
+<main class="wrap">
+<h1>利用上の注意</h1>
+<section>
+<h2>掲載情報の正確性について</h2>
+<p>当サイト「Affiliate Social Autopilot」に掲載する商品名・価格・レビュー評価・レビュー件数・紹介文等は、楽天市場が提供するAPIから自動取得した情報、および生成AIが作成した紹介文を基にしています。掲載後に価格改定・在庫切れ・キャンペーン終了などにより内容が変わっている場合があります。ご購入の判断は必ず商品ページ本体の最新情報でお願いいたします。</p>
+</section>
+<section>
+<h2>紹介文について</h2>
+<p>各商品ページの紹介文はAIが商品情報を基に生成したものであり、運営者本人が実際に購入・使用した感想ではありません。</p>
+</section>
+<section>
+<h2>広告表示について</h2>
+<p>当サイトは楽天アフィリエイトプログラムに参加しており、商品ページ内のリンクには広告(アフィリエイトリンク)が含まれます。リンク先の商品購入によって当サイトに成果報酬が発生する場合があります。</p>
+</section>
+<section>
+<h2>著作権</h2>
+<p>商品画像および商品情報の著作権・使用権は各権利者に帰属します。</p>
+</section>
+<section>
+<h2>リンクについて</h2>
+<p>当サイトへのリンクは自由に行っていただいて構いません。</p>
+</section>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <div>本サイトはアフィリエイト広告(楽天アフィリエイト)を利用しています。掲載中の価格・在庫・ポイント倍率・レビュー件数等は取得時点の情報であり、実際の販売ページの表示が最新です。ご購入前に必ず商品ページでご確認ください。</div>
+    <div><a href="privacy.html">プライバシーポリシー</a> ・ <a href="terms.html">利用上の注意</a></div>
+    <div>&copy; 2026 Affiliate Social Autopilot</div>
+  </div>
+</footer>
+<script>
+// Click-tracking hook (no-op today, safe to extend later).
+// Currently sends nothing anywhere; it only tags outbound Rakuten links
+// with the traffic source (?src=x / ?src=pinterest / direct) so a future
+// analytics backend can attribute clicks without any template changes.
+(function(){
+  var params = new URLSearchParams(window.location.search);
+  var src = params.get('src') || 'direct';
+  document.querySelectorAll('.btn-rakuten').forEach(function(a){
+    a.setAttribute('data-src', src);
+    a.addEventListener('click', function(){
+      if (window.trackAffiliateClick) {
+        try { window.trackAffiliateClick({item: a.getAttribute('data-item-code'), src: src}); } catch(e){}
+      }
+    });
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+# This repo holds only generated public site output.
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.env
+.env.*
