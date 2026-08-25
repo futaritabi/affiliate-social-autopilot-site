@@ -1,6 +1,6 @@
 {
   "run_date": "2026-08-24",
-  "generated_at": "2026-08-25T23:33:03.982473+09:00",
+  "generated_at": "2026-08-26T00:35:49.692954+09:00",
   "items": [
     {
       "item_code": "toyosen:10000084",
@@ -11,7 +11,7 @@
       "review_average": 4.66,
       "review_count": 12698,
       "category": "食品",
-      "amazon_url": null
+      "amazon_url": "https://amzn.to/3SVO32O"
     },
     {
       "item_code": "mikirona:10000085",
