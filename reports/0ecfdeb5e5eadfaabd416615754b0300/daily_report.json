@@ -1,0 +1,56 @@
+{
+  "generated_at": "2026-08-26T01:32:17.921903+09:00",
+  "date": "2026-08-26",
+  "x": {
+    "slots": [
+      {
+        "time": "08:30",
+        "planned": 2,
+        "actual": 0,
+        "recovered": 0
+      },
+      {
+        "time": "13:00",
+        "planned": 2,
+        "actual": 0,
+        "recovered": 0
+      },
+      {
+        "time": "18:00",
+        "planned": 1,
+        "actual": 0,
+        "recovered": 0
+      }
+    ],
+    "slot_other": 0,
+    "posts_today": 0,
+    "posts_month": 5,
+    "success": 0,
+    "failed": 0,
+    "skipped_duplicate": 0,
+    "daily_cap": 5,
+    "capped": false,
+    "clicks": 0,
+    "clicks_available": false,
+    "tweets": []
+  },
+  "pinterest": {
+    "posts_today": 0,
+    "clicks": 0
+  },
+  "amazon_phase1": {
+    "links_total": 1,
+    "target_products_total": 185,
+    "buttons_live": 1,
+    "site_day": "2026-08-24",
+    "sales_available": false,
+    "note": "PA-API/Creators API not connected yet; no sales/click figures exist to report."
+  },
+  "rakuten": {
+    "today_sales": 0.0,
+    "today_reward": 0.0,
+    "month_sales": 0.0,
+    "month_reward": 0.0,
+    "last_import": null
+  }
+}
