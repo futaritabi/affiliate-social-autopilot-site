@@ -1,6 +1,6 @@
 {
   "run_date": "2026-08-24",
-  "generated_at": "2026-08-25T08:00:00.896370+09:00",
+  "generated_at": "2026-08-25T23:33:03.982473+09:00",
   "items": [
     {
       "item_code": "toyosen:10000084",
@@ -10,7 +10,8 @@
       "price": 1296,
       "review_average": 4.66,
       "review_count": 12698,
-      "category": "食品"
+      "category": "食品",
+      "amazon_url": null
     },
     {
       "item_code": "mikirona:10000085",
@@ -20,7 +21,8 @@
       "price": 4420,
       "review_average": 4.49,
       "review_count": 8267,
-      "category": "家電"
+      "category": "家電",
+      "amazon_url": null
     },
     {
       "item_code": "roomy:10015932",
@@ -30,7 +32,8 @@
       "price": 1760,
       "review_average": 4.82,
       "review_count": 548,
-      "category": "キッチン用品"
+      "category": "キッチン用品",
+      "amazon_url": null
     },
     {
       "item_code": "rebun:10007922",
@@ -40,7 +43,8 @@
       "price": 5590,
       "review_average": 4.41,
       "review_count": 2578,
-      "category": "食品"
+      "category": "食品",
+      "amazon_url": null
     },
     {
       "item_code": "christina:10000000",
@@ -50,7 +54,8 @@
       "price": 7700,
       "review_average": 4.86,
       "review_count": 128,
-      "category": "美容"
+      "category": "美容",
+      "amazon_url": null
     },
     {
       "item_code": "shopmarna:10006509",
@@ -60,7 +65,8 @@
       "price": 2728,
       "review_average": 4.68,
       "review_count": 631,
-      "category": "キッチン用品"
+      "category": "キッチン用品",
+      "amazon_url": null
     },
     {
       "item_code": "qgift:10000004",
@@ -70,7 +76,8 @@
       "price": 1000,
       "review_average": 4.66,
       "review_count": 2132,
-      "category": "食品"
+      "category": "食品",
+      "amazon_url": null
     },
     {
       "item_code": "le-cure:10002233",
@@ -80,7 +87,8 @@
       "price": 1496,
       "review_average": 4.68,
       "review_count": 2803,
-      "category": "キッチン用品"
+      "category": "キッチン用品",
+      "amazon_url": null
     },
     {
       "item_code": "k-style:10002004",
@@ -90,7 +98,8 @@
       "price": 3850,
       "review_average": 4.86,
       "review_count": 157,
-      "category": "キッチン用品"
+      "category": "キッチン用品",
+      "amazon_url": null
     },
     {
       "item_code": "f122190-ichihara:10000151",
@@ -100,7 +109,8 @@
       "price": 10000,
       "review_average": 4.63,
       "review_count": 135,
-      "category": "生活用品"
+      "category": "生活用品",
+      "amazon_url": null
     }
   ]
 }

@@ -123,6 +123,7 @@
 <footer class="site">
   <div class="wrap">
     <div>本サイトはアフィリエイト広告(楽天アフィリエイト)を利用しています。掲載中の価格・在庫・ポイント倍率・レビュー件数等は取得時点の情報であり、実際の販売ページの表示が最新です。ご購入前に必ず商品ページでご確認ください。</div>
+    
     <div><a href="privacy.html">プライバシーポリシー</a> ・ <a href="terms.html">利用上の注意</a></div>
     <div>&copy; 2026 Affiliate Social Autopilot</div>
   </div>
@@ -135,7 +136,7 @@
 (function(){
   var params = new URLSearchParams(window.location.search);
   var src = params.get('src') || 'direct';
-  document.querySelectorAll('.btn-rakuten').forEach(function(a){
+  document.querySelectorAll('.btn-rakuten,.btn-amazon').forEach(function(a){
     a.setAttribute('data-src', src);
     a.addEventListener('click', function(){
       if (window.trackAffiliateClick) {

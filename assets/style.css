@@ -44,12 +44,13 @@ article.item img{width:100%;max-width:420px;display:block;margin:0 auto 16px;obj
 .meta-row{color:var(--muted);font-size:.9rem;margin:4px 0}
 .ai-copy{white-space:pre-wrap;background:#fafafa;border:1px solid var(--line);
   border-radius:10px;padding:14px;margin:16px 0;font-size:.92rem}
-.btn-rakuten{
+.btn-rakuten,.btn-amazon{
   display:block;text-align:center;background:var(--accent);color:var(--accent-ink);
   font-weight:800;font-size:1.05rem;padding:16px;border-radius:12px;text-decoration:none;
   margin:18px 0 8px;
 }
-.btn-rakuten:active{opacity:.85}
+.btn-amazon{background:#ff9900;color:#111}
+.btn-rakuten:active,.btn-amazon:active{opacity:.85}
 .stale-note{font-size:.78rem;color:var(--muted);text-align:center;margin:0 0 6px}
 .back{display:inline-block;margin:0 0 14px;color:var(--muted);font-size:.85rem;text-decoration:none}
 
