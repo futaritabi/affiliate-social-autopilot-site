@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T01:34:15.426548+09:00",
+  "generated_at": "2026-08-26T01:52:06.290694+09:00",
   "date": "2026-08-26",
   "x": {
     "slots": [
@@ -37,6 +37,32 @@
   "pinterest": {
     "posts_today": 0,
     "clicks": 0
+  },
+  "instagram": {
+    "connected": false,
+    "slots": [
+      {
+        "time": "09:30",
+        "planned": 1,
+        "actual": 0,
+        "recovered": 0
+      },
+      {
+        "time": "19:30",
+        "planned": 1,
+        "actual": 0,
+        "recovered": 0
+      }
+    ],
+    "slot_other": 0,
+    "posts_today": 0,
+    "posts_month": 0,
+    "success": 0,
+    "failed": 0,
+    "skipped_duplicate": 0,
+    "daily_cap": 2,
+    "capped": false,
+    "media": []
   },
   "amazon_phase1": {
     "links_total": 1,

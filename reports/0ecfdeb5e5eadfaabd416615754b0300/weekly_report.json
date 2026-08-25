@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T01:34:15.437755+09:00",
+  "generated_at": "2026-08-26T01:52:06.303320+09:00",
   "window_7d": {
     "date_range": [
       "2026-08-26",
@@ -9,6 +9,7 @@
     "x_posts_total": 0,
     "x_success_total": 0,
     "x_failed_total": 0,
+    "instagram_posts_total": 0,
     "rakuten_sales_total": 0.0,
     "rakuten_reward_total": 0.0
   },
@@ -21,6 +22,7 @@
     "x_posts_total": 0,
     "x_success_total": 0,
     "x_failed_total": 0,
+    "instagram_posts_total": 0,
     "rakuten_sales_total": 0.0,
     "rakuten_reward_total": 0.0
   },
