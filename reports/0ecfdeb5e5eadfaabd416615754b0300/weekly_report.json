@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-26T23:30:02.777640+09:00",
+  "generated_at": "2026-08-27T23:30:03.076998+09:00",
   "window_7d": {
     "date_range": [
       "2026-08-26",
-      "2026-08-26"
+      "2026-08-27"
     ],
-    "days_with_data": 1,
+    "days_with_data": 2,
     "x_posts_total": 0,
     "x_success_total": 0,
     "x_failed_total": 0,
@@ -16,9 +16,9 @@
   "window_14d": {
     "date_range": [
       "2026-08-26",
-      "2026-08-26"
+      "2026-08-27"
     ],
-    "days_with_data": 1,
+    "days_with_data": 2,
     "x_posts_total": 0,
     "x_success_total": 0,
     "x_failed_total": 0,
@@ -29,6 +29,15 @@
   "daily_series": [
     {
       "date": "2026-08-26",
+      "x_posts": 0,
+      "x_success": 0,
+      "x_failed": 0,
+      "rakuten_sales": 0.0,
+      "rakuten_reward": 0.0,
+      "amazon_links_total": 1
+    },
+    {
+      "date": "2026-08-27",
       "x_posts": 0,
       "x_success": 0,
       "x_failed": 0,
