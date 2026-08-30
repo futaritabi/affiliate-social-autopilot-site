@@ -1,6 +1,6 @@
 {
   "run_date": "2026-08-30",
-  "generated_at": "2026-08-30T15:08:53.425159+09:00",
+  "generated_at": "2026-08-30T15:45:16.972559+09:00",
   "items": [
     {
       "item_code": "toyosen:10000084",
@@ -88,7 +88,7 @@
       "review_average": 4.68,
       "review_count": 630,
       "category": "キッチン用品",
-      "amazon_url": null
+      "amazon_url": "https://www.amazon.co.jp/dp/B0DFFLRD1X/?tag=shumatsutabi-22"
     },
     {
       "item_code": "le-cure:10002233",
