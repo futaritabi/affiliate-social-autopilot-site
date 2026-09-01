@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-31T23:30:03.784882+09:00",
+  "generated_at": "2026-09-01T23:30:04.141504+09:00",
   "window_7d": {
     "date_range": [
       "2026-08-26",
-      "2026-08-31"
+      "2026-09-01"
     ],
-    "days_with_data": 6,
-    "x_posts_total": 10,
-    "x_success_total": 10,
+    "days_with_data": 7,
+    "x_posts_total": 15,
+    "x_success_total": 15,
     "x_failed_total": 0,
     "instagram_posts_total": 0,
     "rakuten_sales_total": 0.0,
@@ -16,11 +16,11 @@
   "window_14d": {
     "date_range": [
       "2026-08-26",
-      "2026-08-31"
+      "2026-09-01"
     ],
-    "days_with_data": 6,
-    "x_posts_total": 10,
-    "x_success_total": 10,
+    "days_with_data": 7,
+    "x_posts_total": 15,
+    "x_success_total": 15,
     "x_failed_total": 0,
     "instagram_posts_total": 0,
     "rakuten_sales_total": 0.0,
@@ -74,6 +74,15 @@
     },
     {
       "date": "2026-08-31",
+      "x_posts": 5,
+      "x_success": 5,
+      "x_failed": 0,
+      "rakuten_sales": 0.0,
+      "rakuten_reward": 0.0,
+      "amazon_links_total": 41
+    },
+    {
+      "date": "2026-09-01",
       "x_posts": 5,
       "x_success": 5,
       "x_failed": 0,
