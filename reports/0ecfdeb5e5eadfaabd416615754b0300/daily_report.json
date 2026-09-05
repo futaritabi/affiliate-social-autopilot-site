@@ -1,23 +1,20 @@
 {
-  "generated_at": "2026-09-05T00:20:22.150472+09:00",
+  "generated_at": "2026-09-05T23:30:02.870635+09:00",
   "date": "2026-09-05",
-  "anomalies": [
-    "🚨 商品候補が4日間更新されていません(最終生成日: 2026-09-01)。main.py(7:30の商品選定)が候補0件になっている可能性があります。logs/2026-09-05.logのERROR行を確認してください。",
-    "⚠️ X投稿は本日5件の予定でしたが、実績・失敗・重複スキップいずれも0件です。投稿処理自体が試行されていない可能性が高いです(候補切れ・スケジュール未実行等)。"
-  ],
+  "anomalies": [],
   "x": {
     "slots": [
       {
         "time": "08:30",
         "planned": 2,
-        "actual": 0,
+        "actual": 2,
         "recovered": 0
       },
       {
         "time": "13:00",
         "planned": 2,
-        "actual": 0,
-        "recovered": 0
+        "actual": 3,
+        "recovered": 1
       },
       {
         "time": "18:00",
@@ -27,16 +24,77 @@
       }
     ],
     "slot_other": 0,
-    "posts_today": 0,
-    "posts_month": 5,
-    "success": 0,
+    "posts_today": 5,
+    "posts_month": 10,
+    "success": 5,
     "failed": 0,
-    "skipped_duplicate": 0,
+    "skipped_duplicate": 2,
     "daily_cap": 5,
-    "capped": false,
+    "capped": true,
     "clicks": 0,
     "clicks_available": false,
-    "tweets": []
+    "tweets": [
+      {
+        "id": "2096017986687811937",
+        "url": "https://x.com/i/status/2096017986687811937",
+        "metrics": {
+          "bookmark_count": 0,
+          "impression_count": 21,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        }
+      },
+      {
+        "id": "2096017988210356428",
+        "url": "https://x.com/i/status/2096017988210356428",
+        "metrics": {
+          "bookmark_count": 0,
+          "impression_count": 70,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        }
+      },
+      {
+        "id": "2096085931212374122",
+        "url": "https://x.com/i/status/2096085931212374122",
+        "metrics": {
+          "bookmark_count": 0,
+          "impression_count": 16,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        }
+      },
+      {
+        "id": "2096085933364060523",
+        "url": "https://x.com/i/status/2096085933364060523",
+        "metrics": {
+          "bookmark_count": 0,
+          "impression_count": 19,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        }
+      },
+      {
+        "id": "2096085935909986699",
+        "url": "https://x.com/i/status/2096085935909986699",
+        "metrics": {
+          "bookmark_count": 0,
+          "impression_count": 39,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        }
+      }
+    ]
   },
   "pinterest": {
     "posts_today": 0,
@@ -70,9 +128,9 @@
   },
   "amazon_phase1": {
     "links_total": 41,
-    "target_products_total": 281,
+    "target_products_total": 325,
     "buttons_live": 41,
-    "site_day": "2026-09-01",
+    "site_day": "2026-09-05",
     "sales_available": false,
     "note": "PA-API/Creators API not connected yet; no sales/click figures exist to report."
   },
