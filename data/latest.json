@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-09-05",
-  "generated_at": "2026-09-06T08:00:02.050164+09:00",
+  "run_date": "2026-09-07",
+  "generated_at": "2026-09-07T08:00:01.856454+09:00",
   "items": [
     {
       "item_code": "toyosen:10000084",
@@ -17,10 +17,10 @@
       "item_code": "mikirona:10000085",
       "slug": "mikirona-10000085",
       "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/mikirona-10000085.html",
-      "name": "【楽天1位★半額クーポン配布中〜】ドライヤー 速乾 大風量 2億マイナスイオン 軽量 静音 1年保証 高速ドライヤー ヘアドライヤー 静電気除去 コンパクト 人気 髪質改善 美容家電 ヘアケア 美髪 時短 レディース メンズ ヘアサロン 冷熱風 ホワイトデ ギフト 家庭",
+      "name": "【楽天1位★SSクーポンで3,470円～】ドライヤー 速乾 大風量 2億マイナスイオン 軽量 静音 1年保証 高速ドライヤー ヘアドライヤー 静電気除去 コンパクト 人気 髪質改善 美容家電 ヘアケア 美髪 時短 レディース メンズ ヘアサロン 冷熱風 ホワイトデ ギフト 家庭",
       "price": 3970,
       "review_average": 4.49,
-      "review_count": 8295,
+      "review_count": 8314,
       "category": "家電",
       "amazon_url": null
     },
@@ -30,8 +30,8 @@
       "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/roomy-10015932.html",
       "name": "［ マグネット鍋蓋ホルダー タワー ］山崎実業 tower 鍋蓋 スタンド ラック 鍋ブタ 収納 鍋ふた マグネット 鍋ふたスタンド なべ蓋 ふたスタンド フタ立て フタ置き 壁 磁石 キッチン収納 キッチン 台所 便利グッズ おしゃれ シンプル モノトーン yamazaki 5140 5141",
       "price": 1760,
-      "review_average": 4.82,
-      "review_count": 548,
+      "review_average": 4.81,
+      "review_count": 549,
       "category": "キッチン用品",
       "amazon_url": null
     },
@@ -42,7 +42,7 @@
       "name": "ザル ボウル セット 21cm 2〜4点セット【マーナ公式】 レンジ対応 蒸しざる 蒸し器 耐熱ボウル 電子レンジOK 食洗機対応 浅型 浅い ボール 平ざる 足つき 蓋 皿 湯切り 水切り 麺 パスタ 洗いやすい プラスチック 軽量 おしゃれ かわいい キッチン 便利グッズ BPAフリー K838",
       "price": 2490,
       "review_average": 4.72,
-      "review_count": 973,
+      "review_count": 974,
       "category": "キッチン用品",
       "amazon_url": null
     },
@@ -64,7 +64,7 @@
       "name": "＼期間中ポイントアップ／ 博多長浜豚骨とんこつ ラーメン 黒浜 6人前 1000円 お取り寄せ グルメ 福岡 ご当地 ラーメン ポイント消化 訳あり 食品 送料無料 ポイント利用",
       "price": 1000,
       "review_average": 4.66,
-      "review_count": 2188,
+      "review_count": 2197,
       "category": "食品",
       "amazon_url": null
     },
@@ -91,26 +91,48 @@
       "amazon_url": null
     },
     {
-      "item_code": "f122190-ichihara:10000151",
-      "slug": "f122190-ichihara-10000151",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/f122190-ichihara-10000151.html",
-      "name": "【ふるさと納税】ライオン NANOX one ナノックスワン 洗浄プラス シトラスソープの香り ( 選べる : 本体 600g 詰替え765g 1080g 1530g ) セット 洗濯洗剤 液体洗剤 衣類用洗剤 洗剤 抗菌 部屋干し 日用品 消耗品 掃除用品 生活用品 LION 人気 おすすめ 千葉県 市原市",
-      "price": 10000,
-      "review_average": 4.63,
-      "review_count": 135,
+      "item_code": "jeri-jeri:10003076",
+      "slug": "jeri-jeri-10003076",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/jeri-jeri-10003076.html",
+      "name": "【スーパーSALE★最大300円OFF★】LDK A評価 ヒト幹細胞 美容液 JOIE CELLULE ジョワセリュール セラム 20ml (2本セット220円OFF) | 人気美容液50代 エイジングケア 美容液 敏感肌 シワ改善 目元 シミ 肌 毛穴 ハリ たるみ シワ 毛穴ケア たるみ毛穴 50代 開き 国産 日本産",
+      "price": 3740,
+      "review_average": 4.69,
+      "review_count": 128,
+      "category": "美容",
+      "amazon_url": null
+    },
+    {
+      "item_code": "f122190-ichihara:10000163",
+      "slug": "f122190-ichihara-10000163",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/f122190-ichihara-10000163.html",
+      "name": "【ふるさと納税】ライオン チャーミーマジカ 除菌プラス フレッシュシトラスグリーンの香り 市原工場夜景パッケージ ( 選べる: 本体 220ml 12本 24本) 食器用洗剤 台所用洗剤 液体洗剤 洗剤 除菌 油汚れ キッチン用品 日用品 消耗品 生活用品 人気 おすすめ 千葉県 市原市",
+      "price": 9000,
+      "review_average": 4.85,
+      "review_count": 33,
       "category": "生活用品",
       "amazon_url": null
     },
     {
-      "item_code": "qsai:10000663",
-      "slug": "qsai-10000663",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/qsai-10000663.html",
-      "name": "【5%OFF】【公式】 キューサイ コラリッチ アゼライン酸 美容液（コラリッチ AZ6セラム)( アゼライン酸 誘導体 6％配合 アゼライン酸 ナイアシンアミド コラーゲン 肌のざらつき 肌荒れ予防 キメ 日本製 ポンプタイプ 化粧品 ギフト 人気 プレゼント 実用的 )",
-      "price": 2612,
-      "review_average": 4.65,
-      "review_count": 43,
+      "item_code": "f122190-ichihara:10000267",
+      "slug": "f122190-ichihara-10000267",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/f122190-ichihara-10000267.html",
+      "name": "【ふるさと納税】ライオン ソフラン プレミアム消臭 フローラルアロマ ( 選べる : 本体 480ml 詰替え 380ml 750ml 1300ml ) 柔軟剤 衣料用柔軟剤 消臭 防臭 抗菌 部屋干し ニオイ 汗臭 生乾き臭 衣類ケア 詰め替え 日用品 消耗品 生活用品 人気 おすすめ 千葉県 市原市",
+      "price": 9000,
+      "review_average": 4.86,
+      "review_count": 29,
+      "category": "生活用品",
+      "amazon_url": null
+    },
+    {
+      "item_code": "candy:10453765",
+      "slug": "candy-10453765",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/candy-10453765.html",
+      "name": "＜9/4〜9/11限定★最大100%ポイントバック＞【数量限定！9回分サンプルプレゼント】 EGFエクストラエッセンス 60ml (送料無料) 【正規販売店】日本EGF協会認定製品 美容液 スキンケア EGF 人気 コスメ BIOLINK バイオリンク エイジングケア 天然由来美容液",
+      "price": 8800,
+      "review_average": 4.89,
+      "review_count": 9,
       "category": "美容",
-      "amazon_url": "https://www.amazon.co.jp/dp/B0F9LCWXRM/?tag=shumatsutabi-22"
+      "amazon_url": null
     }
   ]
 }
