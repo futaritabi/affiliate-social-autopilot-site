@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-05T23:30:03.019877+09:00",
+  "generated_at": "2026-09-06T23:30:02.794856+09:00",
   "window_7d": {
     "date_range": [
-      "2026-08-29",
-      "2026-09-05"
+      "2026-08-30",
+      "2026-09-06"
     ],
     "days_with_data": 7,
     "x_posts_total": 20,
@@ -16,9 +16,9 @@
   "window_14d": {
     "date_range": [
       "2026-08-26",
-      "2026-09-05"
+      "2026-09-06"
     ],
-    "days_with_data": 10,
+    "days_with_data": 11,
     "x_posts_total": 20,
     "x_success_total": 20,
     "x_failed_total": 0,
@@ -112,6 +112,15 @@
       "date": "2026-09-05",
       "x_posts": 5,
       "x_success": 5,
+      "x_failed": 0,
+      "rakuten_sales": 0.0,
+      "rakuten_reward": 0.0,
+      "amazon_links_total": 41
+    },
+    {
+      "date": "2026-09-06",
+      "x_posts": 0,
+      "x_success": 0,
       "x_failed": 0,
       "rakuten_sales": 0.0,
       "rakuten_reward": 0.0,
