@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-09-07T23:30:03.260399+09:00",
+  "generated_at": "2026-09-08T23:30:03.480464+09:00",
   "window_7d": {
     "date_range": [
-      "2026-08-31",
-      "2026-09-07"
+      "2026-09-01",
+      "2026-09-08"
     ],
     "days_with_data": 7,
     "x_posts_total": 20,
@@ -16,11 +16,11 @@
   "window_14d": {
     "date_range": [
       "2026-08-26",
-      "2026-09-07"
+      "2026-09-08"
     ],
-    "days_with_data": 12,
-    "x_posts_total": 25,
-    "x_success_total": 25,
+    "days_with_data": 13,
+    "x_posts_total": 30,
+    "x_success_total": 30,
     "x_failed_total": 0,
     "instagram_posts_total": 0,
     "rakuten_sales_total": 0.0,
@@ -128,6 +128,15 @@
     },
     {
       "date": "2026-09-07",
+      "x_posts": 5,
+      "x_success": 5,
+      "x_failed": 0,
+      "rakuten_sales": 0.0,
+      "rakuten_reward": 0.0,
+      "amazon_links_total": 41
+    },
+    {
+      "date": "2026-09-08",
       "x_posts": 5,
       "x_success": 5,
       "x_failed": 0,
