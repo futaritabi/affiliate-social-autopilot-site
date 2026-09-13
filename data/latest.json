@@ -1,6 +1,6 @@
 {
-  "run_date": "2026-09-13",
-  "generated_at": "2026-09-13T08:00:02.210774+09:00",
+  "run_date": "2026-09-14",
+  "generated_at": "2026-09-14T08:00:02.621961+09:00",
   "items": [
     {
       "item_code": "roomy:10015932",
@@ -9,7 +9,7 @@
       "name": "［ マグネット鍋蓋ホルダー タワー ］山崎実業 tower 鍋蓋 スタンド ラック 鍋ブタ 収納 鍋ふた マグネット 鍋ふたスタンド なべ蓋 ふたスタンド フタ立て フタ置き 壁 磁石 キッチン収納 キッチン 台所 便利グッズ おしゃれ シンプル モノトーン yamazaki 5140 5141",
       "price": 1760,
       "review_average": 4.81,
-      "review_count": 549,
+      "review_count": 550,
       "category": "キッチン用品",
       "amazon_url": "https://www.amazon.co.jp/dp/B08LYL8PYK/?tag=shumatsutabi-22"
     },
@@ -58,17 +58,6 @@
       "amazon_url": "https://www.amazon.co.jp/dp/B087J36XL8/?tag=shumatsutabi-22"
     },
     {
-      "item_code": "f122190-ichihara:10000163",
-      "slug": "f122190-ichihara-10000163",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/f122190-ichihara-10000163.html",
-      "name": "【ふるさと納税】ライオン チャーミーマジカ 除菌プラス フレッシュシトラスグリーンの香り 市原工場夜景パッケージ ( 選べる: 本体 220ml 12本 24本) 食器用洗剤 台所用洗剤 液体洗剤 洗剤 除菌 油汚れ キッチン用品 日用品 消耗品 生活用品 人気 おすすめ 千葉県 市原市",
-      "price": 9000,
-      "review_average": 4.85,
-      "review_count": 33,
-      "category": "生活用品",
-      "amazon_url": null
-    },
-    {
       "item_code": "f122190-ichihara:10000267",
       "slug": "f122190-ichihara-10000267",
       "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/f122190-ichihara-10000267.html",
@@ -80,25 +69,36 @@
       "amazon_url": null
     },
     {
-      "item_code": "netsbee:10049027",
-      "slug": "netsbee-10049027",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/netsbee-10049027.html",
-      "name": "[ まつ毛 美容液 ] オデット フェニックス アイラッシュサポートジェル 9mL サロン専売品 まつげ コーティング 睫毛 セパレート クリア マツエク グルー 伸びる まつ毛パーマ トリートメント おすすめ 人気 送料無料",
-      "price": 2500,
-      "review_average": 4.8,
-      "review_count": 15,
-      "category": "美容",
-      "amazon_url": "https://www.amazon.co.jp/dp/B0DDL8W7VB/?tag=shumatsutabi-22"
+      "item_code": "rebun:10007924",
+      "slug": "rebun-10007924",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/rebun-10007924.html",
+      "name": "内祝い お返し 北海道の昆布干物セット(5種類7点)【送料無料】ほっけ、にしん、かれい、こまい北海道 グルメ ギフト お取り寄せグルメ 魚 食品 食べ物 詰め合わせ 高級 結婚 出産 誕生日プレゼント 干物 海鮮 景品 父 母 敬老の日 おじいちゃん おばあちゃん",
+      "price": 5886,
+      "review_average": 4.47,
+      "review_count": 158,
+      "category": "食品",
+      "amazon_url": null
     },
     {
-      "item_code": "beautypark2017:10002513",
-      "slug": "beautypark2017-10002513",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/beautypark2017-10002513.html",
-      "name": "【送料無料/顔用美容液】ヴィーヴォ vivo VC30+ 美容液 30ml 楽天1位 エイジングケア 防腐剤 オイル アルコールフリー NMN ヒト幹細胞培養液 ビタミンC誘導体 潤い 保湿 お肌 ツヤ肌 もちもち 乾燥 スキンケア 美容 コスメ つやつや 年齢肌 潤い うるおい 美肌 高級 人気",
-      "price": 13200,
-      "review_average": 4.96,
-      "review_count": 24,
-      "category": "美容",
+      "item_code": "f122190-ichihara:10000121",
+      "slug": "f122190-ichihara-10000121",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/f122190-ichihara-10000121.html",
+      "name": "【ふるさと納税】ライオン チャーミーマジカ 速乾プラス カラっと 除菌 シトラスグリーンの香り ( 選べる: 本体 220ml 詰替え680ml ) 食器用洗剤 台所用洗剤 液体洗剤 洗剤 除菌 速乾 油汚れ キッチン用品 日用品 消耗品 生活用品 人気 おすすめ 千葉県 市原市",
+      "price": 9000,
+      "review_average": 4.79,
+      "review_count": 19,
+      "category": "生活用品",
+      "amazon_url": null
+    },
+    {
+      "item_code": "f272281-sennan:10000345",
+      "slug": "f272281-sennan-10000345",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/f272281-sennan-10000345.html",
+      "name": "【ふるさと納税】15色から選べる！ 【 泉州タオル / ハンカチ / 12枚 】肌触り が自慢の デイリーユース ハンカチ 12枚 生活用品 セット 速乾 無地 人気色 ふるさと納税 タオル ふるさと納税 ハンカチ【配送不可地域：北海道・沖縄・離島】",
+      "price": 8500,
+      "review_average": 5.0,
+      "review_count": 3,
+      "category": "生活用品",
       "amazon_url": null
     },
     {
