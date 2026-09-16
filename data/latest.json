@@ -1,17 +1,61 @@
 {
-  "run_date": "2026-09-15",
-  "generated_at": "2026-09-16T08:00:02.263647+09:00",
+  "run_date": "2026-09-17",
+  "generated_at": "2026-09-17T08:00:02.268769+09:00",
   "items": [
     {
-      "item_code": "roomy:10015932",
-      "slug": "roomy-10015932",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/roomy-10015932.html",
-      "name": "［ マグネット鍋蓋ホルダー タワー ］山崎実業 tower 鍋蓋 スタンド ラック 鍋ブタ 収納 鍋ふた マグネット 鍋ふたスタンド なべ蓋 ふたスタンド フタ立て フタ置き 壁 磁石 キッチン収納 キッチン 台所 便利グッズ おしゃれ シンプル モノトーン yamazaki 5140 5141",
-      "price": 1760,
-      "review_average": 4.81,
-      "review_count": 550,
+      "item_code": "toyosen:10000084",
+      "slug": "toyosen-10000084",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/toyosen-10000084.html",
+      "name": "老舗のえびせんべい 福袋 3袋 セット 435g（145g×3袋）送料無料 北海道・沖縄は送料追加 2セットで1袋、3セットで2袋のおまけ♪ スイーツ 楽天ランキング 常連 保存食 せんべい 日持ち 食品 お返し 贈り物 お取り寄せ",
+      "price": 1296,
+      "review_average": 4.66,
+      "review_count": 12713,
+      "category": "食品",
+      "amazon_url": null
+    },
+    {
+      "item_code": "mikirona:10000085",
+      "slug": "mikirona-10000085",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/mikirona-10000085.html",
+      "name": "【楽天1位★クーポンで3,580円！】ドライヤー 速乾 大風量 2億マイナスイオン 軽量 静音 1年保証 高速ドライヤー ヘアドライヤー 静電気除去 コンパクト 人気 髪質改善 美容家電 ヘアケア 美髪 時短 レディース メンズ ヘアサロン 冷熱風 ホワイトデ ギフト 家庭",
+      "price": 5980,
+      "review_average": 4.49,
+      "review_count": 8515,
+      "category": "家電",
+      "amazon_url": null
+    },
+    {
+      "item_code": "shopmarna:10006687",
+      "slug": "shopmarna-10006687",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/shopmarna-10006687.html",
+      "name": "ザル ボウル セット 21cm 2〜4点セット【マーナ公式】 レンジ対応 蒸しざる 蒸し器 耐熱ボウル 電子レンジOK 食洗機対応 浅型 浅い ボール 平ざる 足つき 蓋 皿 湯切り 水切り 麺 パスタ 洗いやすい プラスチック 軽量 おしゃれ かわいい キッチン 便利グッズ BPAフリー K838",
+      "price": 2490,
+      "review_average": 4.72,
+      "review_count": 989,
       "category": "キッチン用品",
-      "amazon_url": "https://www.amazon.co.jp/dp/B08LYL8PYK/?tag=shumatsutabi-22"
+      "amazon_url": null
+    },
+    {
+      "item_code": "rebun:10007922",
+      "slug": "rebun-10007922",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/rebun-10007922.html",
+      "name": "まだ間に合う 敬老の日 北海道 礼文島創業 海鮮8点セット NAGOMI【グルメ大賞2025受賞】ギフト 内祝い お返し 5000円 誕生日 プレゼント 食べ物 食品 お取り寄せグルメ 海鮮 海産 おつまみ 詰め合わせ 出産 結婚 60代 70代 お礼 おじいちゃん おばあちゃん 父 母",
+      "price": 5590,
+      "review_average": 4.41,
+      "review_count": 2584,
+      "category": "食品",
+      "amazon_url": null
+    },
+    {
+      "item_code": "rakuten24:11279561",
+      "slug": "rakuten24-11279561",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/rakuten24-11279561.html",
+      "name": "【1種類を選べる】 アリエール 洗濯洗剤 液体 詰め替え 超ジャンボ(1000g×4セット)【アリエール 液体】",
+      "price": 4078,
+      "review_average": 4.63,
+      "review_count": 617,
+      "category": "日用品雑貨・文房具・手芸",
+      "amazon_url": null
     },
     {
       "item_code": "christina:10000000",
@@ -25,6 +69,50 @@
       "amazon_url": "https://www.amazon.co.jp/dp/B0BHM9GRJ6/?tag=shumatsutabi-22"
     },
     {
+      "item_code": "attenir:10000252",
+      "slug": "attenir-10000252",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/attenir-10000252.html",
+      "name": "大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 皮脂 詰め替え ダブル洗顔不要 アテニア 公式 ]",
+      "price": 3630,
+      "review_average": 4.8,
+      "review_count": 48992,
+      "category": "美容・コスメ・香水",
+      "amazon_url": null
+    },
+    {
+      "item_code": "theordinary:10000010",
+      "slug": "theordinary-10000010",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/theordinary-10000010.html",
+      "name": "The Ordinary オーディナリー N10+Z1フェイスセラム（ナイアシンアミド*1 10%+亜鉛1%*2）60ml │ ジオーディナリー 美容液 ナイアシンアミド セラム 毛穴 保湿 人気 ベストセラー ギフト",
+      "price": 1980,
+      "review_average": 4.57,
+      "review_count": 667,
+      "category": "美容",
+      "amazon_url": null
+    },
+    {
+      "item_code": "le-cure:10002233",
+      "slug": "le-cure-10002233",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/le-cure-10002233.html",
+      "name": "＼早く買えば良かった！／グリル専用焼き魚トレー ワイド 28×20cm 大型 マーブルコート 穴なし グリル用 魚焼きトレー グリルプレート グリルトレー 魚焼きグリル プレート キッチングッズ 便利 キッチン用品 時短 調理",
+      "price": 1496,
+      "review_average": 4.68,
+      "review_count": 2823,
+      "category": "キッチン用品",
+      "amazon_url": null
+    },
+    {
+      "item_code": "ulike-store:10000046",
+      "slug": "ulike-store-10000046",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/ulike-store-10000046.html",
+      "name": "【15%OFFクーポンで69,800円 → 59,330円+条件達成で合計3,000P！9/16〜9/18】＜新発売＞ Ulike 公式 Air 10 Max IPL 光美容器 2026年モデル ユーライク 脱毛器 脱毛 サファイア美容器 冷却機能 USHRモード 顔 ワキ ヒゲ 自宅ケア 女性 男性",
+      "price": 64800,
+      "review_average": 4.46,
+      "review_count": 7921,
+      "category": "家電",
+      "amazon_url": null
+    },
+    {
       "item_code": "k-style:10002004",
       "slug": "k-style-10002004",
       "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/k-style-10002004.html",
@@ -33,6 +121,94 @@
       "review_average": 4.86,
       "review_count": 157,
       "category": "キッチン用品",
+      "amazon_url": null
+    },
+    {
+      "item_code": "lifedrinkcompany:10000022",
+      "slug": "lifedrinkcompany-10000022",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/lifedrinkcompany-10000022.html",
+      "name": "【炭酸水の最安値に挑戦中！】炭酸水 500ml 48本 (24本×2ケース) 送料無料※一部地域除く 強炭酸 炭酸 無糖 OZA SODA プレーン レモン ピンクグレープフルーツ ライム 割り材 箱買い まとめ買い ライフドリンクカンパニー LIFEDRINK ZAO SODA",
+      "price": 2550,
+      "review_average": 4.67,
+      "review_count": 17585,
+      "category": "全ジャンル",
+      "amazon_url": null
+    },
+    {
+      "item_code": "rakuten24:11128644",
+      "slug": "rakuten24-11128644",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/rakuten24-11128644.html",
+      "name": "【1種類を選べる】アタック 抗菌EX 洗濯洗剤 詰替 超特大サイズ 梱販売用(6袋入)【アタック】",
+      "price": 6171,
+      "review_average": 4.68,
+      "review_count": 4217,
+      "category": "日用品雑貨・文房具・手芸",
+      "amazon_url": null
+    },
+    {
+      "item_code": "pricon:10003151",
+      "slug": "pricon-10003151",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/pricon-10003151.html",
+      "name": "コンタクトレンズ ワンデー コンタクト ｜ ワンデーアキュビュー オアシス 90枚パック 2箱セット 1日使い捨て コンタクト （コンタクト ワンデー / アキュビュー / オアシス / ジョンソン&ジョンソン / クリアレンズ 1day）",
+      "price": 14790,
+      "review_average": 4.76,
+      "review_count": 783,
+      "category": "全ジャンル",
+      "amazon_url": null
+    },
+    {
+      "item_code": "kouragumi:10001520",
+      "slug": "kouragumi-10001520",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/kouragumi-10001520.html",
+      "name": "お試し送料無料2,490円～ 骨取りサバ切身 1kg 無塩or有塩が選べる♪骨とり 骨なし 鯖 さば 冷凍食品 お中元 ギフト 【P】",
+      "price": 2490,
+      "review_average": 4.51,
+      "review_count": 19313,
+      "category": "食品",
+      "amazon_url": null
+    },
+    {
+      "item_code": "irisplaza-r:10170526",
+      "slug": "irisplaza-r-10170526",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/irisplaza-r-10170526.html",
+      "name": "【令和7年産100％使用】白米 無洗米 和の輝き ブレンド米 10kg (5kg×2袋) 15kg (5kg×3袋) 密封新鮮パック 脱酸素剤入り 米 お米 国産 10キロ 15キロ 低温製法米 送料無料 アイリスオーヤマ",
+      "price": 4280,
+      "review_average": 4.7,
+      "review_count": 7657,
+      "category": "食品",
+      "amazon_url": null
+    },
+    {
+      "item_code": "toucher-home:10000396",
+      "slug": "toucher-home-10000396",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/toucher-home-10000396.html",
+      "name": "【特価3916円→2980円】 日本製 ホテルスタイルタオル ビッグフェイスタオル 4枚セット 【圧縮】 楽天1位受賞 / 約40×100cm タオル フェイスタオル 小さめ バスタオル 厚手 セット 日経MJ掲載 バスタオルキャンセル界隈",
+      "price": 2980,
+      "review_average": 4.52,
+      "review_count": 18341,
+      "category": "日用品雑貨・文房具・手芸",
+      "amazon_url": null
+    },
+    {
+      "item_code": "scope:10005932",
+      "slug": "scope-10005932",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/scope-10005932.html",
+      "name": "【10月2日9:59まで期間限定価格】ジョージ ジェンセン ダマスク / エジプト ティータオル [ Georg Jensen Damask Egypt キッチンタオル ]",
+      "price": 1520,
+      "review_average": 4.74,
+      "review_count": 8218,
+      "category": "キッチン用品・食器・調理器具",
+      "amazon_url": null
+    },
+    {
+      "item_code": "e-kurashi:10048736",
+      "slug": "e-kurashi-10048736",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/e-kurashi-10048736.html",
+      "name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
+      "price": 4999,
+      "review_average": 4.41,
+      "review_count": 6443,
+      "category": "全ジャンル",
       "amazon_url": null
     },
     {
@@ -47,24 +223,13 @@
       "amazon_url": null
     },
     {
-      "item_code": "kaguzaku:10006610",
-      "slug": "kaguzaku-10006610",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/kaguzaku-10006610.html",
-      "name": "『 山崎実業 マグネットキッチン棚 S/ワイド タワー 』 tower 収納棚 台所 磁石 冷蔵庫 調味料 調理ツール キッチングッズ ウォールラック 壁面収納 雑貨 整理 便利 シンプル おしゃれ すっきり 公式 ホワイト ブラック 白黒 5078 5079 YAMAZAKI",
-      "price": 1650,
-      "review_average": 4.77,
-      "review_count": 154,
-      "category": "キッチン用品",
-      "amazon_url": "https://www.amazon.co.jp/dp/B087J36XL8/?tag=shumatsutabi-22"
-    },
-    {
-      "item_code": "yamaichi-himono:10000001",
-      "slug": "yamaichi-himono-10000001",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/yamaichi-himono-10000001.html",
-      "name": "お取り寄せ 海鮮 グルメ 残暑見舞い 敬老の日 ギフト プレゼント しっかり朝飯干物セット【国産】 産地直送 こだわり 食品 手作り 詰め合わせ 誕生日 送料無料 1位 記念日 魚 食品 小田原 山市 通販 老舗 バーベキュー",
-      "price": 3760,
-      "review_average": 4.64,
-      "review_count": 74,
+      "item_code": "jcrops:10008581",
+      "slug": "jcrops-10008581",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/jcrops-10008581.html",
+      "name": "ポイント5倍 9/15(火)23：59まで 8年産米ブレンド きらっとごはん 白米 脱酸素剤入り白米 無洗米 玄米 送料無料 5kg 10kg 15kg 20kg 30kg 60kg 120kg 米 お米 白米 無洗米 玄米 コメ こめ 白米 5kg 白米 10kg 白米 15kg 白米 20kg 白米 30kg 白米 60kg 白米 120kg",
+      "price": 2599,
+      "review_average": 4.78,
+      "review_count": 8006,
       "category": "食品",
       "amazon_url": null
     },
@@ -80,37 +245,37 @@
       "amazon_url": null
     },
     {
-      "item_code": "candy:10453765",
-      "slug": "candy-10453765",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/candy-10453765.html",
-      "name": "【数量限定！9回分サンプルプレゼント】 EGFエクストラエッセンス 60ml (送料無料) 【正規販売店】日本EGF協会認定製品 美容液 スキンケア EGF 人気 コスメ BIOLINK バイオリンク エイジングケア 天然由来美容液",
-      "price": 8800,
-      "review_average": 4.9,
-      "review_count": 10,
-      "category": "美容",
-      "amazon_url": "https://www.amazon.co.jp/dp/B007INZVMO/?tag=shumatsutabi-22"
-    },
-    {
-      "item_code": "f122190-ichihara:10000121",
-      "slug": "f122190-ichihara-10000121",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/f122190-ichihara-10000121.html",
-      "name": "【ふるさと納税】ライオン チャーミーマジカ 速乾プラス カラっと 除菌 シトラスグリーンの香り ( 選べる: 本体 220ml 詰替え680ml ) 食器用洗剤 台所用洗剤 液体洗剤 洗剤 除菌 速乾 油汚れ キッチン用品 日用品 消耗品 生活用品 人気 おすすめ 千葉県 市原市",
-      "price": 9000,
-      "review_average": 4.79,
-      "review_count": 19,
-      "category": "生活用品",
+      "item_code": "larocheposay:10000039",
+      "slug": "larocheposay-10000039",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/larocheposay-10000039.html",
+      "name": "ポイント10倍★9/15 00:00-23:59★【公式】楽天限定★トーンアップUV 人気サンプルセット / サンプル3点付きキット / 30mL / ローズ＋ / ホワイト / クリア / ティント / ローズ＋ BIGサイズ 50mL / 日焼け止め / SPF50+ / 正規品/ ダーマコスメ",
+      "price": 4070,
+      "review_average": 4.69,
+      "review_count": 11624,
+      "category": "美容・コスメ・香水",
       "amazon_url": null
     },
     {
-      "item_code": "enetroom:10153386",
-      "slug": "enetroom-10153386",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/enetroom-10153386.html",
-      "name": "ホットプレート たこ焼き器 たこ焼きプレート 24穴 アイリスオーヤマたこ焼き器 着脱式 セラミックコート おしゃれ かわいい たこ焼き 調理家電 便利 簡単 一人暮らし 人気 カラフル 調理 料理 PTY-C24",
-      "price": 2981,
-      "review_average": 4.35,
-      "review_count": 94,
-      "category": "家電",
-      "amazon_url": "https://www.amazon.co.jp/dp/B06XW7CZMH/?tag=shumatsutabi-22"
+      "item_code": "kurashi-zakka:10002344",
+      "slug": "kurashi-zakka-10002344",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/kurashi-zakka-10002344.html",
+      "name": "＼40％OFFクーポン！9/15～9/27／sakuraku キッチンマット L型 「透明 L字 拭ける 255 270 240 」(洗濯不要 PVC おしゃれ キッチン マット 240 クリア 撥水 防水 透明マット 床保護マット 保護シート 滑り止め 滑らない )【意匠登録済】",
+      "price": 6980,
+      "review_average": 4.55,
+      "review_count": 5382,
+      "category": "キッチン用品・食器・調理器具",
+      "amazon_url": null
+    },
+    {
+      "item_code": "rakuten24:11128650",
+      "slug": "rakuten24-11128650",
+      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/rakuten24-11128650.html",
+      "name": "【1種類を選べる】アタックZERO 洗濯洗剤 詰替用(1460g×6個入)【アタックZERO】",
+      "price": 10794,
+      "review_average": 4.77,
+      "review_count": 1318,
+      "category": "日用品雑貨・文房具・手芸",
+      "amazon_url": null
     }
   ]
 }
