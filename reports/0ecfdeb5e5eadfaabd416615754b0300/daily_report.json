@@ -1,15 +1,11 @@
 {
-  "generated_at": "2026-09-17T08:08:59.661155+09:00",
+  "generated_at": "2026-09-17T23:30:03.304880+09:00",
   "date": "2026-09-17",
   "anomalies": [
     "⚠️ 楽天アフィリエイトの売上CSVが一度も取り込まれていません。https://affiliate.rakuten.co.jp/report/ から成果報告CSVをダウンロードしてDownloadsフォルダに置いてください(自動検知・自動取込は既に動作中です)。",
-    "🚨 X: 08:30枠の実行記録がありません(Windowsタスクスケジューラが起動しなかった可能性)。タスク「Rakuten X Post 0830」の最終実行結果を確認してください。",
-    "🚨 X: 11:30枠の実行記録がありません(Windowsタスクスケジューラが起動しなかった可能性)。タスク「Rakuten X Post 1130」の最終実行結果を確認してください。",
-    "🚨 X: 13:00枠の実行記録がありません(Windowsタスクスケジューラが起動しなかった可能性)。タスク「Rakuten X Post 1300」の最終実行結果を確認してください。",
-    "🚨 X: 16:00枠の実行記録がありません(Windowsタスクスケジューラが起動しなかった可能性)。タスク「Rakuten X Post 1600」の最終実行結果を確認してください。",
-    "🚨 X: 18:00枠の実行記録がありません(Windowsタスクスケジューラが起動しなかった可能性)。タスク「Rakuten X Post 1800」の最終実行結果を確認してください。",
-    "🚨 X: 21:00枠の実行記録がありません(Windowsタスクスケジューラが起動しなかった可能性)。タスク「Rakuten X Post 2100」の最終実行結果を確認してください。",
-    "⚠️ X投稿は本日8件の予定でしたが、実績・失敗・重複スキップいずれも0件です。投稿処理自体が試行されていない可能性が高いです(候補切れ・スケジュール未実行等)。"
+    "⚠️ X: 16:00枠は実行されましたが予定1件に対し実績0件でした(エラー記録なし・候補不足の可能性)。",
+    "⚠️ X: 18:00枠は実行されましたが予定1件に対し実績0件でした(エラー記録なし・候補不足の可能性)。",
+    "⚠️ X: 21:00枠は実行されましたが予定1件に対し実績0件でした(エラー記録なし・候補不足の可能性)。"
   ],
   "x": {
     "slots": [
@@ -19,23 +15,23 @@
         "actual": 0,
         "recovered": 0,
         "shortfall": 2,
-        "status": "no_run"
+        "status": "api_failure"
       },
       {
         "time": "11:30",
         "planned": 1,
-        "actual": 0,
-        "recovered": 0,
-        "shortfall": 1,
-        "status": "no_run"
+        "actual": 2,
+        "recovered": 1,
+        "shortfall": 0,
+        "status": "on_target"
       },
       {
         "time": "13:00",
         "planned": 2,
-        "actual": 0,
-        "recovered": 0,
-        "shortfall": 2,
-        "status": "no_run"
+        "actual": 3,
+        "recovered": 1,
+        "shortfall": 0,
+        "status": "on_target"
       },
       {
         "time": "16:00",
@@ -43,7 +39,7 @@
         "actual": 0,
         "recovered": 0,
         "shortfall": 1,
-        "status": "no_run"
+        "status": "slot_miss"
       },
       {
         "time": "18:00",
@@ -51,7 +47,7 @@
         "actual": 0,
         "recovered": 0,
         "shortfall": 1,
-        "status": "no_run"
+        "status": "slot_miss"
       },
       {
         "time": "21:00",
@@ -59,72 +55,199 @@
         "actual": 0,
         "recovered": 0,
         "shortfall": 1,
-        "status": "no_run"
+        "status": "slot_miss"
       }
     ],
     "slot_status": [
       {
-        "status": "no_run",
+        "status": "api_failure",
         "planned": 2,
         "actual": 0,
-        "detail": "本日このスロットの実行記録がありません(スケジューラ未実行の可能性)",
+        "detail": "403 権限エラー(アプリのPermissionsを確認してください) (item_code=christina:10000000 slot=08:30)",
         "slot": "08:30"
       },
       {
-        "status": "no_run",
+        "status": "on_target",
         "planned": 1,
-        "actual": 0,
-        "detail": "本日このスロットの実行記録がありません(スケジューラ未実行の可能性)",
+        "actual": 2,
+        "detail": "",
         "slot": "11:30"
       },
       {
-        "status": "no_run",
+        "status": "on_target",
         "planned": 2,
-        "actual": 0,
-        "detail": "本日このスロットの実行記録がありません(スケジューラ未実行の可能性)",
+        "actual": 3,
+        "detail": "",
         "slot": "13:00"
       },
       {
-        "status": "no_run",
+        "status": "slot_miss",
         "planned": 1,
         "actual": 0,
-        "detail": "本日このスロットの実行記録がありません(スケジューラ未実行の可能性)",
+        "detail": "予定1件に対し実績0件(候補切れの可能性、エラー記録なし)",
         "slot": "16:00"
       },
       {
-        "status": "no_run",
+        "status": "slot_miss",
         "planned": 1,
         "actual": 0,
-        "detail": "本日このスロットの実行記録がありません(スケジューラ未実行の可能性)",
+        "detail": "予定1件に対し実績0件(候補切れの可能性、エラー記録なし)",
         "slot": "18:00"
       },
       {
-        "status": "no_run",
+        "status": "slot_miss",
         "planned": 1,
         "actual": 0,
-        "detail": "本日このスロットの実行記録がありません(スケジューラ未実行の可能性)",
+        "detail": "予定1件に対し実績0件(候補切れの可能性、エラー記録なし)",
         "slot": "21:00"
       }
     ],
     "slot_other": 0,
-    "posts_today": 0,
-    "posts_month": 58,
-    "success": 0,
-    "failed": 0,
-    "skipped_duplicate": 0,
+    "posts_today": 5,
+    "posts_month": 63,
+    "success": 5,
+    "failed": 1,
+    "skipped_duplicate": 2,
     "daily_cap": 5,
-    "capped": false,
+    "capped": true,
     "clicks": 0,
     "clicks_available": false,
-    "tweets": [],
+    "tweets": [
+      {
+        "id": "2100411940782932243",
+        "url": "https://x.com/i/status/2100411940782932243",
+        "metrics": {
+          "bookmark_count": 0,
+          "impression_count": 22,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        }
+      },
+      {
+        "id": "2100411942817214900",
+        "url": "https://x.com/i/status/2100411942817214900",
+        "metrics": {
+          "bookmark_count": 0,
+          "impression_count": 12,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        }
+      },
+      {
+        "id": "2100434593707180153",
+        "url": "https://x.com/i/status/2100434593707180153",
+        "metrics": {
+          "bookmark_count": 0,
+          "impression_count": 18,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        }
+      },
+      {
+        "id": "2100434595594523047",
+        "url": "https://x.com/i/status/2100434595594523047",
+        "metrics": {
+          "bookmark_count": 0,
+          "impression_count": 13,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        }
+      },
+      {
+        "id": "2100434597410697314",
+        "url": "https://x.com/i/status/2100434597410697314",
+        "metrics": {
+          "bookmark_count": 0,
+          "impression_count": 30,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        }
+      }
+    ],
     "extended": {
-      "impressions_total": null,
-      "impressions_available": false,
-      "impressions_avg_per_post": null,
-      "engagement_total": null,
-      "engagement_available": false,
-      "engagement_rate": null,
-      "posts_detail": [],
+      "impressions_total": 95,
+      "impressions_available": true,
+      "impressions_avg_per_post": 19.0,
+      "engagement_total": 3,
+      "engagement_available": true,
+      "engagement_rate": 0.0316,
+      "posts_detail": [
+        {
+          "item_code": "christina:10000000",
+          "slot": "11:30",
+          "selection_source": "keyword",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": 22,
+          "impressions_available": true,
+          "engagement": 1,
+          "engagement_available": true
+        },
+        {
+          "item_code": "mikirona:10000085",
+          "slot": "13:00",
+          "selection_source": "keyword",
+          "market_demand_score": null,
+          "genre_label": "家電",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": 18,
+          "impressions_available": true,
+          "engagement": 1,
+          "engagement_available": true
+        },
+        {
+          "item_code": "rebun:10007922",
+          "slot": "13:00",
+          "selection_source": "keyword",
+          "market_demand_score": null,
+          "genre_label": "食品",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": 30,
+          "impressions_available": true,
+          "engagement": 0,
+          "engagement_available": true
+        },
+        {
+          "item_code": "shopmarna:10006687",
+          "slot": "13:00",
+          "selection_source": "keyword",
+          "market_demand_score": null,
+          "genre_label": "キッチン用品",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": 13,
+          "impressions_available": true,
+          "engagement": 1,
+          "engagement_available": true
+        },
+        {
+          "item_code": "toyosen:10000084",
+          "slot": "11:30",
+          "selection_source": "keyword",
+          "market_demand_score": null,
+          "genre_label": "食品",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": 12,
+          "impressions_available": true,
+          "engagement": 0,
+          "engagement_available": true
+        }
+      ],
       "slot_impressions": {
         "08:30": {
           "posts": 0,
@@ -134,18 +257,18 @@
           "engagement_available": false
         },
         "11:30": {
-          "posts": 0,
-          "impressions_total": null,
-          "impressions_available": false,
-          "engagement_total": null,
-          "engagement_available": false
+          "posts": 2,
+          "impressions_total": 34,
+          "impressions_available": true,
+          "engagement_total": 1,
+          "engagement_available": true
         },
         "13:00": {
-          "posts": 0,
-          "impressions_total": null,
-          "impressions_available": false,
-          "engagement_total": null,
-          "engagement_available": false
+          "posts": 3,
+          "impressions_total": 61,
+          "impressions_available": true,
+          "engagement_total": 2,
+          "engagement_available": true
         },
         "16:00": {
           "posts": 0,
@@ -169,36 +292,100 @@
           "engagement_available": false
         }
       },
-      "by_item": [],
-      "by_genre": [],
-      "by_selection_source": {},
-      "by_market_demand_band": [],
+      "by_item": [
+        {
+          "item_code": "christina:10000000",
+          "impressions": 22,
+          "engagement": 1
+        },
+        {
+          "item_code": "mikirona:10000085",
+          "impressions": 18,
+          "engagement": 1
+        },
+        {
+          "item_code": "rebun:10007922",
+          "impressions": 30,
+          "engagement": 0
+        },
+        {
+          "item_code": "shopmarna:10006687",
+          "impressions": 13,
+          "engagement": 1
+        },
+        {
+          "item_code": "toyosen:10000084",
+          "impressions": 12,
+          "engagement": 0
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "美容",
+          "count": 1,
+          "impressions_total": 22,
+          "engagement_total": 1
+        },
+        {
+          "genre_label": "家電",
+          "count": 1,
+          "impressions_total": 18,
+          "engagement_total": 1
+        },
+        {
+          "genre_label": "食品",
+          "count": 2,
+          "impressions_total": 42,
+          "engagement_total": 0
+        },
+        {
+          "genre_label": "キッチン用品",
+          "count": 1,
+          "impressions_total": 13,
+          "engagement_total": 1
+        }
+      ],
+      "by_selection_source": {
+        "keyword": {
+          "count": 5,
+          "impressions_total": 95,
+          "impressions_avg": 19.0,
+          "engagement_total": 3
+        }
+      },
+      "by_market_demand_band": [
+        {
+          "band": "unknown",
+          "count": 5,
+          "impressions_total": 95
+        }
+      ],
       "by_appeal_type_available": false
     }
   },
   "pinterest": {
-    "planned": 0,
-    "posts_today": 0,
+    "planned": 8,
+    "posts_today": 8,
     "failed": 0,
     "skipped_duplicate": 0,
-    "pending": 8,
+    "pending": 0,
     "clicks": 0,
     "clicks_available": false,
     "extended": {
       "slot_counts": {
         "09:00": {
-          "attempted": 0,
-          "success": 0,
+          "attempted": 3,
+          "success": 3,
           "failed": 0
         },
         "12:30": {
-          "attempted": 0,
-          "success": 0,
+          "attempted": 3,
+          "success": 3,
           "failed": 0
         },
         "17:00": {
-          "attempted": 0,
-          "success": 0,
+          "attempted": 2,
+          "success": 2,
           "failed": 0
         },
         "20:15": {
@@ -212,11 +399,65 @@
         "success": 0,
         "failed": 0
       },
-      "success_total": 0,
+      "success_total": 8,
       "failed_total": 0,
-      "by_item": [],
-      "by_genre": [],
-      "by_selection_source": {},
+      "by_item": [
+        {
+          "item_code": "attenir:10000252"
+        },
+        {
+          "item_code": "le-cure:10002233"
+        },
+        {
+          "item_code": "mikirona:10000085"
+        },
+        {
+          "item_code": "rakuten24:11279561"
+        },
+        {
+          "item_code": "rebun:10007922"
+        },
+        {
+          "item_code": "theordinary:10000010"
+        },
+        {
+          "item_code": "toyosen:10000084"
+        },
+        {
+          "item_code": "ulike-store:10000046"
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 1
+        },
+        {
+          "genre_label": "キッチン用品",
+          "count": 1
+        },
+        {
+          "genre_label": "家電",
+          "count": 2
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 1
+        },
+        {
+          "genre_label": "食品",
+          "count": 2
+        },
+        {
+          "genre_label": "美容",
+          "count": 1
+        }
+      ],
+      "by_selection_source": {
+        "market": 1,
+        "keyword": 5,
+        "rising": 2
+      },
       "impressions_available": false,
       "impressions": null,
       "engagement_available": false,
@@ -600,8 +841,8 @@
     },
     "ambiguous_pending_review": 20,
     "needs_review": 4,
-    "x_dual_coverage_posts_today": 0,
-    "x_rakuten_only_posts_today": 0,
+    "x_dual_coverage_posts_today": 1,
+    "x_rakuten_only_posts_today": 4,
     "clicks_available": true,
     "raw_clicks": 0,
     "unique_clicks": 0,
