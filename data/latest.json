@@ -1,95 +1,7 @@
 {
-  "run_date": "2026-09-29",
-  "generated_at": "2026-09-29T08:00:01.567221+09:00",
+  "run_date": "2026-09-30",
+  "generated_at": "2026-09-30T08:00:01.649145+09:00",
   "items": [
-    {
-      "item_code": "toyosen:10000084",
-      "slug": "toyosen-10000084",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/toyosen-10000084.html",
-      "name": "老舗のえびせんべい 福袋 3袋 セット 435g（145g×3袋）送料無料 北海道・沖縄は送料追加 2セットで1袋、3セットで2袋のおまけ♪ スイーツ 楽天ランキング 常連 保存食 せんべい 日持ち 食品 お返し 贈り物 お取り寄せ",
-      "price": 1296,
-      "review_average": 4.66,
-      "review_count": 12723,
-      "category": "食品",
-      "amazon_url": null
-    },
-    {
-      "item_code": "mikirona:10000085",
-      "slug": "mikirona-10000085",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/mikirona-10000085.html",
-      "name": "【楽天1位★クーポンで3,580円！】ドライヤー 速乾 大風量 2億マイナスイオン 軽量 静音 1年保証 高速ドライヤー ヘアドライヤー 静電気除去 コンパクト 人気 髪質改善 美容家電 ヘアケア 美髪 時短 レディース メンズ ヘアサロン 冷熱風 ホワイトデ ギフト 家庭",
-      "price": 5980,
-      "review_average": 4.49,
-      "review_count": 8615,
-      "category": "家電",
-      "amazon_url": null
-    },
-    {
-      "item_code": "roomy:10015932",
-      "slug": "roomy-10015932",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/roomy-10015932.html",
-      "name": "［ マグネット鍋蓋ホルダー タワー ］山崎実業 tower 鍋蓋 スタンド ラック 鍋ブタ 収納 鍋ふた マグネット 鍋ふたスタンド なべ蓋 ふたスタンド フタ立て フタ置き 壁 磁石 キッチン収納 キッチン 台所 便利グッズ おしゃれ シンプル モノトーン yamazaki 5140 5141",
-      "price": 1760,
-      "review_average": 4.82,
-      "review_count": 552,
-      "category": "キッチン用品",
-      "amazon_url": "https://www.amazon.co.jp/dp/B08LYL8PYK/?tag=shumatsutabi-22"
-    },
-    {
-      "item_code": "rebun:10007922",
-      "slug": "rebun-10007922",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/rebun-10007922.html",
-      "name": "内祝い お返し 北海道 礼文島創業 海鮮8点セット NAGOMI【グルメ大賞2025受賞】ギフト 5000円 誕生日 プレゼント 食べ物 食品 お取り寄せグルメ 海鮮 海産 おつまみ 詰め合わせ 出産 結婚 60代 70代 お礼 お歳暮 秋 魚 七五三 お祝い",
-      "price": 5590,
-      "review_average": 4.41,
-      "review_count": 2587,
-      "category": "食品",
-      "amazon_url": null
-    },
-    {
-      "item_code": "christina:10000000",
-      "slug": "christina-10000000",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/christina-10000000.html",
-      "name": "【公式】クリスティーナ LINE REPAIR テラスキン 30ml 美容液 セラム エイジングケア 水光肌 ヒアルロン酸 潤い しっとり モチ肌 ふっくら 弾力 ハリ ツヤ 人気 定番 トリルロン酸 保湿 バリア機能 カプセル 乳酸 整肌 バリア機能 NMF 土台づくり 水分保持",
-      "price": 7700,
-      "review_average": 4.86,
-      "review_count": 133,
-      "category": "美容",
-      "amazon_url": "https://www.amazon.co.jp/dp/B0BHM9GRJ6/?tag=shumatsutabi-22"
-    },
-    {
-      "item_code": "theordinary:10000010",
-      "slug": "theordinary-10000010",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/theordinary-10000010.html",
-      "name": "【ポイント5倍｜9/19 20:00〜9/30 9:59】【期間限定送料無料】The Ordinary オーディナリー N10+Z1フェイスセラム（ナイアシンアミド*1 10%+亜鉛1%*2）60ml │ ジオーディナリー 美容液 ナイアシンアミド セラム 毛穴 保湿 人気 ベストセラー ギフト",
-      "price": 1980,
-      "review_average": 4.58,
-      "review_count": 684,
-      "category": "美容",
-      "amazon_url": null
-    },
-    {
-      "item_code": "le-cure:10002233",
-      "slug": "le-cure-10002233",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/le-cure-10002233.html",
-      "name": "＼早く買えば良かった！／グリル専用焼き魚トレー ワイド 28×20cm 大型 マーブルコート 穴なし グリル用 魚焼きトレー グリルプレート グリルトレー 魚焼きグリル プレート キッチングッズ 便利 キッチン用品 時短 調理",
-      "price": 1496,
-      "review_average": 4.68,
-      "review_count": 2832,
-      "category": "キッチン用品",
-      "amazon_url": null
-    },
-    {
-      "item_code": "k-style:10002004",
-      "slug": "k-style-10002004",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/k-style-10002004.html",
-      "name": "水筒 ジャグボトルスタンド TOWER コップ立て マグボトルスタンド 水切りスタンド 水切り 乾燥 ボトルスタンド 山崎実業 キッチン整理用品 タワー 便利グッズ 暮らし マグボトル 水筒ラック 北欧 【K-Style】 ワイドジャグボトルスタンド 121",
-      "price": 3850,
-      "review_average": 4.86,
-      "review_count": 157,
-      "category": "キッチン用品",
-      "amazon_url": null
-    },
     {
       "item_code": "scope:10005932",
       "slug": "scope-10005932",
@@ -122,17 +34,6 @@
       "review_count": 4863,
       "category": "日用品雑貨・文房具・手芸",
       "amazon_url": null
-    },
-    {
-      "item_code": "kaguzaku:10006610",
-      "slug": "kaguzaku-10006610",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/kaguzaku-10006610.html",
-      "name": "『 山崎実業 マグネットキッチン棚 S/ワイド タワー 』tower 収納棚 台所 磁石 冷蔵庫 調味料 調理ツール キッチングッズ ウォールラック 壁面収納 雑貨 整理 便利 シンプル おしゃれ すっきり 公式 ホワイト ブラック 白黒 5078 5079 YAMAZAKI",
-      "price": 1650,
-      "review_average": 4.77,
-      "review_count": 154,
-      "category": "キッチン用品",
-      "amazon_url": "https://www.amazon.co.jp/dp/B087J36XL8/?tag=shumatsutabi-22"
     },
     {
       "item_code": "q1st:10000348",
@@ -187,17 +88,6 @@
       "review_average": 4.88,
       "review_count": 76,
       "category": "キッチン用品・食器・調理器具",
-      "amazon_url": null
-    },
-    {
-      "item_code": "f122190-ichihara:10000267",
-      "slug": "f122190-ichihara-10000267",
-      "url": "https://futaritabi.github.io/affiliate-social-autopilot-site/items/f122190-ichihara-10000267.html",
-      "name": "【ふるさと納税】ライオン ソフラン プレミアム消臭 フローラルアロマ ( 選べる : 本体 480ml 詰替え 380ml 750ml 1300ml ) 柔軟剤 衣料用柔軟剤 消臭 防臭 抗菌 部屋干し ニオイ 汗臭 生乾き臭 衣類ケア 詰め替え 日用品 消耗品 生活用品 人気 おすすめ 千葉県 市原市",
-      "price": 9000,
-      "review_average": 4.86,
-      "review_count": 29,
-      "category": "生活用品",
       "amazon_url": null
     },
     {
