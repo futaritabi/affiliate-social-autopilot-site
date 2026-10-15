@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-14T23:31:20.162931+09:00",
-  "date": "2026-10-14",
+  "generated_at": "2026-10-15T23:31:13.243112+09:00",
+  "date": "2026-10-15",
   "anomalies": [
-    "⚠️ 楽天アフィリエイトの売上CSV取込が63時間前から更新されていません(最終取込: 2026-10-12 08:22)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
+    "⚠️ 楽天アフィリエイトの売上CSV取込が87時間前から更新されていません(最終取込: 2026-10-12 08:22)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
   ],
   "x": {
     "slots": [
@@ -17,16 +17,16 @@
       {
         "time": "13:00",
         "planned": 3,
-        "actual": 3,
+        "actual": 2,
         "recovered": 0,
-        "shortfall": 0,
-        "status": "on_target"
+        "shortfall": 1,
+        "status": "api_failure"
       },
       {
         "time": "18:00",
         "planned": 3,
-        "actual": 3,
-        "recovered": 0,
+        "actual": 4,
+        "recovered": 1,
         "shortfall": 0,
         "status": "on_target"
       }
@@ -40,74 +40,74 @@
         "slot": "08:30"
       },
       {
-        "status": "on_target",
+        "status": "api_failure",
         "planned": 3,
-        "actual": 3,
-        "detail": "",
+        "actual": 2,
+        "detail": "Buffer 予約失敗: Invalid post: Whoops, it looks like you've already got this one scheduled or posted around the same time. We're not able (item_code=shopmarna:10006509 slot=13:00)",
         "slot": "13:00"
       },
       {
         "status": "on_target",
         "planned": 3,
-        "actual": 3,
+        "actual": 4,
         "detail": "",
         "slot": "18:00"
       }
     ],
     "slot_other": 0,
     "posts_today": 9,
-    "posts_month": 126,
+    "posts_month": 135,
     "success": 9,
-    "failed": 0,
-    "skipped_duplicate": 9,
+    "failed": 1,
+    "skipped_duplicate": 8,
     "daily_cap": 9,
     "capped": true,
     "clicks": 0,
     "clicks_available": false,
     "tweets": [
       {
-        "id": "2110151660408291539",
-        "url": "https://x.com/1338426867951443968/status/2110151660408291539",
+        "id": "2110514048651448455",
+        "url": "https://x.com/1338426867951443968/status/2110514048651448455",
         "metrics": null
       },
       {
-        "id": "2110152918649172053",
-        "url": "https://x.com/1338426867951443968/status/2110152918649172053",
+        "id": "2110515306904883333",
+        "url": "https://x.com/1338426867951443968/status/2110515306904883333",
         "metrics": null
       },
       {
-        "id": "2110154176973910095",
-        "url": "https://x.com/1338426867951443968/status/2110154176973910095",
+        "id": "2110516564835357007",
+        "url": "https://x.com/1338426867951443968/status/2110516564835357007",
         "metrics": null
       },
       {
-        "id": "2110219608460288159",
-        "url": "https://x.com/1338426867951443968/status/2110219608460288159",
+        "id": "2110581996065862076",
+        "url": "https://x.com/1338426867951443968/status/2110581996065862076",
         "metrics": null
       },
       {
-        "id": "2110220866776608800",
-        "url": "https://x.com/1338426867951443968/status/2110220866776608800",
+        "id": "2110583254306672712",
+        "url": "https://x.com/1338426867951443968/status/2110583254306672712",
         "metrics": null
       },
       {
-        "id": "2110222125139186035",
-        "url": "https://x.com/1338426867951443968/status/2110222125139186035",
+        "id": "2110657493433045105",
+        "url": "https://x.com/1338426867951443968/status/2110657493433045105",
         "metrics": null
       },
       {
-        "id": "2110295246651187556",
-        "url": "https://x.com/1338426867951443968/status/2110295246651187556",
+        "id": "2110658751678013875",
+        "url": "https://x.com/1338426867951443968/status/2110658751678013875",
         "metrics": null
       },
       {
-        "id": "2110296364504527173",
-        "url": "https://x.com/1338426867951443968/status/2110296364504527173",
+        "id": "2110660010086645824",
+        "url": "https://x.com/1338426867951443968/status/2110660010086645824",
         "metrics": null
       },
       {
-        "id": "2110297622422401052",
-        "url": "https://x.com/1338426867951443968/status/2110297622422401052",
+        "id": "2110661268310778201",
+        "url": "https://x.com/1338426867951443968/status/2110661268310778201",
         "metrics": null
       }
     ],
@@ -133,37 +133,11 @@
           "engagement_available": false
         },
         {
-          "item_code": "cocodecow:10831793",
-          "slot": "13:00",
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "食品",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "dmpl:10001452",
-          "slot": "13:00",
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "美容",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "f222101-fuji:10001229",
+          "item_code": "bikke:10000039",
           "slot": "18:00",
           "selection_source": "keyword",
           "market_demand_score": null,
-          "genre_label": "生活用品",
+          "genre_label": "食品",
           "genre_source": "product_category",
           "dual_coverage": null,
           "impressions": null,
@@ -172,7 +146,7 @@
           "engagement_available": false
         },
         {
-          "item_code": "gsk-prime:10004296",
+          "item_code": "goods-live:10000228",
           "slot": "08:30",
           "selection_source": "amazon_safe",
           "market_demand_score": null,
@@ -185,8 +159,8 @@
           "engagement_available": false
         },
         {
-          "item_code": "jetprice:10285916",
-          "slot": "08:30",
+          "item_code": "jetprice:10588125",
+          "slot": "13:00",
           "selection_source": "amazon_safe",
           "market_demand_score": null,
           "genre_label": "食品",
@@ -198,10 +172,49 @@
           "engagement_available": false
         },
         {
-          "item_code": "kurashi-zakka:10001500",
+          "item_code": "miraclim:10002777",
+          "slot": "13:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "shopmarna:10006509",
+          "slot": "18:00",
+          "selection_source": "keyword",
+          "market_demand_score": null,
+          "genre_label": "キッチン用品",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "skindesign:10002146",
+          "slot": "08:30",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "starfilter:10000112",
           "slot": "18:00",
           "selection_source": "market",
-          "market_demand_score": 71.46,
+          "market_demand_score": 60.52,
           "genre_label": "キッチン用品・食器・調理器具",
           "genre_source": "market_ranking",
           "dual_coverage": false,
@@ -211,26 +224,13 @@
           "engagement_available": false
         },
         {
-          "item_code": "kurashi-zakka:10002489",
+          "item_code": "superpack:10000747",
           "slot": "18:00",
-          "selection_source": "market",
-          "market_demand_score": 40.1,
-          "genre_label": "日用品雑貨・文房具・手芸",
-          "genre_source": "product_category",
+          "selection_source": "rising",
+          "market_demand_score": 55.23,
+          "genre_label": "キッチン用品・食器・調理器具",
+          "genre_source": "market_ranking",
           "dual_coverage": false,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "shopmarna:10006509",
-          "slot": "13:00",
-          "selection_source": "keyword",
-          "market_demand_score": null,
-          "genre_label": "キッチン用品",
-          "genre_source": "product_category",
-          "dual_coverage": null,
           "impressions": null,
           "impressions_available": false,
           "engagement": null,
@@ -246,14 +246,14 @@
           "engagement_available": false
         },
         "13:00": {
-          "posts": 3,
+          "posts": 2,
           "impressions_total": null,
           "impressions_available": false,
           "engagement_total": null,
           "engagement_available": false
         },
         "18:00": {
-          "posts": 3,
+          "posts": 4,
           "impressions_total": null,
           "impressions_available": false,
           "engagement_total": null,
@@ -267,37 +267,22 @@
           "engagement": null
         },
         {
-          "item_code": "cocodecow:10831793",
+          "item_code": "bikke:10000039",
           "impressions": null,
           "engagement": null
         },
         {
-          "item_code": "dmpl:10001452",
+          "item_code": "goods-live:10000228",
           "impressions": null,
           "engagement": null
         },
         {
-          "item_code": "f222101-fuji:10001229",
+          "item_code": "jetprice:10588125",
           "impressions": null,
           "engagement": null
         },
         {
-          "item_code": "gsk-prime:10004296",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "jetprice:10285916",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "kurashi-zakka:10001500",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "kurashi-zakka:10002489",
+          "item_code": "miraclim:10002777",
           "impressions": null,
           "engagement": null
         },
@@ -305,12 +290,27 @@
           "item_code": "shopmarna:10006509",
           "impressions": null,
           "engagement": null
+        },
+        {
+          "item_code": "skindesign:10002146",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "starfilter:10000112",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "superpack:10000747",
+          "impressions": null,
+          "engagement": null
         }
       ],
       "by_genre": [
         {
           "genre_label": "生活用品",
-          "count": 2,
+          "count": 1,
           "impressions_total": null,
           "engagement_total": null
         },
@@ -322,25 +322,19 @@
         },
         {
           "genre_label": "美容",
-          "count": 2,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "キッチン用品・食器・調理器具",
-          "count": 1,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "日用品雑貨・文房具・手芸",
-          "count": 1,
+          "count": 3,
           "impressions_total": null,
           "engagement_total": null
         },
         {
           "genre_label": "キッチン用品",
           "count": 1,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 2,
           "impressions_total": null,
           "engagement_total": null
         }
@@ -359,7 +353,13 @@
           "engagement_total": null
         },
         "market": {
-          "count": 2,
+          "count": 1,
+          "impressions_total": null,
+          "impressions_avg": null,
+          "engagement_total": null
+        },
+        "rising": {
+          "count": 1,
           "impressions_total": null,
           "impressions_avg": null,
           "engagement_total": null
@@ -425,52 +425,53 @@
       "failed_total": 0,
       "by_item": [
         {
-          "item_code": "annon:10025324"
+          "item_code": "bikke:10000039"
         },
         {
-          "item_code": "cocodecow:10831793"
+          "item_code": "hair-kirakira:10017309"
         },
         {
-          "item_code": "dmpl:10001452"
+          "item_code": "jetprice:10588125"
         },
         {
-          "item_code": "gsk-prime:10004296"
+          "item_code": "miraclim:10002777"
         },
         {
-          "item_code": "jetprice:10285916"
+          "item_code": "ohsdie:10000007"
         },
         {
-          "item_code": "kurashi-zakka:10001500"
+          "item_code": "shinra-life:10000120"
         },
         {
-          "item_code": "kurashikenkou:10012968"
+          "item_code": "skindesign:10002146"
         },
         {
-          "item_code": "shopmarna:10006509"
+          "item_code": "tenkapas:10010258"
         }
       ],
       "by_genre": [
-        {
-          "genre_label": "キッチン用品",
-          "count": 3
-        },
         {
           "genre_label": "食品",
           "count": 2
         },
         {
           "genre_label": "美容",
-          "count": 2
+          "count": 4
         },
         {
           "genre_label": "キッチン用品・食器・調理器具",
+          "count": 1
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
           "count": 1
         }
       ],
       "by_selection_source": {
         "keyword": 3,
-        "amazon_safe": 4,
-        "market": 1
+        "amazon_safe": 3,
+        "market": 1,
+        "rising": 1
       },
       "impressions_available": false,
       "impressions": null,
@@ -487,75 +488,71 @@
       "candidate_to_completed_rate_available": true,
       "by_item": [
         {
-          "item_code": "annon:10025324",
+          "item_code": "ajinomoto:10000623",
+          "rank": 21,
+          "market_demand_score": 46.7
+        },
+        {
+          "item_code": "bikke:10000039",
           "rank": null,
           "market_demand_score": null
         },
         {
-          "item_code": "book:22130224",
-          "rank": 1,
-          "market_demand_score": 59.11
+          "item_code": "ec-current:12818825",
+          "rank": 2,
+          "market_demand_score": 62.22
         },
         {
-          "item_code": "cliojapan:10000681",
+          "item_code": "hair-kirakira:10017309",
           "rank": null,
           "market_demand_score": null
         },
         {
-          "item_code": "h2o-0902-shop:10000001",
-          "rank": 5,
-          "market_demand_score": 63.69
-        },
-        {
-          "item_code": "kurashi-zakka:10002366",
-          "rank": 5,
-          "market_demand_score": 62.59
-        },
-        {
-          "item_code": "kurashikenkou:10012968",
-          "rank": null,
-          "market_demand_score": null
-        },
-        {
-          "item_code": "ntvshop:10008341",
+          "item_code": "kakuchi:10003279",
           "rank": 3,
-          "market_demand_score": 63.52
+          "market_demand_score": 58.41
         },
         {
-          "item_code": "plywood:10017400",
-          "rank": 13,
-          "market_demand_score": 59.31
+          "item_code": "nobu-house:10000002",
+          "rank": 5,
+          "market_demand_score": 63.92
         },
         {
-          "item_code": "shopmarna:10006509",
+          "item_code": "salmon-hirao:10000098",
           "rank": null,
           "market_demand_score": null
         },
         {
-          "item_code": "yamaichi-himono:10000025",
-          "rank": null,
-          "market_demand_score": null
+          "item_code": "stylife:15348833",
+          "rank": 9,
+          "market_demand_score": 57.57
+        },
+        {
+          "item_code": "tenkapas:10010258",
+          "rank": 2,
+          "market_demand_score": 61.06
+        },
+        {
+          "item_code": "yakyu-kasukawa:10453292",
+          "rank": 4,
+          "market_demand_score": 61.12
         }
       ],
       "by_genre": [
         {
-          "genre_label": "キッチン用品",
+          "genre_label": "食品",
           "count": 3
         },
         {
           "genre_label": "全ジャンル",
-          "count": 1
+          "count": 2
         },
         {
           "genre_label": "美容",
           "count": 1
         },
         {
-          "genre_label": "美容・コスメ・香水",
-          "count": 2
-        },
-        {
-          "genre_label": "日用品雑貨・文房具・手芸",
+          "genre_label": "キッチン用品・食器・調理器具",
           "count": 1
         },
         {
@@ -563,111 +560,120 @@
           "count": 1
         },
         {
-          "genre_label": "食品",
+          "genre_label": "美容・コスメ・香水",
+          "count": 1
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
           "count": 1
         }
       ],
       "by_selection_source": {
-        "keyword": 5,
-        "market": 2,
-        "explore": 3
+        "explore": 3,
+        "keyword": 3,
+        "rising": 2,
+        "market": 2
       },
       "rank_list": [
-        1,
-        5,
-        5,
+        21,
+        2,
         3,
-        13
+        5,
+        9,
+        2,
+        4
       ],
       "market_demand_score_list": [
-        59.11,
-        63.69,
-        62.59,
-        63.52,
-        59.31
+        46.7,
+        62.22,
+        58.41,
+        63.92,
+        57.57,
+        61.06,
+        61.12
       ],
-      "rising_count": 0
+      "rising_count": 2
     }
   },
   "market_demand": {
     "ranking_available": true,
     "top_demand": [
       {
+        "item_code": "kanidokoro:10001780",
+        "item_name": "【総合ランキング1位獲得★】福袋おせち◆高級おせちを含む56種のおせちのいずれかをお届け【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖",
+        "rank": 1,
+        "market_demand_score": 75.05,
+        "genre_id": 100227
+      },
+      {
         "item_code": "attenir:10000252",
         "item_name": "大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 皮脂 詰め替え ダブル洗顔不要 アテニア 公式 ]",
         "rank": 2,
-        "market_demand_score": 75.78,
+        "market_demand_score": 75.0,
         "genre_id": 100939
       },
       {
-        "item_code": "rakuten24:11148574",
-        "item_name": "【1種類を選べる】フレア フレグランス IROKA 柔軟剤 詰め替え(650ml×5袋入)【フレアフレグランスIROKA】",
-        "rank": 4,
-        "market_demand_score": 75.52,
-        "genre_id": 215783
-      },
-      {
-        "item_code": "kanidokoro:10001780",
-        "item_name": "【総合ランキング1位獲得★】福袋おせち◆高級おせちを含む56種のおせちのいずれかをお届け【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖",
-        "rank": 1,
-        "market_demand_score": 75.05,
-        "genre_id": 100227
-      },
-      {
-        "item_code": "kanidokoro:10001780",
-        "item_name": "【総合ランキング1位獲得★】福袋おせち◆高級おせちを含む56種のおせちのいずれかをお届け【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖",
-        "rank": 1,
-        "market_demand_score": 75.05,
-        "genre_id": 100227
-      },
-      {
-        "item_code": "kurashi-zakka:10002471",
-        "item_name": "＼50％OFFクーポン！10/1〜10/12／ストロー整列！sakuraku 水切りラック L型 ＼食洗器対応／ シンク上 スリム 折りたたみ◎伸縮◎18-8ステンレス錆びにくい◎／＼お皿も 水筒も 立てかけられる／【意匠登録済】",
-        "rank": 1,
-        "market_demand_score": 74.8,
+        "item_code": "superpack:10000747",
+        "item_name": "★＼当店が3年連続年間ランキング入賞／★PP食パン袋　半斤用　300枚（100枚×3束）　送料無料　パン袋　オムツ　【2025楽天年間ランキング5位！（キッチン用品）】　【2024楽天年間ランキング2位！（キッチン用品）】　匂い　匂わない　コスパ　ゴミ袋　ペット　生ごみ",
+        "rank": 5,
+        "market_demand_score": 74.55,
         "genre_id": 558944
+      },
+      {
+        "item_code": "kouragumi:10001520",
+        "item_name": "今夜23:59まで楽天カードでP5倍★お試し送料無料2,490円～ 骨取りサバ切身 1kg 無塩or有塩が選べる♪骨とり 骨なし 鯖 さば 冷凍食品 お中元 ギフト 【P】【国産無塩小中型のみ入荷次第発送】",
+        "rank": 2,
+        "market_demand_score": 74.54,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "yama-oatmeal-institute:10000024",
+        "item_name": "[10kg3,700円17日9:59まで] 令和8年産米70％以上使用 国産ブレンド米 極味精米 5kg 10kg 20kg ( きわみせいまい こめ お米 米 白米 全国 送料無料 （北海道 沖縄 離島含む） ブレンド米 安い 生活応援米 備蓄米 不使用 10キロ 5キロ ) 山川食糧",
+        "rank": 3,
+        "market_demand_score": 74.27,
+        "genre_id": 100227
       }
     ],
     "top_rising": [
       {
-        "item_code": "bjc-onlinestore:10000020",
-        "item_name": "【公式】 ラッシュアディクト アイラッシュ コンディショニング セラム アドバンス 5ml まつ毛美容液 まつ毛ケア まつげ美容液 まつ毛パーマ Lashaddict 正規品 送料無料",
-        "rank": 8,
-        "previous_rank": 30,
-        "rank_velocity": 0.9167,
-        "genre_id": 100939
+        "item_code": "book:22123490",
+        "item_name": "【楽天ブックス限定先着特典+先着特典】【クレジットカード決済限定】【シリアル対象】MEGA GOLDEN (通常盤)初回プレス))(アクリルチャーム(ランダム1つ/全5種)+イベント応募用シリアルナンバー(2回目)) [ ONE N' ONLY ]",
+        "rank": 5,
+        "previous_rank": 29,
+        "rank_velocity": 1.0,
+        "genre_id": null
       },
       {
-        "item_code": "kouragumi:10001552",
-        "item_name": "お試し送料無料2,990円～「有塩or無塩」「骨ありor骨なし」が選べる！⇒脂のり抜群の銀鮭 切り身 業務用 1kg 【※無塩骨取り入荷次第発送】お試し お中元 ギフト プレゼント 【P】",
-        "rank": 8,
+        "item_code": "mtgec-beauty:10002330",
+        "item_name": "【リファ公式店】 コンパクト 速乾 ドライヤー まとまる ツヤ髪 S+ リファ ビューテック ドライヤーS+ リファ公式店 ReFa センシングプログラム ギフト ReFa S+ ヘア プレゼント ギフト 誕生日 夏のヘアケア MTG",
+        "rank": 9,
+        "previous_rank": 28,
+        "rank_velocity": 0.7917,
+        "genre_id": 562637
+      },
+      {
+        "item_code": "rs-takeo:10000132",
+        "item_name": "送料無料 ブレンド米 30kg(10kg×3袋) 国内産複数原料米 白米",
+        "rank": 9,
         "previous_rank": 26,
-        "rank_velocity": 0.75,
+        "rank_velocity": 0.7083,
         "genre_id": 100227
       },
       {
-        "item_code": "kurashi-zakka:10002390",
-        "item_name": "＼60％OFF！2680→1070円！決算処分！10/1〜10/12／sakuraku 水切りマット ワッフル織 吸水マット 抗菌 水切り 大判 キッチン マイクロファイバー ティータオル 抗菌 吸水 キッチンタオル キッチンクロス グレー ベージュ",
-        "rank": 13,
-        "previous_rank": 29,
+        "item_code": "tenkapas:10010258",
+        "item_name": "【毎日ずっと1位】 ニトリル手袋 100枚 200枚 300枚 400枚 500枚 1000枚 4000枚 ゴム手袋 使い捨て グローブ ニトリル 青 白 黒 ニトリル手袋 パウダーフリー 食品衛生法 医療 病院 ニトリルゴム手袋 SS S M L ニトリル 手袋 介護 手袋 作業 手袋 使い捨て 送料無料",
+        "rank": 6,
+        "previous_rank": 22,
         "rank_velocity": 0.6667,
-        "genre_id": 558944
+        "genre_id": 215783
       },
       {
-        "item_code": "coming:10000440",
-        "item_name": "最安値に挑戦!! ☆再生紙トイレット12RW☆108mm幅トイレットペーパー ダブル1ロール：27.5m 96ロール入り(1パック12ロール）無地 無印刷 送料無料",
-        "rank": 11,
-        "previous_rank": 26,
+        "item_code": "chibo-netshop:10000079",
+        "item_name": "【訳あり特価販売】12/15賞味 60%OFF 大阪名店の味チーズねぎ焼 10枚チェダー＆ゴーダ 2種のチーズと特製醤油ダレが合う！",
+        "rank": 8,
+        "previous_rank": 23,
         "rank_velocity": 0.625,
-        "genre_id": 215783
-      },
-      {
-        "item_code": "rakuten24:11148574",
-        "item_name": "【1種類を選べる】フレア フレグランス IROKA 柔軟剤 詰め替え(650ml×5袋入)【フレアフレグランスIROKA】",
-        "rank": 4,
-        "previous_rank": 18,
-        "rank_velocity": 0.5833,
-        "genre_id": 215783
+        "genre_id": 100227
       }
     ],
     "tier_counts": {
@@ -681,111 +687,111 @@
       "ranking_fetch_success": 12,
       "ranking_fetch_failed": 0,
       "ranking_fetch_ran_today": true,
-      "items_fetched_today": 360,
-      "rank_velocity_avg": -0.0,
+      "items_fetched_today": 359,
+      "rank_velocity_avg": -0.02,
       "by_genre_adopted": [
-        {
-          "genre_label": "unknown",
-          "count": 3
-        },
-        {
-          "genre_label": "美容・コスメ・香水",
-          "count": 3
-        },
         {
           "genre_label": "食品",
           "count": 1
         },
         {
-          "genre_label": "キッチン用品・食器・調理器具",
+          "genre_label": "unknown",
           "count": 3
         },
         {
-          "genre_label": "日用品雑貨・文房具・手芸",
-          "count": 3
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 5
         },
         {
           "genre_label": "家電",
+          "count": 3
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
           "count": 2
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 1
         }
       ],
       "top_market_demand": [
         {
+          "item_code": "kanidokoro:10001780",
+          "item_name": "【総合ランキング1位獲得★】福袋おせち◆高級おせちを含む56種のおせちのいずれかをお届け【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖",
+          "rank": 1,
+          "market_demand_score": 75.05,
+          "genre_id": 100227
+        },
+        {
           "item_code": "attenir:10000252",
           "item_name": "大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 皮脂 詰め替え ダブル洗顔不要 アテニア 公式 ]",
           "rank": 2,
-          "market_demand_score": 75.78,
+          "market_demand_score": 75.0,
           "genre_id": 100939
         },
         {
-          "item_code": "rakuten24:11148574",
-          "item_name": "【1種類を選べる】フレア フレグランス IROKA 柔軟剤 詰め替え(650ml×5袋入)【フレアフレグランスIROKA】",
-          "rank": 4,
-          "market_demand_score": 75.52,
-          "genre_id": 215783
-        },
-        {
-          "item_code": "kanidokoro:10001780",
-          "item_name": "【総合ランキング1位獲得★】福袋おせち◆高級おせちを含む56種のおせちのいずれかをお届け【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖",
-          "rank": 1,
-          "market_demand_score": 75.05,
-          "genre_id": 100227
-        },
-        {
-          "item_code": "kanidokoro:10001780",
-          "item_name": "【総合ランキング1位獲得★】福袋おせち◆高級おせちを含む56種のおせちのいずれかをお届け【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖",
-          "rank": 1,
-          "market_demand_score": 75.05,
-          "genre_id": 100227
-        },
-        {
-          "item_code": "kurashi-zakka:10002471",
-          "item_name": "＼50％OFFクーポン！10/1〜10/12／ストロー整列！sakuraku 水切りラック L型 ＼食洗器対応／ シンク上 スリム 折りたたみ◎伸縮◎18-8ステンレス錆びにくい◎／＼お皿も 水筒も 立てかけられる／【意匠登録済】",
-          "rank": 1,
-          "market_demand_score": 74.8,
+          "item_code": "superpack:10000747",
+          "item_name": "★＼当店が3年連続年間ランキング入賞／★PP食パン袋　半斤用　300枚（100枚×3束）　送料無料　パン袋　オムツ　【2025楽天年間ランキング5位！（キッチン用品）】　【2024楽天年間ランキング2位！（キッチン用品）】　匂い　匂わない　コスパ　ゴミ袋　ペット　生ごみ",
+          "rank": 5,
+          "market_demand_score": 74.55,
           "genre_id": 558944
+        },
+        {
+          "item_code": "kouragumi:10001520",
+          "item_name": "今夜23:59まで楽天カードでP5倍★お試し送料無料2,490円～ 骨取りサバ切身 1kg 無塩or有塩が選べる♪骨とり 骨なし 鯖 さば 冷凍食品 お中元 ギフト 【P】【国産無塩小中型のみ入荷次第発送】",
+          "rank": 2,
+          "market_demand_score": 74.54,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "yama-oatmeal-institute:10000024",
+          "item_name": "[10kg3,700円17日9:59まで] 令和8年産米70％以上使用 国産ブレンド米 極味精米 5kg 10kg 20kg ( きわみせいまい こめ お米 米 白米 全国 送料無料 （北海道 沖縄 離島含む） ブレンド米 安い 生活応援米 備蓄米 不使用 10キロ 5キロ ) 山川食糧",
+          "rank": 3,
+          "market_demand_score": 74.27,
+          "genre_id": 100227
         }
       ],
       "top_rising": [
         {
-          "item_code": "bjc-onlinestore:10000020",
-          "item_name": "【公式】 ラッシュアディクト アイラッシュ コンディショニング セラム アドバンス 5ml まつ毛美容液 まつ毛ケア まつげ美容液 まつ毛パーマ Lashaddict 正規品 送料無料",
-          "rank": 8,
-          "previous_rank": 30,
-          "rank_velocity": 0.9167,
-          "genre_id": 100939
+          "item_code": "book:22123490",
+          "item_name": "【楽天ブックス限定先着特典+先着特典】【クレジットカード決済限定】【シリアル対象】MEGA GOLDEN (通常盤)初回プレス))(アクリルチャーム(ランダム1つ/全5種)+イベント応募用シリアルナンバー(2回目)) [ ONE N' ONLY ]",
+          "rank": 5,
+          "previous_rank": 29,
+          "rank_velocity": 1.0,
+          "genre_id": null
         },
         {
-          "item_code": "kouragumi:10001552",
-          "item_name": "お試し送料無料2,990円～「有塩or無塩」「骨ありor骨なし」が選べる！⇒脂のり抜群の銀鮭 切り身 業務用 1kg 【※無塩骨取り入荷次第発送】お試し お中元 ギフト プレゼント 【P】",
-          "rank": 8,
+          "item_code": "mtgec-beauty:10002330",
+          "item_name": "【リファ公式店】 コンパクト 速乾 ドライヤー まとまる ツヤ髪 S+ リファ ビューテック ドライヤーS+ リファ公式店 ReFa センシングプログラム ギフト ReFa S+ ヘア プレゼント ギフト 誕生日 夏のヘアケア MTG",
+          "rank": 9,
+          "previous_rank": 28,
+          "rank_velocity": 0.7917,
+          "genre_id": 562637
+        },
+        {
+          "item_code": "rs-takeo:10000132",
+          "item_name": "送料無料 ブレンド米 30kg(10kg×3袋) 国内産複数原料米 白米",
+          "rank": 9,
           "previous_rank": 26,
-          "rank_velocity": 0.75,
+          "rank_velocity": 0.7083,
           "genre_id": 100227
         },
         {
-          "item_code": "kurashi-zakka:10002390",
-          "item_name": "＼60％OFF！2680→1070円！決算処分！10/1〜10/12／sakuraku 水切りマット ワッフル織 吸水マット 抗菌 水切り 大判 キッチン マイクロファイバー ティータオル 抗菌 吸水 キッチンタオル キッチンクロス グレー ベージュ",
-          "rank": 13,
-          "previous_rank": 29,
+          "item_code": "tenkapas:10010258",
+          "item_name": "【毎日ずっと1位】 ニトリル手袋 100枚 200枚 300枚 400枚 500枚 1000枚 4000枚 ゴム手袋 使い捨て グローブ ニトリル 青 白 黒 ニトリル手袋 パウダーフリー 食品衛生法 医療 病院 ニトリルゴム手袋 SS S M L ニトリル 手袋 介護 手袋 作業 手袋 使い捨て 送料無料",
+          "rank": 6,
+          "previous_rank": 22,
           "rank_velocity": 0.6667,
-          "genre_id": 558944
+          "genre_id": 215783
         },
         {
-          "item_code": "coming:10000440",
-          "item_name": "最安値に挑戦!! ☆再生紙トイレット12RW☆108mm幅トイレットペーパー ダブル1ロール：27.5m 96ロール入り(1パック12ロール）無地 無印刷 送料無料",
-          "rank": 11,
-          "previous_rank": 26,
+          "item_code": "chibo-netshop:10000079",
+          "item_name": "【訳あり特価販売】12/15賞味 60%OFF 大阪名店の味チーズねぎ焼 10枚チェダー＆ゴーダ 2種のチーズと特製醤油ダレが合う！",
+          "rank": 8,
+          "previous_rank": 23,
           "rank_velocity": 0.625,
-          "genre_id": 215783
-        },
-        {
-          "item_code": "rakuten24:11148574",
-          "item_name": "【1種類を選べる】フレア フレグランス IROKA 柔軟剤 詰め替え(650ml×5袋入)【フレアフレグランスIROKA】",
-          "rank": 4,
-          "previous_rank": 18,
-          "rank_velocity": 0.5833,
-          "genre_id": 215783
+          "genre_id": 100227
         }
       ],
       "tier_counts": {
@@ -825,12 +831,12 @@
   },
   "amazon_phase1": {
     "links_total": 103,
-    "target_products_total": 1144,
+    "target_products_total": 1186,
     "buttons_live": 103,
-    "site_day": "2026-10-14",
+    "site_day": "2026-10-15",
     "new_matches_today": 0,
     "high_confidence_total": 62,
-    "unmatched_total": 1041,
+    "unmatched_total": 1083,
     "match_method_counts": {
       "A": 0,
       "B": 24,
