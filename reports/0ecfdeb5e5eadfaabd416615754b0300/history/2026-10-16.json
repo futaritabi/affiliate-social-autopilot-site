@@ -1,0 +1,818 @@
+{
+  "generated_at": "2026-10-16T23:31:16.814917+09:00",
+  "date": "2026-10-16",
+  "anomalies": [
+    "⚠️ 楽天アフィリエイトの売上CSV取込が111時間前から更新されていません(最終取込: 2026-10-12 08:22)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
+  ],
+  "x": {
+    "slots": [
+      {
+        "time": "08:30",
+        "planned": 3,
+        "actual": 3,
+        "recovered": 0,
+        "shortfall": 0,
+        "status": "on_target"
+      },
+      {
+        "time": "13:00",
+        "planned": 3,
+        "actual": 3,
+        "recovered": 0,
+        "shortfall": 0,
+        "status": "on_target"
+      },
+      {
+        "time": "18:00",
+        "planned": 3,
+        "actual": 3,
+        "recovered": 0,
+        "shortfall": 0,
+        "status": "on_target"
+      }
+    ],
+    "slot_status": [
+      {
+        "status": "on_target",
+        "planned": 3,
+        "actual": 3,
+        "detail": "",
+        "slot": "08:30"
+      },
+      {
+        "status": "on_target",
+        "planned": 3,
+        "actual": 3,
+        "detail": "",
+        "slot": "13:00"
+      },
+      {
+        "status": "on_target",
+        "planned": 3,
+        "actual": 3,
+        "detail": "",
+        "slot": "18:00"
+      }
+    ],
+    "slot_other": 0,
+    "posts_today": 9,
+    "posts_month": 144,
+    "success": 0,
+    "failed": 0,
+    "skipped_duplicate": 9,
+    "daily_cap": 9,
+    "capped": true,
+    "clicks": 0,
+    "clicks_available": false,
+    "tweets": [],
+    "extended": {
+      "impressions_total": null,
+      "impressions_available": false,
+      "impressions_avg_per_post": null,
+      "engagement_total": null,
+      "engagement_available": false,
+      "engagement_rate": null,
+      "posts_detail": [
+        {
+          "item_code": "auc-ulmax:10180369",
+          "slot": "08:30",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "生活用品",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "beautypark2017:10004792",
+          "slot": "18:00",
+          "selection_source": "keyword",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "brita:10000161",
+          "slot": "18:00",
+          "selection_source": "market",
+          "market_demand_score": 74.73,
+          "genre_label": "家電",
+          "genre_source": "market_ranking",
+          "dual_coverage": false,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "fracora:10000002",
+          "slot": "08:30",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "nextlabo:10000692",
+          "slot": "18:00",
+          "selection_source": "keyword",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "shimada-ya:10011605",
+          "slot": "08:30",
+          "selection_source": "keyword",
+          "market_demand_score": null,
+          "genre_label": "キッチン用品",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "shuuemura:10000018",
+          "slot": "13:00",
+          "selection_source": "market",
+          "market_demand_score": 51.4,
+          "genre_label": "美容・コスメ・香水",
+          "genre_source": "market_ranking",
+          "dual_coverage": false,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "skindesign:10002150",
+          "slot": "13:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "tk-kosme:10000366",
+          "slot": "13:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        }
+      ],
+      "slot_impressions": {
+        "08:30": {
+          "posts": 3,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        },
+        "13:00": {
+          "posts": 3,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        },
+        "18:00": {
+          "posts": 3,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        }
+      },
+      "by_item": [
+        {
+          "item_code": "auc-ulmax:10180369",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "beautypark2017:10004792",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "brita:10000161",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "fracora:10000002",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "nextlabo:10000692",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "shimada-ya:10011605",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "shuuemura:10000018",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "skindesign:10002150",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "tk-kosme:10000366",
+          "impressions": null,
+          "engagement": null
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "生活用品",
+          "count": 1,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "美容",
+          "count": 5,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "家電",
+          "count": 1,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "キッチン用品",
+          "count": 1,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 1,
+          "impressions_total": null,
+          "engagement_total": null
+        }
+      ],
+      "by_selection_source": {
+        "amazon_safe": {
+          "count": 4,
+          "impressions_total": null,
+          "impressions_avg": null,
+          "engagement_total": null
+        },
+        "keyword": {
+          "count": 3,
+          "impressions_total": null,
+          "impressions_avg": null,
+          "engagement_total": null
+        },
+        "market": {
+          "count": 2,
+          "impressions_total": null,
+          "impressions_avg": null,
+          "engagement_total": null
+        }
+      },
+      "by_market_demand_band": [
+        {
+          "band": "unknown",
+          "count": 7,
+          "impressions_total": null
+        },
+        {
+          "band": "60-80",
+          "count": 1,
+          "impressions_total": null
+        },
+        {
+          "band": "40-60",
+          "count": 1,
+          "impressions_total": null
+        }
+      ],
+      "by_appeal_type_available": false
+    }
+  },
+  "pinterest": {
+    "planned": 8,
+    "posts_today": 8,
+    "failed": 0,
+    "skipped_duplicate": 0,
+    "pending": 0,
+    "clicks": 0,
+    "clicks_available": false,
+    "extended": {
+      "slot_counts": {
+        "09:00": {
+          "attempted": 3,
+          "success": 3,
+          "failed": 0
+        },
+        "12:30": {
+          "attempted": 3,
+          "success": 3,
+          "failed": 0
+        },
+        "17:00": {
+          "attempted": 2,
+          "success": 2,
+          "failed": 0
+        },
+        "20:15": {
+          "attempted": 0,
+          "success": 0,
+          "failed": 0
+        }
+      },
+      "slot_other": {
+        "attempted": 0,
+        "success": 0,
+        "failed": 0
+      },
+      "success_total": 8,
+      "failed_total": 0,
+      "by_item": [
+        {
+          "item_code": "beautypark2017:10004792"
+        },
+        {
+          "item_code": "candy:10453766"
+        },
+        {
+          "item_code": "decori:10000583"
+        },
+        {
+          "item_code": "dining-shioso:10000154"
+        },
+        {
+          "item_code": "nextlabo:10000692"
+        },
+        {
+          "item_code": "plywood:10022493"
+        },
+        {
+          "item_code": "shugale:10111320"
+        },
+        {
+          "item_code": "yamaichi-himono:10000042"
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "美容",
+          "count": 3
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 1
+        },
+        {
+          "genre_label": "食品",
+          "count": 2
+        },
+        {
+          "genre_label": "家電",
+          "count": 2
+        }
+      ],
+      "by_selection_source": {
+        "keyword": 6,
+        "rising": 1,
+        "market": 1
+      },
+      "impressions_available": false,
+      "impressions": null,
+      "engagement_available": false,
+      "engagement": null
+    }
+  },
+  "room": {
+    "candidate_today": 10,
+    "approved_today": 0,
+    "completed_today": 0,
+    "extended": {
+      "candidate_to_completed_rate": 0.0,
+      "candidate_to_completed_rate_available": true,
+      "by_item": [
+        {
+          "item_code": "auc-risecreation:10005217",
+          "rank": 10,
+          "market_demand_score": 57.15
+        },
+        {
+          "item_code": "beautypark2017:10004792",
+          "rank": null,
+          "market_demand_score": null
+        },
+        {
+          "item_code": "candy:10453766",
+          "rank": null,
+          "market_demand_score": null
+        },
+        {
+          "item_code": "e-kit:10042595",
+          "rank": 2,
+          "market_demand_score": 62.92
+        },
+        {
+          "item_code": "kanenakaya-jihee:10000270",
+          "rank": 15,
+          "market_demand_score": 55.89
+        },
+        {
+          "item_code": "kouragumi:10001895",
+          "rank": 8,
+          "market_demand_score": 58.79
+        },
+        {
+          "item_code": "kumamoto-food:10004089",
+          "rank": 5,
+          "market_demand_score": 62.19
+        },
+        {
+          "item_code": "nextlabo:10000692",
+          "rank": null,
+          "market_demand_score": null
+        },
+        {
+          "item_code": "rakutenoriginal-daily:10000000",
+          "rank": 7,
+          "market_demand_score": 61.87
+        },
+        {
+          "item_code": "yamaichi-himono:10000042",
+          "rank": null,
+          "market_demand_score": null
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 1
+        },
+        {
+          "genre_label": "美容",
+          "count": 3
+        },
+        {
+          "genre_label": "家電",
+          "count": 1
+        },
+        {
+          "genre_label": "食品",
+          "count": 4
+        },
+        {
+          "genre_label": "全ジャンル",
+          "count": 1
+        }
+      ],
+      "by_selection_source": {
+        "rising": 2,
+        "keyword": 4,
+        "explore": 3,
+        "market": 1
+      },
+      "rank_list": [
+        10,
+        2,
+        15,
+        8,
+        5,
+        7
+      ],
+      "market_demand_score_list": [
+        57.15,
+        62.92,
+        55.89,
+        58.79,
+        62.19,
+        61.87
+      ],
+      "rising_count": 2
+    }
+  },
+  "market_demand": {
+    "ranking_available": true,
+    "top_demand": [
+      {
+        "item_code": "attenir:10000252",
+        "item_name": "大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 皮脂 詰め替え ダブル洗顔不要 アテニア 公式 ]",
+        "rank": 1,
+        "market_demand_score": 76.26,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "kouragumi:10001520",
+        "item_name": "今夜23:59まで楽天カードでP5倍★お試し送料無料2,490円～ 骨取りサバ切身 1kg 無塩or有塩が選べる♪骨とり 骨なし 鯖 さば 冷凍食品 お中元 ギフト 【P】【国産無塩小中型のみ入荷次第発送】",
+        "rank": 5,
+        "market_demand_score": 76.22,
+        "genre_id": null
+      },
+      {
+        "item_code": "kouragumi:10001520",
+        "item_name": "今夜23:59まで楽天カードでP5倍★お試し送料無料2,490円～ 骨取りサバ切身 1kg 無塩or有塩が選べる♪骨とり 骨なし 鯖 さば 冷凍食品 お中元 ギフト 【P】【国産無塩小中型のみ入荷次第発送】",
+        "rank": 1,
+        "market_demand_score": 75.8,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "shuuemura:10000018",
+        "item_name": "【ポイント10倍 10/14 20:00～10/17 9:59まで】アルティム8∞ ベストセラーキット / ブライト クレンジングオイル キット | シュウウエムラクレンジング クレンジング 楽天市場店限定 洗顔 メイク落とし 毛穴 洗顔料 スキンケア 美容 化粧落とし 送料無料 楽天ベストコスメ",
+        "rank": 4,
+        "market_demand_score": 74.92,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "brita:10000161",
+        "item_name": "【公式・正規品】 ポット型浄水器用カートリッジ マクストラプロ ピュアパフォーマンス 8個セット | 日本仕様 浄水カートリッジ 浄水ポット マ 日本仕様 ブリタカートリッジ brita maxtra アウトレット PFAS (PFOS/PFOA) 除去",
+        "rank": 1,
+        "market_demand_score": 74.73,
+        "genre_id": 562637
+      }
+    ],
+    "top_rising": [
+      {
+        "item_code": "rakuten24:11130767",
+        "item_name": "フレア フレグランス IROKA 柔軟剤 ネイキッドリリー 詰替 超特大サイズ 梱販売用(1200ml×6袋入)【フレアフレグランスIROKA】",
+        "rank": 1,
+        "previous_rank": 30,
+        "rank_velocity": 1.2083,
+        "genre_id": 215783
+      },
+      {
+        "item_code": "rakuten24:11348602",
+        "item_name": "アタック抗菌EX つめかえ用(1590g×6個)【アタック】",
+        "rank": 5,
+        "previous_rank": 27,
+        "rank_velocity": 0.9167,
+        "genre_id": 215783
+      },
+      {
+        "item_code": "kurashi-zakka:10002372",
+        "item_name": "＼40％OFFクーポン！10/14〜10/26／累計販売数100000台突破【sakuraku 排気口カバー 奥行伸縮】＼奥行伸縮 排気口カバーのパイオニア／ 60cm 75cm フラット ラック型 ＼熱い・重いお鍋が置ける／【特許取得済】",
+        "rank": 9,
+        "previous_rank": 29,
+        "rank_velocity": 0.8333,
+        "genre_id": 558944
+      },
+      {
+        "item_code": "kouragumi:10001520",
+        "item_name": "今夜23:59まで楽天カードでP5倍★お試し送料無料2,490円～ 骨取りサバ切身 1kg 無塩or有塩が選べる♪骨とり 骨なし 鯖 さば 冷凍食品 お中元 ギフト 【P】【国産無塩小中型のみ入荷次第発送】",
+        "rank": 5,
+        "previous_rank": 24,
+        "rank_velocity": 0.7917,
+        "genre_id": null
+      },
+      {
+        "item_code": "dalba:10000072",
+        "item_name": "【300円OFFクーポン＆ポイント20％還元】【 d'Alba ( ダルバ ) 公式 】【 選べる トーンアップUV下地 SPF50+ PA++++ 50ml 】ウォータフルトーンアップサンクリーム 日焼け止め UV 紫外線",
+        "rank": 11,
+        "previous_rank": 30,
+        "rank_velocity": 0.7917,
+        "genre_id": 100939
+      }
+    ],
+    "tier_counts": {
+      "keyword": 10,
+      "market": 8,
+      "rising": 4,
+      "explore": 3
+    },
+    "extended": {
+      "ranking_fetch_calls_expected": 12,
+      "ranking_fetch_success": 12,
+      "ranking_fetch_failed": 0,
+      "ranking_fetch_ran_today": true,
+      "items_fetched_today": 360,
+      "rank_velocity_avg": -0.04,
+      "by_genre_adopted": [
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 3
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 1
+        },
+        {
+          "genre_label": "家電",
+          "count": 4
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 2
+        },
+        {
+          "genre_label": "食品",
+          "count": 4
+        },
+        {
+          "genre_label": "unknown",
+          "count": 1
+        }
+      ],
+      "top_market_demand": [
+        {
+          "item_code": "attenir:10000252",
+          "item_name": "大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 皮脂 詰め替え ダブル洗顔不要 アテニア 公式 ]",
+          "rank": 1,
+          "market_demand_score": 76.26,
+          "genre_id": 100939
+        },
+        {
+          "item_code": "kouragumi:10001520",
+          "item_name": "今夜23:59まで楽天カードでP5倍★お試し送料無料2,490円～ 骨取りサバ切身 1kg 無塩or有塩が選べる♪骨とり 骨なし 鯖 さば 冷凍食品 お中元 ギフト 【P】【国産無塩小中型のみ入荷次第発送】",
+          "rank": 5,
+          "market_demand_score": 76.22,
+          "genre_id": null
+        },
+        {
+          "item_code": "kouragumi:10001520",
+          "item_name": "今夜23:59まで楽天カードでP5倍★お試し送料無料2,490円～ 骨取りサバ切身 1kg 無塩or有塩が選べる♪骨とり 骨なし 鯖 さば 冷凍食品 お中元 ギフト 【P】【国産無塩小中型のみ入荷次第発送】",
+          "rank": 1,
+          "market_demand_score": 75.8,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "shuuemura:10000018",
+          "item_name": "【ポイント10倍 10/14 20:00～10/17 9:59まで】アルティム8∞ ベストセラーキット / ブライト クレンジングオイル キット | シュウウエムラクレンジング クレンジング 楽天市場店限定 洗顔 メイク落とし 毛穴 洗顔料 スキンケア 美容 化粧落とし 送料無料 楽天ベストコスメ",
+          "rank": 4,
+          "market_demand_score": 74.92,
+          "genre_id": 100939
+        },
+        {
+          "item_code": "brita:10000161",
+          "item_name": "【公式・正規品】 ポット型浄水器用カートリッジ マクストラプロ ピュアパフォーマンス 8個セット | 日本仕様 浄水カートリッジ 浄水ポット マ 日本仕様 ブリタカートリッジ brita maxtra アウトレット PFAS (PFOS/PFOA) 除去",
+          "rank": 1,
+          "market_demand_score": 74.73,
+          "genre_id": 562637
+        }
+      ],
+      "top_rising": [
+        {
+          "item_code": "rakuten24:11130767",
+          "item_name": "フレア フレグランス IROKA 柔軟剤 ネイキッドリリー 詰替 超特大サイズ 梱販売用(1200ml×6袋入)【フレアフレグランスIROKA】",
+          "rank": 1,
+          "previous_rank": 30,
+          "rank_velocity": 1.2083,
+          "genre_id": 215783
+        },
+        {
+          "item_code": "rakuten24:11348602",
+          "item_name": "アタック抗菌EX つめかえ用(1590g×6個)【アタック】",
+          "rank": 5,
+          "previous_rank": 27,
+          "rank_velocity": 0.9167,
+          "genre_id": 215783
+        },
+        {
+          "item_code": "kurashi-zakka:10002372",
+          "item_name": "＼40％OFFクーポン！10/14〜10/26／累計販売数100000台突破【sakuraku 排気口カバー 奥行伸縮】＼奥行伸縮 排気口カバーのパイオニア／ 60cm 75cm フラット ラック型 ＼熱い・重いお鍋が置ける／【特許取得済】",
+          "rank": 9,
+          "previous_rank": 29,
+          "rank_velocity": 0.8333,
+          "genre_id": 558944
+        },
+        {
+          "item_code": "kouragumi:10001520",
+          "item_name": "今夜23:59まで楽天カードでP5倍★お試し送料無料2,490円～ 骨取りサバ切身 1kg 無塩or有塩が選べる♪骨とり 骨なし 鯖 さば 冷凍食品 お中元 ギフト 【P】【国産無塩小中型のみ入荷次第発送】",
+          "rank": 5,
+          "previous_rank": 24,
+          "rank_velocity": 0.7917,
+          "genre_id": null
+        },
+        {
+          "item_code": "dalba:10000072",
+          "item_name": "【300円OFFクーポン＆ポイント20％還元】【 d'Alba ( ダルバ ) 公式 】【 選べる トーンアップUV下地 SPF50+ PA++++ 50ml 】ウォータフルトーンアップサンクリーム 日焼け止め UV 紫外線",
+          "rank": 11,
+          "previous_rank": 30,
+          "rank_velocity": 0.7917,
+          "genre_id": 100939
+        }
+      ],
+      "tier_counts": {
+        "keyword": 10,
+        "market": 8,
+        "rising": 4,
+        "explore": 3
+      },
+      "market_ranking_available": true
+    }
+  },
+  "instagram": {
+    "connected": false,
+    "slots": [
+      {
+        "time": "09:30",
+        "planned": 1,
+        "actual": 0,
+        "recovered": 0
+      },
+      {
+        "time": "19:30",
+        "planned": 1,
+        "actual": 0,
+        "recovered": 0
+      }
+    ],
+    "slot_other": 0,
+    "posts_today": 0,
+    "posts_month": 0,
+    "success": 0,
+    "failed": 0,
+    "skipped_duplicate": 0,
+    "daily_cap": 2,
+    "capped": false,
+    "media": []
+  },
+  "amazon_phase1": {
+    "links_total": 103,
+    "target_products_total": 1202,
+    "buttons_live": 103,
+    "site_day": "2026-10-16",
+    "new_matches_today": 0,
+    "high_confidence_total": 62,
+    "unmatched_total": 1099,
+    "match_method_counts": {
+      "A": 0,
+      "B": 24,
+      "C": 38,
+      "manual": 41
+    },
+    "tier_breakdown_safe_only": {
+      "A": 0,
+      "B": 24,
+      "C": 38,
+      "legacy": 38,
+      "unknown": 0,
+      "total": 100
+    },
+    "ambiguous_pending_review": 20,
+    "needs_review": 4,
+    "x_dual_coverage_posts_today": 5,
+    "x_rakuten_only_posts_today": 4,
+    "clicks_available": false,
+    "raw_clicks": 0,
+    "unique_clicks": 0,
+    "clicks_by_item": [],
+    "clicks_by_source": [],
+    "sales_available": false,
+    "sales": null,
+    "orders_available": false,
+    "orders": null,
+    "commission_available": false,
+    "commission": null,
+    "clicks": 0,
+    "note": "Clicks are our own redirect-hit count (Phase A, live). Sales/orders/commission are Amazon's official Reporting API data and remain unavailable (null, not 0) until Creators API access is confirmed on Associates Central — see app.amazon_reporting.creators_api_access_status."
+  },
+  "rakuten": {
+    "today_sales": 0.0,
+    "today_reward": 0.0,
+    "month_sales": 2550.0,
+    "month_reward": 102.0,
+    "last_import": "2026-10-12 08:22",
+    "import_stale": true,
+    "sales_available": true
+  }
+}
