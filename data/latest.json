@@ -1,6 +1,6 @@
 {
   "run_date": "2026-10-18",
-  "generated_at": "2026-10-18T08:00:01.886528+09:00",
+  "generated_at": "2026-10-18T13:53:12.680895+09:00",
   "items": [
     {
       "item_code": "shopmarna:10006509",
@@ -253,7 +253,7 @@
       "review_average": 4.33,
       "review_count": 3,
       "category": "美容",
-      "amazon_url": "https://www.amazon.co.jp/dp/B09QG7ZM5K/?tag=shumatsutabi-22"
+      "amazon_url": null
     },
     {
       "item_code": "dining-shioso:10000475",
@@ -286,7 +286,7 @@
       "review_average": 4.33,
       "review_count": 3,
       "category": "生活用品",
-      "amazon_url": "https://www.amazon.co.jp/dp/B011BKIEUU/?tag=shumatsutabi-22"
+      "amazon_url": "https://www.amazon.co.jp/dp/B011BKIEUU/?tag=futaritabi0f-22"
     },
     {
       "item_code": "renngekesyousui:10000002",
@@ -308,7 +308,7 @@
       "review_average": 4.5,
       "review_count": 10,
       "category": "美容",
-      "amazon_url": "https://www.amazon.co.jp/dp/B07D6FM2WG/?tag=shumatsutabi-22"
+      "amazon_url": "https://www.amazon.co.jp/dp/B07D6FM2WG/?tag=futaritabi0f-22"
     },
     {
       "item_code": "auc-ulmax:10107790",
@@ -319,7 +319,7 @@
       "review_average": 4.0,
       "review_count": 1,
       "category": "生活用品",
-      "amazon_url": "https://www.amazon.co.jp/dp/B003B3HHNG/?tag=shumatsutabi-22"
+      "amazon_url": "https://www.amazon.co.jp/dp/B003B3HHNG/?tag=futaritabi0f-22"
     },
     {
       "item_code": "beautylife-store:10000007",
@@ -330,7 +330,7 @@
       "review_average": 0.0,
       "review_count": 0,
       "category": "美容",
-      "amazon_url": "https://www.amazon.co.jp/dp/B07NQF2Y96/?tag=shumatsutabi-22"
+      "amazon_url": "https://www.amazon.co.jp/dp/B07NQF2Y96/?tag=futaritabi0f-22"
     }
   ]
 }
