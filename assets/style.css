@@ -39,7 +39,11 @@ h1{font-size:1.3rem;margin:0 0 6px}
 
 article.item{background:var(--card);border-radius:var(--radius);border:1px solid var(--line);
   padding:18px;margin-bottom:18px}
-article.item img{width:100%;max-width:420px;display:block;margin:0 auto 16px;object-fit:contain}
+article.item img{width:100%;max-width:420px;max-height:38vh;display:block;margin:0 auto 12px;object-fit:contain}
+article.item h1{font-size:1.05rem;line-height:1.45;margin:0 0 4px;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.cta{display:grid;gap:10px;margin:10px 0 6px}
+.cta .btn-rakuten,.cta .btn-amazon{margin:0}
 .price-big{font-size:1.6rem;font-weight:800;color:var(--accent);margin:6px 0}
 .meta-row{color:var(--muted);font-size:.9rem;margin:4px 0}
 .ai-copy{white-space:pre-wrap;background:#fafafa;border:1px solid var(--line);
