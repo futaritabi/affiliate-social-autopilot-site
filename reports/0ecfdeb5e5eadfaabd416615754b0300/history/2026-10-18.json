@@ -1,0 +1,697 @@
+{
+  "generated_at": "2026-10-18T23:31:11.416921+09:00",
+  "date": "2026-10-18",
+  "anomalies": [
+    "⚠️ 楽天アフィリエイトの売上CSV取込が159時間前から更新されていません(最終取込: 2026-10-12 08:22)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
+  ],
+  "x": {
+    "slots": [
+      {
+        "time": "08:30",
+        "planned": 3,
+        "actual": 3,
+        "recovered": 0,
+        "shortfall": 0,
+        "status": "on_target"
+      },
+      {
+        "time": "13:00",
+        "planned": 3,
+        "actual": 2,
+        "recovered": 0,
+        "shortfall": 1,
+        "status": "api_failure"
+      },
+      {
+        "time": "18:00",
+        "planned": 3,
+        "actual": 0,
+        "recovered": 0,
+        "shortfall": 3,
+        "status": "api_failure"
+      }
+    ],
+    "slot_status": [
+      {
+        "status": "on_target",
+        "planned": 3,
+        "actual": 3,
+        "detail": "",
+        "slot": "08:30"
+      },
+      {
+        "status": "api_failure",
+        "planned": 3,
+        "actual": 2,
+        "detail": "Buffer 予約失敗: Invalid post: Whoops, it looks like you've already got this one scheduled or posted around the same time. We're not able (item_code=shopmarna:10006509 slot=13:00)",
+        "slot": "13:00"
+      },
+      {
+        "status": "api_failure",
+        "planned": 3,
+        "actual": 0,
+        "detail": "Buffer 予約失敗: Invalid post: Whoops, it looks like you've already got this one scheduled or posted around the same time. We're not able (item_code=shopmarna:10006509 slot=18:00)",
+        "slot": "18:00"
+      }
+    ],
+    "slot_other": 0,
+    "posts_today": 5,
+    "posts_month": 158,
+    "success": 5,
+    "failed": 2,
+    "skipped_duplicate": 8,
+    "daily_cap": 9,
+    "capped": false,
+    "clicks": 0,
+    "clicks_available": false,
+    "tweets": [
+      {
+        "id": "2111601212164387123",
+        "url": "https://x.com/1338426867951443968/status/2111601212164387123",
+        "metrics": null
+      },
+      {
+        "id": "2111602470694621674",
+        "url": "https://x.com/1338426867951443968/status/2111602470694621674",
+        "metrics": null
+      },
+      {
+        "id": "2111603728549626255",
+        "url": "https://x.com/1338426867951443968/status/2111603728549626255",
+        "metrics": null
+      },
+      {
+        "id": "2111669159985562061",
+        "url": "https://x.com/1338426867951443968/status/2111669159985562061",
+        "metrics": null
+      },
+      {
+        "id": "2111670418390048986",
+        "url": "https://x.com/1338426867951443968/status/2111670418390048986",
+        "metrics": null
+      }
+    ],
+    "extended": {
+      "impressions_total": null,
+      "impressions_available": false,
+      "impressions_avg_per_post": null,
+      "engagement_total": null,
+      "engagement_available": false,
+      "engagement_rate": null,
+      "posts_detail": [
+        {
+          "item_code": "auc-ulmax:10107790",
+          "slot": "13:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "生活用品",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "auc-ulmax:10180374",
+          "slot": "08:30",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "生活用品",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "beautylife-store:10000007",
+          "slot": "13:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "c-urban:10014422",
+          "slot": "08:30",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "sangakushop:10000799",
+          "slot": "08:30",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        }
+      ],
+      "slot_impressions": {
+        "08:30": {
+          "posts": 3,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        },
+        "13:00": {
+          "posts": 2,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        },
+        "18:00": {
+          "posts": 0,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        }
+      },
+      "by_item": [
+        {
+          "item_code": "auc-ulmax:10107790",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "auc-ulmax:10180374",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "beautylife-store:10000007",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "c-urban:10014422",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "sangakushop:10000799",
+          "impressions": null,
+          "engagement": null
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "生活用品",
+          "count": 2,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "美容",
+          "count": 3,
+          "impressions_total": null,
+          "engagement_total": null
+        }
+      ],
+      "by_selection_source": {
+        "amazon_safe": {
+          "count": 5,
+          "impressions_total": null,
+          "impressions_avg": null,
+          "engagement_total": null
+        }
+      },
+      "by_market_demand_band": [
+        {
+          "band": "unknown",
+          "count": 5,
+          "impressions_total": null
+        }
+      ],
+      "by_appeal_type_available": false
+    }
+  },
+  "pinterest": {
+    "planned": 8,
+    "posts_today": 8,
+    "failed": 0,
+    "skipped_duplicate": 0,
+    "pending": 0,
+    "clicks": 0,
+    "clicks_available": false,
+    "extended": {
+      "slot_counts": {
+        "09:00": {
+          "attempted": 3,
+          "success": 3,
+          "failed": 0
+        },
+        "12:30": {
+          "attempted": 3,
+          "success": 3,
+          "failed": 0
+        },
+        "17:00": {
+          "attempted": 2,
+          "success": 2,
+          "failed": 0
+        },
+        "20:15": {
+          "attempted": 0,
+          "success": 0,
+          "failed": 0
+        }
+      },
+      "slot_other": {
+        "attempted": 0,
+        "success": 0,
+        "failed": 0
+      },
+      "success_total": 8,
+      "failed_total": 0,
+      "by_item": [
+        {
+          "item_code": "abemashopping:10000053"
+        },
+        {
+          "item_code": "auc-universalstore:10000700"
+        },
+        {
+          "item_code": "dining-shioso:10000475"
+        },
+        {
+          "item_code": "f122190-ichihara:10001335"
+        },
+        {
+          "item_code": "f282294-tatsuno:10000004"
+        },
+        {
+          "item_code": "netsbee:10051227"
+        },
+        {
+          "item_code": "pdc-shop:10000101"
+        },
+        {
+          "item_code": "tarunoaji:10000484"
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 2
+        },
+        {
+          "genre_label": "食品",
+          "count": 3
+        },
+        {
+          "genre_label": "生活用品",
+          "count": 2
+        },
+        {
+          "genre_label": "美容",
+          "count": 1
+        }
+      ],
+      "by_selection_source": {
+        "explore": 3,
+        "keyword": 4,
+        "rising": 1
+      },
+      "impressions_available": false,
+      "impressions": null,
+      "engagement_available": false,
+      "engagement": null
+    }
+  },
+  "room": {
+    "candidate_today": 6,
+    "approved_today": 20,
+    "completed_today": 20,
+    "extended": {
+      "candidate_to_completed_rate": 3.3333,
+      "candidate_to_completed_rate_available": true,
+      "by_item": [
+        {
+          "item_code": "abemashopping:10000053",
+          "rank": 6,
+          "market_demand_score": 60.96
+        },
+        {
+          "item_code": "dining-shioso:10000475",
+          "rank": 13,
+          "market_demand_score": 57.37
+        },
+        {
+          "item_code": "netsbee:10051227",
+          "rank": null,
+          "market_demand_score": null
+        },
+        {
+          "item_code": "pdc-shop:10000101",
+          "rank": 2,
+          "market_demand_score": 66.03
+        },
+        {
+          "item_code": "renngekesyousui:10000002",
+          "rank": 14,
+          "market_demand_score": 56.04
+        },
+        {
+          "item_code": "tarunoaji:10000484",
+          "rank": 14,
+          "market_demand_score": 54.5
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 3
+        },
+        {
+          "genre_label": "食品",
+          "count": 2
+        },
+        {
+          "genre_label": "美容",
+          "count": 1
+        }
+      ],
+      "by_selection_source": {
+        "explore": 3,
+        "rising": 2,
+        "keyword": 1
+      },
+      "rank_list": [
+        6,
+        13,
+        2,
+        14,
+        14
+      ],
+      "market_demand_score_list": [
+        60.96,
+        57.37,
+        66.03,
+        56.04,
+        54.5
+      ],
+      "rising_count": 2
+    }
+  },
+  "market_demand": {
+    "ranking_available": true,
+    "top_demand": [
+      {
+        "item_code": "e-kurashi:10048736",
+        "item_name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
+        "rank": 3,
+        "market_demand_score": 76.74,
+        "genre_id": null
+      },
+      {
+        "item_code": "attenir:10000252",
+        "item_name": "大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 皮脂 詰め替え ダブル洗顔不要 アテニア 公式 ]",
+        "rank": 1,
+        "market_demand_score": 76.0,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "kanidokoro:10001780",
+        "item_name": "おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖",
+        "rank": 1,
+        "market_demand_score": 75.51,
+        "genre_id": null
+      },
+      {
+        "item_code": "kanidokoro:10001780",
+        "item_name": "おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖",
+        "rank": 1,
+        "market_demand_score": 75.31,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "kanidokoro:10001780",
+        "item_name": "おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖",
+        "rank": 1,
+        "market_demand_score": 75.05,
+        "genre_id": 100227
+      }
+    ],
+    "top_rising": [
+      {
+        "item_code": "rakuten24:11354091",
+        "item_name": "レチノパワー リンクルクリーム ba L(22g)【エリクシール(ELIXIR)】[レチノール クリーム しわ対策 しっとり 目もと]",
+        "rank": 1,
+        "previous_rank": 24,
+        "rank_velocity": 0.9583,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "teamo:10001200",
+        "item_name": "コンタクトレンズ ワンデー 近視 遠視 選べる【2箱4箱】 TeAmo CLEAR 1DAY UV 低含水 高含水 ティアモ クリア ワンデー まとめ買い 1箱30枚 TeAmo コンタクト クリア 近視用 遠視用 1日使い捨て クリアワンデー 度あり UVカット ソフトコンタクト 送料無料 【最安値に挑戦】",
+        "rank": 7,
+        "previous_rank": 27,
+        "rank_velocity": 0.8333,
+        "genre_id": null
+      },
+      {
+        "item_code": "e-kurashi:10048736",
+        "item_name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
+        "rank": 3,
+        "previous_rank": 21,
+        "rank_velocity": 0.75,
+        "genre_id": null
+      },
+      {
+        "item_code": "easyjoy-shop:10000371",
+        "item_name": "クーポンで1400円OFF 楽天ランキング1位 水切りラック シンク上 ステンレス 伸縮式 大容量 スリム 調整可能 省スペース 食器水切り 水切りかご キッチンラック 台所 ガラスホルダー まな板ホルダー 箸立て 包丁差し",
+        "rank": 14,
+        "previous_rank": 29,
+        "rank_velocity": 0.625,
+        "genre_id": 558944
+      },
+      {
+        "item_code": "renngekesyousui:10000002",
+        "item_name": "れんげ化粧水 140cc 生レモン果汁の化粧水 素肌を育てるシンプルケア 100年続く素肌づくり 【れんげ研究所 公式オンラインショップ】 (使用期限2027年1月31日) シンプル シミ 肌荒れ エイジングケア ビタミンc 化粧水 保湿 ノーファンデ スキンケア",
+        "rank": 14,
+        "previous_rank": 29,
+        "rank_velocity": 0.625,
+        "genre_id": 100939
+      }
+    ],
+    "tier_counts": {
+      "keyword": 10,
+      "market": 8,
+      "rising": 4,
+      "explore": 3
+    },
+    "extended": {
+      "ranking_fetch_calls_expected": 12,
+      "ranking_fetch_success": 12,
+      "ranking_fetch_failed": 0,
+      "ranking_fetch_ran_today": true,
+      "items_fetched_today": 359,
+      "rank_velocity_avg": -0.03,
+      "by_genre_adopted": [
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 4
+        },
+        {
+          "genre_label": "食品",
+          "count": 2
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 3
+        },
+        {
+          "genre_label": "家電",
+          "count": 2
+        },
+        {
+          "genre_label": "unknown",
+          "count": 4
+        }
+      ],
+      "top_market_demand": [
+        {
+          "item_code": "e-kurashi:10048736",
+          "item_name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
+          "rank": 3,
+          "market_demand_score": 76.74,
+          "genre_id": null
+        },
+        {
+          "item_code": "attenir:10000252",
+          "item_name": "大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 皮脂 詰め替え ダブル洗顔不要 アテニア 公式 ]",
+          "rank": 1,
+          "market_demand_score": 76.0,
+          "genre_id": 100939
+        },
+        {
+          "item_code": "kanidokoro:10001780",
+          "item_name": "おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖",
+          "rank": 1,
+          "market_demand_score": 75.51,
+          "genre_id": null
+        },
+        {
+          "item_code": "kanidokoro:10001780",
+          "item_name": "おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖",
+          "rank": 1,
+          "market_demand_score": 75.31,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "kanidokoro:10001780",
+          "item_name": "おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖",
+          "rank": 1,
+          "market_demand_score": 75.05,
+          "genre_id": 100227
+        }
+      ],
+      "top_rising": [
+        {
+          "item_code": "rakuten24:11354091",
+          "item_name": "レチノパワー リンクルクリーム ba L(22g)【エリクシール(ELIXIR)】[レチノール クリーム しわ対策 しっとり 目もと]",
+          "rank": 1,
+          "previous_rank": 24,
+          "rank_velocity": 0.9583,
+          "genre_id": 100939
+        },
+        {
+          "item_code": "teamo:10001200",
+          "item_name": "コンタクトレンズ ワンデー 近視 遠視 選べる【2箱4箱】 TeAmo CLEAR 1DAY UV 低含水 高含水 ティアモ クリア ワンデー まとめ買い 1箱30枚 TeAmo コンタクト クリア 近視用 遠視用 1日使い捨て クリアワンデー 度あり UVカット ソフトコンタクト 送料無料 【最安値に挑戦】",
+          "rank": 7,
+          "previous_rank": 27,
+          "rank_velocity": 0.8333,
+          "genre_id": null
+        },
+        {
+          "item_code": "e-kurashi:10048736",
+          "item_name": "コロ脚 中が透けない 壁付き チェスト スリム/ワイド 幅34/54 奥行41.5/41.7 高さ66.1/86.1/106.1cm 衣装ケース 収納ケース プラスチック 引き出し 洗面所 収納 子供部屋 クローゼット 隠す収納 ランドリーチェスト 壁付きチェスト 日本製 【送料無料】",
+          "rank": 3,
+          "previous_rank": 21,
+          "rank_velocity": 0.75,
+          "genre_id": null
+        },
+        {
+          "item_code": "easyjoy-shop:10000371",
+          "item_name": "クーポンで1400円OFF 楽天ランキング1位 水切りラック シンク上 ステンレス 伸縮式 大容量 スリム 調整可能 省スペース 食器水切り 水切りかご キッチンラック 台所 ガラスホルダー まな板ホルダー 箸立て 包丁差し",
+          "rank": 14,
+          "previous_rank": 29,
+          "rank_velocity": 0.625,
+          "genre_id": 558944
+        },
+        {
+          "item_code": "renngekesyousui:10000002",
+          "item_name": "れんげ化粧水 140cc 生レモン果汁の化粧水 素肌を育てるシンプルケア 100年続く素肌づくり 【れんげ研究所 公式オンラインショップ】 (使用期限2027年1月31日) シンプル シミ 肌荒れ エイジングケア ビタミンc 化粧水 保湿 ノーファンデ スキンケア",
+          "rank": 14,
+          "previous_rank": 29,
+          "rank_velocity": 0.625,
+          "genre_id": 100939
+        }
+      ],
+      "tier_counts": {
+        "keyword": 10,
+        "market": 8,
+        "rising": 4,
+        "explore": 3
+      },
+      "market_ranking_available": true
+    }
+  },
+  "instagram": {
+    "connected": false,
+    "slots": [
+      {
+        "time": "09:30",
+        "planned": 1,
+        "actual": 0,
+        "recovered": 0
+      },
+      {
+        "time": "19:30",
+        "planned": 1,
+        "actual": 0,
+        "recovered": 0
+      }
+    ],
+    "slot_other": 0,
+    "posts_today": 0,
+    "posts_month": 0,
+    "success": 0,
+    "failed": 0,
+    "skipped_duplicate": 0,
+    "daily_cap": 2,
+    "capped": false,
+    "media": []
+  },
+  "amazon_phase1": {
+    "links_total": 103,
+    "target_products_total": 1294,
+    "buttons_live": 103,
+    "site_day": "2026-10-18",
+    "new_matches_today": 0,
+    "high_confidence_total": 62,
+    "unmatched_total": 1191,
+    "match_method_counts": {
+      "A": 0,
+      "B": 24,
+      "C": 38,
+      "manual": 41
+    },
+    "tier_breakdown_safe_only": {
+      "A": 0,
+      "B": 24,
+      "C": 38,
+      "legacy": 38,
+      "unknown": 0,
+      "total": 100
+    },
+    "ambiguous_pending_review": 20,
+    "needs_review": 4,
+    "x_dual_coverage_posts_today": 5,
+    "x_rakuten_only_posts_today": 0,
+    "clicks_available": false,
+    "raw_clicks": 0,
+    "unique_clicks": 0,
+    "clicks_by_item": [],
+    "clicks_by_source": [],
+    "sales_available": false,
+    "sales": null,
+    "orders_available": false,
+    "orders": null,
+    "commission_available": false,
+    "commission": null,
+    "clicks": 0,
+    "note": "Clicks are our own redirect-hit count (Phase A, live). Sales/orders/commission are Amazon's official Reporting API data and remain unavailable (null, not 0) until Creators API access is confirmed on Associates Central — see app.amazon_reporting.creators_api_access_status."
+  },
+  "rakuten": {
+    "today_sales": 0.0,
+    "today_reward": 0.0,
+    "month_sales": 2550.0,
+    "month_reward": 102.0,
+    "last_import": "2026-10-12 08:22",
+    "import_stale": true,
+    "sales_available": true
+  }
+}
