@@ -1,67 +1,67 @@
 {
-  "generated_at": "2026-10-19T23:31:07.184257+09:00",
-  "date": "2026-10-19",
+  "generated_at": "2026-10-20T23:31:05.571435+09:00",
+  "date": "2026-10-20",
   "anomalies": [
-    "⚠️ 楽天アフィリエイトの売上CSV取込が183時間前から更新されていません(最終取込: 2026-10-12 08:22)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
+    "⚠️ 楽天アフィリエイトの売上CSV取込が207時間前から更新されていません(最終取込: 2026-10-12 08:22)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
   ],
   "x": {
     "slots": [
       {
         "time": "08:30",
         "planned": 3,
-        "actual": 3,
+        "actual": 0,
         "recovered": 0,
-        "shortfall": 0,
-        "status": "on_target"
+        "shortfall": 3,
+        "status": "api_failure"
       },
       {
         "time": "13:00",
         "planned": 3,
-        "actual": 3,
+        "actual": 0,
         "recovered": 0,
-        "shortfall": 0,
-        "status": "on_target"
+        "shortfall": 3,
+        "status": "api_failure"
       },
       {
         "time": "18:00",
         "planned": 3,
-        "actual": 3,
+        "actual": 0,
         "recovered": 0,
-        "shortfall": 0,
-        "status": "on_target"
+        "shortfall": 3,
+        "status": "api_failure"
       }
     ],
     "slot_status": [
       {
-        "status": "on_target",
+        "status": "api_failure",
         "planned": 3,
-        "actual": 3,
-        "detail": "",
+        "actual": 0,
+        "detail": "BufferRateLimited(ネットワーク/接続エラー) (item_code=cocodecow:10706986 slot=08:30)",
         "slot": "08:30"
       },
       {
-        "status": "on_target",
+        "status": "api_failure",
         "planned": 3,
-        "actual": 3,
-        "detail": "",
+        "actual": 0,
+        "detail": "BufferRateLimited(ネットワーク/接続エラー) (item_code=cocodecow:10706986 slot=13:00)",
         "slot": "13:00"
       },
       {
-        "status": "on_target",
+        "status": "api_failure",
         "planned": 3,
-        "actual": 3,
-        "detail": "",
+        "actual": 0,
+        "detail": "BufferRateLimited(ネットワーク/接続エラー) (item_code=cocodecow:10706986 slot=18:00)",
         "slot": "18:00"
       }
     ],
     "slot_other": 0,
-    "posts_today": 9,
+    "posts_today": 0,
     "posts_month": 167,
     "success": 0,
-    "failed": 0,
-    "skipped_duplicate": 9,
+    "failed": 3,
+    "skipped_duplicate": 0,
     "daily_cap": 9,
-    "capped": true,
+    "capped": false,
     "clicks": 0,
     "clicks_available": false,
     "tweets": [],
@@ -72,270 +72,40 @@
       "engagement_total": null,
       "engagement_available": false,
       "engagement_rate": null,
-      "posts_detail": [
-        {
-          "item_code": "beautylife-store:10000187",
-          "slot": "13:00",
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "美容",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "beautylife-store:10000534",
-          "slot": "13:00",
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "美容",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "belle-01:10000172",
-          "slot": "08:30",
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "美容",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "bjc-onlinestore:10000020",
-          "slot": "18:00",
-          "selection_source": "market",
-          "market_demand_score": 73.61,
-          "genre_label": "美容・コスメ・香水",
-          "genre_source": "market_ranking",
-          "dual_coverage": false,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "c-urban39:10002673",
-          "slot": "08:30",
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "美容",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "kouragumi:10001520",
-          "slot": "18:00",
-          "selection_source": "market",
-          "market_demand_score": 73.54,
-          "genre_label": "食品",
-          "genre_source": "market_ranking",
-          "dual_coverage": false,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "rakuten24:11354091",
-          "slot": "18:00",
-          "selection_source": "rising",
-          "market_demand_score": 41.62,
-          "genre_label": "美容・コスメ・香水",
-          "genre_source": "product_category",
-          "dual_coverage": false,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "shopmarna:10006509",
-          "slot": "13:00",
-          "selection_source": "keyword",
-          "market_demand_score": null,
-          "genre_label": "unknown",
-          "genre_source": "unknown",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "supplement-fan:10029427",
-          "slot": "08:30",
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "unknown",
-          "genre_source": "unknown",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        }
-      ],
+      "posts_detail": [],
       "slot_impressions": {
         "08:30": {
-          "posts": 3,
+          "posts": 0,
           "impressions_total": null,
           "impressions_available": false,
           "engagement_total": null,
           "engagement_available": false
         },
         "13:00": {
-          "posts": 3,
+          "posts": 0,
           "impressions_total": null,
           "impressions_available": false,
           "engagement_total": null,
           "engagement_available": false
         },
         "18:00": {
-          "posts": 3,
+          "posts": 0,
           "impressions_total": null,
           "impressions_available": false,
           "engagement_total": null,
           "engagement_available": false
         }
       },
-      "by_item": [
-        {
-          "item_code": "beautylife-store:10000187",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "beautylife-store:10000534",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "belle-01:10000172",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "bjc-onlinestore:10000020",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "c-urban39:10002673",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "kouragumi:10001520",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "rakuten24:11354091",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "shopmarna:10006509",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "supplement-fan:10029427",
-          "impressions": null,
-          "engagement": null
-        }
-      ],
-      "by_genre": [
-        {
-          "genre_label": "美容",
-          "count": 4,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "美容・コスメ・香水",
-          "count": 2,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "食品",
-          "count": 1,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "unknown",
-          "count": 2,
-          "impressions_total": null,
-          "engagement_total": null
-        }
-      ],
-      "by_selection_source": {
-        "amazon_safe": {
-          "count": 5,
-          "impressions_total": null,
-          "impressions_avg": null,
-          "engagement_total": null
-        },
-        "market": {
-          "count": 2,
-          "impressions_total": null,
-          "impressions_avg": null,
-          "engagement_total": null
-        },
-        "rising": {
-          "count": 1,
-          "impressions_total": null,
-          "impressions_avg": null,
-          "engagement_total": null
-        },
-        "keyword": {
-          "count": 1,
-          "impressions_total": null,
-          "impressions_avg": null,
-          "engagement_total": null
-        }
-      },
-      "by_market_demand_band": [
-        {
-          "band": "unknown",
-          "count": 6,
-          "impressions_total": null
-        },
-        {
-          "band": "60-80",
-          "count": 2,
-          "impressions_total": null
-        },
-        {
-          "band": "40-60",
-          "count": 1,
-          "impressions_total": null
-        }
-      ],
+      "by_item": [],
+      "by_genre": [],
+      "by_selection_source": {},
+      "by_market_demand_band": [],
       "by_appeal_type_available": false
     }
   },
   "pinterest": {
     "planned": 8,
-    "posts_today": 9,
+    "posts_today": 8,
     "failed": 0,
     "skipped_duplicate": 0,
     "pending": 0,
@@ -365,69 +135,65 @@
         }
       },
       "slot_other": {
-        "attempted": 1,
-        "success": 1,
+        "attempted": 0,
+        "success": 0,
         "failed": 0
       },
-      "success_total": 9,
+      "success_total": 8,
       "failed_total": 0,
       "by_item": [
         {
-          "item_code": "anuajapan:10000450"
+          "item_code": "f362042-anan:10000112"
         },
         {
-          "item_code": "bellemaison-interior:10162628"
+          "item_code": "jcrops:10000347"
         },
         {
-          "item_code": "f282294-tatsuno:10000844"
+          "item_code": "kassai:10000474"
         },
         {
-          "item_code": "f401307-fukuoka:10000121"
+          "item_code": "kouragumi:10000207"
         },
         {
-          "item_code": "jcrops:10001511"
+          "item_code": "murphyshop:10001576"
         },
         {
-          "item_code": "motebeauty:10084922"
+          "item_code": "netbaby:10035957"
         },
         {
-          "item_code": "salmon-hirao:10000101"
+          "item_code": "shopishizuka:10001737"
         },
         {
-          "item_code": "supplement-fan:10029427"
+          "item_code": "yamaichi-himono:10000052"
         }
       ],
       "by_genre": [
         {
-          "genre_label": "美容・コスメ・香水",
+          "genre_label": "生活用品",
           "count": 1
+        },
+        {
+          "genre_label": "食品",
+          "count": 4
         },
         {
           "genre_label": "キッチン用品",
           "count": 1
         },
         {
-          "genre_label": "生活用品",
+          "genre_label": "全ジャンル",
           "count": 1
         },
         {
-          "genre_label": "unknown",
-          "count": 3
-        },
-        {
-          "genre_label": "食品",
-          "count": 1
-        },
-        {
-          "genre_label": "美容",
+          "genre_label": "キッチン用品・食器・調理器具",
           "count": 1
         }
       ],
       "by_selection_source": {
+        "keyword": 4,
         "rising": 1,
-        "keyword": 5,
-        "market": 1,
-        "amazon_safe": 1
+        "market": 2,
+        "explore": 1
       },
       "impressions_available": false,
       "impressions": null,
@@ -436,90 +202,108 @@
     }
   },
   "room": {
-    "candidate_today": 8,
+    "candidate_today": 9,
     "approved_today": 20,
     "completed_today": 20,
     "extended": {
-      "candidate_to_completed_rate": 2.5,
+      "candidate_to_completed_rate": 2.2222,
       "candidate_to_completed_rate_available": true,
       "by_item": [
         {
-          "item_code": "f401307-fukuoka:10000121",
-          "rank": null,
-          "market_demand_score": null
-        },
-        {
-          "item_code": "jcrops:10001511",
-          "rank": 8,
-          "market_demand_score": 65.09
-        },
-        {
-          "item_code": "nichimaclub:10000654",
-          "rank": 5,
-          "market_demand_score": 61.96
-        },
-        {
-          "item_code": "rakuten24:10674449",
-          "rank": 11,
-          "market_demand_score": 56.0
-        },
-        {
-          "item_code": "rakuten24:11200559",
-          "rank": 10,
-          "market_demand_score": 60.12
-        },
-        {
-          "item_code": "salmon-hirao:10000101",
-          "rank": null,
-          "market_demand_score": null
-        },
-        {
-          "item_code": "supplement-fan:10029427",
-          "rank": null,
-          "market_demand_score": null
-        },
-        {
-          "item_code": "zenbofficial:10000158",
+          "item_code": "jcrops:10000347",
           "rank": 6,
-          "market_demand_score": 59.34
+          "market_demand_score": 66.43
+        },
+        {
+          "item_code": "kashiwa01:10000048",
+          "rank": 5,
+          "market_demand_score": 61.57
+        },
+        {
+          "item_code": "masuyone:10000016",
+          "rank": 4,
+          "market_demand_score": 61.09
+        },
+        {
+          "item_code": "netbaby:10028658",
+          "rank": 21,
+          "market_demand_score": 47.15
+        },
+        {
+          "item_code": "rakuten24:11319035",
+          "rank": 8,
+          "market_demand_score": 61.87
+        },
+        {
+          "item_code": "rakuten24:11342601",
+          "rank": 9,
+          "market_demand_score": 60.31
+        },
+        {
+          "item_code": "shopishizuka:10001737",
+          "rank": 1,
+          "market_demand_score": 67.24
+        },
+        {
+          "item_code": "supplemart:10001475",
+          "rank": null,
+          "market_demand_score": null
+        },
+        {
+          "item_code": "tvert:10000485",
+          "rank": 8,
+          "market_demand_score": 58.44
         }
       ],
       "by_genre": [
         {
-          "genre_label": "unknown",
-          "count": 3
+          "genre_label": "食品",
+          "count": 2
         },
         {
-          "genre_label": "食品",
-          "count": 3
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 2
+        },
+        {
+          "genre_label": "unknown",
+          "count": 2
         },
         {
           "genre_label": "日用品雑貨・文房具・手芸",
           "count": 2
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 1
         }
       ],
       "by_selection_source": {
-        "keyword": 2,
-        "market": 1,
+        "rising": 4,
         "explore": 3,
-        "amazon_safe": 1,
-        "rising": 1
+        "market": 1,
+        "keyword": 1
       },
       "rank_list": [
-        8,
+        6,
         5,
-        11,
-        10,
-        6
+        4,
+        21,
+        8,
+        9,
+        1,
+        8
       ],
       "market_demand_score_list": [
-        65.09,
-        61.96,
-        56.0,
-        60.12,
-        59.34
+        66.43,
+        61.57,
+        61.09,
+        47.15,
+        61.87,
+        60.31,
+        67.24,
+        58.44
       ],
-      "rising_count": 1
+      "rising_count": 4
     }
   },
   "market_demand": {
@@ -533,29 +317,29 @@
         "genre_id": 100939
       },
       {
-        "item_code": "teamo:10001200",
-        "item_name": "コンタクトレンズ ワンデー 近視 遠視 選べる【2箱4箱】 TeAmo CLEAR 1DAY UV 低含水 高含水 ティアモ クリア ワンデー まとめ買い 1箱30枚 TeAmo コンタクト クリア 近視用 遠視用 1日使い捨て クリアワンデー 度あり UVカット ソフトコンタクト 送料無料 【最安値に挑戦】",
+        "item_code": "kouragumi:10001552",
+        "item_name": "お試し送料無料2,990円～「有塩or無塩」「骨ありor骨なし」が選べる！⇒脂のり抜群の銀鮭 切り身 業務用 1kg お試し お中元 ギフト プレゼント 【P】",
         "rank": 2,
-        "market_demand_score": 75.7,
-        "genre_id": null
+        "market_demand_score": 75.1,
+        "genre_id": 100227
       },
       {
         "item_code": "kanidokoro:10001780",
-        "item_name": "おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖",
+        "item_name": "【P最大4倍★18の日】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/18 00:00〜23:59迄エントリーで】",
         "rank": 1,
-        "market_demand_score": 75.31,
-        "genre_id": null
-      },
-      {
-        "item_code": "pricon:10003151",
-        "item_name": "コンタクトレンズ ワンデー コンタクト ｜ ワンデーアキュビュー オアシス 90枚パック 2箱セット 1日使い捨て コンタクト （コンタクト ワンデー / アキュビュー / オアシス / ジョンソン&ジョンソン / クリアレンズ 1day）",
-        "rank": 3,
-        "market_demand_score": 75.08,
+        "market_demand_score": 75.05,
         "genre_id": null
       },
       {
         "item_code": "kanidokoro:10001780",
-        "item_name": "おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖",
+        "item_name": "【P最大4倍★18の日】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/18 00:00〜23:59迄エントリーで】",
+        "rank": 1,
+        "market_demand_score": 75.05,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "kanidokoro:10001780",
+        "item_name": "【P最大4倍★0の日】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/20 00:00〜23:59迄エントリー他で】",
         "rank": 1,
         "market_demand_score": 75.05,
         "genre_id": 100227
@@ -563,44 +347,44 @@
     ],
     "top_rising": [
       {
-        "item_code": "rakuten24:11354091",
-        "item_name": "レチノパワー リンクルクリーム ba L(22g)【エリクシール(ELIXIR)】[レチノール クリーム しわ対策 しっとり 目もと]",
-        "rank": 2,
-        "previous_rank": 19,
-        "rank_velocity": 0.7084,
+        "item_code": "larocheposay:10000039",
+        "item_name": "ポイント最大19倍★楽天BRAND DAY 10/20 00:00~10/21 23:59★【公式】楽天限定★トーンアップUV 人気サンプルセット / サンプル3点付きキット/ 30mL/ ローズ＋ / ホワイト/ クリア/ ティント/ ローズ＋ BIGサイズ 50mL / 日焼け止め / SPF50+ / 正規品/ ダーマコスメ",
+        "rank": 3,
+        "previous_rank": 30,
+        "rank_velocity": 1.125,
         "genre_id": 100939
       },
       {
-        "item_code": "supernice-store:10000012",
-        "item_name": "★期間限定50％OFFクーポン配布★【SPICARE正規品】SPICARE V3 ファンデーション スピケア 崩れない カバー力 肌に優しい 美肌 保湿 保湿成分配合 ツヤ ハリ感 本体 レフィル パフ付き 15g",
-        "rank": 2,
-        "previous_rank": 19,
-        "rank_velocity": 0.7084,
-        "genre_id": 100939
-      },
-      {
-        "item_code": "kiroran:10000196",
-        "item_name": "【FULNG お風呂 ヘアキャッチャー】お風呂 排水溝 排水口 カバー ゴミ受け ユニットバス用 掃除簡単 排水口ネット 排水溝ネット はいすいこう ネット 極排水 送料無料 [実用新案出願済み]",
-        "rank": 13,
+        "item_code": "sk-ii:10003757",
+        "item_name": "【公式】SK-II ジェノプティクス CC プライマー(30g/50g)｜SK-2 / SK-II（エスケーツー） 正規品 送料無料 SK2 SKII UVケア スキンケア 下地 誕生日 女性 化粧品 コスメ 妻 誕生日 化粧下地 ベース uv ケア 紫外線対策",
+        "rank": 11,
         "previous_rank": 28,
+        "rank_velocity": 0.7083,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "yunth:10000000",
+        "item_name": "【送料無料】Yunth 生ビタミンC 美白美容液 1ml×28包 | 美容液 ビタミンC 導入美容液 先行美容液 ブースター 美白 ランキング おすすめ スキンケア | ユンス ゆんす",
+        "rank": 3,
+        "previous_rank": 18,
         "rank_velocity": 0.625,
-        "genre_id": 215783
-      },
-      {
-        "item_code": "anuajapan:10000450",
-        "item_name": "＼クーポンで4,950円／【好評につき販売延長！】【ナカモトフウフガチ推しセット】【Anua公式】★楽天限定★ ギフト：マスクパック、2セット購入でミニミスト｜PDRN レチノール ドクダミ 美容液 化粧水 クリーム パック 化粧ノリ メイクノリ ツヤ ハリ アヌア anua",
-        "rank": 6,
-        "previous_rank": 20,
-        "rank_velocity": 0.5834,
         "genre_id": 100939
       },
       {
-        "item_code": "rakuten24:11405953",
-        "item_name": "【企画品】HAKU メラノフォーカスIV セット26(1セット)【HAKU(ハク)】",
-        "rank": 6,
-        "previous_rank": 20,
-        "rank_velocity": 0.5834,
-        "genre_id": 100939
+        "item_code": "cookware-carote:10000208",
+        "item_name": "【本日限定★12点が9580円だけ！】CAROTE カローテ フライパン セット12・9・8・4点 IH対応 PFOA PFOS フリー 鍋セット 取っ手のとれる 卵焼き器 マーブルコート スルスルすべる くっつくことがなく手入れ簡単 一年保証 黒 ブラック EWシリーズ",
+        "rank": 17,
+        "previous_rank": 30,
+        "rank_velocity": 0.5417,
+        "genre_id": 558944
+      },
+      {
+        "item_code": "kawasaki-beikoku:10000016",
+        "item_name": "新米 令和8年産 北海道産 ゆめぴりか 10kg (5kg×2袋セット)＜白米＞ 【送料無料】【北海道米 送料込み 米 お米 真空パック選択可】",
+        "rank": 5,
+        "previous_rank": 17,
+        "rank_velocity": 0.5,
+        "genre_id": 100227
       }
     ],
     "tier_counts": {
@@ -614,31 +398,31 @@
       "ranking_fetch_success": 12,
       "ranking_fetch_failed": 0,
       "ranking_fetch_ran_today": true,
-      "items_fetched_today": 359,
-      "rank_velocity_avg": 0.01,
+      "items_fetched_today": 360,
+      "rank_velocity_avg": -0.02,
       "by_genre_adopted": [
         {
-          "genre_label": "美容・コスメ・香水",
+          "genre_label": "食品",
+          "count": 4
+        },
+        {
+          "genre_label": "unknown",
           "count": 3
         },
         {
-          "genre_label": "食品",
-          "count": 5
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 3
+        },
+        {
+          "genre_label": "家電",
+          "count": 1
         },
         {
           "genre_label": "日用品雑貨・文房具・手芸",
           "count": 3
         },
         {
-          "genre_label": "キッチン用品・食器・調理器具",
-          "count": 1
-        },
-        {
-          "genre_label": "家電",
-          "count": 2
-        },
-        {
-          "genre_label": "unknown",
+          "genre_label": "美容・コスメ・香水",
           "count": 1
         }
       ],
@@ -651,29 +435,29 @@
           "genre_id": 100939
         },
         {
-          "item_code": "teamo:10001200",
-          "item_name": "コンタクトレンズ ワンデー 近視 遠視 選べる【2箱4箱】 TeAmo CLEAR 1DAY UV 低含水 高含水 ティアモ クリア ワンデー まとめ買い 1箱30枚 TeAmo コンタクト クリア 近視用 遠視用 1日使い捨て クリアワンデー 度あり UVカット ソフトコンタクト 送料無料 【最安値に挑戦】",
+          "item_code": "kouragumi:10001552",
+          "item_name": "お試し送料無料2,990円～「有塩or無塩」「骨ありor骨なし」が選べる！⇒脂のり抜群の銀鮭 切り身 業務用 1kg お試し お中元 ギフト プレゼント 【P】",
           "rank": 2,
-          "market_demand_score": 75.7,
-          "genre_id": null
+          "market_demand_score": 75.1,
+          "genre_id": 100227
         },
         {
           "item_code": "kanidokoro:10001780",
-          "item_name": "おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖",
+          "item_name": "【P最大4倍★18の日】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/18 00:00〜23:59迄エントリーで】",
           "rank": 1,
-          "market_demand_score": 75.31,
-          "genre_id": null
-        },
-        {
-          "item_code": "pricon:10003151",
-          "item_name": "コンタクトレンズ ワンデー コンタクト ｜ ワンデーアキュビュー オアシス 90枚パック 2箱セット 1日使い捨て コンタクト （コンタクト ワンデー / アキュビュー / オアシス / ジョンソン&ジョンソン / クリアレンズ 1day）",
-          "rank": 3,
-          "market_demand_score": 75.08,
+          "market_demand_score": 75.05,
           "genre_id": null
         },
         {
           "item_code": "kanidokoro:10001780",
-          "item_name": "おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖",
+          "item_name": "【P最大4倍★18の日】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/18 00:00〜23:59迄エントリーで】",
+          "rank": 1,
+          "market_demand_score": 75.05,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "kanidokoro:10001780",
+          "item_name": "【P最大4倍★0の日】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/20 00:00〜23:59迄エントリー他で】",
           "rank": 1,
           "market_demand_score": 75.05,
           "genre_id": 100227
@@ -681,44 +465,44 @@
       ],
       "top_rising": [
         {
-          "item_code": "rakuten24:11354091",
-          "item_name": "レチノパワー リンクルクリーム ba L(22g)【エリクシール(ELIXIR)】[レチノール クリーム しわ対策 しっとり 目もと]",
-          "rank": 2,
-          "previous_rank": 19,
-          "rank_velocity": 0.7084,
+          "item_code": "larocheposay:10000039",
+          "item_name": "ポイント最大19倍★楽天BRAND DAY 10/20 00:00~10/21 23:59★【公式】楽天限定★トーンアップUV 人気サンプルセット / サンプル3点付きキット/ 30mL/ ローズ＋ / ホワイト/ クリア/ ティント/ ローズ＋ BIGサイズ 50mL / 日焼け止め / SPF50+ / 正規品/ ダーマコスメ",
+          "rank": 3,
+          "previous_rank": 30,
+          "rank_velocity": 1.125,
           "genre_id": 100939
         },
         {
-          "item_code": "supernice-store:10000012",
-          "item_name": "★期間限定50％OFFクーポン配布★【SPICARE正規品】SPICARE V3 ファンデーション スピケア 崩れない カバー力 肌に優しい 美肌 保湿 保湿成分配合 ツヤ ハリ感 本体 レフィル パフ付き 15g",
-          "rank": 2,
-          "previous_rank": 19,
-          "rank_velocity": 0.7084,
-          "genre_id": 100939
-        },
-        {
-          "item_code": "kiroran:10000196",
-          "item_name": "【FULNG お風呂 ヘアキャッチャー】お風呂 排水溝 排水口 カバー ゴミ受け ユニットバス用 掃除簡単 排水口ネット 排水溝ネット はいすいこう ネット 極排水 送料無料 [実用新案出願済み]",
-          "rank": 13,
+          "item_code": "sk-ii:10003757",
+          "item_name": "【公式】SK-II ジェノプティクス CC プライマー(30g/50g)｜SK-2 / SK-II（エスケーツー） 正規品 送料無料 SK2 SKII UVケア スキンケア 下地 誕生日 女性 化粧品 コスメ 妻 誕生日 化粧下地 ベース uv ケア 紫外線対策",
+          "rank": 11,
           "previous_rank": 28,
+          "rank_velocity": 0.7083,
+          "genre_id": 100939
+        },
+        {
+          "item_code": "yunth:10000000",
+          "item_name": "【送料無料】Yunth 生ビタミンC 美白美容液 1ml×28包 | 美容液 ビタミンC 導入美容液 先行美容液 ブースター 美白 ランキング おすすめ スキンケア | ユンス ゆんす",
+          "rank": 3,
+          "previous_rank": 18,
           "rank_velocity": 0.625,
-          "genre_id": 215783
-        },
-        {
-          "item_code": "anuajapan:10000450",
-          "item_name": "＼クーポンで4,950円／【好評につき販売延長！】【ナカモトフウフガチ推しセット】【Anua公式】★楽天限定★ ギフト：マスクパック、2セット購入でミニミスト｜PDRN レチノール ドクダミ 美容液 化粧水 クリーム パック 化粧ノリ メイクノリ ツヤ ハリ アヌア anua",
-          "rank": 6,
-          "previous_rank": 20,
-          "rank_velocity": 0.5834,
           "genre_id": 100939
         },
         {
-          "item_code": "rakuten24:11405953",
-          "item_name": "【企画品】HAKU メラノフォーカスIV セット26(1セット)【HAKU(ハク)】",
-          "rank": 6,
-          "previous_rank": 20,
-          "rank_velocity": 0.5834,
-          "genre_id": 100939
+          "item_code": "cookware-carote:10000208",
+          "item_name": "【本日限定★12点が9580円だけ！】CAROTE カローテ フライパン セット12・9・8・4点 IH対応 PFOA PFOS フリー 鍋セット 取っ手のとれる 卵焼き器 マーブルコート スルスルすべる くっつくことがなく手入れ簡単 一年保証 黒 ブラック EWシリーズ",
+          "rank": 17,
+          "previous_rank": 30,
+          "rank_velocity": 0.5417,
+          "genre_id": 558944
+        },
+        {
+          "item_code": "kawasaki-beikoku:10000016",
+          "item_name": "新米 令和8年産 北海道産 ゆめぴりか 10kg (5kg×2袋セット)＜白米＞ 【送料無料】【北海道米 送料込み 米 お米 真空パック選択可】",
+          "rank": 5,
+          "previous_rank": 17,
+          "rank_velocity": 0.5,
+          "genre_id": 100227
         }
       ],
       "tier_counts": {
@@ -758,12 +542,12 @@
   },
   "amazon_phase1": {
     "links_total": 103,
-    "target_products_total": 1318,
+    "target_products_total": 1358,
     "buttons_live": 103,
-    "site_day": "2026-10-19",
+    "site_day": "2026-10-20",
     "new_matches_today": 0,
     "high_confidence_total": 62,
-    "unmatched_total": 1215,
+    "unmatched_total": 1255,
     "match_method_counts": {
       "A": 0,
       "B": 24,
@@ -780,8 +564,8 @@
     },
     "ambiguous_pending_review": 20,
     "needs_review": 4,
-    "x_dual_coverage_posts_today": 5,
-    "x_rakuten_only_posts_today": 4,
+    "x_dual_coverage_posts_today": 0,
+    "x_rakuten_only_posts_today": 0,
     "clicks_available": false,
     "raw_clicks": 0,
     "unique_clicks": 0,

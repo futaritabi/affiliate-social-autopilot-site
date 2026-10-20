@@ -1,0 +1,592 @@
+{
+  "generated_at": "2026-10-20T23:31:05.571435+09:00",
+  "date": "2026-10-20",
+  "anomalies": [
+    "⚠️ 楽天アフィリエイトの売上CSV取込が207時間前から更新されていません(最終取込: 2026-10-12 08:22)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
+  ],
+  "x": {
+    "slots": [
+      {
+        "time": "08:30",
+        "planned": 3,
+        "actual": 0,
+        "recovered": 0,
+        "shortfall": 3,
+        "status": "api_failure"
+      },
+      {
+        "time": "13:00",
+        "planned": 3,
+        "actual": 0,
+        "recovered": 0,
+        "shortfall": 3,
+        "status": "api_failure"
+      },
+      {
+        "time": "18:00",
+        "planned": 3,
+        "actual": 0,
+        "recovered": 0,
+        "shortfall": 3,
+        "status": "api_failure"
+      }
+    ],
+    "slot_status": [
+      {
+        "status": "api_failure",
+        "planned": 3,
+        "actual": 0,
+        "detail": "BufferRateLimited(ネットワーク/接続エラー) (item_code=cocodecow:10706986 slot=08:30)",
+        "slot": "08:30"
+      },
+      {
+        "status": "api_failure",
+        "planned": 3,
+        "actual": 0,
+        "detail": "BufferRateLimited(ネットワーク/接続エラー) (item_code=cocodecow:10706986 slot=13:00)",
+        "slot": "13:00"
+      },
+      {
+        "status": "api_failure",
+        "planned": 3,
+        "actual": 0,
+        "detail": "BufferRateLimited(ネットワーク/接続エラー) (item_code=cocodecow:10706986 slot=18:00)",
+        "slot": "18:00"
+      }
+    ],
+    "slot_other": 0,
+    "posts_today": 0,
+    "posts_month": 167,
+    "success": 0,
+    "failed": 3,
+    "skipped_duplicate": 0,
+    "daily_cap": 9,
+    "capped": false,
+    "clicks": 0,
+    "clicks_available": false,
+    "tweets": [],
+    "extended": {
+      "impressions_total": null,
+      "impressions_available": false,
+      "impressions_avg_per_post": null,
+      "engagement_total": null,
+      "engagement_available": false,
+      "engagement_rate": null,
+      "posts_detail": [],
+      "slot_impressions": {
+        "08:30": {
+          "posts": 0,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        },
+        "13:00": {
+          "posts": 0,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        },
+        "18:00": {
+          "posts": 0,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        }
+      },
+      "by_item": [],
+      "by_genre": [],
+      "by_selection_source": {},
+      "by_market_demand_band": [],
+      "by_appeal_type_available": false
+    }
+  },
+  "pinterest": {
+    "planned": 8,
+    "posts_today": 8,
+    "failed": 0,
+    "skipped_duplicate": 0,
+    "pending": 0,
+    "clicks": 0,
+    "clicks_available": false,
+    "extended": {
+      "slot_counts": {
+        "09:00": {
+          "attempted": 3,
+          "success": 3,
+          "failed": 0
+        },
+        "12:30": {
+          "attempted": 3,
+          "success": 3,
+          "failed": 0
+        },
+        "17:00": {
+          "attempted": 2,
+          "success": 2,
+          "failed": 0
+        },
+        "20:15": {
+          "attempted": 0,
+          "success": 0,
+          "failed": 0
+        }
+      },
+      "slot_other": {
+        "attempted": 0,
+        "success": 0,
+        "failed": 0
+      },
+      "success_total": 8,
+      "failed_total": 0,
+      "by_item": [
+        {
+          "item_code": "f362042-anan:10000112"
+        },
+        {
+          "item_code": "jcrops:10000347"
+        },
+        {
+          "item_code": "kassai:10000474"
+        },
+        {
+          "item_code": "kouragumi:10000207"
+        },
+        {
+          "item_code": "murphyshop:10001576"
+        },
+        {
+          "item_code": "netbaby:10035957"
+        },
+        {
+          "item_code": "shopishizuka:10001737"
+        },
+        {
+          "item_code": "yamaichi-himono:10000052"
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "生活用品",
+          "count": 1
+        },
+        {
+          "genre_label": "食品",
+          "count": 4
+        },
+        {
+          "genre_label": "キッチン用品",
+          "count": 1
+        },
+        {
+          "genre_label": "全ジャンル",
+          "count": 1
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 1
+        }
+      ],
+      "by_selection_source": {
+        "keyword": 4,
+        "rising": 1,
+        "market": 2,
+        "explore": 1
+      },
+      "impressions_available": false,
+      "impressions": null,
+      "engagement_available": false,
+      "engagement": null
+    }
+  },
+  "room": {
+    "candidate_today": 9,
+    "approved_today": 20,
+    "completed_today": 20,
+    "extended": {
+      "candidate_to_completed_rate": 2.2222,
+      "candidate_to_completed_rate_available": true,
+      "by_item": [
+        {
+          "item_code": "jcrops:10000347",
+          "rank": 6,
+          "market_demand_score": 66.43
+        },
+        {
+          "item_code": "kashiwa01:10000048",
+          "rank": 5,
+          "market_demand_score": 61.57
+        },
+        {
+          "item_code": "masuyone:10000016",
+          "rank": 4,
+          "market_demand_score": 61.09
+        },
+        {
+          "item_code": "netbaby:10028658",
+          "rank": 21,
+          "market_demand_score": 47.15
+        },
+        {
+          "item_code": "rakuten24:11319035",
+          "rank": 8,
+          "market_demand_score": 61.87
+        },
+        {
+          "item_code": "rakuten24:11342601",
+          "rank": 9,
+          "market_demand_score": 60.31
+        },
+        {
+          "item_code": "shopishizuka:10001737",
+          "rank": 1,
+          "market_demand_score": 67.24
+        },
+        {
+          "item_code": "supplemart:10001475",
+          "rank": null,
+          "market_demand_score": null
+        },
+        {
+          "item_code": "tvert:10000485",
+          "rank": 8,
+          "market_demand_score": 58.44
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "食品",
+          "count": 2
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 2
+        },
+        {
+          "genre_label": "unknown",
+          "count": 2
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 2
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 1
+        }
+      ],
+      "by_selection_source": {
+        "rising": 4,
+        "explore": 3,
+        "market": 1,
+        "keyword": 1
+      },
+      "rank_list": [
+        6,
+        5,
+        4,
+        21,
+        8,
+        9,
+        1,
+        8
+      ],
+      "market_demand_score_list": [
+        66.43,
+        61.57,
+        61.09,
+        47.15,
+        61.87,
+        60.31,
+        67.24,
+        58.44
+      ],
+      "rising_count": 4
+    }
+  },
+  "market_demand": {
+    "ranking_available": true,
+    "top_demand": [
+      {
+        "item_code": "attenir:10000252",
+        "item_name": "大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 皮脂 詰め替え ダブル洗顔不要 アテニア 公式 ]",
+        "rank": 1,
+        "market_demand_score": 76.0,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "kouragumi:10001552",
+        "item_name": "お試し送料無料2,990円～「有塩or無塩」「骨ありor骨なし」が選べる！⇒脂のり抜群の銀鮭 切り身 業務用 1kg お試し お中元 ギフト プレゼント 【P】",
+        "rank": 2,
+        "market_demand_score": 75.1,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "kanidokoro:10001780",
+        "item_name": "【P最大4倍★18の日】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/18 00:00〜23:59迄エントリーで】",
+        "rank": 1,
+        "market_demand_score": 75.05,
+        "genre_id": null
+      },
+      {
+        "item_code": "kanidokoro:10001780",
+        "item_name": "【P最大4倍★18の日】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/18 00:00〜23:59迄エントリーで】",
+        "rank": 1,
+        "market_demand_score": 75.05,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "kanidokoro:10001780",
+        "item_name": "【P最大4倍★0の日】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/20 00:00〜23:59迄エントリー他で】",
+        "rank": 1,
+        "market_demand_score": 75.05,
+        "genre_id": 100227
+      }
+    ],
+    "top_rising": [
+      {
+        "item_code": "larocheposay:10000039",
+        "item_name": "ポイント最大19倍★楽天BRAND DAY 10/20 00:00~10/21 23:59★【公式】楽天限定★トーンアップUV 人気サンプルセット / サンプル3点付きキット/ 30mL/ ローズ＋ / ホワイト/ クリア/ ティント/ ローズ＋ BIGサイズ 50mL / 日焼け止め / SPF50+ / 正規品/ ダーマコスメ",
+        "rank": 3,
+        "previous_rank": 30,
+        "rank_velocity": 1.125,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "sk-ii:10003757",
+        "item_name": "【公式】SK-II ジェノプティクス CC プライマー(30g/50g)｜SK-2 / SK-II（エスケーツー） 正規品 送料無料 SK2 SKII UVケア スキンケア 下地 誕生日 女性 化粧品 コスメ 妻 誕生日 化粧下地 ベース uv ケア 紫外線対策",
+        "rank": 11,
+        "previous_rank": 28,
+        "rank_velocity": 0.7083,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "yunth:10000000",
+        "item_name": "【送料無料】Yunth 生ビタミンC 美白美容液 1ml×28包 | 美容液 ビタミンC 導入美容液 先行美容液 ブースター 美白 ランキング おすすめ スキンケア | ユンス ゆんす",
+        "rank": 3,
+        "previous_rank": 18,
+        "rank_velocity": 0.625,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "cookware-carote:10000208",
+        "item_name": "【本日限定★12点が9580円だけ！】CAROTE カローテ フライパン セット12・9・8・4点 IH対応 PFOA PFOS フリー 鍋セット 取っ手のとれる 卵焼き器 マーブルコート スルスルすべる くっつくことがなく手入れ簡単 一年保証 黒 ブラック EWシリーズ",
+        "rank": 17,
+        "previous_rank": 30,
+        "rank_velocity": 0.5417,
+        "genre_id": 558944
+      },
+      {
+        "item_code": "kawasaki-beikoku:10000016",
+        "item_name": "新米 令和8年産 北海道産 ゆめぴりか 10kg (5kg×2袋セット)＜白米＞ 【送料無料】【北海道米 送料込み 米 お米 真空パック選択可】",
+        "rank": 5,
+        "previous_rank": 17,
+        "rank_velocity": 0.5,
+        "genre_id": 100227
+      }
+    ],
+    "tier_counts": {
+      "keyword": 10,
+      "market": 8,
+      "rising": 4,
+      "explore": 3
+    },
+    "extended": {
+      "ranking_fetch_calls_expected": 12,
+      "ranking_fetch_success": 12,
+      "ranking_fetch_failed": 0,
+      "ranking_fetch_ran_today": true,
+      "items_fetched_today": 360,
+      "rank_velocity_avg": -0.02,
+      "by_genre_adopted": [
+        {
+          "genre_label": "食品",
+          "count": 4
+        },
+        {
+          "genre_label": "unknown",
+          "count": 3
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 3
+        },
+        {
+          "genre_label": "家電",
+          "count": 1
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 3
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 1
+        }
+      ],
+      "top_market_demand": [
+        {
+          "item_code": "attenir:10000252",
+          "item_name": "大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 皮脂 詰め替え ダブル洗顔不要 アテニア 公式 ]",
+          "rank": 1,
+          "market_demand_score": 76.0,
+          "genre_id": 100939
+        },
+        {
+          "item_code": "kouragumi:10001552",
+          "item_name": "お試し送料無料2,990円～「有塩or無塩」「骨ありor骨なし」が選べる！⇒脂のり抜群の銀鮭 切り身 業務用 1kg お試し お中元 ギフト プレゼント 【P】",
+          "rank": 2,
+          "market_demand_score": 75.1,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "kanidokoro:10001780",
+          "item_name": "【P最大4倍★18の日】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/18 00:00〜23:59迄エントリーで】",
+          "rank": 1,
+          "market_demand_score": 75.05,
+          "genre_id": null
+        },
+        {
+          "item_code": "kanidokoro:10001780",
+          "item_name": "【P最大4倍★18の日】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/18 00:00〜23:59迄エントリーで】",
+          "rank": 1,
+          "market_demand_score": 75.05,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "kanidokoro:10001780",
+          "item_name": "【P最大4倍★0の日】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/20 00:00〜23:59迄エントリー他で】",
+          "rank": 1,
+          "market_demand_score": 75.05,
+          "genre_id": 100227
+        }
+      ],
+      "top_rising": [
+        {
+          "item_code": "larocheposay:10000039",
+          "item_name": "ポイント最大19倍★楽天BRAND DAY 10/20 00:00~10/21 23:59★【公式】楽天限定★トーンアップUV 人気サンプルセット / サンプル3点付きキット/ 30mL/ ローズ＋ / ホワイト/ クリア/ ティント/ ローズ＋ BIGサイズ 50mL / 日焼け止め / SPF50+ / 正規品/ ダーマコスメ",
+          "rank": 3,
+          "previous_rank": 30,
+          "rank_velocity": 1.125,
+          "genre_id": 100939
+        },
+        {
+          "item_code": "sk-ii:10003757",
+          "item_name": "【公式】SK-II ジェノプティクス CC プライマー(30g/50g)｜SK-2 / SK-II（エスケーツー） 正規品 送料無料 SK2 SKII UVケア スキンケア 下地 誕生日 女性 化粧品 コスメ 妻 誕生日 化粧下地 ベース uv ケア 紫外線対策",
+          "rank": 11,
+          "previous_rank": 28,
+          "rank_velocity": 0.7083,
+          "genre_id": 100939
+        },
+        {
+          "item_code": "yunth:10000000",
+          "item_name": "【送料無料】Yunth 生ビタミンC 美白美容液 1ml×28包 | 美容液 ビタミンC 導入美容液 先行美容液 ブースター 美白 ランキング おすすめ スキンケア | ユンス ゆんす",
+          "rank": 3,
+          "previous_rank": 18,
+          "rank_velocity": 0.625,
+          "genre_id": 100939
+        },
+        {
+          "item_code": "cookware-carote:10000208",
+          "item_name": "【本日限定★12点が9580円だけ！】CAROTE カローテ フライパン セット12・9・8・4点 IH対応 PFOA PFOS フリー 鍋セット 取っ手のとれる 卵焼き器 マーブルコート スルスルすべる くっつくことがなく手入れ簡単 一年保証 黒 ブラック EWシリーズ",
+          "rank": 17,
+          "previous_rank": 30,
+          "rank_velocity": 0.5417,
+          "genre_id": 558944
+        },
+        {
+          "item_code": "kawasaki-beikoku:10000016",
+          "item_name": "新米 令和8年産 北海道産 ゆめぴりか 10kg (5kg×2袋セット)＜白米＞ 【送料無料】【北海道米 送料込み 米 お米 真空パック選択可】",
+          "rank": 5,
+          "previous_rank": 17,
+          "rank_velocity": 0.5,
+          "genre_id": 100227
+        }
+      ],
+      "tier_counts": {
+        "keyword": 10,
+        "market": 8,
+        "rising": 4,
+        "explore": 3
+      },
+      "market_ranking_available": true
+    }
+  },
+  "instagram": {
+    "connected": false,
+    "slots": [
+      {
+        "time": "09:30",
+        "planned": 1,
+        "actual": 0,
+        "recovered": 0
+      },
+      {
+        "time": "19:30",
+        "planned": 1,
+        "actual": 0,
+        "recovered": 0
+      }
+    ],
+    "slot_other": 0,
+    "posts_today": 0,
+    "posts_month": 0,
+    "success": 0,
+    "failed": 0,
+    "skipped_duplicate": 0,
+    "daily_cap": 2,
+    "capped": false,
+    "media": []
+  },
+  "amazon_phase1": {
+    "links_total": 103,
+    "target_products_total": 1358,
+    "buttons_live": 103,
+    "site_day": "2026-10-20",
+    "new_matches_today": 0,
+    "high_confidence_total": 62,
+    "unmatched_total": 1255,
+    "match_method_counts": {
+      "A": 0,
+      "B": 24,
+      "C": 38,
+      "manual": 41
+    },
+    "tier_breakdown_safe_only": {
+      "A": 0,
+      "B": 24,
+      "C": 38,
+      "legacy": 38,
+      "unknown": 0,
+      "total": 100
+    },
+    "ambiguous_pending_review": 20,
+    "needs_review": 4,
+    "x_dual_coverage_posts_today": 0,
+    "x_rakuten_only_posts_today": 0,
+    "clicks_available": false,
+    "raw_clicks": 0,
+    "unique_clicks": 0,
+    "clicks_by_item": [],
+    "clicks_by_source": [],
+    "sales_available": false,
+    "sales": null,
+    "orders_available": false,
+    "orders": null,
+    "commission_available": false,
+    "commission": null,
+    "clicks": 0,
+    "note": "Clicks are our own redirect-hit count (Phase A, live). Sales/orders/commission are Amazon's official Reporting API data and remain unavailable (null, not 0) until Creators API access is confirmed on Associates Central — see app.amazon_reporting.creators_api_access_status."
+  },
+  "rakuten": {
+    "today_sales": 0.0,
+    "today_reward": 0.0,
+    "month_sales": 2550.0,
+    "month_reward": 102.0,
+    "last_import": "2026-10-12 08:22",
+    "import_stale": true,
+    "sales_available": true
+  }
+}
