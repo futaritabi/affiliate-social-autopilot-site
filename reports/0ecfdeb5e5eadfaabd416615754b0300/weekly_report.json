@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-20T23:31:06.217294+09:00",
+  "generated_at": "2026-10-21T23:31:00.607278+09:00",
   "window_7d": {
     "date_range": [
-      "2026-10-14",
-      "2026-10-20"
+      "2026-10-15",
+      "2026-10-21"
     ],
     "days_with_data": 7,
-    "x_posts_total": 50,
-    "x_success_total": 23,
-    "x_failed_total": 6,
+    "x_posts_total": 41,
+    "x_success_total": 14,
+    "x_failed_total": 9,
     "instagram_posts_total": 0,
     "rakuten_sales_total": 0.0,
     "rakuten_reward_total": 0.0,
@@ -29,20 +29,20 @@
   },
   "window_14d": {
     "date_range": [
-      "2026-10-07",
-      "2026-10-20"
+      "2026-10-08",
+      "2026-10-21"
     ],
     "days_with_data": 14,
-    "x_posts_total": 113,
-    "x_success_total": 86,
-    "x_failed_total": 6,
+    "x_posts_total": 104,
+    "x_success_total": 77,
+    "x_failed_total": 9,
     "instagram_posts_total": 0,
     "rakuten_sales_total": 0.0,
     "rakuten_reward_total": 0.0,
-    "amazon_raw_clicks_total": 0,
-    "amazon_raw_clicks_available": true,
-    "amazon_unique_clicks_total": 0,
-    "amazon_unique_clicks_available": true,
+    "amazon_raw_clicks_total": null,
+    "amazon_raw_clicks_available": false,
+    "amazon_unique_clicks_total": null,
+    "amazon_unique_clicks_available": false,
     "amazon_sales_total": null,
     "amazon_sales_available": false,
     "amazon_orders_total": null,
@@ -55,17 +55,6 @@
     "amazon_conversion_rate_available": false
   },
   "daily_series": [
-    {
-      "date": "2026-10-07",
-      "x_posts": 9,
-      "x_success": 9,
-      "x_failed": 0,
-      "rakuten_sales": 0.0,
-      "rakuten_reward": 0.0,
-      "amazon_links_total": 103,
-      "amazon_raw_clicks": 0,
-      "amazon_unique_clicks": 0
-    },
     {
       "date": "2026-10-08",
       "x_posts": 9,
@@ -208,12 +197,23 @@
       "amazon_links_total": 103,
       "amazon_raw_clicks": null,
       "amazon_unique_clicks": null
+    },
+    {
+      "date": "2026-10-21",
+      "x_posts": 0,
+      "x_success": 0,
+      "x_failed": 3,
+      "rakuten_sales": 0.0,
+      "rakuten_reward": 0.0,
+      "amazon_links_total": 103,
+      "amazon_raw_clicks": null,
+      "amazon_unique_clicks": null
     }
   ],
   "extended_7d": {
     "date_range": [
-      "2026-10-14",
-      "2026-10-20"
+      "2026-10-15",
+      "2026-10-21"
     ],
     "days": 7,
     "x": {
@@ -226,17 +226,17 @@
       "engagement_rate": null,
       "slot_impressions": {
         "08:30": {
-          "posts": 18,
+          "posts": 15,
           "impressions_total": null,
           "engagement_total": null
         },
         "13:00": {
-          "posts": 16,
+          "posts": 13,
           "impressions_total": null,
           "engagement_total": null
         },
         "18:00": {
-          "posts": 16,
+          "posts": 13,
           "impressions_total": null,
           "engagement_total": null
         }
@@ -247,7 +247,7 @@
           "13:00",
           "18:00"
         ],
-        "posts": 50,
+        "posts": 41,
         "impressions_total": null,
         "impressions_avg_per_post": null,
         "engagement_total": null
@@ -270,46 +270,6 @@
           "engagement": null
         },
         {
-          "item_code": "cocodecow:10831793",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "dmpl:10001452",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "f222101-fuji:10001229",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "gsk-prime:10004296",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "jetprice:10285916",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "kurashi-zakka:10001500",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "kurashi-zakka:10002489",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "shopmarna:10006509",
-          "impressions": null,
-          "engagement": null
-        },
-        {
           "item_code": "bikke:10000039",
           "impressions": null,
           "engagement": null
@@ -326,6 +286,11 @@
         },
         {
           "item_code": "miraclim:10002777",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "shopmarna:10006509",
           "impressions": null,
           "engagement": null
         },
@@ -498,37 +463,31 @@
       "by_genre": [
         {
           "genre_label": "生活用品",
-          "count": 8,
+          "count": 6,
           "impressions_total": null,
           "engagement_total": null
         },
         {
           "genre_label": "食品",
-          "count": 5,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "美容",
-          "count": 19,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "キッチン用品・食器・調理器具",
           "count": 3,
           "impressions_total": null,
           "engagement_total": null
         },
         {
-          "genre_label": "日用品雑貨・文房具・手芸",
-          "count": 2,
+          "genre_label": "美容",
+          "count": 17,
           "impressions_total": null,
           "engagement_total": null
         },
         {
           "genre_label": "キッチン用品",
-          "count": 5,
+          "count": 4,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 2,
           "impressions_total": null,
           "engagement_total": null
         },
@@ -541,6 +500,12 @@
         {
           "genre_label": "美容・コスメ・香水",
           "count": 3,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 1,
           "impressions_total": null,
           "engagement_total": null
         },
@@ -559,17 +524,17 @@
       ],
       "by_selection_source": {
         "keyword": {
-          "count": 11,
+          "count": 8,
           "impressions_total": null,
           "engagement_total": null
         },
         "amazon_safe": {
-          "count": 27,
+          "count": 23,
           "impressions_total": null,
           "engagement_total": null
         },
         "market": {
-          "count": 8,
+          "count": 6,
           "impressions_total": null,
           "engagement_total": null
         },
@@ -582,17 +547,17 @@
       "by_market_demand_band": [
         {
           "band": "unknown",
-          "count": 38,
+          "count": 31,
           "impressions_total": null
         },
         {
           "band": "60-80",
-          "count": 6,
+          "count": 5,
           "impressions_total": null
         },
         {
           "band": "40-60",
-          "count": 6,
+          "count": 5,
           "impressions_total": null
         }
       ]
@@ -625,28 +590,28 @@
       "failed_total": 0,
       "by_genre": [
         {
-          "genre_label": "キッチン用品",
-          "count": 7
-        },
-        {
           "genre_label": "食品",
-          "count": 17
+          "count": 16
         },
         {
           "genre_label": "美容",
-          "count": 11
+          "count": 9
         },
         {
           "genre_label": "キッチン用品・食器・調理器具",
-          "count": 4
+          "count": 6
         },
         {
           "genre_label": "日用品雑貨・文房具・手芸",
-          "count": 2
+          "count": 4
         },
         {
           "genre_label": "家電",
-          "count": 4
+          "count": 5
+        },
+        {
+          "genre_label": "キッチン用品",
+          "count": 5
         },
         {
           "genre_label": "美容・コスメ・香水",
@@ -687,30 +652,26 @@
     },
     "room": {
       "days_with_extended_data": 7,
-      "candidate_total": 57,
-      "approved_total": 60,
-      "completed_total": 60,
-      "candidate_to_completed_rate": 1.0526,
-      "rising_count_total": 11,
+      "candidate_total": 53,
+      "approved_total": 80,
+      "completed_total": 80,
+      "candidate_to_completed_rate": 1.5094,
+      "rising_count_total": 13,
       "by_genre": [
         {
-          "genre_label": "キッチン用品",
-          "count": 4
+          "genre_label": "食品",
+          "count": 16
         },
         {
           "genre_label": "全ジャンル",
-          "count": 4
+          "count": 3
         },
         {
           "genre_label": "美容",
-          "count": 7
+          "count": 6
         },
         {
-          "genre_label": "美容・コスメ・香水",
-          "count": 8
-        },
-        {
-          "genre_label": "日用品雑貨・文房具・手芸",
+          "genre_label": "キッチン用品・食器・調理器具",
           "count": 6
         },
         {
@@ -718,12 +679,16 @@
           "count": 3
         },
         {
-          "genre_label": "食品",
-          "count": 16
+          "genre_label": "美容・コスメ・香水",
+          "count": 6
         },
         {
-          "genre_label": "キッチン用品・食器・調理器具",
-          "count": 4
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 7
+        },
+        {
+          "genre_label": "キッチン用品",
+          "count": 1
         },
         {
           "genre_label": "unknown",
@@ -731,16 +696,16 @@
         }
       ],
       "by_selection_source": {
-        "keyword": {
-          "count": 0
-        },
-        "market": {
-          "count": 0
-        },
         "explore": {
           "count": 0
         },
+        "keyword": {
+          "count": 0
+        },
         "rising": {
+          "count": 0
+        },
+        "market": {
           "count": 0
         },
         "amazon_safe": {
@@ -748,11 +713,6 @@
         }
       },
       "market_demand_score_list": [
-        59.11,
-        63.69,
-        62.59,
-        63.52,
-        59.31,
         46.7,
         62.22,
         58.41,
@@ -785,14 +745,15 @@
         61.87,
         60.31,
         67.24,
-        58.44
+        58.44,
+        62.22,
+        65.56,
+        61.59,
+        59.82,
+        62.49,
+        41.07
       ],
       "rank_list": [
-        1,
-        5,
-        5,
-        3,
-        13,
         21,
         2,
         3,
@@ -825,7 +786,13 @@
         8,
         9,
         1,
-        8
+        8,
+        3,
+        4,
+        5,
+        11,
+        2,
+        22
       ]
     },
     "market_demand": {
@@ -843,15 +810,11 @@
       },
       "by_genre_adopted": [
         {
-          "genre_label": "unknown",
-          "count": 19
-        },
-        {
-          "genre_label": "美容・コスメ・香水",
-          "count": 19
-        },
-        {
           "genre_label": "食品",
+          "count": 18
+        },
+        {
+          "genre_label": "unknown",
           "count": 19
         },
         {
@@ -859,19 +822,23 @@
           "count": 18
         },
         {
-          "genre_label": "日用品雑貨・文房具・手芸",
-          "count": 14
+          "genre_label": "家電",
+          "count": 15
         },
         {
-          "genre_label": "家電",
-          "count": 16
+          "genre_label": "美容・コスメ・香水",
+          "count": 20
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 15
         }
       ]
     },
     "first_half": {
       "date_range": [
-        "2026-10-14",
-        "2026-10-17"
+        "2026-10-15",
+        "2026-10-18"
       ],
       "days": 4,
       "x": {
@@ -889,12 +856,12 @@
             "engagement_total": null
           },
           "13:00": {
-            "posts": 11,
+            "posts": 10,
             "impressions_total": null,
             "engagement_total": null
           },
           "18:00": {
-            "posts": 13,
+            "posts": 10,
             "impressions_total": null,
             "engagement_total": null
           }
@@ -905,7 +872,7 @@
             "13:00",
             "18:00"
           ],
-          "posts": 36,
+          "posts": 32,
           "impressions_total": null,
           "impressions_avg_per_post": null,
           "engagement_total": null
@@ -928,46 +895,6 @@
             "engagement": null
           },
           {
-            "item_code": "cocodecow:10831793",
-            "impressions": null,
-            "engagement": null
-          },
-          {
-            "item_code": "dmpl:10001452",
-            "impressions": null,
-            "engagement": null
-          },
-          {
-            "item_code": "f222101-fuji:10001229",
-            "impressions": null,
-            "engagement": null
-          },
-          {
-            "item_code": "gsk-prime:10004296",
-            "impressions": null,
-            "engagement": null
-          },
-          {
-            "item_code": "jetprice:10285916",
-            "impressions": null,
-            "engagement": null
-          },
-          {
-            "item_code": "kurashi-zakka:10001500",
-            "impressions": null,
-            "engagement": null
-          },
-          {
-            "item_code": "kurashi-zakka:10002489",
-            "impressions": null,
-            "engagement": null
-          },
-          {
-            "item_code": "shopmarna:10006509",
-            "impressions": null,
-            "engagement": null
-          },
-          {
             "item_code": "bikke:10000039",
             "impressions": null,
             "engagement": null
@@ -984,6 +911,11 @@
           },
           {
             "item_code": "miraclim:10002777",
+            "impressions": null,
+            "engagement": null
+          },
+          {
+            "item_code": "shopmarna:10006509",
             "impressions": null,
             "engagement": null
           },
@@ -1086,6 +1018,31 @@
             "item_code": "theordinary:10000000",
             "impressions": null,
             "engagement": null
+          },
+          {
+            "item_code": "auc-ulmax:10107790",
+            "impressions": null,
+            "engagement": null
+          },
+          {
+            "item_code": "auc-ulmax:10180374",
+            "impressions": null,
+            "engagement": null
+          },
+          {
+            "item_code": "beautylife-store:10000007",
+            "impressions": null,
+            "engagement": null
+          },
+          {
+            "item_code": "c-urban:10014422",
+            "impressions": null,
+            "engagement": null
+          },
+          {
+            "item_code": "sangakushop:10000799",
+            "impressions": null,
+            "engagement": null
           }
         ],
         "by_genre": [
@@ -1097,31 +1054,25 @@
           },
           {
             "genre_label": "食品",
-            "count": 4,
-            "impressions_total": null,
-            "engagement_total": null
-          },
-          {
-            "genre_label": "美容",
-            "count": 12,
-            "impressions_total": null,
-            "engagement_total": null
-          },
-          {
-            "genre_label": "キッチン用品・食器・調理器具",
-            "count": 3,
-            "impressions_total": null,
-            "engagement_total": null
-          },
-          {
-            "genre_label": "日用品雑貨・文房具・手芸",
             "count": 2,
             "impressions_total": null,
             "engagement_total": null
           },
           {
+            "genre_label": "美容",
+            "count": 13,
+            "impressions_total": null,
+            "engagement_total": null
+          },
+          {
             "genre_label": "キッチン用品",
-            "count": 5,
+            "count": 4,
+            "impressions_total": null,
+            "engagement_total": null
+          },
+          {
+            "genre_label": "キッチン用品・食器・調理器具",
+            "count": 2,
             "impressions_total": null,
             "engagement_total": null
           },
@@ -1138,6 +1089,12 @@
             "engagement_total": null
           },
           {
+            "genre_label": "日用品雑貨・文房具・手芸",
+            "count": 1,
+            "impressions_total": null,
+            "engagement_total": null
+          },
+          {
             "genre_label": "全ジャンル",
             "count": 1,
             "impressions_total": null,
@@ -1146,17 +1103,17 @@
         ],
         "by_selection_source": {
           "keyword": {
-            "count": 10,
+            "count": 7,
             "impressions_total": null,
             "engagement_total": null
           },
           "amazon_safe": {
-            "count": 17,
+            "count": 18,
             "impressions_total": null,
             "engagement_total": null
           },
           "market": {
-            "count": 6,
+            "count": 4,
             "impressions_total": null,
             "engagement_total": null
           },
@@ -1169,17 +1126,17 @@
         "by_market_demand_band": [
           {
             "band": "unknown",
-            "count": 27,
+            "count": 25,
             "impressions_total": null
           },
           {
             "band": "60-80",
-            "count": 4,
+            "count": 3,
             "impressions_total": null
           },
           {
             "band": "40-60",
-            "count": 5,
+            "count": 4,
             "impressions_total": null
           }
         ]
@@ -1212,20 +1169,16 @@
         "failed_total": 0,
         "by_genre": [
           {
-            "genre_label": "キッチン用品",
-            "count": 5
-          },
-          {
             "genre_label": "食品",
-            "count": 9
+            "count": 10
           },
           {
             "genre_label": "美容",
-            "count": 9
+            "count": 8
           },
           {
             "genre_label": "キッチン用品・食器・調理器具",
-            "count": 3
+            "count": 2
           },
           {
             "genre_label": "日用品雑貨・文房具・手芸",
@@ -1234,6 +1187,18 @@
           {
             "genre_label": "家電",
             "count": 4
+          },
+          {
+            "genre_label": "キッチン用品",
+            "count": 2
+          },
+          {
+            "genre_label": "美容・コスメ・香水",
+            "count": 2
+          },
+          {
+            "genre_label": "生活用品",
+            "count": 2
           }
         ],
         "by_selection_source": {
@@ -1248,6 +1213,9 @@
           },
           "rising": {
             "count": 0
+          },
+          "explore": {
+            "count": 0
           }
         },
         "impressions_available": false,
@@ -1255,65 +1223,60 @@
       },
       "room": {
         "days_with_extended_data": 4,
-        "candidate_total": 34,
-        "approved_total": 0,
-        "completed_total": 0,
-        "candidate_to_completed_rate": 0.0,
-        "rising_count_total": 4,
+        "candidate_total": 30,
+        "approved_total": 20,
+        "completed_total": 20,
+        "candidate_to_completed_rate": 0.6667,
+        "rising_count_total": 6,
         "by_genre": [
           {
-            "genre_label": "キッチン用品",
-            "count": 4
+            "genre_label": "食品",
+            "count": 10
           },
           {
             "genre_label": "全ジャンル",
-            "count": 4
+            "count": 3
           },
           {
             "genre_label": "美容",
             "count": 6
           },
           {
-            "genre_label": "美容・コスメ・香水",
-            "count": 4
-          },
-          {
-            "genre_label": "日用品雑貨・文房具・手芸",
+            "genre_label": "キッチン用品・食器・調理器具",
             "count": 2
           },
           {
             "genre_label": "家電",
-            "count": 3
-          },
-          {
-            "genre_label": "食品",
-            "count": 9
-          },
-          {
-            "genre_label": "キッチン用品・食器・調理器具",
             "count": 2
+          },
+          {
+            "genre_label": "美容・コスメ・香水",
+            "count": 5
+          },
+          {
+            "genre_label": "日用品雑貨・文房具・手芸",
+            "count": 1
+          },
+          {
+            "genre_label": "キッチン用品",
+            "count": 1
           }
         ],
         "by_selection_source": {
-          "keyword": {
-            "count": 0
-          },
-          "market": {
-            "count": 0
-          },
           "explore": {
+            "count": 0
+          },
+          "keyword": {
             "count": 0
           },
           "rising": {
             "count": 0
+          },
+          "market": {
+            "count": 0
           }
         },
         "market_demand_score_list": [
-          59.11,
-          63.69,
-          62.59,
-          63.52,
-          59.31,
           46.7,
           62.22,
           58.41,
@@ -1328,14 +1291,14 @@
           62.19,
           61.87,
           60.82,
-          45.28
+          45.28,
+          60.96,
+          57.37,
+          66.03,
+          56.04,
+          54.5
         ],
         "rank_list": [
-          1,
-          5,
-          5,
-          3,
-          13,
           21,
           2,
           3,
@@ -1350,7 +1313,12 @@
           5,
           7,
           7,
-          19
+          19,
+          6,
+          13,
+          2,
+          14,
+          14
         ]
       },
       "market_demand": {
@@ -1358,7 +1326,7 @@
         "ranking_fetch_success_total": 48,
         "ranking_fetch_failed_total": 0,
         "days_ranking_ran": 4,
-        "items_fetched_total": 1439,
+        "items_fetched_total": 1438,
         "rank_velocity_avg": -0.01,
         "tier_counts_total": {
           "keyword": 40,
@@ -1368,36 +1336,36 @@
         },
         "by_genre_adopted": [
           {
-            "genre_label": "unknown",
-            "count": 11
-          },
-          {
-            "genre_label": "美容・コスメ・香水",
-            "count": 11
-          },
-          {
             "genre_label": "食品",
-            "count": 8
+            "count": 9
+          },
+          {
+            "genre_label": "unknown",
+            "count": 12
           },
           {
             "genre_label": "キッチン用品・食器・調理器具",
             "count": 11
           },
           {
-            "genre_label": "日用品雑貨・文房具・手芸",
-            "count": 8
-          },
-          {
             "genre_label": "家電",
             "count": 11
+          },
+          {
+            "genre_label": "美容・コスメ・香水",
+            "count": 12
+          },
+          {
+            "genre_label": "日用品雑貨・文房具・手芸",
+            "count": 5
           }
         ]
       }
     },
     "second_half": {
       "date_range": [
-        "2026-10-18",
-        "2026-10-20"
+        "2026-10-19",
+        "2026-10-21"
       ],
       "days": 3,
       "x": {
@@ -1410,12 +1378,12 @@
         "engagement_rate": null,
         "slot_impressions": {
           "08:30": {
-            "posts": 6,
+            "posts": 3,
             "impressions_total": null,
             "engagement_total": null
           },
           "13:00": {
-            "posts": 5,
+            "posts": 3,
             "impressions_total": null,
             "engagement_total": null
           },
@@ -1431,7 +1399,7 @@
             "13:00",
             "18:00"
           ],
-          "posts": 14,
+          "posts": 9,
           "impressions_total": null,
           "impressions_avg_per_post": null,
           "engagement_total": null
@@ -1448,31 +1416,6 @@
           "engagement_total": null
         },
         "by_item": [
-          {
-            "item_code": "auc-ulmax:10107790",
-            "impressions": null,
-            "engagement": null
-          },
-          {
-            "item_code": "auc-ulmax:10180374",
-            "impressions": null,
-            "engagement": null
-          },
-          {
-            "item_code": "beautylife-store:10000007",
-            "impressions": null,
-            "engagement": null
-          },
-          {
-            "item_code": "c-urban:10014422",
-            "impressions": null,
-            "engagement": null
-          },
-          {
-            "item_code": "sangakushop:10000799",
-            "impressions": null,
-            "engagement": null
-          },
           {
             "item_code": "beautylife-store:10000187",
             "impressions": null,
@@ -1521,14 +1464,8 @@
         ],
         "by_genre": [
           {
-            "genre_label": "生活用品",
-            "count": 2,
-            "impressions_total": null,
-            "engagement_total": null
-          },
-          {
             "genre_label": "美容",
-            "count": 7,
+            "count": 4,
             "impressions_total": null,
             "engagement_total": null
           },
@@ -1553,7 +1490,7 @@
         ],
         "by_selection_source": {
           "amazon_safe": {
-            "count": 10,
+            "count": 5,
             "impressions_total": null,
             "engagement_total": null
           },
@@ -1576,7 +1513,7 @@
         "by_market_demand_band": [
           {
             "band": "unknown",
-            "count": 11,
+            "count": 6,
             "impressions_total": null
           },
           {
@@ -1620,22 +1557,14 @@
         "by_genre": [
           {
             "genre_label": "美容・コスメ・香水",
-            "count": 3
-          },
-          {
-            "genre_label": "食品",
-            "count": 8
-          },
-          {
-            "genre_label": "生活用品",
-            "count": 4
-          },
-          {
-            "genre_label": "美容",
-            "count": 2
+            "count": 1
           },
           {
             "genre_label": "キッチン用品",
+            "count": 3
+          },
+          {
+            "genre_label": "生活用品",
             "count": 2
           },
           {
@@ -1643,28 +1572,44 @@
             "count": 3
           },
           {
+            "genre_label": "食品",
+            "count": 6
+          },
+          {
+            "genre_label": "美容",
+            "count": 1
+          },
+          {
             "genre_label": "全ジャンル",
             "count": 1
           },
           {
             "genre_label": "キッチン用品・食器・調理器具",
+            "count": 4
+          },
+          {
+            "genre_label": "家電",
             "count": 1
+          },
+          {
+            "genre_label": "日用品雑貨・文房具・手芸",
+            "count": 2
           }
         ],
         "by_selection_source": {
-          "explore": {
+          "rising": {
             "count": 0
           },
           "keyword": {
-            "count": 0
-          },
-          "rising": {
             "count": 0
           },
           "market": {
             "count": 0
           },
           "amazon_safe": {
+            "count": 0
+          },
+          "explore": {
             "count": 0
           }
         },
@@ -1680,53 +1625,48 @@
         "rising_count_total": 7,
         "by_genre": [
           {
-            "genre_label": "美容・コスメ・香水",
-            "count": 4
-          },
-          {
-            "genre_label": "食品",
-            "count": 7
-          },
-          {
-            "genre_label": "美容",
-            "count": 1
-          },
-          {
             "genre_label": "unknown",
             "count": 5
           },
           {
+            "genre_label": "食品",
+            "count": 6
+          },
+          {
             "genre_label": "日用品雑貨・文房具・手芸",
-            "count": 4
+            "count": 6
           },
           {
             "genre_label": "キッチン用品・食器・調理器具",
-            "count": 2
+            "count": 4
+          },
+          {
+            "genre_label": "美容・コスメ・香水",
+            "count": 1
+          },
+          {
+            "genre_label": "家電",
+            "count": 1
           }
         ],
         "by_selection_source": {
-          "explore": {
-            "count": 0
-          },
-          "rising": {
-            "count": 0
-          },
           "keyword": {
             "count": 0
           },
           "market": {
             "count": 0
           },
+          "explore": {
+            "count": 0
+          },
           "amazon_safe": {
+            "count": 0
+          },
+          "rising": {
             "count": 0
           }
         },
         "market_demand_score_list": [
-          60.96,
-          57.37,
-          66.03,
-          56.04,
-          54.5,
           65.09,
           61.96,
           56.0,
@@ -1739,14 +1679,15 @@
           61.87,
           60.31,
           67.24,
-          58.44
+          58.44,
+          62.22,
+          65.56,
+          61.59,
+          59.82,
+          62.49,
+          41.07
         ],
         "rank_list": [
-          6,
-          13,
-          2,
-          14,
-          14,
           8,
           5,
           11,
@@ -1759,7 +1700,13 @@
           8,
           9,
           1,
-          8
+          8,
+          3,
+          4,
+          5,
+          11,
+          2,
+          22
         ]
       },
       "market_demand": {
@@ -1767,8 +1714,8 @@
         "ranking_fetch_success_total": 36,
         "ranking_fetch_failed_total": 0,
         "days_ranking_ran": 3,
-        "items_fetched_total": 1078,
-        "rank_velocity_avg": -0.01,
+        "items_fetched_total": 1079,
+        "rank_velocity_avg": -0.0,
         "tier_counts_total": {
           "keyword": 30,
           "market": 24,
@@ -1782,7 +1729,11 @@
           },
           {
             "genre_label": "食品",
-            "count": 11
+            "count": 9
+          },
+          {
+            "genre_label": "日用品雑貨・文房具・手芸",
+            "count": 10
           },
           {
             "genre_label": "キッチン用品・食器・調理器具",
@@ -1790,15 +1741,11 @@
           },
           {
             "genre_label": "家電",
-            "count": 5
+            "count": 4
           },
           {
             "genre_label": "unknown",
-            "count": 8
-          },
-          {
-            "genre_label": "日用品雑貨・文房具・手芸",
-            "count": 6
+            "count": 7
           }
         ]
       }
@@ -1806,8 +1753,8 @@
   },
   "extended_14d": {
     "date_range": [
-      "2026-10-07",
-      "2026-10-20"
+      "2026-10-08",
+      "2026-10-21"
     ],
     "days": 14,
     "x": {
@@ -1820,17 +1767,17 @@
       "engagement_rate": null,
       "slot_impressions": {
         "08:30": {
-          "posts": 39,
+          "posts": 36,
           "impressions_total": null,
           "engagement_total": null
         },
         "13:00": {
-          "posts": 37,
+          "posts": 34,
           "impressions_total": null,
           "engagement_total": null
         },
         "18:00": {
-          "posts": 37,
+          "posts": 34,
           "impressions_total": null,
           "engagement_total": null
         }
@@ -1841,7 +1788,7 @@
           "13:00",
           "18:00"
         ],
-        "posts": 113,
+        "posts": 104,
         "impressions_total": null,
         "impressions_avg_per_post": null,
         "engagement_total": null
@@ -1858,51 +1805,6 @@
         "engagement_total": null
       },
       "by_item": [
-        {
-          "item_code": "f122190-ichihara:10000298",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "goods-live:10000228",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "kassai:10000575",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "nagaoshi-select:10000103",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "netbaby:10028506",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "rakuten24:11386627",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "starfilter:10000112",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "superpack:10000747",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "yamagoiida:10000077",
-          "impressions": null,
-          "engagement": null
-        },
         {
           "item_code": "auc-ulmax:10180369",
           "impressions": null,
@@ -2219,6 +2121,11 @@
           "engagement": null
         },
         {
+          "item_code": "goods-live:10000228",
+          "impressions": null,
+          "engagement": null
+        },
+        {
           "item_code": "jetprice:10588125",
           "impressions": null,
           "engagement": null
@@ -2234,6 +2141,16 @@
           "engagement": null
         },
         {
+          "item_code": "starfilter:10000112",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "superpack:10000747",
+          "impressions": null,
+          "engagement": null
+        },
+        {
           "item_code": "beautypark2017:10004792",
           "impressions": null,
           "engagement": null
@@ -2245,6 +2162,11 @@
         },
         {
           "item_code": "dainichi-corp:10000046",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "netbaby:10028506",
           "impressions": null,
           "engagement": null
         },
@@ -2272,37 +2194,7 @@
       "by_genre": [
         {
           "genre_label": "生活用品",
-          "count": 15,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "美容",
-          "count": 40,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "食品",
-          "count": 17,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "全ジャンル",
-          "count": 5,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "美容・コスメ・香水",
-          "count": 5,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "キッチン用品・食器・調理器具",
-          "count": 7,
+          "count": 14,
           "impressions_total": null,
           "engagement_total": null
         },
@@ -2313,8 +2205,38 @@
           "engagement_total": null
         },
         {
+          "genre_label": "美容",
+          "count": 39,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "食品",
+          "count": 15,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
           "genre_label": "キッチン用品",
           "count": 13,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 4,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 5,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "全ジャンル",
+          "count": 3,
           "impressions_total": null,
           "engagement_total": null
         },
@@ -2332,23 +2254,23 @@
         }
       ],
       "by_selection_source": {
-        "keyword": {
-          "count": 31,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        "rising": {
-          "count": 10,
+        "amazon_safe": {
+          "count": 53,
           "impressions_total": null,
           "engagement_total": null
         },
         "market": {
-          "count": 19,
+          "count": 18,
           "impressions_total": null,
           "engagement_total": null
         },
-        "amazon_safe": {
-          "count": 53,
+        "keyword": {
+          "count": 27,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        "rising": {
+          "count": 6,
           "impressions_total": null,
           "engagement_total": null
         }
@@ -2356,17 +2278,17 @@
       "by_market_demand_band": [
         {
           "band": "unknown",
-          "count": 84,
-          "impressions_total": null
-        },
-        {
-          "band": "60-80",
-          "count": 18,
+          "count": 80,
           "impressions_total": null
         },
         {
           "band": "20-40",
           "count": 1,
+          "impressions_total": null
+        },
+        {
+          "band": "60-80",
+          "count": 13,
           "impressions_total": null
         },
         {
@@ -2385,13 +2307,13 @@
           "failed": 0
         },
         "12:30": {
-          "attempted": 21,
-          "success": 21,
+          "attempted": 24,
+          "success": 24,
           "failed": 0
         },
         "17:00": {
-          "attempted": 14,
-          "success": 14,
+          "attempted": 16,
+          "success": 16,
           "failed": 0
         },
         "20:15": {
@@ -2400,44 +2322,44 @@
           "failed": 0
         }
       },
-      "success_total": 75,
+      "success_total": 80,
       "failed_total": 0,
       "by_genre": [
-        {
-          "genre_label": "美容",
-          "count": 19
-        },
-        {
-          "genre_label": "全ジャンル",
-          "count": 4
-        },
-        {
-          "genre_label": "美容・コスメ・香水",
-          "count": 4
-        },
         {
           "genre_label": "生活用品",
           "count": 7
         },
         {
+          "genre_label": "美容",
+          "count": 18
+        },
+        {
           "genre_label": "キッチン用品",
-          "count": 8
+          "count": 9
         },
         {
           "genre_label": "食品",
-          "count": 19
+          "count": 20
+        },
+        {
+          "genre_label": "全ジャンル",
+          "count": 3
         },
         {
           "genre_label": "キッチン用品・食器・調理器具",
-          "count": 4
+          "count": 7
         },
         {
           "genre_label": "日用品雑貨・文房具・手芸",
-          "count": 2
+          "count": 4
         },
         {
           "genre_label": "家電",
-          "count": 4
+          "count": 5
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 3
         },
         {
           "genre_label": "unknown",
@@ -2445,19 +2367,19 @@
         }
       ],
       "by_selection_source": {
-        "keyword": {
-          "count": 0
-        },
-        "rising": {
-          "count": 0
-        },
         "amazon_safe": {
+          "count": 0
+        },
+        "keyword": {
           "count": 0
         },
         "explore": {
           "count": 0
         },
         "market": {
+          "count": 0
+        },
+        "rising": {
           "count": 0
         }
       },
@@ -2466,47 +2388,47 @@
     },
     "room": {
       "days_with_extended_data": 14,
-      "candidate_total": 126,
-      "approved_total": 179,
-      "completed_total": 287,
-      "candidate_to_completed_rate": 2.2778,
+      "candidate_total": 122,
+      "approved_total": 199,
+      "completed_total": 307,
+      "candidate_to_completed_rate": 2.5164,
       "rising_count_total": 20,
       "by_genre": [
         {
+          "genre_label": "キッチン用品",
+          "count": 14
+        },
+        {
           "genre_label": "生活用品",
-          "count": 6
+          "count": 5
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 13
         },
         {
           "genre_label": "美容",
-          "count": 15
-        },
-        {
-          "genre_label": "キッチン用品",
-          "count": 15
-        },
-        {
-          "genre_label": "食品",
-          "count": 30
+          "count": 14
         },
         {
           "genre_label": "家電",
           "count": 10
         },
         {
-          "genre_label": "全ジャンル",
-          "count": 10
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 12
         },
         {
-          "genre_label": "美容・コスメ・香水",
-          "count": 14
+          "genre_label": "食品",
+          "count": 28
         },
         {
           "genre_label": "キッチン用品・食器・調理器具",
-          "count": 11
+          "count": 12
         },
         {
-          "genre_label": "日用品雑貨・文房具・手芸",
-          "count": 10
+          "genre_label": "全ジャンル",
+          "count": 9
         },
         {
           "genre_label": "unknown",
@@ -2517,24 +2439,20 @@
         "keyword": {
           "count": 0
         },
-        "market": {
-          "count": 0
-        },
-        "rising": {
-          "count": 0
-        },
         "explore": {
           "count": 0
         },
         "amazon_safe": {
           "count": 0
+        },
+        "market": {
+          "count": 0
+        },
+        "rising": {
+          "count": 0
         }
       },
       "market_demand_score_list": [
-        72.86,
-        61.01,
-        71.53,
-        51.26,
         39.4,
         65.47,
         71.4,
@@ -2596,13 +2514,15 @@
         61.87,
         60.31,
         67.24,
-        58.44
+        58.44,
+        62.22,
+        65.56,
+        61.59,
+        59.82,
+        62.49,
+        41.07
       ],
       "rank_list": [
-        3,
-        13,
-        3,
-        18,
         23,
         9,
         2,
@@ -2664,7 +2584,13 @@
         8,
         9,
         1,
-        8
+        8,
+        3,
+        4,
+        5,
+        11,
+        2,
+        22
       ]
     },
     "market_demand": {
@@ -2682,35 +2608,35 @@
       },
       "by_genre_adopted": [
         {
-          "genre_label": "美容・コスメ・香水",
-          "count": 41
-        },
-        {
-          "genre_label": "家電",
-          "count": 30
-        },
-        {
           "genre_label": "unknown",
           "count": 40
         },
         {
+          "genre_label": "家電",
+          "count": 29
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 41
+        },
+        {
           "genre_label": "食品",
-          "count": 35
+          "count": 32
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 34
         },
         {
           "genre_label": "キッチン用品・食器・調理器具",
           "count": 34
-        },
-        {
-          "genre_label": "日用品雑貨・文房具・手芸",
-          "count": 30
         }
       ]
     },
     "first_half": {
       "date_range": [
-        "2026-10-07",
-        "2026-10-13"
+        "2026-10-08",
+        "2026-10-14"
       ],
       "days": 7,
       "x": {
@@ -2761,51 +2687,6 @@
           "engagement_total": null
         },
         "by_item": [
-          {
-            "item_code": "f122190-ichihara:10000298",
-            "impressions": null,
-            "engagement": null
-          },
-          {
-            "item_code": "goods-live:10000228",
-            "impressions": null,
-            "engagement": null
-          },
-          {
-            "item_code": "kassai:10000575",
-            "impressions": null,
-            "engagement": null
-          },
-          {
-            "item_code": "nagaoshi-select:10000103",
-            "impressions": null,
-            "engagement": null
-          },
-          {
-            "item_code": "netbaby:10028506",
-            "impressions": null,
-            "engagement": null
-          },
-          {
-            "item_code": "rakuten24:11386627",
-            "impressions": null,
-            "engagement": null
-          },
-          {
-            "item_code": "starfilter:10000112",
-            "impressions": null,
-            "engagement": null
-          },
-          {
-            "item_code": "superpack:10000747",
-            "impressions": null,
-            "engagement": null
-          },
-          {
-            "item_code": "yamagoiida:10000077",
-            "impressions": null,
-            "engagement": null
-          },
           {
             "item_code": "auc-ulmax:10180369",
             "impressions": null,
@@ -3070,399 +2951,7 @@
             "item_code": "toyosen:10000084",
             "impressions": null,
             "engagement": null
-          }
-        ],
-        "by_genre": [
-          {
-            "genre_label": "生活用品",
-            "count": 7,
-            "impressions_total": null,
-            "engagement_total": null
           },
-          {
-            "genre_label": "美容",
-            "count": 21,
-            "impressions_total": null,
-            "engagement_total": null
-          },
-          {
-            "genre_label": "食品",
-            "count": 12,
-            "impressions_total": null,
-            "engagement_total": null
-          },
-          {
-            "genre_label": "全ジャンル",
-            "count": 4,
-            "impressions_total": null,
-            "engagement_total": null
-          },
-          {
-            "genre_label": "美容・コスメ・香水",
-            "count": 2,
-            "impressions_total": null,
-            "engagement_total": null
-          },
-          {
-            "genre_label": "キッチン用品・食器・調理器具",
-            "count": 4,
-            "impressions_total": null,
-            "engagement_total": null
-          },
-          {
-            "genre_label": "家電",
-            "count": 4,
-            "impressions_total": null,
-            "engagement_total": null
-          },
-          {
-            "genre_label": "キッチン用品",
-            "count": 8,
-            "impressions_total": null,
-            "engagement_total": null
-          },
-          {
-            "genre_label": "日用品雑貨・文房具・手芸",
-            "count": 1,
-            "impressions_total": null,
-            "engagement_total": null
-          }
-        ],
-        "by_selection_source": {
-          "keyword": {
-            "count": 20,
-            "impressions_total": null,
-            "engagement_total": null
-          },
-          "rising": {
-            "count": 6,
-            "impressions_total": null,
-            "engagement_total": null
-          },
-          "market": {
-            "count": 11,
-            "impressions_total": null,
-            "engagement_total": null
-          },
-          "amazon_safe": {
-            "count": 26,
-            "impressions_total": null,
-            "engagement_total": null
-          }
-        },
-        "by_market_demand_band": [
-          {
-            "band": "unknown",
-            "count": 46,
-            "impressions_total": null
-          },
-          {
-            "band": "60-80",
-            "count": 12,
-            "impressions_total": null
-          },
-          {
-            "band": "20-40",
-            "count": 1,
-            "impressions_total": null
-          },
-          {
-            "band": "40-60",
-            "count": 4,
-            "impressions_total": null
-          }
-        ]
-      },
-      "pinterest": {
-        "days_with_extended_data": 7,
-        "slot_counts": {
-          "09:00": {
-            "attempted": 18,
-            "success": 18,
-            "failed": 0
-          },
-          "12:30": {
-            "attempted": 0,
-            "success": 0,
-            "failed": 0
-          },
-          "17:00": {
-            "attempted": 0,
-            "success": 0,
-            "failed": 0
-          },
-          "20:15": {
-            "attempted": 0,
-            "success": 0,
-            "failed": 0
-          }
-        },
-        "success_total": 18,
-        "failed_total": 0,
-        "by_genre": [
-          {
-            "genre_label": "美容",
-            "count": 8
-          },
-          {
-            "genre_label": "全ジャンル",
-            "count": 3
-          },
-          {
-            "genre_label": "美容・コスメ・香水",
-            "count": 1
-          },
-          {
-            "genre_label": "生活用品",
-            "count": 3
-          },
-          {
-            "genre_label": "キッチン用品",
-            "count": 1
-          },
-          {
-            "genre_label": "食品",
-            "count": 2
-          }
-        ],
-        "by_selection_source": {
-          "keyword": {
-            "count": 0
-          },
-          "rising": {
-            "count": 0
-          },
-          "amazon_safe": {
-            "count": 0
-          },
-          "explore": {
-            "count": 0
-          },
-          "market": {
-            "count": 0
-          }
-        },
-        "impressions_available": false,
-        "engagement_available": false
-      },
-      "room": {
-        "days_with_extended_data": 7,
-        "candidate_total": 69,
-        "approved_total": 119,
-        "completed_total": 227,
-        "candidate_to_completed_rate": 3.2899,
-        "rising_count_total": 9,
-        "by_genre": [
-          {
-            "genre_label": "生活用品",
-            "count": 6
-          },
-          {
-            "genre_label": "美容",
-            "count": 8
-          },
-          {
-            "genre_label": "キッチン用品",
-            "count": 11
-          },
-          {
-            "genre_label": "食品",
-            "count": 14
-          },
-          {
-            "genre_label": "家電",
-            "count": 7
-          },
-          {
-            "genre_label": "全ジャンル",
-            "count": 6
-          },
-          {
-            "genre_label": "美容・コスメ・香水",
-            "count": 6
-          },
-          {
-            "genre_label": "キッチン用品・食器・調理器具",
-            "count": 7
-          },
-          {
-            "genre_label": "日用品雑貨・文房具・手芸",
-            "count": 4
-          }
-        ],
-        "by_selection_source": {
-          "keyword": {
-            "count": 0
-          },
-          "market": {
-            "count": 0
-          },
-          "rising": {
-            "count": 0
-          },
-          "explore": {
-            "count": 0
-          },
-          "amazon_safe": {
-            "count": 0
-          }
-        },
-        "market_demand_score_list": [
-          72.86,
-          61.01,
-          71.53,
-          51.26,
-          39.4,
-          65.47,
-          71.4,
-          54.5,
-          61.37,
-          35.36,
-          62.15,
-          66.03,
-          62.29,
-          62.38,
-          62.84,
-          61.51,
-          66.36,
-          62.1,
-          65.18,
-          61.66,
-          64.59,
-          58.12,
-          47.17,
-          55.1,
-          55.92,
-          62.55,
-          60.52,
-          57.2
-        ],
-        "rank_list": [
-          3,
-          13,
-          3,
-          18,
-          23,
-          9,
-          2,
-          15,
-          4,
-          26,
-          7,
-          2,
-          12,
-          10,
-          14,
-          2,
-          9,
-          4,
-          13,
-          6,
-          3,
-          9,
-          10,
-          13,
-          10,
-          16,
-          13,
-          14
-        ]
-      },
-      "market_demand": {
-        "days_with_extended_data": 7,
-        "ranking_fetch_success_total": 84,
-        "ranking_fetch_failed_total": 0,
-        "days_ranking_ran": 7,
-        "items_fetched_total": 2515,
-        "rank_velocity_avg": -0.0,
-        "tier_counts_total": {
-          "keyword": 70,
-          "market": 56,
-          "rising": 28,
-          "explore": 21
-        },
-        "by_genre_adopted": [
-          {
-            "genre_label": "美容・コスメ・香水",
-            "count": 22
-          },
-          {
-            "genre_label": "家電",
-            "count": 14
-          },
-          {
-            "genre_label": "unknown",
-            "count": 21
-          },
-          {
-            "genre_label": "食品",
-            "count": 16
-          },
-          {
-            "genre_label": "キッチン用品・食器・調理器具",
-            "count": 16
-          },
-          {
-            "genre_label": "日用品雑貨・文房具・手芸",
-            "count": 16
-          }
-        ]
-      }
-    },
-    "second_half": {
-      "date_range": [
-        "2026-10-14",
-        "2026-10-20"
-      ],
-      "days": 7,
-      "x": {
-        "days_with_extended_data": 7,
-        "impressions_total": null,
-        "impressions_available": false,
-        "impressions_avg_per_post": null,
-        "engagement_total": null,
-        "engagement_available": false,
-        "engagement_rate": null,
-        "slot_impressions": {
-          "08:30": {
-            "posts": 18,
-            "impressions_total": null,
-            "engagement_total": null
-          },
-          "13:00": {
-            "posts": 16,
-            "impressions_total": null,
-            "engagement_total": null
-          },
-          "18:00": {
-            "posts": 16,
-            "impressions_total": null,
-            "engagement_total": null
-          }
-        },
-        "old_slots": {
-          "slots": [
-            "08:30",
-            "13:00",
-            "18:00"
-          ],
-          "posts": 50,
-          "impressions_total": null,
-          "impressions_avg_per_post": null,
-          "engagement_total": null
-        },
-        "new_slots": {
-          "slots": [
-            "11:30",
-            "16:00",
-            "21:00"
-          ],
-          "posts": 0,
-          "impressions_total": null,
-          "impressions_avg_per_post": null,
-          "engagement_total": null
-        },
-        "by_item": [
           {
             "item_code": "auc-ulmax:10180372",
             "impressions": null,
@@ -3507,6 +2996,402 @@
             "item_code": "shopmarna:10006509",
             "impressions": null,
             "engagement": null
+          }
+        ],
+        "by_genre": [
+          {
+            "genre_label": "生活用品",
+            "count": 8,
+            "impressions_total": null,
+            "engagement_total": null
+          },
+          {
+            "genre_label": "家電",
+            "count": 4,
+            "impressions_total": null,
+            "engagement_total": null
+          },
+          {
+            "genre_label": "美容",
+            "count": 22,
+            "impressions_total": null,
+            "engagement_total": null
+          },
+          {
+            "genre_label": "食品",
+            "count": 12,
+            "impressions_total": null,
+            "engagement_total": null
+          },
+          {
+            "genre_label": "キッチン用品",
+            "count": 9,
+            "impressions_total": null,
+            "engagement_total": null
+          },
+          {
+            "genre_label": "美容・コスメ・香水",
+            "count": 1,
+            "impressions_total": null,
+            "engagement_total": null
+          },
+          {
+            "genre_label": "キッチン用品・食器・調理器具",
+            "count": 3,
+            "impressions_total": null,
+            "engagement_total": null
+          },
+          {
+            "genre_label": "全ジャンル",
+            "count": 2,
+            "impressions_total": null,
+            "engagement_total": null
+          },
+          {
+            "genre_label": "日用品雑貨・文房具・手芸",
+            "count": 2,
+            "impressions_total": null,
+            "engagement_total": null
+          }
+        ],
+        "by_selection_source": {
+          "amazon_safe": {
+            "count": 30,
+            "impressions_total": null,
+            "engagement_total": null
+          },
+          "market": {
+            "count": 12,
+            "impressions_total": null,
+            "engagement_total": null
+          },
+          "keyword": {
+            "count": 19,
+            "impressions_total": null,
+            "engagement_total": null
+          },
+          "rising": {
+            "count": 2,
+            "impressions_total": null,
+            "engagement_total": null
+          }
+        },
+        "by_market_demand_band": [
+          {
+            "band": "unknown",
+            "count": 49,
+            "impressions_total": null
+          },
+          {
+            "band": "20-40",
+            "count": 1,
+            "impressions_total": null
+          },
+          {
+            "band": "60-80",
+            "count": 8,
+            "impressions_total": null
+          },
+          {
+            "band": "40-60",
+            "count": 5,
+            "impressions_total": null
+          }
+        ]
+      },
+      "pinterest": {
+        "days_with_extended_data": 7,
+        "slot_counts": {
+          "09:00": {
+            "attempted": 18,
+            "success": 18,
+            "failed": 0
+          },
+          "12:30": {
+            "attempted": 3,
+            "success": 3,
+            "failed": 0
+          },
+          "17:00": {
+            "attempted": 2,
+            "success": 2,
+            "failed": 0
+          },
+          "20:15": {
+            "attempted": 0,
+            "success": 0,
+            "failed": 0
+          }
+        },
+        "success_total": 23,
+        "failed_total": 0,
+        "by_genre": [
+          {
+            "genre_label": "生活用品",
+            "count": 3
+          },
+          {
+            "genre_label": "美容",
+            "count": 9
+          },
+          {
+            "genre_label": "キッチン用品",
+            "count": 4
+          },
+          {
+            "genre_label": "食品",
+            "count": 4
+          },
+          {
+            "genre_label": "全ジャンル",
+            "count": 2
+          },
+          {
+            "genre_label": "キッチン用品・食器・調理器具",
+            "count": 1
+          }
+        ],
+        "by_selection_source": {
+          "amazon_safe": {
+            "count": 0
+          },
+          "keyword": {
+            "count": 0
+          },
+          "explore": {
+            "count": 0
+          },
+          "market": {
+            "count": 0
+          }
+        },
+        "impressions_available": false,
+        "engagement_available": false
+      },
+      "room": {
+        "days_with_extended_data": 7,
+        "candidate_total": 69,
+        "approved_total": 119,
+        "completed_total": 227,
+        "candidate_to_completed_rate": 3.2899,
+        "rising_count_total": 7,
+        "by_genre": [
+          {
+            "genre_label": "キッチン用品",
+            "count": 13
+          },
+          {
+            "genre_label": "生活用品",
+            "count": 5
+          },
+          {
+            "genre_label": "美容・コスメ・香水",
+            "count": 7
+          },
+          {
+            "genre_label": "美容",
+            "count": 8
+          },
+          {
+            "genre_label": "家電",
+            "count": 7
+          },
+          {
+            "genre_label": "日用品雑貨・文房具・手芸",
+            "count": 5
+          },
+          {
+            "genre_label": "食品",
+            "count": 12
+          },
+          {
+            "genre_label": "キッチン用品・食器・調理器具",
+            "count": 6
+          },
+          {
+            "genre_label": "全ジャンル",
+            "count": 6
+          }
+        ],
+        "by_selection_source": {
+          "keyword": {
+            "count": 0
+          },
+          "explore": {
+            "count": 0
+          },
+          "amazon_safe": {
+            "count": 0
+          },
+          "market": {
+            "count": 0
+          },
+          "rising": {
+            "count": 0
+          }
+        },
+        "market_demand_score_list": [
+          39.4,
+          65.47,
+          71.4,
+          54.5,
+          61.37,
+          35.36,
+          62.15,
+          66.03,
+          62.29,
+          62.38,
+          62.84,
+          61.51,
+          66.36,
+          62.1,
+          65.18,
+          61.66,
+          64.59,
+          58.12,
+          47.17,
+          55.1,
+          55.92,
+          62.55,
+          60.52,
+          57.2,
+          59.11,
+          63.69,
+          62.59,
+          63.52,
+          59.31
+        ],
+        "rank_list": [
+          23,
+          9,
+          2,
+          15,
+          4,
+          26,
+          7,
+          2,
+          12,
+          10,
+          14,
+          2,
+          9,
+          4,
+          13,
+          6,
+          3,
+          9,
+          10,
+          13,
+          10,
+          16,
+          13,
+          14,
+          1,
+          5,
+          5,
+          3,
+          13
+        ]
+      },
+      "market_demand": {
+        "days_with_extended_data": 7,
+        "ranking_fetch_success_total": 84,
+        "ranking_fetch_failed_total": 0,
+        "days_ranking_ran": 7,
+        "items_fetched_total": 2515,
+        "rank_velocity_avg": -0.01,
+        "tier_counts_total": {
+          "keyword": 70,
+          "market": 56,
+          "rising": 28,
+          "explore": 21
+        },
+        "by_genre_adopted": [
+          {
+            "genre_label": "unknown",
+            "count": 21
+          },
+          {
+            "genre_label": "家電",
+            "count": 14
+          },
+          {
+            "genre_label": "美容・コスメ・香水",
+            "count": 21
+          },
+          {
+            "genre_label": "食品",
+            "count": 14
+          },
+          {
+            "genre_label": "日用品雑貨・文房具・手芸",
+            "count": 19
+          },
+          {
+            "genre_label": "キッチン用品・食器・調理器具",
+            "count": 16
+          }
+        ]
+      }
+    },
+    "second_half": {
+      "date_range": [
+        "2026-10-15",
+        "2026-10-21"
+      ],
+      "days": 7,
+      "x": {
+        "days_with_extended_data": 7,
+        "impressions_total": null,
+        "impressions_available": false,
+        "impressions_avg_per_post": null,
+        "engagement_total": null,
+        "engagement_available": false,
+        "engagement_rate": null,
+        "slot_impressions": {
+          "08:30": {
+            "posts": 15,
+            "impressions_total": null,
+            "engagement_total": null
+          },
+          "13:00": {
+            "posts": 13,
+            "impressions_total": null,
+            "engagement_total": null
+          },
+          "18:00": {
+            "posts": 13,
+            "impressions_total": null,
+            "engagement_total": null
+          }
+        },
+        "old_slots": {
+          "slots": [
+            "08:30",
+            "13:00",
+            "18:00"
+          ],
+          "posts": 41,
+          "impressions_total": null,
+          "impressions_avg_per_post": null,
+          "engagement_total": null
+        },
+        "new_slots": {
+          "slots": [
+            "11:30",
+            "16:00",
+            "21:00"
+          ],
+          "posts": 0,
+          "impressions_total": null,
+          "impressions_avg_per_post": null,
+          "engagement_total": null
+        },
+        "by_item": [
+          {
+            "item_code": "auc-ulmax:10180372",
+            "impressions": null,
+            "engagement": null
           },
           {
             "item_code": "bikke:10000039",
@@ -3525,6 +3410,11 @@
           },
           {
             "item_code": "miraclim:10002777",
+            "impressions": null,
+            "engagement": null
+          },
+          {
+            "item_code": "shopmarna:10006509",
             "impressions": null,
             "engagement": null
           },
@@ -3697,37 +3587,31 @@
         "by_genre": [
           {
             "genre_label": "生活用品",
-            "count": 8,
+            "count": 6,
             "impressions_total": null,
             "engagement_total": null
           },
           {
             "genre_label": "食品",
-            "count": 5,
-            "impressions_total": null,
-            "engagement_total": null
-          },
-          {
-            "genre_label": "美容",
-            "count": 19,
-            "impressions_total": null,
-            "engagement_total": null
-          },
-          {
-            "genre_label": "キッチン用品・食器・調理器具",
             "count": 3,
             "impressions_total": null,
             "engagement_total": null
           },
           {
-            "genre_label": "日用品雑貨・文房具・手芸",
-            "count": 2,
+            "genre_label": "美容",
+            "count": 17,
             "impressions_total": null,
             "engagement_total": null
           },
           {
             "genre_label": "キッチン用品",
-            "count": 5,
+            "count": 4,
+            "impressions_total": null,
+            "engagement_total": null
+          },
+          {
+            "genre_label": "キッチン用品・食器・調理器具",
+            "count": 2,
             "impressions_total": null,
             "engagement_total": null
           },
@@ -3740,6 +3624,12 @@
           {
             "genre_label": "美容・コスメ・香水",
             "count": 3,
+            "impressions_total": null,
+            "engagement_total": null
+          },
+          {
+            "genre_label": "日用品雑貨・文房具・手芸",
+            "count": 1,
             "impressions_total": null,
             "engagement_total": null
           },
@@ -3758,17 +3648,17 @@
         ],
         "by_selection_source": {
           "keyword": {
-            "count": 11,
+            "count": 8,
             "impressions_total": null,
             "engagement_total": null
           },
           "amazon_safe": {
-            "count": 27,
+            "count": 23,
             "impressions_total": null,
             "engagement_total": null
           },
           "market": {
-            "count": 8,
+            "count": 6,
             "impressions_total": null,
             "engagement_total": null
           },
@@ -3781,17 +3671,17 @@
         "by_market_demand_band": [
           {
             "band": "unknown",
-            "count": 38,
+            "count": 31,
             "impressions_total": null
           },
           {
             "band": "60-80",
-            "count": 6,
+            "count": 5,
             "impressions_total": null
           },
           {
             "band": "40-60",
-            "count": 6,
+            "count": 5,
             "impressions_total": null
           }
         ]
@@ -3824,28 +3714,28 @@
         "failed_total": 0,
         "by_genre": [
           {
-            "genre_label": "キッチン用品",
-            "count": 7
-          },
-          {
             "genre_label": "食品",
-            "count": 17
+            "count": 16
           },
           {
             "genre_label": "美容",
-            "count": 11
+            "count": 9
           },
           {
             "genre_label": "キッチン用品・食器・調理器具",
-            "count": 4
+            "count": 6
           },
           {
             "genre_label": "日用品雑貨・文房具・手芸",
-            "count": 2
+            "count": 4
           },
           {
             "genre_label": "家電",
-            "count": 4
+            "count": 5
+          },
+          {
+            "genre_label": "キッチン用品",
+            "count": 5
           },
           {
             "genre_label": "美容・コスメ・香水",
@@ -3886,30 +3776,26 @@
       },
       "room": {
         "days_with_extended_data": 7,
-        "candidate_total": 57,
-        "approved_total": 60,
-        "completed_total": 60,
-        "candidate_to_completed_rate": 1.0526,
-        "rising_count_total": 11,
+        "candidate_total": 53,
+        "approved_total": 80,
+        "completed_total": 80,
+        "candidate_to_completed_rate": 1.5094,
+        "rising_count_total": 13,
         "by_genre": [
           {
-            "genre_label": "キッチン用品",
-            "count": 4
+            "genre_label": "食品",
+            "count": 16
           },
           {
             "genre_label": "全ジャンル",
-            "count": 4
+            "count": 3
           },
           {
             "genre_label": "美容",
-            "count": 7
+            "count": 6
           },
           {
-            "genre_label": "美容・コスメ・香水",
-            "count": 8
-          },
-          {
-            "genre_label": "日用品雑貨・文房具・手芸",
+            "genre_label": "キッチン用品・食器・調理器具",
             "count": 6
           },
           {
@@ -3917,12 +3803,16 @@
             "count": 3
           },
           {
-            "genre_label": "食品",
-            "count": 16
+            "genre_label": "美容・コスメ・香水",
+            "count": 6
           },
           {
-            "genre_label": "キッチン用品・食器・調理器具",
-            "count": 4
+            "genre_label": "日用品雑貨・文房具・手芸",
+            "count": 7
+          },
+          {
+            "genre_label": "キッチン用品",
+            "count": 1
           },
           {
             "genre_label": "unknown",
@@ -3930,16 +3820,16 @@
           }
         ],
         "by_selection_source": {
-          "keyword": {
-            "count": 0
-          },
-          "market": {
-            "count": 0
-          },
           "explore": {
             "count": 0
           },
+          "keyword": {
+            "count": 0
+          },
           "rising": {
+            "count": 0
+          },
+          "market": {
             "count": 0
           },
           "amazon_safe": {
@@ -3947,11 +3837,6 @@
           }
         },
         "market_demand_score_list": [
-          59.11,
-          63.69,
-          62.59,
-          63.52,
-          59.31,
           46.7,
           62.22,
           58.41,
@@ -3984,14 +3869,15 @@
           61.87,
           60.31,
           67.24,
-          58.44
+          58.44,
+          62.22,
+          65.56,
+          61.59,
+          59.82,
+          62.49,
+          41.07
         ],
         "rank_list": [
-          1,
-          5,
-          5,
-          3,
-          13,
           21,
           2,
           3,
@@ -4024,7 +3910,13 @@
           8,
           9,
           1,
-          8
+          8,
+          3,
+          4,
+          5,
+          11,
+          2,
+          22
         ]
       },
       "market_demand": {
@@ -4042,15 +3934,11 @@
         },
         "by_genre_adopted": [
           {
-            "genre_label": "unknown",
-            "count": 19
-          },
-          {
-            "genre_label": "美容・コスメ・香水",
-            "count": 19
-          },
-          {
             "genre_label": "食品",
+            "count": 18
+          },
+          {
+            "genre_label": "unknown",
             "count": 19
           },
           {
@@ -4058,12 +3946,16 @@
             "count": 18
           },
           {
-            "genre_label": "日用品雑貨・文房具・手芸",
-            "count": 14
+            "genre_label": "家電",
+            "count": 15
           },
           {
-            "genre_label": "家電",
-            "count": 16
+            "genre_label": "美容・コスメ・香水",
+            "count": 20
+          },
+          {
+            "genre_label": "日用品雑貨・文房具・手芸",
+            "count": 15
           }
         ]
       }
