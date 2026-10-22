@@ -1,0 +1,603 @@
+{
+  "generated_at": "2026-10-22T23:30:58.550899+09:00",
+  "date": "2026-10-22",
+  "anomalies": [
+    "⚠️ 楽天アフィリエイトの売上CSV取込が255時間前から更新されていません(最終取込: 2026-10-12 08:22)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
+  ],
+  "x": {
+    "slots": [
+      {
+        "time": "08:30",
+        "planned": 3,
+        "actual": 0,
+        "recovered": 0,
+        "shortfall": 3,
+        "status": "api_failure"
+      },
+      {
+        "time": "13:00",
+        "planned": 3,
+        "actual": 0,
+        "recovered": 0,
+        "shortfall": 3,
+        "status": "api_failure"
+      },
+      {
+        "time": "18:00",
+        "planned": 3,
+        "actual": 0,
+        "recovered": 0,
+        "shortfall": 3,
+        "status": "api_failure"
+      }
+    ],
+    "slot_status": [
+      {
+        "status": "api_failure",
+        "planned": 3,
+        "actual": 0,
+        "detail": "BufferRateLimited(ネットワーク/接続エラー) (item_code=lifedrinkcompany:10000022 slot=08:30)",
+        "slot": "08:30"
+      },
+      {
+        "status": "api_failure",
+        "planned": 3,
+        "actual": 0,
+        "detail": "BufferRateLimited(ネットワーク/接続エラー) (item_code=lifedrinkcompany:10000022 slot=13:00)",
+        "slot": "13:00"
+      },
+      {
+        "status": "api_failure",
+        "planned": 3,
+        "actual": 0,
+        "detail": "BufferRateLimited(ネットワーク/接続エラー) (item_code=lifedrinkcompany:10000022 slot=18:00)",
+        "slot": "18:00"
+      }
+    ],
+    "slot_other": 0,
+    "posts_today": 0,
+    "posts_month": 167,
+    "success": 0,
+    "failed": 3,
+    "skipped_duplicate": 0,
+    "daily_cap": 9,
+    "capped": false,
+    "clicks": 0,
+    "clicks_available": false,
+    "tweets": [],
+    "extended": {
+      "impressions_total": null,
+      "impressions_available": false,
+      "impressions_avg_per_post": null,
+      "engagement_total": null,
+      "engagement_available": false,
+      "engagement_rate": null,
+      "posts_detail": [],
+      "slot_impressions": {
+        "08:30": {
+          "posts": 0,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        },
+        "13:00": {
+          "posts": 0,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        },
+        "18:00": {
+          "posts": 0,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        }
+      },
+      "by_item": [],
+      "by_genre": [],
+      "by_selection_source": {},
+      "by_market_demand_band": [],
+      "by_appeal_type_available": false
+    }
+  },
+  "pinterest": {
+    "planned": 8,
+    "posts_today": 8,
+    "failed": 0,
+    "skipped_duplicate": 0,
+    "pending": 0,
+    "clicks": 0,
+    "clicks_available": false,
+    "extended": {
+      "slot_counts": {
+        "09:00": {
+          "attempted": 3,
+          "success": 3,
+          "failed": 0
+        },
+        "12:30": {
+          "attempted": 3,
+          "success": 3,
+          "failed": 0
+        },
+        "17:00": {
+          "attempted": 2,
+          "success": 2,
+          "failed": 0
+        },
+        "20:15": {
+          "attempted": 0,
+          "success": 0,
+          "failed": 0
+        }
+      },
+      "slot_other": {
+        "attempted": 0,
+        "success": 0,
+        "failed": 0
+      },
+      "success_total": 8,
+      "failed_total": 0,
+      "by_item": [
+        {
+          "item_code": "bellevie-harima:10154038"
+        },
+        {
+          "item_code": "brandshiseido:10000124"
+        },
+        {
+          "item_code": "dyson:10002134"
+        },
+        {
+          "item_code": "e-mon-p:10000575"
+        },
+        {
+          "item_code": "irobotstore:10000558"
+        },
+        {
+          "item_code": "rakuten24:11228829"
+        },
+        {
+          "item_code": "sk-ii:10003857"
+        },
+        {
+          "item_code": "tiger-online:10005028"
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "キッチン用品",
+          "count": 1
+        },
+        {
+          "genre_label": "全ジャンル",
+          "count": 2
+        },
+        {
+          "genre_label": "家電",
+          "count": 2
+        },
+        {
+          "genre_label": "食品",
+          "count": 1
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 1
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 1
+        }
+      ],
+      "by_selection_source": {
+        "keyword": 1,
+        "explore": 3,
+        "market": 3,
+        "rising": 1
+      },
+      "impressions_available": false,
+      "impressions": null,
+      "engagement_available": false,
+      "engagement": null
+    }
+  },
+  "room": {
+    "candidate_today": 10,
+    "approved_today": 0,
+    "completed_today": 0,
+    "extended": {
+      "candidate_to_completed_rate": 0.0,
+      "candidate_to_completed_rate_available": true,
+      "by_item": [
+        {
+          "item_code": "bellevie-harima:10154038",
+          "rank": null,
+          "market_demand_score": null
+        },
+        {
+          "item_code": "brandshiseido:10000124",
+          "rank": 4,
+          "market_demand_score": 64.99
+        },
+        {
+          "item_code": "dyson:10002134",
+          "rank": 7,
+          "market_demand_score": 59.72
+        },
+        {
+          "item_code": "e-mon-p:10000575",
+          "rank": 14,
+          "market_demand_score": 55.04
+        },
+        {
+          "item_code": "irobotstore:10000558",
+          "rank": 2,
+          "market_demand_score": 64.34
+        },
+        {
+          "item_code": "livingut:10016364",
+          "rank": 17,
+          "market_demand_score": 52.51
+        },
+        {
+          "item_code": "rakuten24:11228829",
+          "rank": 13,
+          "market_demand_score": 57.14
+        },
+        {
+          "item_code": "sk-ii:10003857",
+          "rank": 3,
+          "market_demand_score": 56.13
+        },
+        {
+          "item_code": "superdeal:10004833",
+          "rank": 19,
+          "market_demand_score": 49.03
+        },
+        {
+          "item_code": "tiger-online:10005028",
+          "rank": 15,
+          "market_demand_score": 56.86
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "キッチン用品",
+          "count": 1
+        },
+        {
+          "genre_label": "全ジャンル",
+          "count": 2
+        },
+        {
+          "genre_label": "家電",
+          "count": 3
+        },
+        {
+          "genre_label": "食品",
+          "count": 1
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 2
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 1
+        }
+      ],
+      "by_selection_source": {
+        "keyword": 1,
+        "explore": 3,
+        "market": 3,
+        "rising": 3
+      },
+      "rank_list": [
+        4,
+        7,
+        14,
+        2,
+        17,
+        13,
+        3,
+        19,
+        15
+      ],
+      "market_demand_score_list": [
+        64.99,
+        59.72,
+        55.04,
+        64.34,
+        52.51,
+        57.14,
+        56.13,
+        49.03,
+        56.86
+      ],
+      "rising_count": 3
+    }
+  },
+  "market_demand": {
+    "ranking_available": true,
+    "top_demand": [
+      {
+        "item_code": "shuuemura:10000018",
+        "item_name": "【ポイント10倍 10/20 00:00～10/21 23:59まで】アルティム8∞ ベストセラーキット / ブライト クレンジングオイル キット | シュウウエムラクレンジング クレンジング 楽天市場店限定 洗顔 メイク落とし 毛穴 洗顔料 スキンケア 美容 化粧落とし 送料無料 楽天ベストコスメ",
+        "rank": 1,
+        "market_demand_score": 80.27,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "pricon:10003151",
+        "item_name": "コンタクトレンズ ワンデー コンタクト ｜ ワンデーアキュビュー オアシス 90枚パック 2箱セット 1日使い捨て コンタクト （コンタクト ワンデー / アキュビュー / オアシス / ジョンソン&ジョンソン / クリアレンズ 1day）",
+        "rank": 1,
+        "market_demand_score": 76.58,
+        "genre_id": null
+      },
+      {
+        "item_code": "takami-labo:10000519",
+        "item_name": "【10/20-21限定P10倍】タカミスキンピール◆送料無料│2本～購入で特典付き◆角質美容水 美容皮膚発想 スキンケア 毛穴 キメ くすみ タカミ スキンピール 角質ケア 美容液 肌荒れ ザラつき 敏感肌 TAKAMI 30mL",
+        "rank": 6,
+        "market_demand_score": 76.19,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "kanidokoro:10001780",
+        "item_name": "おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖",
+        "rank": 1,
+        "market_demand_score": 75.57,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "ooble:10000001",
+        "item_name": "【■ポイント5倍■】（20日24時間限定）【OoBLE オーブル 楽天公式】米びつ 5kg 10kg 真空 おしゃれ 真空保存容器 米びつ 真空 米びつ こめびつ 米櫃 真空保存容器 ステンレス 保存容器 真空米櫃 密閉 ライスストッカー 5キロ 10キロ 保存容器 米 ペットフードストッカー",
+        "rank": 2,
+        "market_demand_score": 75.56,
+        "genre_id": 558944
+      }
+    ],
+    "top_rising": [
+      {
+        "item_code": "takami-labo:10000519",
+        "item_name": "【10/20-21限定P10倍】タカミスキンピール◆送料無料│2本～購入で特典付き◆角質美容水 美容皮膚発想 スキンケア 毛穴 キメ くすみ タカミ スキンピール 角質ケア 美容液 肌荒れ ザラつき 敏感肌 TAKAMI 30mL",
+        "rank": 6,
+        "previous_rank": 27,
+        "rank_velocity": 0.875,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "rakuten24:11148573",
+        "item_name": "【1種類を選べる】ハミングフレア 柔軟剤 つめかえ用 梱販売用(4袋入)【フレア フレグランス】",
+        "rank": 9,
+        "previous_rank": 29,
+        "rank_velocity": 0.8333,
+        "genre_id": 215783
+      },
+      {
+        "item_code": "shuuemura:10000018",
+        "item_name": "【ポイント10倍 10/20 00:00～10/21 23:59まで】アルティム8∞ ベストセラーキット / ブライト クレンジングオイル キット | シュウウエムラクレンジング クレンジング 楽天市場店限定 洗顔 メイク落とし 毛穴 洗顔料 スキンケア 美容 化粧落とし 送料無料 楽天ベストコスメ",
+        "rank": 1,
+        "previous_rank": 17,
+        "rank_velocity": 0.6667,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "lensrewards:10000117",
+        "item_name": "【2026新色登場】【ポスト便 送料無料★1箱あたり2,646円(税込2,910円)】ワンデーアキュビューディファインモイスト 30枚パック 2箱セット[30枚入x2] 両眼1ヶ月分(ジョンソン・エンド・ジョンソン/1DAY/1日使い捨てコンタクトレンズ)",
+        "rank": 11,
+        "previous_rank": 26,
+        "rank_velocity": 0.625,
+        "genre_id": null
+      },
+      {
+        "item_code": "tenkapas:10010258",
+        "item_name": "【毎日ずっと1位】 ニトリル手袋 100枚 200枚 300枚 400枚 500枚 1000枚 4000枚 ゴム手袋 使い捨て グローブ ニトリル 青 白 黒 ニトリル手袋 パウダーフリー 食品衛生法 医療 病院 ニトリルゴム手袋 SS S M L ニトリル 手袋 介護 手袋 作業 手袋 使い捨て 送料無料",
+        "rank": 5,
+        "previous_rank": 18,
+        "rank_velocity": 0.5417,
+        "genre_id": 215783
+      }
+    ],
+    "tier_counts": {
+      "keyword": 10,
+      "market": 8,
+      "rising": 4,
+      "explore": 3
+    },
+    "extended": {
+      "ranking_fetch_calls_expected": 12,
+      "ranking_fetch_success": 12,
+      "ranking_fetch_failed": 0,
+      "ranking_fetch_ran_today": true,
+      "items_fetched_today": 359,
+      "rank_velocity_avg": -0.0,
+      "by_genre_adopted": [
+        {
+          "genre_label": "unknown",
+          "count": 2
+        },
+        {
+          "genre_label": "家電",
+          "count": 3
+        },
+        {
+          "genre_label": "食品",
+          "count": 3
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 3
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 4
+        }
+      ],
+      "top_market_demand": [
+        {
+          "item_code": "shuuemura:10000018",
+          "item_name": "【ポイント10倍 10/20 00:00～10/21 23:59まで】アルティム8∞ ベストセラーキット / ブライト クレンジングオイル キット | シュウウエムラクレンジング クレンジング 楽天市場店限定 洗顔 メイク落とし 毛穴 洗顔料 スキンケア 美容 化粧落とし 送料無料 楽天ベストコスメ",
+          "rank": 1,
+          "market_demand_score": 80.27,
+          "genre_id": 100939
+        },
+        {
+          "item_code": "pricon:10003151",
+          "item_name": "コンタクトレンズ ワンデー コンタクト ｜ ワンデーアキュビュー オアシス 90枚パック 2箱セット 1日使い捨て コンタクト （コンタクト ワンデー / アキュビュー / オアシス / ジョンソン&ジョンソン / クリアレンズ 1day）",
+          "rank": 1,
+          "market_demand_score": 76.58,
+          "genre_id": null
+        },
+        {
+          "item_code": "takami-labo:10000519",
+          "item_name": "【10/20-21限定P10倍】タカミスキンピール◆送料無料│2本～購入で特典付き◆角質美容水 美容皮膚発想 スキンケア 毛穴 キメ くすみ タカミ スキンピール 角質ケア 美容液 肌荒れ ザラつき 敏感肌 TAKAMI 30mL",
+          "rank": 6,
+          "market_demand_score": 76.19,
+          "genre_id": 100939
+        },
+        {
+          "item_code": "kanidokoro:10001780",
+          "item_name": "おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖",
+          "rank": 1,
+          "market_demand_score": 75.57,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "ooble:10000001",
+          "item_name": "【■ポイント5倍■】（20日24時間限定）【OoBLE オーブル 楽天公式】米びつ 5kg 10kg 真空 おしゃれ 真空保存容器 米びつ 真空 米びつ こめびつ 米櫃 真空保存容器 ステンレス 保存容器 真空米櫃 密閉 ライスストッカー 5キロ 10キロ 保存容器 米 ペットフードストッカー",
+          "rank": 2,
+          "market_demand_score": 75.56,
+          "genre_id": 558944
+        }
+      ],
+      "top_rising": [
+        {
+          "item_code": "takami-labo:10000519",
+          "item_name": "【10/20-21限定P10倍】タカミスキンピール◆送料無料│2本～購入で特典付き◆角質美容水 美容皮膚発想 スキンケア 毛穴 キメ くすみ タカミ スキンピール 角質ケア 美容液 肌荒れ ザラつき 敏感肌 TAKAMI 30mL",
+          "rank": 6,
+          "previous_rank": 27,
+          "rank_velocity": 0.875,
+          "genre_id": 100939
+        },
+        {
+          "item_code": "rakuten24:11148573",
+          "item_name": "【1種類を選べる】ハミングフレア 柔軟剤 つめかえ用 梱販売用(4袋入)【フレア フレグランス】",
+          "rank": 9,
+          "previous_rank": 29,
+          "rank_velocity": 0.8333,
+          "genre_id": 215783
+        },
+        {
+          "item_code": "shuuemura:10000018",
+          "item_name": "【ポイント10倍 10/20 00:00～10/21 23:59まで】アルティム8∞ ベストセラーキット / ブライト クレンジングオイル キット | シュウウエムラクレンジング クレンジング 楽天市場店限定 洗顔 メイク落とし 毛穴 洗顔料 スキンケア 美容 化粧落とし 送料無料 楽天ベストコスメ",
+          "rank": 1,
+          "previous_rank": 17,
+          "rank_velocity": 0.6667,
+          "genre_id": 100939
+        },
+        {
+          "item_code": "lensrewards:10000117",
+          "item_name": "【2026新色登場】【ポスト便 送料無料★1箱あたり2,646円(税込2,910円)】ワンデーアキュビューディファインモイスト 30枚パック 2箱セット[30枚入x2] 両眼1ヶ月分(ジョンソン・エンド・ジョンソン/1DAY/1日使い捨てコンタクトレンズ)",
+          "rank": 11,
+          "previous_rank": 26,
+          "rank_velocity": 0.625,
+          "genre_id": null
+        },
+        {
+          "item_code": "tenkapas:10010258",
+          "item_name": "【毎日ずっと1位】 ニトリル手袋 100枚 200枚 300枚 400枚 500枚 1000枚 4000枚 ゴム手袋 使い捨て グローブ ニトリル 青 白 黒 ニトリル手袋 パウダーフリー 食品衛生法 医療 病院 ニトリルゴム手袋 SS S M L ニトリル 手袋 介護 手袋 作業 手袋 使い捨て 送料無料",
+          "rank": 5,
+          "previous_rank": 18,
+          "rank_velocity": 0.5417,
+          "genre_id": 215783
+        }
+      ],
+      "tier_counts": {
+        "keyword": 10,
+        "market": 8,
+        "rising": 4,
+        "explore": 3
+      },
+      "market_ranking_available": true
+    }
+  },
+  "instagram": {
+    "connected": false,
+    "slots": [
+      {
+        "time": "09:30",
+        "planned": 1,
+        "actual": 0,
+        "recovered": 0
+      },
+      {
+        "time": "19:30",
+        "planned": 1,
+        "actual": 0,
+        "recovered": 0
+      }
+    ],
+    "slot_other": 0,
+    "posts_today": 0,
+    "posts_month": 0,
+    "success": 0,
+    "failed": 0,
+    "skipped_duplicate": 0,
+    "daily_cap": 2,
+    "capped": false,
+    "media": []
+  },
+  "amazon_phase1": {
+    "links_total": 103,
+    "target_products_total": 1423,
+    "buttons_live": 103,
+    "site_day": "2026-10-22",
+    "new_matches_today": 0,
+    "high_confidence_total": 62,
+    "unmatched_total": 1320,
+    "match_method_counts": {
+      "A": 0,
+      "B": 24,
+      "C": 38,
+      "manual": 41
+    },
+    "tier_breakdown_safe_only": {
+      "A": 0,
+      "B": 24,
+      "C": 38,
+      "legacy": 38,
+      "unknown": 0,
+      "total": 100
+    },
+    "ambiguous_pending_review": 20,
+    "needs_review": 4,
+    "x_dual_coverage_posts_today": 0,
+    "x_rakuten_only_posts_today": 0,
+    "clicks_available": false,
+    "raw_clicks": 0,
+    "unique_clicks": 0,
+    "clicks_by_item": [],
+    "clicks_by_source": [],
+    "sales_available": false,
+    "sales": null,
+    "orders_available": false,
+    "orders": null,
+    "commission_available": false,
+    "commission": null,
+    "clicks": 0,
+    "note": "Clicks are our own redirect-hit count (Phase A, live). Sales/orders/commission are Amazon's official Reporting API data and remain unavailable (null, not 0) until Creators API access is confirmed on Associates Central — see app.amazon_reporting.creators_api_access_status."
+  },
+  "rakuten": {
+    "today_sales": 0.0,
+    "today_reward": 0.0,
+    "month_sales": 2550.0,
+    "month_reward": 102.0,
+    "last_import": "2026-10-12 08:22",
+    "import_stale": true,
+    "sales_available": true
+  }
+}
