@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-23T23:30:59.118936+09:00",
-  "date": "2026-10-23",
+  "generated_at": "2026-10-24T23:31:05.760052+09:00",
+  "date": "2026-10-24",
   "anomalies": [
-    "⚠️ 楽天アフィリエイトの売上CSV取込が279時間前から更新されていません(最終取込: 2026-10-12 08:22)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
+    "⚠️ 楽天アフィリエイトの売上CSV取込が303時間前から更新されていません(最終取込: 2026-10-12 08:22)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
   ],
   "x": {
     "slots": [
@@ -43,14 +43,14 @@
         "status": "api_failure",
         "planned": 3,
         "actual": 0,
-        "detail": "BufferRateLimited(ネットワーク/接続エラー) (item_code=lifedrinkcompany:10000022 slot=13:00)",
+        "detail": "Buffer レート制限(429・Retry-After待ち 2026-10-26T10:41:28.526588+00:00まで送信しません) (item_code=lifedrinkcompany:10000022 slot=13:00)",
         "slot": "13:00"
       },
       {
         "status": "api_failure",
         "planned": 3,
         "actual": 0,
-        "detail": "BufferRateLimited(ネットワーク/接続エラー) (item_code=lifedrinkcompany:10000022 slot=18:00)",
+        "detail": "Buffer レート制限(429・Retry-After待ち 2026-10-26T10:41:28.526588+00:00まで送信しません) (item_code=lifedrinkcompany:10000022 slot=18:00)",
         "slot": "18:00"
       }
     ],
@@ -143,46 +143,46 @@
       "failed_total": 0,
       "by_item": [
         {
-          "item_code": "irobotstore:10000557"
+          "item_code": "cliffhangar:10002752"
         },
         {
-          "item_code": "kerastase-varie:10000005"
+          "item_code": "fujihoro:10002356"
         },
         {
-          "item_code": "kouragumi:10000004"
+          "item_code": "kakuchi:10003279"
         },
         {
-          "item_code": "lekeke:10000143"
+          "item_code": "kao-haircare:10000003"
         },
         {
-          "item_code": "otaru:10000756"
+          "item_code": "kouragumi:10001537"
         },
         {
-          "item_code": "roomy:10015281"
+          "item_code": "quads:10000127"
         },
         {
-          "item_code": "sk-ii:10003757"
+          "item_code": "ricetanaka:10000004"
         },
         {
-          "item_code": "ya-man:10002466"
+          "item_code": "wtw-cctv-camera:10000924"
         }
       ],
       "by_genre": [
         {
-          "genre_label": "unknown",
-          "count": 3
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 2
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 2
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 1
         },
         {
           "genre_label": "食品",
           "count": 2
-        },
-        {
-          "genre_label": "日用品雑貨・文房具・手芸",
-          "count": 1
-        },
-        {
-          "genre_label": "キッチン用品・食器・調理器具",
-          "count": 1
         },
         {
           "genre_label": "家電",
@@ -192,8 +192,7 @@
       "by_selection_source": {
         "explore": 3,
         "rising": 3,
-        "keyword": 1,
-        "market": 1
+        "market": 2
       },
       "impressions_available": false,
       "impressions": null,
@@ -203,70 +202,66 @@
   },
   "room": {
     "candidate_today": 10,
-    "approved_today": 19,
-    "completed_today": 19,
+    "approved_today": 20,
+    "completed_today": 20,
     "extended": {
-      "candidate_to_completed_rate": 1.9,
+      "candidate_to_completed_rate": 2.0,
       "candidate_to_completed_rate_available": true,
       "by_item": [
         {
-          "item_code": "brandshiseido:10000016",
-          "rank": 9,
-          "market_demand_score": 59.13
+          "item_code": "book:22095438",
+          "rank": 11,
+          "market_demand_score": 62.09
         },
         {
-          "item_code": "irobotstore:10000557",
-          "rank": 24,
-          "market_demand_score": 42.0
+          "item_code": "cliffhangar:10002752",
+          "rank": 4,
+          "market_demand_score": 61.35
         },
         {
-          "item_code": "kerastase-varie:10000005",
-          "rank": 8,
-          "market_demand_score": 61.01
+          "item_code": "fujihoro:10002356",
+          "rank": 2,
+          "market_demand_score": 63.61
         },
         {
-          "item_code": "kouragumi:10000004",
-          "rank": 5,
-          "market_demand_score": 63.48
+          "item_code": "isa:10001664",
+          "rank": 13,
+          "market_demand_score": 61.77
         },
         {
-          "item_code": "lekeke:10000143",
-          "rank": 12,
-          "market_demand_score": 60.81
+          "item_code": "kakuchi:10003279",
+          "rank": 10,
+          "market_demand_score": 63.44
         },
         {
-          "item_code": "roomy:10015281",
-          "rank": 9,
-          "market_demand_score": 60.69
+          "item_code": "kao-haircare:10000003",
+          "rank": 2,
+          "market_demand_score": 64.2
         },
         {
-          "item_code": "sk-ii:10003757",
+          "item_code": "kouragumi:10001537",
           "rank": 6,
-          "market_demand_score": 60.86
+          "market_demand_score": 66.53
         },
         {
-          "item_code": "store-ecovacs-japan:10000533",
-          "rank": 9,
-          "market_demand_score": 56.43
+          "item_code": "quads:10000127",
+          "rank": 2,
+          "market_demand_score": 62.1
         },
         {
-          "item_code": "tenkapas:10010258",
-          "rank": 18,
-          "market_demand_score": 55.24
+          "item_code": "ricetanaka:10000004",
+          "rank": 8,
+          "market_demand_score": 64.04
         },
         {
-          "item_code": "ya-man:10002466",
-          "rank": 3,
-          "market_demand_score": 60.35
+          "item_code": "wtw-cctv-camera:10000924",
+          "rank": 7,
+          "market_demand_score": 64.63
         }
       ],
       "by_genre": [
         {
-          "genre_label": "unknown",
-          "count": 4
-        },
-        {
-          "genre_label": "食品",
+          "genre_label": "全ジャンル",
           "count": 1
         },
         {
@@ -275,11 +270,19 @@
         },
         {
           "genre_label": "キッチン用品・食器・調理器具",
+          "count": 2
+        },
+        {
+          "genre_label": "食品",
+          "count": 3
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
           "count": 1
         },
         {
           "genre_label": "家電",
-          "count": 2
+          "count": 1
         }
       ],
       "by_selection_source": {
@@ -288,28 +291,28 @@
         "market": 3
       },
       "rank_list": [
-        9,
-        24,
-        8,
-        5,
-        12,
-        9,
+        11,
+        4,
+        2,
+        13,
+        10,
+        2,
         6,
-        9,
-        18,
-        3
+        2,
+        8,
+        7
       ],
       "market_demand_score_list": [
-        59.13,
-        42.0,
-        61.01,
-        63.48,
-        60.81,
-        60.69,
-        60.86,
-        56.43,
-        55.24,
-        60.35
+        62.09,
+        61.35,
+        63.61,
+        61.77,
+        63.44,
+        64.2,
+        66.53,
+        62.1,
+        64.04,
+        64.63
       ],
       "rising_count": 4
     }
@@ -318,81 +321,81 @@
     "ranking_available": true,
     "top_demand": [
       {
-        "item_code": "pricon:10003151",
-        "item_name": "コンタクトレンズ ワンデー コンタクト ｜ ワンデーアキュビュー オアシス 90枚パック 2箱セット 1日使い捨て コンタクト （コンタクト ワンデー / アキュビュー / オアシス / ジョンソン&ジョンソン / クリアレンズ 1day）",
-        "rank": 1,
-        "market_demand_score": 75.78,
-        "genre_id": null
-      },
-      {
-        "item_code": "kanidokoro:10001780",
-        "item_name": "【最大10万P当たる!?】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/31 23:59迄エントリーで】",
-        "rank": 1,
-        "market_demand_score": 75.05,
-        "genre_id": 100227
-      },
-      {
-        "item_code": "kanidokoro:10001780",
-        "item_name": "【最大10万P当たる!?】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/31 23:59迄エントリーで】",
-        "rank": 1,
-        "market_demand_score": 75.05,
-        "genre_id": 100227
-      },
-      {
-        "item_code": "shuuemura:10000018",
-        "item_name": "【ポイント10倍 10/20 00:00～10/21 23:59まで】アルティム8∞ ベストセラーキット / ブライト クレンジングオイル キット | シュウウエムラクレンジング クレンジング 楽天市場店限定 洗顔 メイク落とし 毛穴 洗顔料 スキンケア 美容 化粧落とし 送料無料 楽天ベストコスメ",
-        "rank": 2,
-        "market_demand_score": 74.84,
+        "item_code": "attenir:10000252",
+        "item_name": "【ポイント5倍！10月24日20:00〜10月27日9:59】 大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 詰め替え ダブル洗顔不要 アテニア 公式 ]",
+        "rank": 3,
+        "market_demand_score": 77.91,
         "genre_id": 100939
       },
       {
-        "item_code": "kitchenavi:10000408",
-        "item_name": "【公式】VAKUEN 真空保存容器 電動 強力密閉 鮮度長持ち コンテナ タッパー キャニスター BPAフリー 電子レンジ 食洗機 冷凍 耐熱 フードストッカー 野菜 米 調味料 液体 ギフト 韓国製 バクエン",
+        "item_code": "kurashi-zakka:10002471",
+        "item_name": "＼40％OFFクーポン！10/14〜10/26／ストロー整列！sakuraku 水切りラック L型 ＼食洗器対応／ シンク上 スリム 折りたたみ◎伸縮◎18-8ステンレス錆びにくい◎／＼お皿も 水筒も 立てかけられる／【意匠登録済】",
         "rank": 1,
-        "market_demand_score": 74.83,
+        "market_demand_score": 75.3,
         "genre_id": 558944
+      },
+      {
+        "item_code": "kanidokoro:10001780",
+        "item_name": "【最大10万P当たる!?】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/31 23:59迄エントリーで】",
+        "rank": 1,
+        "market_demand_score": 75.05,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "pricon:10003151",
+        "item_name": "コンタクトレンズ ワンデー コンタクト ｜ ワンデーアキュビュー オアシス 90枚パック 2箱セット 1日使い捨て コンタクト （コンタクト ワンデー / アキュビュー / オアシス / ジョンソン&ジョンソン / クリアレンズ 1day）",
+        "rank": 2,
+        "market_demand_score": 74.52,
+        "genre_id": null
+      },
+      {
+        "item_code": "kouragumi:10001520",
+        "item_name": "お試し送料無料2,490円～ 骨取りサバ切身 1kg 無塩or有塩が選べる♪骨とり 骨なし 鯖 さば 冷凍食品 お中元 ギフト 【P】",
+        "rank": 2,
+        "market_demand_score": 74.28,
+        "genre_id": 100227
       }
     ],
     "top_rising": [
       {
-        "item_code": "kyusyukome:10000047",
-        "item_name": "新米発売記念！マラソン期間中ポイント5倍【令和8年産 新米100%】九州産 無洗米 洗わんでよかよ 10kg(5kg×2袋) 送料無料【沖縄・北海道は別途送料プラス500円】",
-        "rank": 8,
+        "item_code": "kakuchi:10003279",
+        "item_name": "【数量限定 予約販売】イッタラ福袋 5点セット 福袋 2027 IITTALA イッタラ 北欧食器 プレート 26cm ボウル 21cmスクエアプレート 16×16cm HAPPY BAG 2027 IA10000PB｜新年特別セット 1万円セット 10000円 おしゃれ かわいい お正月 初売り お正月",
+        "rank": 10,
         "previous_rank": 28,
-        "rank_velocity": 0.8333,
-        "genre_id": 100227
-      },
-      {
-        "item_code": "aurelie-tokyo:10000061",
-        "item_name": "モイスチャーセラムクレンジング【MEGUMI開発】Aurelie (オレリー) クレンジング オイル メイク落とし 化粧落とし リムーバー しっとり 毛穴 洗顔 スキンケア まつエク 毛穴ケア マツエク 毛穴汚れ 植物性幹細胞",
-        "rank": 5,
-        "previous_rank": 23,
         "rank_velocity": 0.75,
-        "genre_id": 100939
+        "genre_id": 558944
       },
       {
-        "item_code": "tplinkdirect:10001097",
-        "item_name": "【年間販売台数No.1★】防犯カメラ 室内 ペットカメラ ベビーモニター 見守り ワイヤレス 200万画素 高画質 360°首振り 自動追跡追尾 ベビーカメラ ナイトビジョン 双方向音声 留守 動作検知 スマホ通知 3年保証 TP-Link Tapo C200【Amazon Alexa 認定取得】",
+        "item_code": "wwpc:10064892",
+        "item_name": "ロイヤルカナン 猫用 ユリナリーS／O オルファクトリーライト(4kg)【ロイヤルカナン療法食】",
         "rank": 14,
-        "previous_rank": 28,
-        "rank_velocity": 0.5833,
+        "previous_rank": 30,
+        "rank_velocity": 0.6667,
+        "genre_id": null
+      },
+      {
+        "item_code": "wtw-cctv-camera:10000924",
+        "item_name": "現在4年連続1位 創業48年日本自社工場開発生産 みてるちゃん 500万 5GHz ベビーモニター 防犯カメラ Amazon国内サーバー自社契約 ペットカメラ 自動追跡 見守りカメラ ワイヤレス 屋内 監視カメラ 小型",
+        "rank": 7,
+        "previous_rank": 22,
+        "rank_velocity": 0.625,
         "genre_id": 215783
       },
       {
-        "item_code": "sk-ii:10003011",
-        "item_name": "【公式】SK-II フェイシャルトリートメントエッセンス75mL、160mL、230mL | SK-2 / SK-II（エスケーツー）正規品 送料無料 潤い 保湿 | ピテラ エッセンス 20代 30代 40代 50代 スキンケア 化粧品 コスメ 女性 彼女 デパコス 高級 化粧水",
-        "rank": 2,
-        "previous_rank": 16,
-        "rank_velocity": 0.5833,
-        "genre_id": 100939
+        "item_code": "corlant:10000339",
+        "item_name": "【料理研究家リュウジ監修】至高のおせち2027 購入特典 ＜至高の辛子めんたいこ＞ バズレシピ YouTube お節 御節 洋風おせち 6.5寸 2段 計27品 12月29日にお届け予定 冷凍",
+        "rank": 12,
+        "previous_rank": 27,
+        "rank_velocity": 0.625,
+        "genre_id": 100227
       },
       {
-        "item_code": "kerastase-varie:10000005",
-        "item_name": "ヘアオイル ユイル クロノロジスト◆ミニサイズ30mL/本体75mLセット/付替え用レフィル75mL/本体75mL+レフィル75mLセット/レフィル75mL 2本セット◆洗い流さない トリートメント アウトバス",
-        "rank": 8,
-        "previous_rank": 21,
-        "rank_velocity": 0.5417,
-        "genre_id": null
+        "item_code": "attenir:10000252",
+        "item_name": "【ポイント5倍！10月24日20:00〜10月27日9:59】 大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 詰め替え ダブル洗顔不要 アテニア 公式 ]",
+        "rank": 3,
+        "previous_rank": 18,
+        "rank_velocity": 0.625,
+        "genre_id": 100939
       }
     ],
     "tier_counts": {
@@ -406,107 +409,111 @@
       "ranking_fetch_success": 12,
       "ranking_fetch_failed": 0,
       "ranking_fetch_ran_today": true,
-      "items_fetched_today": 359,
-      "rank_velocity_avg": 0.01,
+      "items_fetched_today": 360,
+      "rank_velocity_avg": -0.04,
       "by_genre_adopted": [
         {
           "genre_label": "unknown",
-          "count": 5
-        },
-        {
-          "genre_label": "キッチン用品・食器・調理器具",
-          "count": 5
-        },
-        {
-          "genre_label": "食品",
-          "count": 1
-        },
-        {
-          "genre_label": "日用品雑貨・文房具・手芸",
           "count": 2
         },
         {
           "genre_label": "家電",
-          "count": 2
+          "count": 3
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 3
+        },
+        {
+          "genre_label": "食品",
+          "count": 3
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 3
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 1
         }
       ],
       "top_market_demand": [
         {
-          "item_code": "pricon:10003151",
-          "item_name": "コンタクトレンズ ワンデー コンタクト ｜ ワンデーアキュビュー オアシス 90枚パック 2箱セット 1日使い捨て コンタクト （コンタクト ワンデー / アキュビュー / オアシス / ジョンソン&ジョンソン / クリアレンズ 1day）",
-          "rank": 1,
-          "market_demand_score": 75.78,
-          "genre_id": null
-        },
-        {
-          "item_code": "kanidokoro:10001780",
-          "item_name": "【最大10万P当たる!?】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/31 23:59迄エントリーで】",
-          "rank": 1,
-          "market_demand_score": 75.05,
-          "genre_id": 100227
-        },
-        {
-          "item_code": "kanidokoro:10001780",
-          "item_name": "【最大10万P当たる!?】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/31 23:59迄エントリーで】",
-          "rank": 1,
-          "market_demand_score": 75.05,
-          "genre_id": 100227
-        },
-        {
-          "item_code": "shuuemura:10000018",
-          "item_name": "【ポイント10倍 10/20 00:00～10/21 23:59まで】アルティム8∞ ベストセラーキット / ブライト クレンジングオイル キット | シュウウエムラクレンジング クレンジング 楽天市場店限定 洗顔 メイク落とし 毛穴 洗顔料 スキンケア 美容 化粧落とし 送料無料 楽天ベストコスメ",
-          "rank": 2,
-          "market_demand_score": 74.84,
+          "item_code": "attenir:10000252",
+          "item_name": "【ポイント5倍！10月24日20:00〜10月27日9:59】 大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 詰め替え ダブル洗顔不要 アテニア 公式 ]",
+          "rank": 3,
+          "market_demand_score": 77.91,
           "genre_id": 100939
         },
         {
-          "item_code": "kitchenavi:10000408",
-          "item_name": "【公式】VAKUEN 真空保存容器 電動 強力密閉 鮮度長持ち コンテナ タッパー キャニスター BPAフリー 電子レンジ 食洗機 冷凍 耐熱 フードストッカー 野菜 米 調味料 液体 ギフト 韓国製 バクエン",
+          "item_code": "kurashi-zakka:10002471",
+          "item_name": "＼40％OFFクーポン！10/14〜10/26／ストロー整列！sakuraku 水切りラック L型 ＼食洗器対応／ シンク上 スリム 折りたたみ◎伸縮◎18-8ステンレス錆びにくい◎／＼お皿も 水筒も 立てかけられる／【意匠登録済】",
           "rank": 1,
-          "market_demand_score": 74.83,
+          "market_demand_score": 75.3,
           "genre_id": 558944
+        },
+        {
+          "item_code": "kanidokoro:10001780",
+          "item_name": "【最大10万P当たる!?】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/31 23:59迄エントリーで】",
+          "rank": 1,
+          "market_demand_score": 75.05,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "pricon:10003151",
+          "item_name": "コンタクトレンズ ワンデー コンタクト ｜ ワンデーアキュビュー オアシス 90枚パック 2箱セット 1日使い捨て コンタクト （コンタクト ワンデー / アキュビュー / オアシス / ジョンソン&ジョンソン / クリアレンズ 1day）",
+          "rank": 2,
+          "market_demand_score": 74.52,
+          "genre_id": null
+        },
+        {
+          "item_code": "kouragumi:10001520",
+          "item_name": "お試し送料無料2,490円～ 骨取りサバ切身 1kg 無塩or有塩が選べる♪骨とり 骨なし 鯖 さば 冷凍食品 お中元 ギフト 【P】",
+          "rank": 2,
+          "market_demand_score": 74.28,
+          "genre_id": 100227
         }
       ],
       "top_rising": [
         {
-          "item_code": "kyusyukome:10000047",
-          "item_name": "新米発売記念！マラソン期間中ポイント5倍【令和8年産 新米100%】九州産 無洗米 洗わんでよかよ 10kg(5kg×2袋) 送料無料【沖縄・北海道は別途送料プラス500円】",
-          "rank": 8,
+          "item_code": "kakuchi:10003279",
+          "item_name": "【数量限定 予約販売】イッタラ福袋 5点セット 福袋 2027 IITTALA イッタラ 北欧食器 プレート 26cm ボウル 21cmスクエアプレート 16×16cm HAPPY BAG 2027 IA10000PB｜新年特別セット 1万円セット 10000円 おしゃれ かわいい お正月 初売り お正月",
+          "rank": 10,
           "previous_rank": 28,
-          "rank_velocity": 0.8333,
-          "genre_id": 100227
-        },
-        {
-          "item_code": "aurelie-tokyo:10000061",
-          "item_name": "モイスチャーセラムクレンジング【MEGUMI開発】Aurelie (オレリー) クレンジング オイル メイク落とし 化粧落とし リムーバー しっとり 毛穴 洗顔 スキンケア まつエク 毛穴ケア マツエク 毛穴汚れ 植物性幹細胞",
-          "rank": 5,
-          "previous_rank": 23,
           "rank_velocity": 0.75,
-          "genre_id": 100939
+          "genre_id": 558944
         },
         {
-          "item_code": "tplinkdirect:10001097",
-          "item_name": "【年間販売台数No.1★】防犯カメラ 室内 ペットカメラ ベビーモニター 見守り ワイヤレス 200万画素 高画質 360°首振り 自動追跡追尾 ベビーカメラ ナイトビジョン 双方向音声 留守 動作検知 スマホ通知 3年保証 TP-Link Tapo C200【Amazon Alexa 認定取得】",
+          "item_code": "wwpc:10064892",
+          "item_name": "ロイヤルカナン 猫用 ユリナリーS／O オルファクトリーライト(4kg)【ロイヤルカナン療法食】",
           "rank": 14,
-          "previous_rank": 28,
-          "rank_velocity": 0.5833,
+          "previous_rank": 30,
+          "rank_velocity": 0.6667,
+          "genre_id": null
+        },
+        {
+          "item_code": "wtw-cctv-camera:10000924",
+          "item_name": "現在4年連続1位 創業48年日本自社工場開発生産 みてるちゃん 500万 5GHz ベビーモニター 防犯カメラ Amazon国内サーバー自社契約 ペットカメラ 自動追跡 見守りカメラ ワイヤレス 屋内 監視カメラ 小型",
+          "rank": 7,
+          "previous_rank": 22,
+          "rank_velocity": 0.625,
           "genre_id": 215783
         },
         {
-          "item_code": "sk-ii:10003011",
-          "item_name": "【公式】SK-II フェイシャルトリートメントエッセンス75mL、160mL、230mL | SK-2 / SK-II（エスケーツー）正規品 送料無料 潤い 保湿 | ピテラ エッセンス 20代 30代 40代 50代 スキンケア 化粧品 コスメ 女性 彼女 デパコス 高級 化粧水",
-          "rank": 2,
-          "previous_rank": 16,
-          "rank_velocity": 0.5833,
-          "genre_id": 100939
+          "item_code": "corlant:10000339",
+          "item_name": "【料理研究家リュウジ監修】至高のおせち2027 購入特典 ＜至高の辛子めんたいこ＞ バズレシピ YouTube お節 御節 洋風おせち 6.5寸 2段 計27品 12月29日にお届け予定 冷凍",
+          "rank": 12,
+          "previous_rank": 27,
+          "rank_velocity": 0.625,
+          "genre_id": 100227
         },
         {
-          "item_code": "kerastase-varie:10000005",
-          "item_name": "ヘアオイル ユイル クロノロジスト◆ミニサイズ30mL/本体75mLセット/付替え用レフィル75mL/本体75mL+レフィル75mLセット/レフィル75mL 2本セット◆洗い流さない トリートメント アウトバス",
-          "rank": 8,
-          "previous_rank": 21,
-          "rank_velocity": 0.5417,
-          "genre_id": null
+          "item_code": "attenir:10000252",
+          "item_name": "【ポイント5倍！10月24日20:00〜10月27日9:59】 大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 詰め替え ダブル洗顔不要 アテニア 公式 ]",
+          "rank": 3,
+          "previous_rank": 18,
+          "rank_velocity": 0.625,
+          "genre_id": 100939
         }
       ],
       "tier_counts": {
@@ -546,12 +553,12 @@
   },
   "amazon_phase1": {
     "links_total": 103,
-    "target_products_total": 1432,
+    "target_products_total": 1461,
     "buttons_live": 103,
-    "site_day": "2026-10-23",
+    "site_day": "2026-10-24",
     "new_matches_today": 0,
     "high_confidence_total": 62,
-    "unmatched_total": 1329,
+    "unmatched_total": 1358,
     "match_method_counts": {
       "A": 0,
       "B": 24,
