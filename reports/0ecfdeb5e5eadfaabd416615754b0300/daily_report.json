@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-25T23:30:52.759529+09:00",
-  "date": "2026-10-25",
+  "generated_at": "2026-10-26T23:30:52.640381+09:00",
+  "date": "2026-10-26",
   "anomalies": [
-    "⚠️ 楽天アフィリエイトの売上CSV取込が327時間前から更新されていません(最終取込: 2026-10-12 08:22)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
+    "⚠️ 楽天アフィリエイトの売上CSV取込が351時間前から更新されていません(最終取込: 2026-10-12 08:22)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
   ],
   "x": {
     "slots": [
@@ -143,28 +143,28 @@
       "failed_total": 0,
       "by_item": [
         {
-          "item_code": "aestura-japan:10000007"
+          "item_code": "asiabnc:10000078"
         },
         {
-          "item_code": "and-a-me:10000023"
+          "item_code": "asiabnc:10000243"
         },
         {
-          "item_code": "auc-kaei-trading:10000746"
+          "item_code": "asiabnc:10000396"
         },
         {
-          "item_code": "auc-risecreation:10004620"
+          "item_code": "awajitamanegi:10000823"
         },
         {
-          "item_code": "cookware-carote:10000208"
+          "item_code": "kobe-beauty-labo:10000074"
         },
         {
-          "item_code": "livingut:10239339"
+          "item_code": "kumamoto-food:10004089"
         },
         {
-          "item_code": "mtgec-beauty:10002330"
+          "item_code": "sidagar:10000011"
         },
         {
-          "item_code": "whithwhite:10000218"
+          "item_code": "yama-oatmeal-institute:10000024"
         }
       ],
       "by_genre": [
@@ -173,18 +173,26 @@
           "count": 3
         },
         {
-          "genre_label": "キッチン用品・食器・調理器具",
-          "count": 3
+          "genre_label": "unknown",
+          "count": 1
         },
         {
           "genre_label": "家電",
+          "count": 1
+        },
+        {
+          "genre_label": "食品",
           "count": 2
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 1
         }
       ],
       "by_selection_source": {
-        "market": 3,
-        "explore": 3,
-        "rising": 2
+        "explore": 4,
+        "keyword": 1,
+        "market": 3
       },
       "impressions_available": false,
       "impressions": null,
@@ -193,314 +201,288 @@
     }
   },
   "room": {
-    "candidate_today": 10,
+    "candidate_today": 6,
     "approved_today": 20,
     "completed_today": 20,
     "extended": {
-      "candidate_to_completed_rate": 2.0,
+      "candidate_to_completed_rate": 3.3333,
       "candidate_to_completed_rate_available": true,
       "by_item": [
         {
-          "item_code": "and-a-me:10000023",
-          "rank": 9,
-          "market_demand_score": 58.35
+          "item_code": "asiabnc:10000078",
+          "rank": 29,
+          "market_demand_score": 38.25
         },
         {
-          "item_code": "auc-risecreation:10004620",
-          "rank": 2,
-          "market_demand_score": 64.12
+          "item_code": "asiabnc:10000243",
+          "rank": 5,
+          "market_demand_score": 63.87
         },
         {
-          "item_code": "bluearth:10000028",
-          "rank": 15,
-          "market_demand_score": 47.01
-        },
-        {
-          "item_code": "cookware-carote:10000208",
-          "rank": 15,
-          "market_demand_score": 59.12
-        },
-        {
-          "item_code": "corlant:10000339",
-          "rank": 7,
-          "market_demand_score": 54.3
-        },
-        {
-          "item_code": "kawasaki-beikoku:10000016",
-          "rank": 23,
-          "market_demand_score": 43.56
-        },
-        {
-          "item_code": "livingut:10239339",
-          "rank": 12,
-          "market_demand_score": 47.11
-        },
-        {
-          "item_code": "mtgec-beauty:10002330",
+          "item_code": "asiabnc:10000396",
           "rank": 10,
-          "market_demand_score": 60.58
+          "market_demand_score": 55.15
         },
         {
-          "item_code": "vermicular-rshop:10000314",
-          "rank": 6,
-          "market_demand_score": 52.11
+          "item_code": "awajitamanegi:10000823",
+          "rank": null,
+          "market_demand_score": null
         },
         {
-          "item_code": "whithwhite:10000218",
-          "rank": 11,
-          "market_demand_score": 52.51
+          "item_code": "kumamoto-food:10004089",
+          "rank": 16,
+          "market_demand_score": 58.71
+        },
+        {
+          "item_code": "sidagar:10000011",
+          "rank": 1,
+          "market_demand_score": 61.66
         }
       ],
       "by_genre": [
         {
           "genre_label": "美容・コスメ・香水",
-          "count": 2
-        },
-        {
-          "genre_label": "家電",
-          "count": 2
-        },
-        {
-          "genre_label": "キッチン用品・食器・調理器具",
-          "count": 4
-        },
-        {
-          "genre_label": "食品",
-          "count": 2
-        }
-      ],
-      "by_selection_source": {
-        "explore": 3,
-        "market": 4,
-        "rising": 3
-      },
-      "rank_list": [
-        9,
-        2,
-        15,
-        15,
-        7,
-        23,
-        12,
-        10,
-        6,
-        11
-      ],
-      "market_demand_score_list": [
-        58.35,
-        64.12,
-        47.01,
-        59.12,
-        54.3,
-        43.56,
-        47.11,
-        60.58,
-        52.11,
-        52.51
-      ],
-      "rising_count": 3
-    }
-  },
-  "market_demand": {
-    "ranking_available": true,
-    "top_demand": [
-      {
-        "item_code": "kitchenavi:10000408",
-        "item_name": "【公式】VAKUEN 真空保存容器 電動 強力密閉 鮮度長持ち コンテナ タッパー キャニスター BPAフリー 電子レンジ 食洗機 冷凍 耐熱 フードストッカー 野菜 米 調味料 液体 ギフト 韓国製 バクエン",
-        "rank": 2,
-        "market_demand_score": 77.21,
-        "genre_id": 558944
-      },
-      {
-        "item_code": "kanidokoro:10001780",
-        "item_name": "【最大10万P当たる!?】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/31 23:59迄エントリーで】",
-        "rank": 1,
-        "market_demand_score": 75.05,
-        "genre_id": 100227
-      },
-      {
-        "item_code": "kouragumi:10000207",
-        "item_name": "赤字覚悟のお試し送料無料4,999円！北海道産の【訳あり】割れ/不揃い/小サイズ【着日指定不可★入荷次第発送】 生ほたて貝柱どっさり1kg 帆立 ホタテ ほたて【P】",
-        "rank": 4,
-        "market_demand_score": 74.98,
-        "genre_id": 100227
-      },
-      {
-        "item_code": "kouragumi:10001520",
-        "item_name": "お試し送料無料2,490円～ 骨取りサバ切身 1kg 無塩or有塩が選べる♪骨とり 骨なし 鯖 さば 冷凍食品 お中元 ギフト 【P】",
-        "rank": 2,
-        "market_demand_score": 74.28,
-        "genre_id": 100227
-      },
-      {
-        "item_code": "rakuten24:11128644",
-        "item_name": "【1種類を選べる】アタック 抗菌EX 洗濯洗剤 詰替 超特大サイズ 梱販売用(6袋入)【アタック】",
-        "rank": 2,
-        "market_demand_score": 73.52,
-        "genre_id": 215783
-      }
-    ],
-    "top_rising": [
-      {
-        "item_code": "kitchenavi:10000408",
-        "item_name": "【マラソン期間中★最大20%OFFクーポン】【公式】VAKUEN 真空保存容器 電動 強力密閉 鮮度長持ち コンテナ タッパー キャニスター BPAフリー 電子レンジ 食洗機 冷凍 耐熱 フードストッカー 野菜 米 調味料 ギフト 韓国製 バクエン",
-        "rank": 1,
-        "previous_rank": 24,
-        "rank_velocity": 0.9583,
-        "genre_id": 558944
-      },
-      {
-        "item_code": "dainichi-corp:10000046",
-        "item_name": "【★TV放送商品★】サンサンスポンジ 4個セット 全9色 キッチンスポンジ 長持ち 洗いやすい 食器 皿洗い 台所 風呂 シンプル さんさんスポンジ 送料無料 まとめ買い おすすめの使い方 3か月ローテーション ギフト 母の日 父の日",
-        "rank": 8,
-        "previous_rank": 29,
-        "rank_velocity": 0.875,
-        "genre_id": 215783
-      },
-      {
-        "item_code": "e-kurashi:10039909",
-        "item_name": "空気清浄機 シャープ プラズマクラスター 加湿 脱臭フィルター おすすめ KC-40TH KC-50TH KC-40TH/KC-50TH ホワイト 加湿空気清浄機 プラズマクラスター7000 加湿器 加湿 シャープ SHARP 【送料無料】",
-        "rank": 16,
-        "previous_rank": 30,
-        "rank_velocity": 0.5833,
-        "genre_id": 562637
-      },
-      {
-        "item_code": "brita:10000161",
-        "item_name": "【公式・正規品】 ポット型浄水器用カートリッジ マクストラプロ ピュアパフォーマンス 8個セット | 日本仕様 浄水カートリッジ 浄水ポット マ 日本仕様 ブリタカートリッジ brita maxtra アウトレット PFAS (PFOS/PFOA) 除去",
-        "rank": 1,
-        "previous_rank": 15,
-        "rank_velocity": 0.5833,
-        "genre_id": 562637
-      },
-      {
-        "item_code": "kitchenavi:10000408",
-        "item_name": "【公式】VAKUEN 真空保存容器 電動 強力密閉 鮮度長持ち コンテナ タッパー キャニスター BPAフリー 電子レンジ 食洗機 冷凍 耐熱 フードストッカー 野菜 米 調味料 液体 ギフト 韓国製 バクエン",
-        "rank": 2,
-        "previous_rank": 15,
-        "rank_velocity": 0.5417,
-        "genre_id": 558944
-      }
-    ],
-    "tier_counts": {
-      "keyword": 10,
-      "market": 8,
-      "rising": 4,
-      "explore": 3
-    },
-    "extended": {
-      "ranking_fetch_calls_expected": 12,
-      "ranking_fetch_success": 12,
-      "ranking_fetch_failed": 0,
-      "ranking_fetch_ran_today": true,
-      "items_fetched_today": 360,
-      "rank_velocity_avg": -0.07,
-      "by_genre_adopted": [
-        {
-          "genre_label": "美容・コスメ・香水",
-          "count": 2
+          "count": 3
         },
         {
           "genre_label": "unknown",
           "count": 1
         },
         {
+          "genre_label": "食品",
+          "count": 1
+        },
+        {
           "genre_label": "キッチン用品・食器・調理器具",
+          "count": 1
+        }
+      ],
+      "by_selection_source": {
+        "explore": 4,
+        "keyword": 1,
+        "market": 1
+      },
+      "rank_list": [
+        29,
+        5,
+        10,
+        16,
+        1
+      ],
+      "market_demand_score_list": [
+        38.25,
+        63.87,
+        55.15,
+        58.71,
+        61.66
+      ],
+      "rising_count": 0
+    }
+  },
+  "market_demand": {
+    "ranking_available": true,
+    "top_demand": [
+      {
+        "item_code": "pricon:10003151",
+        "item_name": "コンタクトレンズ ワンデー コンタクト ｜ ワンデーアキュビュー オアシス 90枚パック 2箱セット 1日使い捨て コンタクト （コンタクト ワンデー / アキュビュー / オアシス / ジョンソン&ジョンソン / クリアレンズ 1day）",
+        "rank": 3,
+        "market_demand_score": 79.25,
+        "genre_id": null
+      },
+      {
+        "item_code": "teamo:10001200",
+        "item_name": "コンタクトレンズ ワンデー 近視 遠視 選べる【2箱4箱】 TeAmo CLEAR 1DAY UV 低含水 高含水 ティアモ クリア ワンデー まとめ買い 1箱30枚 TeAmo コンタクト クリア 近視用 遠視用 1日使い捨て クリアワンデー 度あり UVカット ソフトコンタクト 送料無料 【最安値に挑戦】",
+        "rank": 5,
+        "market_demand_score": 75.83,
+        "genre_id": null
+      },
+      {
+        "item_code": "kanidokoro:10001780",
+        "item_name": "【最大10万P当たる!?！】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/31 23:59迄エントリーで】",
+        "rank": 3,
+        "market_demand_score": 74.61,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "attenir:10000252",
+        "item_name": "【ポイント5倍！10月24日20:00〜10月27日9:59】 大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 詰め替え ダブル洗顔不要 アテニア 公式 ]",
+        "rank": 7,
+        "market_demand_score": 74.43,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "kurashi-zakka:10002372",
+        "item_name": "＼55％OFFクーポン！先着300枚！10/24〜10/27／累計販売数100000台突破【sakuraku 排気口カバー 奥行伸縮】＼奥行伸縮 排気口カバーのパイオニア／ 60cm 75cm フラット ラック型 ＼熱い・重いお鍋が置ける／【特許取得済】",
+        "rank": 3,
+        "market_demand_score": 74.12,
+        "genre_id": 558944
+      }
+    ],
+    "top_rising": [
+      {
+        "item_code": "rakuten24:11130767",
+        "item_name": "フレア フレグランス IROKA 柔軟剤 ネイキッドリリー 詰替 超特大サイズ 梱販売用(1200ml×6袋入)【フレアフレグランスIROKA】",
+        "rank": 1,
+        "previous_rank": 27,
+        "rank_velocity": 1.0833,
+        "genre_id": 215783
+      },
+      {
+        "item_code": "nene777:10000018",
+        "item_name": "掃除機 コードレス【楽天12連冠達成！吸引力完全進化110Kpa超強力!革新版グリーンLEDライト付＆60分連続稼働＆自立式&次世代LED液晶ディスプレイ】掃除機サイクロン式3段吸引力絡まないヘッド LED液晶ディスプレイ軽量低騒音伸縮パイプ HEPA多重濾過着脱式バッテリー3年保証",
+        "rank": 4,
+        "previous_rank": 30,
+        "rank_velocity": 1.0833,
+        "genre_id": 562637
+      },
+      {
+        "item_code": "sk-ii:10003857",
+        "item_name": "【公式】フェイシャルトリートメント エッセンス コフレ2026 ホリデーコレクション ｜SK-2 / SK-II（エスケーツー） 正規品 送料無料 SK2 SKII ピテラ 美容液 スキンケア 誕生日 女性 化粧品 コスメ 妻 誕生日",
+        "rank": 5,
+        "previous_rank": 29,
+        "rank_velocity": 1.0,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "kurashi-zakka:10002372",
+        "item_name": "＼55％OFFクーポン！先着300枚！10/24〜10/27／累計販売数100000台突破【sakuraku 排気口カバー 奥行伸縮】＼奥行伸縮 排気口カバーのパイオニア／ 60cm 75cm フラット ラック型 ＼熱い・重いお鍋が置ける／【特許取得済】",
+        "rank": 3,
+        "previous_rank": 25,
+        "rank_velocity": 0.9167,
+        "genre_id": 558944
+      },
+      {
+        "item_code": "pricon:10003151",
+        "item_name": "コンタクトレンズ ワンデー コンタクト ｜ ワンデーアキュビュー オアシス 90枚パック 2箱セット 1日使い捨て コンタクト （コンタクト ワンデー / アキュビュー / オアシス / ジョンソン&ジョンソン / クリアレンズ 1day）",
+        "rank": 3,
+        "previous_rank": 24,
+        "rank_velocity": 0.875,
+        "genre_id": null
+      }
+    ],
+    "tier_counts": {
+      "keyword": 10,
+      "market": 8,
+      "rising": 1,
+      "explore": 6
+    },
+    "extended": {
+      "ranking_fetch_calls_expected": 12,
+      "ranking_fetch_success": 12,
+      "ranking_fetch_failed": 0,
+      "ranking_fetch_ran_today": true,
+      "items_fetched_today": 358,
+      "rank_velocity_avg": -0.0,
+      "by_genre_adopted": [
+        {
+          "genre_label": "unknown",
           "count": 5
         },
         {
+          "genre_label": "美容・コスメ・香水",
+          "count": 1
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 3
+        },
+        {
           "genre_label": "家電",
-          "count": 4
+          "count": 1
         },
         {
           "genre_label": "食品",
+          "count": 2
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
           "count": 3
         }
       ],
       "top_market_demand": [
         {
-          "item_code": "kitchenavi:10000408",
-          "item_name": "【公式】VAKUEN 真空保存容器 電動 強力密閉 鮮度長持ち コンテナ タッパー キャニスター BPAフリー 電子レンジ 食洗機 冷凍 耐熱 フードストッカー 野菜 米 調味料 液体 ギフト 韓国製 バクエン",
-          "rank": 2,
-          "market_demand_score": 77.21,
-          "genre_id": 558944
+          "item_code": "pricon:10003151",
+          "item_name": "コンタクトレンズ ワンデー コンタクト ｜ ワンデーアキュビュー オアシス 90枚パック 2箱セット 1日使い捨て コンタクト （コンタクト ワンデー / アキュビュー / オアシス / ジョンソン&ジョンソン / クリアレンズ 1day）",
+          "rank": 3,
+          "market_demand_score": 79.25,
+          "genre_id": null
+        },
+        {
+          "item_code": "teamo:10001200",
+          "item_name": "コンタクトレンズ ワンデー 近視 遠視 選べる【2箱4箱】 TeAmo CLEAR 1DAY UV 低含水 高含水 ティアモ クリア ワンデー まとめ買い 1箱30枚 TeAmo コンタクト クリア 近視用 遠視用 1日使い捨て クリアワンデー 度あり UVカット ソフトコンタクト 送料無料 【最安値に挑戦】",
+          "rank": 5,
+          "market_demand_score": 75.83,
+          "genre_id": null
         },
         {
           "item_code": "kanidokoro:10001780",
-          "item_name": "【最大10万P当たる!?】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/31 23:59迄エントリーで】",
-          "rank": 1,
-          "market_demand_score": 75.05,
+          "item_name": "【最大10万P当たる!?！】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/31 23:59迄エントリーで】",
+          "rank": 3,
+          "market_demand_score": 74.61,
           "genre_id": 100227
         },
         {
-          "item_code": "kouragumi:10000207",
-          "item_name": "赤字覚悟のお試し送料無料4,999円！北海道産の【訳あり】割れ/不揃い/小サイズ【着日指定不可★入荷次第発送】 生ほたて貝柱どっさり1kg 帆立 ホタテ ほたて【P】",
-          "rank": 4,
-          "market_demand_score": 74.98,
-          "genre_id": 100227
+          "item_code": "attenir:10000252",
+          "item_name": "【ポイント5倍！10月24日20:00〜10月27日9:59】 大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 詰め替え ダブル洗顔不要 アテニア 公式 ]",
+          "rank": 7,
+          "market_demand_score": 74.43,
+          "genre_id": 100939
         },
         {
-          "item_code": "kouragumi:10001520",
-          "item_name": "お試し送料無料2,490円～ 骨取りサバ切身 1kg 無塩or有塩が選べる♪骨とり 骨なし 鯖 さば 冷凍食品 お中元 ギフト 【P】",
-          "rank": 2,
-          "market_demand_score": 74.28,
-          "genre_id": 100227
-        },
-        {
-          "item_code": "rakuten24:11128644",
-          "item_name": "【1種類を選べる】アタック 抗菌EX 洗濯洗剤 詰替 超特大サイズ 梱販売用(6袋入)【アタック】",
-          "rank": 2,
-          "market_demand_score": 73.52,
-          "genre_id": 215783
+          "item_code": "kurashi-zakka:10002372",
+          "item_name": "＼55％OFFクーポン！先着300枚！10/24〜10/27／累計販売数100000台突破【sakuraku 排気口カバー 奥行伸縮】＼奥行伸縮 排気口カバーのパイオニア／ 60cm 75cm フラット ラック型 ＼熱い・重いお鍋が置ける／【特許取得済】",
+          "rank": 3,
+          "market_demand_score": 74.12,
+          "genre_id": 558944
         }
       ],
       "top_rising": [
         {
-          "item_code": "kitchenavi:10000408",
-          "item_name": "【マラソン期間中★最大20%OFFクーポン】【公式】VAKUEN 真空保存容器 電動 強力密閉 鮮度長持ち コンテナ タッパー キャニスター BPAフリー 電子レンジ 食洗機 冷凍 耐熱 フードストッカー 野菜 米 調味料 ギフト 韓国製 バクエン",
+          "item_code": "rakuten24:11130767",
+          "item_name": "フレア フレグランス IROKA 柔軟剤 ネイキッドリリー 詰替 超特大サイズ 梱販売用(1200ml×6袋入)【フレアフレグランスIROKA】",
           "rank": 1,
-          "previous_rank": 24,
-          "rank_velocity": 0.9583,
-          "genre_id": 558944
-        },
-        {
-          "item_code": "dainichi-corp:10000046",
-          "item_name": "【★TV放送商品★】サンサンスポンジ 4個セット 全9色 キッチンスポンジ 長持ち 洗いやすい 食器 皿洗い 台所 風呂 シンプル さんさんスポンジ 送料無料 まとめ買い おすすめの使い方 3か月ローテーション ギフト 母の日 父の日",
-          "rank": 8,
-          "previous_rank": 29,
-          "rank_velocity": 0.875,
+          "previous_rank": 27,
+          "rank_velocity": 1.0833,
           "genre_id": 215783
         },
         {
-          "item_code": "e-kurashi:10039909",
-          "item_name": "空気清浄機 シャープ プラズマクラスター 加湿 脱臭フィルター おすすめ KC-40TH KC-50TH KC-40TH/KC-50TH ホワイト 加湿空気清浄機 プラズマクラスター7000 加湿器 加湿 シャープ SHARP 【送料無料】",
-          "rank": 16,
+          "item_code": "nene777:10000018",
+          "item_name": "掃除機 コードレス【楽天12連冠達成！吸引力完全進化110Kpa超強力!革新版グリーンLEDライト付＆60分連続稼働＆自立式&次世代LED液晶ディスプレイ】掃除機サイクロン式3段吸引力絡まないヘッド LED液晶ディスプレイ軽量低騒音伸縮パイプ HEPA多重濾過着脱式バッテリー3年保証",
+          "rank": 4,
           "previous_rank": 30,
-          "rank_velocity": 0.5833,
+          "rank_velocity": 1.0833,
           "genre_id": 562637
         },
         {
-          "item_code": "brita:10000161",
-          "item_name": "【公式・正規品】 ポット型浄水器用カートリッジ マクストラプロ ピュアパフォーマンス 8個セット | 日本仕様 浄水カートリッジ 浄水ポット マ 日本仕様 ブリタカートリッジ brita maxtra アウトレット PFAS (PFOS/PFOA) 除去",
-          "rank": 1,
-          "previous_rank": 15,
-          "rank_velocity": 0.5833,
-          "genre_id": 562637
+          "item_code": "sk-ii:10003857",
+          "item_name": "【公式】フェイシャルトリートメント エッセンス コフレ2026 ホリデーコレクション ｜SK-2 / SK-II（エスケーツー） 正規品 送料無料 SK2 SKII ピテラ 美容液 スキンケア 誕生日 女性 化粧品 コスメ 妻 誕生日",
+          "rank": 5,
+          "previous_rank": 29,
+          "rank_velocity": 1.0,
+          "genre_id": 100939
         },
         {
-          "item_code": "kitchenavi:10000408",
-          "item_name": "【公式】VAKUEN 真空保存容器 電動 強力密閉 鮮度長持ち コンテナ タッパー キャニスター BPAフリー 電子レンジ 食洗機 冷凍 耐熱 フードストッカー 野菜 米 調味料 液体 ギフト 韓国製 バクエン",
-          "rank": 2,
-          "previous_rank": 15,
-          "rank_velocity": 0.5417,
+          "item_code": "kurashi-zakka:10002372",
+          "item_name": "＼55％OFFクーポン！先着300枚！10/24〜10/27／累計販売数100000台突破【sakuraku 排気口カバー 奥行伸縮】＼奥行伸縮 排気口カバーのパイオニア／ 60cm 75cm フラット ラック型 ＼熱い・重いお鍋が置ける／【特許取得済】",
+          "rank": 3,
+          "previous_rank": 25,
+          "rank_velocity": 0.9167,
           "genre_id": 558944
+        },
+        {
+          "item_code": "pricon:10003151",
+          "item_name": "コンタクトレンズ ワンデー コンタクト ｜ ワンデーアキュビュー オアシス 90枚パック 2箱セット 1日使い捨て コンタクト （コンタクト ワンデー / アキュビュー / オアシス / ジョンソン&ジョンソン / クリアレンズ 1day）",
+          "rank": 3,
+          "previous_rank": 24,
+          "rank_velocity": 0.875,
+          "genre_id": null
         }
       ],
       "tier_counts": {
         "keyword": 10,
         "market": 8,
-        "rising": 4,
-        "explore": 3
+        "rising": 1,
+        "explore": 6
       },
       "market_ranking_available": true
     }
@@ -533,12 +515,12 @@
   },
   "amazon_phase1": {
     "links_total": 103,
-    "target_products_total": 1487,
+    "target_products_total": 1512,
     "buttons_live": 103,
-    "site_day": "2026-10-25",
+    "site_day": "2026-10-26",
     "new_matches_today": 0,
     "high_confidence_total": 62,
-    "unmatched_total": 1384,
+    "unmatched_total": 1409,
     "match_method_counts": {
       "A": 0,
       "B": 24,
