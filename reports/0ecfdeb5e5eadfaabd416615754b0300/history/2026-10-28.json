@@ -1,0 +1,550 @@
+{
+  "generated_at": "2026-10-28T23:30:44.081811+09:00",
+  "date": "2026-10-28",
+  "anomalies": [
+    "⚠️ 楽天アフィリエイトの売上CSV取込が399時間前から更新されていません(最終取込: 2026-10-12 08:22)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
+  ],
+  "x": {
+    "slots": [
+      {
+        "time": "08:30",
+        "planned": 3,
+        "actual": 0,
+        "recovered": 0,
+        "shortfall": 3,
+        "status": "api_failure"
+      },
+      {
+        "time": "13:00",
+        "planned": 3,
+        "actual": 0,
+        "recovered": 0,
+        "shortfall": 3,
+        "status": "api_failure"
+      },
+      {
+        "time": "18:00",
+        "planned": 3,
+        "actual": 0,
+        "recovered": 0,
+        "shortfall": 3,
+        "status": "api_failure"
+      }
+    ],
+    "slot_status": [
+      {
+        "status": "api_failure",
+        "planned": 3,
+        "actual": 0,
+        "detail": "Buffer 認証エラー(APIキーを確認してください) (item_code=lifedrinkcompany:10000022 slot=08:30)",
+        "slot": "08:30"
+      },
+      {
+        "status": "api_failure",
+        "planned": 3,
+        "actual": 0,
+        "detail": "Buffer 認証エラー(APIキーを確認してください) (item_code=lifedrinkcompany:10000022 slot=13:00)",
+        "slot": "13:00"
+      },
+      {
+        "status": "api_failure",
+        "planned": 3,
+        "actual": 0,
+        "detail": "Buffer 認証エラー(APIキーを確認してください) (item_code=lifedrinkcompany:10000022 slot=18:00)",
+        "slot": "18:00"
+      }
+    ],
+    "slot_other": 0,
+    "posts_today": 0,
+    "posts_month": 167,
+    "success": 0,
+    "failed": 3,
+    "skipped_duplicate": 0,
+    "daily_cap": 9,
+    "capped": false,
+    "clicks": 0,
+    "clicks_available": false,
+    "tweets": [],
+    "extended": {
+      "impressions_total": null,
+      "impressions_available": false,
+      "impressions_avg_per_post": null,
+      "engagement_total": null,
+      "engagement_available": false,
+      "engagement_rate": null,
+      "posts_detail": [],
+      "slot_impressions": {
+        "08:30": {
+          "posts": 0,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        },
+        "13:00": {
+          "posts": 0,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        },
+        "18:00": {
+          "posts": 0,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        }
+      },
+      "by_item": [],
+      "by_genre": [],
+      "by_selection_source": {},
+      "by_market_demand_band": [],
+      "by_appeal_type_available": false
+    }
+  },
+  "pinterest": {
+    "planned": 8,
+    "posts_today": 8,
+    "failed": 0,
+    "skipped_duplicate": 0,
+    "pending": 0,
+    "clicks": 0,
+    "clicks_available": false,
+    "extended": {
+      "slot_counts": {
+        "09:00": {
+          "attempted": 3,
+          "success": 3,
+          "failed": 0
+        },
+        "12:30": {
+          "attempted": 3,
+          "success": 3,
+          "failed": 0
+        },
+        "17:00": {
+          "attempted": 2,
+          "success": 2,
+          "failed": 0
+        },
+        "20:15": {
+          "attempted": 0,
+          "success": 0,
+          "failed": 0
+        }
+      },
+      "slot_other": {
+        "attempted": 0,
+        "success": 0,
+        "failed": 0
+      },
+      "success_total": 8,
+      "failed_total": 0,
+      "by_item": [
+        {
+          "item_code": "abemashopping:10000126"
+        },
+        {
+          "item_code": "drip-pod:10000253"
+        },
+        {
+          "item_code": "kobe-beauty-labo:10002820"
+        },
+        {
+          "item_code": "masuyone:10000016"
+        },
+        {
+          "item_code": "rebun:10007924"
+        },
+        {
+          "item_code": "velus:10000120"
+        },
+        {
+          "item_code": "vesync:10000001"
+        },
+        {
+          "item_code": "vtcosmetic-official:10000773"
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 4
+        },
+        {
+          "genre_label": "家電",
+          "count": 2
+        },
+        {
+          "genre_label": "食品",
+          "count": 2
+        }
+      ],
+      "by_selection_source": {
+        "explore": 3,
+        "rising": 3,
+        "keyword": 1,
+        "market": 1
+      },
+      "impressions_available": false,
+      "impressions": null,
+      "engagement_available": false,
+      "engagement": null
+    }
+  },
+  "room": {
+    "candidate_today": 6,
+    "approved_today": 20,
+    "completed_today": 20,
+    "extended": {
+      "candidate_to_completed_rate": 3.3333,
+      "candidate_to_completed_rate_available": true,
+      "by_item": [
+        {
+          "item_code": "abemashopping:10000126",
+          "rank": 8,
+          "market_demand_score": 58.04
+        },
+        {
+          "item_code": "drip-pod:10000253",
+          "rank": 9,
+          "market_demand_score": 64.5
+        },
+        {
+          "item_code": "kobe-beauty-labo:10002820",
+          "rank": 4,
+          "market_demand_score": 70.02
+        },
+        {
+          "item_code": "velus:10000120",
+          "rank": 25,
+          "market_demand_score": 41.71
+        },
+        {
+          "item_code": "vtcosmetic-official:10000773",
+          "rank": 9,
+          "market_demand_score": 58.56
+        },
+        {
+          "item_code": "yamaichi-himono:10000042",
+          "rank": null,
+          "market_demand_score": null
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 4
+        },
+        {
+          "genre_label": "家電",
+          "count": 1
+        },
+        {
+          "genre_label": "unknown",
+          "count": 1
+        }
+      ],
+      "by_selection_source": {
+        "explore": 3,
+        "rising": 2,
+        "keyword": 1
+      },
+      "rank_list": [
+        8,
+        9,
+        4,
+        25,
+        9
+      ],
+      "market_demand_score_list": [
+        58.04,
+        64.5,
+        70.02,
+        41.71,
+        58.56
+      ],
+      "rising_count": 2
+    }
+  },
+  "market_demand": {
+    "ranking_available": true,
+    "top_demand": [
+      {
+        "item_code": "irisplaza-r:10170526",
+        "item_name": "【令和8年産100％使用】白米 無洗米 和の輝き ブレンド米 10kg (5kg×2袋) 15kg (5kg×3袋) 密封新鮮パック 脱酸素剤入り 米 お米 国産 10キロ 15キロ 低温製法米 送料無料 アイリスオーヤマ",
+        "rank": 2,
+        "market_demand_score": 76.74,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "attenir:10000252",
+        "item_name": "【ポイント5倍！〜10月27日9:59】 大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 皮脂 詰め替え ダブル洗顔不要 アテニア 公式 ]",
+        "rank": 1,
+        "market_demand_score": 76.52,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "kanidokoro:10001780",
+        "item_name": "【最大10万P当たる!?！】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/31 23:59迄エントリーで】",
+        "rank": 1,
+        "market_demand_score": 75.57,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "kitchenavi:10000408",
+        "item_name": "【マラソン期間中★最大20%OFFクーポン】【公式】VAKUEN 真空保存容器 電動 強力密閉 鮮度長持ち コンテナ タッパー キャニスター BPAフリー 電子レンジ 食洗機 冷凍 耐熱 フードストッカー 野菜 米 調味料 ギフト 韓国製 バクエン",
+        "rank": 1,
+        "market_demand_score": 74.83,
+        "genre_id": 558944
+      },
+      {
+        "item_code": "brita:10000161",
+        "item_name": "【公式・正規品】 ポット型浄水器用カートリッジ マクストラプロ ピュアパフォーマンス 8個セット | 日本仕様 浄水カートリッジ 浄水ポット マ 日本仕様 ブリタカートリッジ brita maxtra アウトレット PFAS (PFOS/PFOA) 除去",
+        "rank": 1,
+        "market_demand_score": 73.95,
+        "genre_id": 562637
+      }
+    ],
+    "top_rising": [
+      {
+        "item_code": "irisplaza-r:10170526",
+        "item_name": "【令和8年産100％使用】白米 無洗米 和の輝き ブレンド米 10kg (5kg×2袋) 15kg (5kg×3袋) 密封新鮮パック 脱酸素剤入り 米 お米 国産 10キロ 15キロ 低温製法米 送料無料 アイリスオーヤマ",
+        "rank": 2,
+        "previous_rank": 26,
+        "rank_velocity": 1.0,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "tvert:10000064",
+        "item_name": "【ポイント5倍★ 10/24 20:00~10/27 09:59】【送料無料】乳液 セラミド 高保湿 さらさら 乾燥 インナードライ 楽天ベストコスメ2023 殿堂入り 学術誌掲載 60m 選べる3タイプ トゥベール トゥヴェール ナノエマルジョン／ナノエマルジョンプラス／ナノエマルジョンディープ",
+        "rank": 6,
+        "previous_rank": 29,
+        "rank_velocity": 0.9583,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "kobe-beauty-labo:10002820",
+        "item_name": "≪25%OFFクーポン≫ 【 SALONIA サロニア ペン型美顔器 】ペン型美顔器 美顔器 たるみケア ポスポス リフトアップ 持ち運び 耳 引き上げる コリ 母の日 プレゼント ギフト にもおすすめ",
+        "rank": 4,
+        "previous_rank": 22,
+        "rank_velocity": 0.75,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "hiromifashionhouse:10005004",
+        "item_name": "【全回数25％OFFクーポン】楽天総合1位 簡易トイレ 非常用トイレセット 防災トイレ 防災備蓄 防災士監修 愛知県企業開発 凝固剤10g 抗菌消臭 専用硬紙箱 15年保存 20～500回分 防臭袋・便座カバー付 災害 断水 停電 防災用品 法人・大口購入OK",
+        "rank": 5,
+        "previous_rank": 23,
+        "rank_velocity": 0.75,
+        "genre_id": 215783
+      },
+      {
+        "item_code": "orbtech:10000027",
+        "item_name": "業務用マルチクリーナー 500ml 掃除用 洗剤 清掃 キッチン 台所 油汚れ カーペット ソファ テーブル 車内 洗車 外壁清掃 革製品 壁紙 腕時計 テレビ 窓ガラス パソコン PC 畳 白木 タイル 除菌 オーブ・テック",
+        "rank": 14,
+        "previous_rank": 30,
+        "rank_velocity": 0.6667,
+        "genre_id": 215783
+      }
+    ],
+    "tier_counts": {
+      "keyword": 10,
+      "market": 8,
+      "rising": 4,
+      "explore": 3
+    },
+    "extended": {
+      "ranking_fetch_calls_expected": 12,
+      "ranking_fetch_success": 12,
+      "ranking_fetch_failed": 0,
+      "ranking_fetch_ran_today": true,
+      "items_fetched_today": 360,
+      "rank_velocity_avg": 0.02,
+      "by_genre_adopted": [
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 3
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 2
+        },
+        {
+          "genre_label": "家電",
+          "count": 5
+        },
+        {
+          "genre_label": "unknown",
+          "count": 3
+        },
+        {
+          "genre_label": "食品",
+          "count": 2
+        }
+      ],
+      "top_market_demand": [
+        {
+          "item_code": "irisplaza-r:10170526",
+          "item_name": "【令和8年産100％使用】白米 無洗米 和の輝き ブレンド米 10kg (5kg×2袋) 15kg (5kg×3袋) 密封新鮮パック 脱酸素剤入り 米 お米 国産 10キロ 15キロ 低温製法米 送料無料 アイリスオーヤマ",
+          "rank": 2,
+          "market_demand_score": 76.74,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "attenir:10000252",
+          "item_name": "【ポイント5倍！〜10月27日9:59】 大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [ クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角栓 角質 皮脂 詰め替え ダブル洗顔不要 アテニア 公式 ]",
+          "rank": 1,
+          "market_demand_score": 76.52,
+          "genre_id": 100939
+        },
+        {
+          "item_code": "kanidokoro:10001780",
+          "item_name": "【最大10万P当たる!?！】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/31 23:59迄エントリーで】",
+          "rank": 1,
+          "market_demand_score": 75.57,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "kitchenavi:10000408",
+          "item_name": "【マラソン期間中★最大20%OFFクーポン】【公式】VAKUEN 真空保存容器 電動 強力密閉 鮮度長持ち コンテナ タッパー キャニスター BPAフリー 電子レンジ 食洗機 冷凍 耐熱 フードストッカー 野菜 米 調味料 ギフト 韓国製 バクエン",
+          "rank": 1,
+          "market_demand_score": 74.83,
+          "genre_id": 558944
+        },
+        {
+          "item_code": "brita:10000161",
+          "item_name": "【公式・正規品】 ポット型浄水器用カートリッジ マクストラプロ ピュアパフォーマンス 8個セット | 日本仕様 浄水カートリッジ 浄水ポット マ 日本仕様 ブリタカートリッジ brita maxtra アウトレット PFAS (PFOS/PFOA) 除去",
+          "rank": 1,
+          "market_demand_score": 73.95,
+          "genre_id": 562637
+        }
+      ],
+      "top_rising": [
+        {
+          "item_code": "irisplaza-r:10170526",
+          "item_name": "【令和8年産100％使用】白米 無洗米 和の輝き ブレンド米 10kg (5kg×2袋) 15kg (5kg×3袋) 密封新鮮パック 脱酸素剤入り 米 お米 国産 10キロ 15キロ 低温製法米 送料無料 アイリスオーヤマ",
+          "rank": 2,
+          "previous_rank": 26,
+          "rank_velocity": 1.0,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "tvert:10000064",
+          "item_name": "【ポイント5倍★ 10/24 20:00~10/27 09:59】【送料無料】乳液 セラミド 高保湿 さらさら 乾燥 インナードライ 楽天ベストコスメ2023 殿堂入り 学術誌掲載 60m 選べる3タイプ トゥベール トゥヴェール ナノエマルジョン／ナノエマルジョンプラス／ナノエマルジョンディープ",
+          "rank": 6,
+          "previous_rank": 29,
+          "rank_velocity": 0.9583,
+          "genre_id": 100939
+        },
+        {
+          "item_code": "kobe-beauty-labo:10002820",
+          "item_name": "≪25%OFFクーポン≫ 【 SALONIA サロニア ペン型美顔器 】ペン型美顔器 美顔器 たるみケア ポスポス リフトアップ 持ち運び 耳 引き上げる コリ 母の日 プレゼント ギフト にもおすすめ",
+          "rank": 4,
+          "previous_rank": 22,
+          "rank_velocity": 0.75,
+          "genre_id": 100939
+        },
+        {
+          "item_code": "hiromifashionhouse:10005004",
+          "item_name": "【全回数25％OFFクーポン】楽天総合1位 簡易トイレ 非常用トイレセット 防災トイレ 防災備蓄 防災士監修 愛知県企業開発 凝固剤10g 抗菌消臭 専用硬紙箱 15年保存 20～500回分 防臭袋・便座カバー付 災害 断水 停電 防災用品 法人・大口購入OK",
+          "rank": 5,
+          "previous_rank": 23,
+          "rank_velocity": 0.75,
+          "genre_id": 215783
+        },
+        {
+          "item_code": "orbtech:10000027",
+          "item_name": "業務用マルチクリーナー 500ml 掃除用 洗剤 清掃 キッチン 台所 油汚れ カーペット ソファ テーブル 車内 洗車 外壁清掃 革製品 壁紙 腕時計 テレビ 窓ガラス パソコン PC 畳 白木 タイル 除菌 オーブ・テック",
+          "rank": 14,
+          "previous_rank": 30,
+          "rank_velocity": 0.6667,
+          "genre_id": 215783
+        }
+      ],
+      "tier_counts": {
+        "keyword": 10,
+        "market": 8,
+        "rising": 4,
+        "explore": 3
+      },
+      "market_ranking_available": true
+    }
+  },
+  "instagram": {
+    "connected": false,
+    "slots": [
+      {
+        "time": "09:30",
+        "planned": 1,
+        "actual": 0,
+        "recovered": 0
+      },
+      {
+        "time": "19:30",
+        "planned": 1,
+        "actual": 0,
+        "recovered": 0
+      }
+    ],
+    "slot_other": 0,
+    "posts_today": 0,
+    "posts_month": 0,
+    "success": 0,
+    "failed": 0,
+    "skipped_duplicate": 0,
+    "daily_cap": 2,
+    "capped": false,
+    "media": []
+  },
+  "amazon_phase1": {
+    "links_total": 103,
+    "target_products_total": 1557,
+    "buttons_live": 103,
+    "site_day": "2026-10-28",
+    "new_matches_today": 0,
+    "high_confidence_total": 62,
+    "unmatched_total": 1454,
+    "match_method_counts": {
+      "A": 0,
+      "B": 24,
+      "C": 38,
+      "manual": 41
+    },
+    "tier_breakdown_safe_only": {
+      "A": 0,
+      "B": 24,
+      "C": 38,
+      "legacy": 38,
+      "unknown": 0,
+      "total": 100
+    },
+    "ambiguous_pending_review": 20,
+    "needs_review": 4,
+    "x_dual_coverage_posts_today": 0,
+    "x_rakuten_only_posts_today": 0,
+    "clicks_available": false,
+    "raw_clicks": 0,
+    "unique_clicks": 0,
+    "clicks_by_item": [],
+    "clicks_by_source": [],
+    "sales_available": false,
+    "sales": null,
+    "orders_available": false,
+    "orders": null,
+    "commission_available": false,
+    "commission": null,
+    "clicks": 0,
+    "note": "Clicks are our own redirect-hit count (Phase A, live). Sales/orders/commission are Amazon's official Reporting API data and remain unavailable (null, not 0) until Creators API access is confirmed on Associates Central — see app.amazon_reporting.creators_api_access_status."
+  },
+  "rakuten": {
+    "today_sales": 0.0,
+    "today_reward": 0.0,
+    "month_sales": 2550.0,
+    "month_reward": 102.0,
+    "last_import": "2026-10-12 08:22",
+    "import_stale": true,
+    "sales_available": true
+  }
+}
