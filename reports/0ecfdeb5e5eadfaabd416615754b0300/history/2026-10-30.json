@@ -1,0 +1,772 @@
+{
+  "generated_at": "2026-10-30T23:30:53.947040+09:00",
+  "date": "2026-10-30",
+  "anomalies": [
+    "⚠️ 楽天アフィリエイトの売上CSV取込が447時間前から更新されていません(最終取込: 2026-10-12 08:22)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
+  ],
+  "x": {
+    "slots": [
+      {
+        "time": "08:30",
+        "planned": 3,
+        "actual": 0,
+        "recovered": 0,
+        "shortfall": 3,
+        "status": "api_failure"
+      },
+      {
+        "time": "13:00",
+        "planned": 3,
+        "actual": 6,
+        "recovered": 3,
+        "shortfall": 0,
+        "status": "on_target"
+      },
+      {
+        "time": "18:00",
+        "planned": 3,
+        "actual": 0,
+        "recovered": 0,
+        "shortfall": 3,
+        "status": "api_failure"
+      }
+    ],
+    "slot_status": [
+      {
+        "status": "api_failure",
+        "planned": 3,
+        "actual": 0,
+        "detail": "Buffer 予約失敗: Invalid post: Whoops, it looks like you've already got this one scheduled or posted around the same time. We're not able (item_code=lifedrinkcompany:10000022 slot=08:30)",
+        "slot": "08:30"
+      },
+      {
+        "status": "on_target",
+        "planned": 3,
+        "actual": 6,
+        "detail": "",
+        "slot": "13:00"
+      },
+      {
+        "status": "api_failure",
+        "planned": 3,
+        "actual": 0,
+        "detail": "Buffer 予約失敗: Invalid post: Whoops, it looks like you've already got this one scheduled or posted around the same time. We're not able (item_code=toyosen:10000084 slot=18:00)",
+        "slot": "18:00"
+      }
+    ],
+    "slot_other": 0,
+    "posts_today": 6,
+    "posts_month": 182,
+    "success": 6,
+    "failed": 2,
+    "skipped_duplicate": 6,
+    "daily_cap": 9,
+    "capped": false,
+    "clicks": 0,
+    "clicks_available": false,
+    "tweets": [
+      {
+        "id": "2116017813999513891",
+        "url": "https://x.com/1338426867951443968/status/2116017813999513891",
+        "metrics": null
+      },
+      {
+        "id": "2116019072076853700",
+        "url": "https://x.com/1338426867951443968/status/2116019072076853700",
+        "metrics": null
+      },
+      {
+        "id": "2116020330565185563",
+        "url": "https://x.com/1338426867951443968/status/2116020330565185563",
+        "metrics": null
+      },
+      {
+        "id": "2116021589598679338",
+        "url": "https://x.com/1338426867951443968/status/2116021589598679338",
+        "metrics": null
+      },
+      {
+        "id": "2116022847915090062",
+        "url": "https://x.com/1338426867951443968/status/2116022847915090062",
+        "metrics": null
+      },
+      {
+        "id": "2116024105463865385",
+        "url": "https://x.com/1338426867951443968/status/2116024105463865385",
+        "metrics": null
+      }
+    ],
+    "extended": {
+      "impressions_total": null,
+      "impressions_available": false,
+      "impressions_avg_per_post": null,
+      "engagement_total": null,
+      "engagement_available": false,
+      "engagement_rate": null,
+      "posts_detail": [
+        {
+          "item_code": "auc-ulmax:10180372",
+          "slot": "13:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "生活用品",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "candy:10453765",
+          "slot": "13:00",
+          "selection_source": "keyword",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "fracora:10000002",
+          "slot": "13:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "goods-live:10000228",
+          "slot": "13:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "lifedrinkcompany:10000022",
+          "slot": "13:00",
+          "selection_source": "keyword",
+          "market_demand_score": null,
+          "genre_label": "全ジャンル",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "netsbee:10049027",
+          "slot": "13:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        }
+      ],
+      "slot_impressions": {
+        "08:30": {
+          "posts": 0,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        },
+        "13:00": {
+          "posts": 6,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        },
+        "18:00": {
+          "posts": 0,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        }
+      },
+      "by_item": [
+        {
+          "item_code": "auc-ulmax:10180372",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "candy:10453765",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "fracora:10000002",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "goods-live:10000228",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "lifedrinkcompany:10000022",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "netsbee:10049027",
+          "impressions": null,
+          "engagement": null
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "生活用品",
+          "count": 1,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "美容",
+          "count": 4,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "全ジャンル",
+          "count": 1,
+          "impressions_total": null,
+          "engagement_total": null
+        }
+      ],
+      "by_selection_source": {
+        "amazon_safe": {
+          "count": 4,
+          "impressions_total": null,
+          "impressions_avg": null,
+          "engagement_total": null
+        },
+        "keyword": {
+          "count": 2,
+          "impressions_total": null,
+          "impressions_avg": null,
+          "engagement_total": null
+        }
+      },
+      "by_market_demand_band": [
+        {
+          "band": "unknown",
+          "count": 6,
+          "impressions_total": null
+        }
+      ],
+      "by_appeal_type_available": false
+    }
+  },
+  "pinterest": {
+    "planned": 8,
+    "posts_today": 8,
+    "failed": 0,
+    "skipped_duplicate": 0,
+    "pending": 0,
+    "clicks": 0,
+    "clicks_available": false,
+    "extended": {
+      "slot_counts": {
+        "09:00": {
+          "attempted": 3,
+          "success": 3,
+          "failed": 0
+        },
+        "12:30": {
+          "attempted": 3,
+          "success": 3,
+          "failed": 0
+        },
+        "17:00": {
+          "attempted": 2,
+          "success": 2,
+          "failed": 0
+        },
+        "20:15": {
+          "attempted": 0,
+          "success": 0,
+          "failed": 0
+        }
+      },
+      "slot_other": {
+        "attempted": 0,
+        "success": 0,
+        "failed": 0
+      },
+      "success_total": 8,
+      "failed_total": 0,
+      "by_item": [
+        {
+          "item_code": "bobbibrown:10001609"
+        },
+        {
+          "item_code": "h2brothers:10001880"
+        },
+        {
+          "item_code": "hiromifashionhouse:10005004"
+        },
+        {
+          "item_code": "irisplaza-r:10149259"
+        },
+        {
+          "item_code": "kouragumi:10000367"
+        },
+        {
+          "item_code": "kouragumi:10001694"
+        },
+        {
+          "item_code": "kyusyukome:10000047"
+        },
+        {
+          "item_code": "merrygadget:10002057"
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 1
+        },
+        {
+          "genre_label": "unknown",
+          "count": 2
+        },
+        {
+          "genre_label": "全ジャンル",
+          "count": 1
+        },
+        {
+          "genre_label": "家電",
+          "count": 1
+        },
+        {
+          "genre_label": "食品",
+          "count": 3
+        }
+      ],
+      "by_selection_source": {
+        "explore": 3,
+        "rising": 3,
+        "market": 1,
+        "keyword": 1
+      },
+      "impressions_available": false,
+      "impressions": null,
+      "engagement_available": false,
+      "engagement": null
+    }
+  },
+  "room": {
+    "candidate_today": 10,
+    "approved_today": 20,
+    "completed_today": 20,
+    "extended": {
+      "candidate_to_completed_rate": 2.0,
+      "candidate_to_completed_rate_available": true,
+      "by_item": [
+        {
+          "item_code": "bikke:10000039",
+          "rank": null,
+          "market_demand_score": null
+        },
+        {
+          "item_code": "bobbibrown:10001609",
+          "rank": 3,
+          "market_demand_score": 64.73
+        },
+        {
+          "item_code": "h2brothers:10001880",
+          "rank": 8,
+          "market_demand_score": 56.16
+        },
+        {
+          "item_code": "hiromifashionhouse:10005004",
+          "rank": 11,
+          "market_demand_score": 53.39
+        },
+        {
+          "item_code": "hitidear:10000173",
+          "rank": 19,
+          "market_demand_score": 50.53
+        },
+        {
+          "item_code": "irisplaza-r:10149259",
+          "rank": 1,
+          "market_demand_score": 62.91
+        },
+        {
+          "item_code": "kanidokoro:10002273",
+          "rank": 3,
+          "market_demand_score": 63.25
+        },
+        {
+          "item_code": "kouragumi:10000367",
+          "rank": 5,
+          "market_demand_score": 62.07
+        },
+        {
+          "item_code": "kyusyukome:10000047",
+          "rank": 15,
+          "market_demand_score": 56.76
+        },
+        {
+          "item_code": "merrygadget:10002057",
+          "rank": null,
+          "market_demand_score": null
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "unknown",
+          "count": 3
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 1
+        },
+        {
+          "genre_label": "全ジャンル",
+          "count": 1
+        },
+        {
+          "genre_label": "家電",
+          "count": 2
+        },
+        {
+          "genre_label": "食品",
+          "count": 3
+        }
+      ],
+      "by_selection_source": {
+        "keyword": 2,
+        "explore": 3,
+        "rising": 2,
+        "market": 3
+      },
+      "rank_list": [
+        3,
+        8,
+        11,
+        19,
+        1,
+        3,
+        5,
+        15
+      ],
+      "market_demand_score_list": [
+        64.73,
+        56.16,
+        53.39,
+        50.53,
+        62.91,
+        63.25,
+        62.07,
+        56.76
+      ],
+      "rising_count": 2
+    }
+  },
+  "market_demand": {
+    "ranking_available": true,
+    "top_demand": [
+      {
+        "item_code": "attenir:10000252",
+        "item_name": "大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角質 角栓 詰め替え ダブル洗顔不要 アテニア 公式]",
+        "rank": 1,
+        "market_demand_score": 76.26,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "kouragumi:10001520",
+        "item_name": "今夜23:59まで楽天カードでP5倍！お試し送料無料2,490円～ 骨取りサバ切身 1kg 無塩or有塩が選べる♪骨とり 骨なし 鯖 さば 冷凍食品 お中元 ギフト 【P】",
+        "rank": 2,
+        "market_demand_score": 76.1,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "kanidokoro:10001780",
+        "item_name": "【最大10万P当たる!?！】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/31 23:59迄エントリーで】",
+        "rank": 1,
+        "market_demand_score": 75.57,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "pricon:10003151",
+        "item_name": "コンタクトレンズ ワンデー コンタクト ｜ ワンデーアキュビュー オアシス 90枚パック 2箱セット 1日使い捨て コンタクト （コンタクト ワンデー / アキュビュー / オアシス / ジョンソン&ジョンソン / クリアレンズ 1day）",
+        "rank": 4,
+        "market_demand_score": 75.13,
+        "genre_id": null
+      },
+      {
+        "item_code": "kanidokoro:10001780",
+        "item_name": "【0の日P最大4倍】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/30 23:59迄エントリーで】",
+        "rank": 1,
+        "market_demand_score": 75.05,
+        "genre_id": 100227
+      }
+    ],
+    "top_rising": [
+      {
+        "item_code": "kouragumi:10001537",
+        "item_name": "ご予約数すでに7,000個突破！10/31まで★超早割1,000円OFFで9,980円⇒送料無料8,980円！コスパ抜群の甲羅組おせち「角鹿」6.5寸×3段 3〜4人前 盛り付け済み 冷凍 主原料に中国産不使用 ランキング1位 11/1～11/30まで早割500円OFF！9,480円【P】",
+        "rank": 6,
+        "previous_rank": 29,
+        "rank_velocity": 0.9583,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "easyjoy-shop:10000371",
+        "item_name": "クーポンで20％OFF 楽天ランキング1位 水切りラック シンク上 ステンレス 伸縮式 大容量 スリム 調整可能 省スペース 食器水切り 水切りかご キッチンラック 台所 ガラスホルダー まな板ホルダー 箸立て 包丁差し",
+        "rank": 7,
+        "previous_rank": 28,
+        "rank_velocity": 0.875,
+        "genre_id": 558944
+      },
+      {
+        "item_code": "hiromifashionhouse:10005004",
+        "item_name": "【全回数25％OFFクーポン】楽天総合1位 簡易トイレ 非常用トイレセット 防災トイレ 防災備蓄 防災士監修 愛知県企業開発 凝固剤10g 抗菌消臭 専用硬紙箱 15年保存 20～500回分 防臭袋・便座カバー付 災害 断水 停電 防災用品 法人・大口購入OK",
+        "rank": 6,
+        "previous_rank": 24,
+        "rank_velocity": 0.75,
+        "genre_id": null
+      },
+      {
+        "item_code": "saladcosmo:10000634",
+        "item_name": "＼楽天グルメ大賞 受賞 ＆ 楽天総合ランキング11年連続1位／ おせち 早割 2027 冷蔵 便でお届け / ちこり村 田舎の 手づくり おせち料理 【人気2品増量】 二段重 3〜4人前 送料無料 / 薄味 冷蔵おせち 御節 お節 お節料理 和風 栗きんとん フルーツチーズ 飛騨牛",
+        "rank": 11,
+        "previous_rank": 26,
+        "rank_velocity": 0.625,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "ricetanaka:10000004",
+        "item_name": "【期間限定 特価 10kg3,680円 5kg2,180円】 国内産 ほほえみ米 5kg / 10kg お米 米 送料無料 白米 おいしい ごはん 10キロ 5キロ こめた こめた楽天市場店",
+        "rank": 14,
+        "previous_rank": 26,
+        "rank_velocity": 0.5,
+        "genre_id": 100227
+      }
+    ],
+    "tier_counts": {
+      "keyword": 10,
+      "market": 8,
+      "rising": 4,
+      "explore": 3
+    },
+    "extended": {
+      "ranking_fetch_calls_expected": 12,
+      "ranking_fetch_success": 12,
+      "ranking_fetch_failed": 0,
+      "ranking_fetch_ran_today": true,
+      "items_fetched_today": 359,
+      "rank_velocity_avg": -0.01,
+      "by_genre_adopted": [
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 2
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 4
+        },
+        {
+          "genre_label": "unknown",
+          "count": 2
+        },
+        {
+          "genre_label": "家電",
+          "count": 2
+        },
+        {
+          "genre_label": "食品",
+          "count": 5
+        }
+      ],
+      "top_market_demand": [
+        {
+          "item_code": "attenir:10000252",
+          "item_name": "大容量 スキンクリア クレンズ オイル 350mL 大容量 ボトル / つめかえ用 (4種) [クレンジング クレンジングオイル メイク落とし 毛穴 くすみ エイジングケア 洗顔 角質 角栓 詰め替え ダブル洗顔不要 アテニア 公式]",
+          "rank": 1,
+          "market_demand_score": 76.26,
+          "genre_id": 100939
+        },
+        {
+          "item_code": "kouragumi:10001520",
+          "item_name": "今夜23:59まで楽天カードでP5倍！お試し送料無料2,490円～ 骨取りサバ切身 1kg 無塩or有塩が選べる♪骨とり 骨なし 鯖 さば 冷凍食品 お中元 ギフト 【P】",
+          "rank": 2,
+          "market_demand_score": 76.1,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "kanidokoro:10001780",
+          "item_name": "【最大10万P当たる!?！】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/31 23:59迄エントリーで】",
+          "rank": 1,
+          "market_demand_score": 75.57,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "pricon:10003151",
+          "item_name": "コンタクトレンズ ワンデー コンタクト ｜ ワンデーアキュビュー オアシス 90枚パック 2箱セット 1日使い捨て コンタクト （コンタクト ワンデー / アキュビュー / オアシス / ジョンソン&ジョンソン / クリアレンズ 1day）",
+          "rank": 4,
+          "market_demand_score": 75.13,
+          "genre_id": null
+        },
+        {
+          "item_code": "kanidokoro:10001780",
+          "item_name": "【0の日P最大4倍】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/30 23:59迄エントリーで】",
+          "rank": 1,
+          "market_demand_score": 75.05,
+          "genre_id": 100227
+        }
+      ],
+      "top_rising": [
+        {
+          "item_code": "kouragumi:10001537",
+          "item_name": "ご予約数すでに7,000個突破！10/31まで★超早割1,000円OFFで9,980円⇒送料無料8,980円！コスパ抜群の甲羅組おせち「角鹿」6.5寸×3段 3〜4人前 盛り付け済み 冷凍 主原料に中国産不使用 ランキング1位 11/1～11/30まで早割500円OFF！9,480円【P】",
+          "rank": 6,
+          "previous_rank": 29,
+          "rank_velocity": 0.9583,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "easyjoy-shop:10000371",
+          "item_name": "クーポンで20％OFF 楽天ランキング1位 水切りラック シンク上 ステンレス 伸縮式 大容量 スリム 調整可能 省スペース 食器水切り 水切りかご キッチンラック 台所 ガラスホルダー まな板ホルダー 箸立て 包丁差し",
+          "rank": 7,
+          "previous_rank": 28,
+          "rank_velocity": 0.875,
+          "genre_id": 558944
+        },
+        {
+          "item_code": "hiromifashionhouse:10005004",
+          "item_name": "【全回数25％OFFクーポン】楽天総合1位 簡易トイレ 非常用トイレセット 防災トイレ 防災備蓄 防災士監修 愛知県企業開発 凝固剤10g 抗菌消臭 専用硬紙箱 15年保存 20～500回分 防臭袋・便座カバー付 災害 断水 停電 防災用品 法人・大口購入OK",
+          "rank": 6,
+          "previous_rank": 24,
+          "rank_velocity": 0.75,
+          "genre_id": null
+        },
+        {
+          "item_code": "saladcosmo:10000634",
+          "item_name": "＼楽天グルメ大賞 受賞 ＆ 楽天総合ランキング11年連続1位／ おせち 早割 2027 冷蔵 便でお届け / ちこり村 田舎の 手づくり おせち料理 【人気2品増量】 二段重 3〜4人前 送料無料 / 薄味 冷蔵おせち 御節 お節 お節料理 和風 栗きんとん フルーツチーズ 飛騨牛",
+          "rank": 11,
+          "previous_rank": 26,
+          "rank_velocity": 0.625,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "ricetanaka:10000004",
+          "item_name": "【期間限定 特価 10kg3,680円 5kg2,180円】 国内産 ほほえみ米 5kg / 10kg お米 米 送料無料 白米 おいしい ごはん 10キロ 5キロ こめた こめた楽天市場店",
+          "rank": 14,
+          "previous_rank": 26,
+          "rank_velocity": 0.5,
+          "genre_id": 100227
+        }
+      ],
+      "tier_counts": {
+        "keyword": 10,
+        "market": 8,
+        "rising": 4,
+        "explore": 3
+      },
+      "market_ranking_available": true
+    }
+  },
+  "instagram": {
+    "connected": false,
+    "slots": [
+      {
+        "time": "09:30",
+        "planned": 1,
+        "actual": 0,
+        "recovered": 0
+      },
+      {
+        "time": "19:30",
+        "planned": 1,
+        "actual": 0,
+        "recovered": 0
+      }
+    ],
+    "slot_other": 0,
+    "posts_today": 0,
+    "posts_month": 0,
+    "success": 0,
+    "failed": 0,
+    "skipped_duplicate": 0,
+    "daily_cap": 2,
+    "capped": false,
+    "media": []
+  },
+  "amazon_phase1": {
+    "links_total": 103,
+    "target_products_total": 1612,
+    "buttons_live": 103,
+    "site_day": "2026-10-30",
+    "new_matches_today": 0,
+    "high_confidence_total": 62,
+    "unmatched_total": 1509,
+    "match_method_counts": {
+      "A": 0,
+      "B": 24,
+      "C": 38,
+      "manual": 41
+    },
+    "tier_breakdown_safe_only": {
+      "A": 0,
+      "B": 24,
+      "C": 38,
+      "legacy": 38,
+      "unknown": 0,
+      "total": 100
+    },
+    "ambiguous_pending_review": 20,
+    "needs_review": 4,
+    "x_dual_coverage_posts_today": 5,
+    "x_rakuten_only_posts_today": 1,
+    "clicks_available": false,
+    "raw_clicks": 0,
+    "unique_clicks": 0,
+    "clicks_by_item": [],
+    "clicks_by_source": [],
+    "sales_available": false,
+    "sales": null,
+    "orders_available": false,
+    "orders": null,
+    "commission_available": false,
+    "commission": null,
+    "clicks": 0,
+    "note": "Clicks are our own redirect-hit count (Phase A, live). Sales/orders/commission are Amazon's official Reporting API data and remain unavailable (null, not 0) until Creators API access is confirmed on Associates Central — see app.amazon_reporting.creators_api_access_status."
+  },
+  "rakuten": {
+    "today_sales": 0.0,
+    "today_reward": 0.0,
+    "month_sales": 2550.0,
+    "month_reward": 102.0,
+    "last_import": "2026-10-12 08:22",
+    "import_stale": true,
+    "sales_available": true
+  }
+}
