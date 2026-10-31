@@ -1,0 +1,828 @@
+{
+  "generated_at": "2026-10-31T23:30:48.951144+09:00",
+  "date": "2026-10-31",
+  "anomalies": [
+    "⚠️ 楽天アフィリエイトの売上CSV取込が471時間前から更新されていません(最終取込: 2026-10-12 08:22)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
+  ],
+  "x": {
+    "slots": [
+      {
+        "time": "08:30",
+        "planned": 3,
+        "actual": 0,
+        "recovered": 0,
+        "shortfall": 3,
+        "status": "api_failure"
+      },
+      {
+        "time": "13:00",
+        "planned": 3,
+        "actual": 0,
+        "recovered": 0,
+        "shortfall": 3,
+        "status": "api_failure"
+      },
+      {
+        "time": "18:00",
+        "planned": 3,
+        "actual": 9,
+        "recovered": 6,
+        "shortfall": 0,
+        "status": "on_target"
+      }
+    ],
+    "slot_status": [
+      {
+        "status": "api_failure",
+        "planned": 3,
+        "actual": 0,
+        "detail": "Buffer 予約失敗: Invalid post: Whoops, it looks like you've already got this one scheduled or posted around the same time. We're not able (item_code=lifedrinkcompany:10000022 slot=08:30)",
+        "slot": "08:30"
+      },
+      {
+        "status": "api_failure",
+        "planned": 3,
+        "actual": 0,
+        "detail": "Buffer 予約失敗: Invalid post: Whoops, it looks like you've already got this one scheduled or posted around the same time. We're not able (item_code=lifedrinkcompany:10000022 slot=13:00)",
+        "slot": "13:00"
+      },
+      {
+        "status": "on_target",
+        "planned": 3,
+        "actual": 9,
+        "detail": "",
+        "slot": "18:00"
+      }
+    ],
+    "slot_other": 0,
+    "posts_today": 9,
+    "posts_month": 191,
+    "success": 9,
+    "failed": 2,
+    "skipped_duplicate": 0,
+    "daily_cap": 9,
+    "capped": true,
+    "clicks": 0,
+    "clicks_available": false,
+    "tweets": [
+      {
+        "id": "2116455708371595288",
+        "url": "https://x.com/1338426867951443968/status/2116455708371595288",
+        "metrics": null
+      },
+      {
+        "id": "2116456958156841300",
+        "url": "https://x.com/1338426867951443968/status/2116456958156841300",
+        "metrics": null
+      },
+      {
+        "id": "2116458216338903519",
+        "url": "https://x.com/1338426867951443968/status/2116458216338903519",
+        "metrics": null
+      },
+      {
+        "id": "2116459536907120753",
+        "url": "https://x.com/1338426867951443968/status/2116459536907120753",
+        "metrics": null
+      },
+      {
+        "id": "2116460795684896964",
+        "url": "https://x.com/1338426867951443968/status/2116460795684896964",
+        "metrics": null
+      },
+      {
+        "id": "2116462054047396215",
+        "url": "https://x.com/1338426867951443968/status/2116462054047396215",
+        "metrics": null
+      },
+      {
+        "id": "2116463312388927673",
+        "url": "https://x.com/1338426867951443968/status/2116463312388927673",
+        "metrics": null
+      },
+      {
+        "id": "2116464569971286288",
+        "url": "https://x.com/1338426867951443968/status/2116464569971286288",
+        "metrics": null
+      },
+      {
+        "id": "2116465828442861918",
+        "url": "https://x.com/1338426867951443968/status/2116465828442861918",
+        "metrics": null
+      }
+    ],
+    "extended": {
+      "impressions_total": null,
+      "impressions_available": false,
+      "impressions_avg_per_post": null,
+      "engagement_total": null,
+      "engagement_available": false,
+      "engagement_rate": null,
+      "posts_detail": [
+        {
+          "item_code": "auc-ulmax:10180369",
+          "slot": "18:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "生活用品",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "le-cure:10002233",
+          "slot": "18:00",
+          "selection_source": "keyword",
+          "market_demand_score": null,
+          "genre_label": "キッチン用品",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "lifedrinkcompany:10000022",
+          "slot": "18:00",
+          "selection_source": "keyword",
+          "market_demand_score": null,
+          "genre_label": "全ジャンル",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "roomy:10015932",
+          "slot": "18:00",
+          "selection_source": "keyword",
+          "market_demand_score": null,
+          "genre_label": "キッチン用品",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "shimada-ya:10011605",
+          "slot": "18:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "キッチン用品",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "skindesign:10002150",
+          "slot": "18:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "tarunoaji:10000484",
+          "slot": "18:00",
+          "selection_source": "keyword",
+          "market_demand_score": null,
+          "genre_label": "unknown",
+          "genre_source": "unknown",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "tk-kosme:10000366",
+          "slot": "18:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "toyosen:10000084",
+          "slot": "18:00",
+          "selection_source": "keyword",
+          "market_demand_score": null,
+          "genre_label": "食品",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        }
+      ],
+      "slot_impressions": {
+        "08:30": {
+          "posts": 0,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        },
+        "13:00": {
+          "posts": 0,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        },
+        "18:00": {
+          "posts": 9,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        }
+      },
+      "by_item": [
+        {
+          "item_code": "auc-ulmax:10180369",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "le-cure:10002233",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "lifedrinkcompany:10000022",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "roomy:10015932",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "shimada-ya:10011605",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "skindesign:10002150",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "tarunoaji:10000484",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "tk-kosme:10000366",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "toyosen:10000084",
+          "impressions": null,
+          "engagement": null
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "生活用品",
+          "count": 1,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "キッチン用品",
+          "count": 3,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "全ジャンル",
+          "count": 1,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "美容",
+          "count": 2,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "unknown",
+          "count": 1,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "食品",
+          "count": 1,
+          "impressions_total": null,
+          "engagement_total": null
+        }
+      ],
+      "by_selection_source": {
+        "amazon_safe": {
+          "count": 4,
+          "impressions_total": null,
+          "impressions_avg": null,
+          "engagement_total": null
+        },
+        "keyword": {
+          "count": 5,
+          "impressions_total": null,
+          "impressions_avg": null,
+          "engagement_total": null
+        }
+      },
+      "by_market_demand_band": [
+        {
+          "band": "unknown",
+          "count": 9,
+          "impressions_total": null
+        }
+      ],
+      "by_appeal_type_available": false
+    }
+  },
+  "pinterest": {
+    "planned": 8,
+    "posts_today": 8,
+    "failed": 0,
+    "skipped_duplicate": 0,
+    "pending": 0,
+    "clicks": 0,
+    "clicks_available": false,
+    "extended": {
+      "slot_counts": {
+        "09:00": {
+          "attempted": 3,
+          "success": 3,
+          "failed": 0
+        },
+        "12:30": {
+          "attempted": 3,
+          "success": 3,
+          "failed": 0
+        },
+        "17:00": {
+          "attempted": 2,
+          "success": 2,
+          "failed": 0
+        },
+        "20:15": {
+          "attempted": 0,
+          "success": 0,
+          "failed": 0
+        }
+      },
+      "slot_other": {
+        "attempted": 0,
+        "success": 0,
+        "failed": 0
+      },
+      "success_total": 8,
+      "failed_total": 0,
+      "by_item": [
+        {
+          "item_code": "2-itamae:10001028"
+        },
+        {
+          "item_code": "agri-support:10024420"
+        },
+        {
+          "item_code": "clinique:10001529"
+        },
+        {
+          "item_code": "clinique:10001547"
+        },
+        {
+          "item_code": "enetroom:10129383"
+        },
+        {
+          "item_code": "mpowjapan:10000823"
+        },
+        {
+          "item_code": "mtgec-beauty:10002091"
+        },
+        {
+          "item_code": "surutto:10000019"
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "食品",
+          "count": 1
+        },
+        {
+          "genre_label": "家電",
+          "count": 3
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 3
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 1
+        }
+      ],
+      "by_selection_source": {
+        "market": 3,
+        "rising": 2,
+        "explore": 3
+      },
+      "impressions_available": false,
+      "impressions": null,
+      "engagement_available": false,
+      "engagement": null
+    }
+  },
+  "room": {
+    "candidate_today": 7,
+    "approved_today": 20,
+    "completed_today": 20,
+    "extended": {
+      "candidate_to_completed_rate": 2.8571,
+      "candidate_to_completed_rate_available": true,
+      "by_item": [
+        {
+          "item_code": "2-itamae:10001028",
+          "rank": 13,
+          "market_demand_score": 54.33
+        },
+        {
+          "item_code": "agri-support:10024420",
+          "rank": 8,
+          "market_demand_score": 57.79
+        },
+        {
+          "item_code": "clinique:10001529",
+          "rank": 3,
+          "market_demand_score": 64.7
+        },
+        {
+          "item_code": "clinique:10001547",
+          "rank": 1,
+          "market_demand_score": 66.77
+        },
+        {
+          "item_code": "enetroom:10129383",
+          "rank": 5,
+          "market_demand_score": 63.33
+        },
+        {
+          "item_code": "mpowjapan:10000823",
+          "rank": 3,
+          "market_demand_score": 63.5
+        },
+        {
+          "item_code": "surutto:10000019",
+          "rank": 10,
+          "market_demand_score": 59.27
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "食品",
+          "count": 1
+        },
+        {
+          "genre_label": "家電",
+          "count": 3
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 2
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 1
+        }
+      ],
+      "by_selection_source": {
+        "market": 2,
+        "rising": 2,
+        "explore": 3
+      },
+      "rank_list": [
+        13,
+        8,
+        3,
+        1,
+        5,
+        3,
+        10
+      ],
+      "market_demand_score_list": [
+        54.33,
+        57.79,
+        64.7,
+        66.77,
+        63.33,
+        63.5,
+        59.27
+      ],
+      "rising_count": 2
+    }
+  },
+  "market_demand": {
+    "ranking_available": true,
+    "top_demand": [
+      {
+        "item_code": "kanidokoro:10001780",
+        "item_name": "【0の日P最大4倍】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/30 23:59迄エントリーで】",
+        "rank": 1,
+        "market_demand_score": 75.05,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "kanidokoro:10001780",
+        "item_name": "【0の日P最大4倍】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/30 23:59迄エントリーで】",
+        "rank": 1,
+        "market_demand_score": 75.05,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "yama-oatmeal-institute:10000024",
+        "item_name": "「クーポン利用で10kg3,700円」 令和8年産 70％以上使用 国産 ブレンド米 極味精米 5kg 10kg 20kg ( きわみせいまい こめ お米 米 白米 全国 送料無料 （北海道 沖縄 離島含む） ブレンド米 安い 生活応援米 備蓄米 不使用 10キロ 5キロ ) 山川食糧",
+        "rank": 2,
+        "market_demand_score": 74.46,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "teamo:10001200",
+        "item_name": "コンタクトレンズ ワンデー 近視 遠視 選べる【2箱4箱】 TeAmo CLEAR 1DAY UV 低含水 高含水 ティアモ クリア ワンデー まとめ買い 1箱30枚 TeAmo コンタクト クリア 近視用 遠視用 1日使い捨て クリアワンデー 度あり UVカット ソフトコンタクト 送料無料 【最安値に挑戦】",
+        "rank": 5,
+        "market_demand_score": 74.0,
+        "genre_id": null
+      },
+      {
+        "item_code": "kitchenavi:10000408",
+        "item_name": "【0の付く日！ 最大20%OFFクーポン】【公式】VAKUEN 真空保存容器 電動 強力密閉 鮮度長持ち コンテナ タッパー キャニスター BPAフリー 電子レンジ 食洗機 冷凍 耐熱 フードストッカー 野菜 米 調味料 液体 ギフト 韓国製 バクエン",
+        "rank": 2,
+        "market_demand_score": 73.83,
+        "genre_id": 558944
+      }
+    ],
+    "top_rising": [
+      {
+        "item_code": "townland:10006509",
+        "item_name": "象印　ZOJIRUTHI スチーム式加湿器 うるおいプラス 水タンク一体型　10(6)畳用 2.2L 2.2リットル【RCP】ホワイト　EE-RV35(WA) EE-RV35-WA",
+        "rank": 3,
+        "previous_rank": 28,
+        "rank_velocity": 1.0417,
+        "genre_id": 562637
+      },
+      {
+        "item_code": "sk-ii:10003015",
+        "item_name": "【公式】ピテラ パワー デュオ/ ピテラ ベスト コレクション トライアルキット/ ピテラ ユース エッセンシャル セット(リニュー エディション) / ピテラインフィニットオーラキット | SK-2 / SK-II（エスケーツー） 正規品 送料無料",
+        "rank": 1,
+        "previous_rank": 26,
+        "rank_velocity": 1.0417,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "nafco:10367786",
+        "item_name": "トヨトミ 石油ファンヒーター LC-32P-W",
+        "rank": 6,
+        "previous_rank": 30,
+        "rank_velocity": 1.0,
+        "genre_id": 562637
+      },
+      {
+        "item_code": "rcmdki:10424906",
+        "item_name": "日本製 燕三条 お手入れ簡単! ステンレス卓上鍋 蒸し器セット 22cm / 26cm / 30cm ガス火・IH対応 洗いやすいステンレス卓上鍋 のせるだけ蒸し器 卓上鍋 ステンレス 蒸し器 せいろ 蒸しプレート【送料無料】 【レビュー報告で燕三条製トング】",
+        "rank": 5,
+        "previous_rank": 27,
+        "rank_velocity": 0.9167,
+        "genre_id": 558944
+      },
+      {
+        "item_code": "enetroom:10129383",
+        "item_name": "＼レビュー1,700件突破／ ホットカーペット 1畳 1.5畳 2畳 3畳 本体 ラグ セット もこふわ 長方形 正方形 電気カーペット ホットマット 電気マット 速暖 温度調節 ダニ対策 足元暖房 床暖房 暖房器具 テクノス TEKNOS *",
+        "rank": 5,
+        "previous_rank": 27,
+        "rank_velocity": 0.9167,
+        "genre_id": 562637
+      }
+    ],
+    "tier_counts": {
+      "keyword": 10,
+      "market": 8,
+      "rising": 4,
+      "explore": 3
+    },
+    "extended": {
+      "ranking_fetch_calls_expected": 12,
+      "ranking_fetch_success": 12,
+      "ranking_fetch_failed": 0,
+      "ranking_fetch_ran_today": true,
+      "items_fetched_today": 360,
+      "rank_velocity_avg": 0.03,
+      "by_genre_adopted": [
+        {
+          "genre_label": "食品",
+          "count": 1
+        },
+        {
+          "genre_label": "家電",
+          "count": 3
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 4
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 7
+        }
+      ],
+      "top_market_demand": [
+        {
+          "item_code": "kanidokoro:10001780",
+          "item_name": "【0の日P最大4倍】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/30 23:59迄エントリーで】",
+          "rank": 1,
+          "market_demand_score": 75.05,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "kanidokoro:10001780",
+          "item_name": "【0の日P最大4倍】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/30 23:59迄エントリーで】",
+          "rank": 1,
+          "market_demand_score": 75.05,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "yama-oatmeal-institute:10000024",
+          "item_name": "「クーポン利用で10kg3,700円」 令和8年産 70％以上使用 国産 ブレンド米 極味精米 5kg 10kg 20kg ( きわみせいまい こめ お米 米 白米 全国 送料無料 （北海道 沖縄 離島含む） ブレンド米 安い 生活応援米 備蓄米 不使用 10キロ 5キロ ) 山川食糧",
+          "rank": 2,
+          "market_demand_score": 74.46,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "teamo:10001200",
+          "item_name": "コンタクトレンズ ワンデー 近視 遠視 選べる【2箱4箱】 TeAmo CLEAR 1DAY UV 低含水 高含水 ティアモ クリア ワンデー まとめ買い 1箱30枚 TeAmo コンタクト クリア 近視用 遠視用 1日使い捨て クリアワンデー 度あり UVカット ソフトコンタクト 送料無料 【最安値に挑戦】",
+          "rank": 5,
+          "market_demand_score": 74.0,
+          "genre_id": null
+        },
+        {
+          "item_code": "kitchenavi:10000408",
+          "item_name": "【0の付く日！ 最大20%OFFクーポン】【公式】VAKUEN 真空保存容器 電動 強力密閉 鮮度長持ち コンテナ タッパー キャニスター BPAフリー 電子レンジ 食洗機 冷凍 耐熱 フードストッカー 野菜 米 調味料 液体 ギフト 韓国製 バクエン",
+          "rank": 2,
+          "market_demand_score": 73.83,
+          "genre_id": 558944
+        }
+      ],
+      "top_rising": [
+        {
+          "item_code": "townland:10006509",
+          "item_name": "象印　ZOJIRUTHI スチーム式加湿器 うるおいプラス 水タンク一体型　10(6)畳用 2.2L 2.2リットル【RCP】ホワイト　EE-RV35(WA) EE-RV35-WA",
+          "rank": 3,
+          "previous_rank": 28,
+          "rank_velocity": 1.0417,
+          "genre_id": 562637
+        },
+        {
+          "item_code": "sk-ii:10003015",
+          "item_name": "【公式】ピテラ パワー デュオ/ ピテラ ベスト コレクション トライアルキット/ ピテラ ユース エッセンシャル セット(リニュー エディション) / ピテラインフィニットオーラキット | SK-2 / SK-II（エスケーツー） 正規品 送料無料",
+          "rank": 1,
+          "previous_rank": 26,
+          "rank_velocity": 1.0417,
+          "genre_id": 100939
+        },
+        {
+          "item_code": "nafco:10367786",
+          "item_name": "トヨトミ 石油ファンヒーター LC-32P-W",
+          "rank": 6,
+          "previous_rank": 30,
+          "rank_velocity": 1.0,
+          "genre_id": 562637
+        },
+        {
+          "item_code": "rcmdki:10424906",
+          "item_name": "日本製 燕三条 お手入れ簡単! ステンレス卓上鍋 蒸し器セット 22cm / 26cm / 30cm ガス火・IH対応 洗いやすいステンレス卓上鍋 のせるだけ蒸し器 卓上鍋 ステンレス 蒸し器 せいろ 蒸しプレート【送料無料】 【レビュー報告で燕三条製トング】",
+          "rank": 5,
+          "previous_rank": 27,
+          "rank_velocity": 0.9167,
+          "genre_id": 558944
+        },
+        {
+          "item_code": "enetroom:10129383",
+          "item_name": "＼レビュー1,700件突破／ ホットカーペット 1畳 1.5畳 2畳 3畳 本体 ラグ セット もこふわ 長方形 正方形 電気カーペット ホットマット 電気マット 速暖 温度調節 ダニ対策 足元暖房 床暖房 暖房器具 テクノス TEKNOS *",
+          "rank": 5,
+          "previous_rank": 27,
+          "rank_velocity": 0.9167,
+          "genre_id": 562637
+        }
+      ],
+      "tier_counts": {
+        "keyword": 10,
+        "market": 8,
+        "rising": 4,
+        "explore": 3
+      },
+      "market_ranking_available": true
+    }
+  },
+  "instagram": {
+    "connected": false,
+    "slots": [
+      {
+        "time": "09:30",
+        "planned": 1,
+        "actual": 0,
+        "recovered": 0
+      },
+      {
+        "time": "19:30",
+        "planned": 1,
+        "actual": 0,
+        "recovered": 0
+      }
+    ],
+    "slot_other": 0,
+    "posts_today": 0,
+    "posts_month": 0,
+    "success": 0,
+    "failed": 0,
+    "skipped_duplicate": 0,
+    "daily_cap": 2,
+    "capped": false,
+    "media": []
+  },
+  "amazon_phase1": {
+    "links_total": 103,
+    "target_products_total": 1640,
+    "buttons_live": 103,
+    "site_day": "2026-10-31",
+    "new_matches_today": 0,
+    "high_confidence_total": 62,
+    "unmatched_total": 1537,
+    "match_method_counts": {
+      "A": 0,
+      "B": 24,
+      "C": 38,
+      "manual": 41
+    },
+    "tier_breakdown_safe_only": {
+      "A": 0,
+      "B": 24,
+      "C": 38,
+      "legacy": 38,
+      "unknown": 0,
+      "total": 100
+    },
+    "ambiguous_pending_review": 20,
+    "needs_review": 4,
+    "x_dual_coverage_posts_today": 5,
+    "x_rakuten_only_posts_today": 4,
+    "clicks_available": false,
+    "raw_clicks": 0,
+    "unique_clicks": 0,
+    "clicks_by_item": [],
+    "clicks_by_source": [],
+    "sales_available": false,
+    "sales": null,
+    "orders_available": false,
+    "orders": null,
+    "commission_available": false,
+    "commission": null,
+    "clicks": 0,
+    "note": "Clicks are our own redirect-hit count (Phase A, live). Sales/orders/commission are Amazon's official Reporting API data and remain unavailable (null, not 0) until Creators API access is confirmed on Associates Central — see app.amazon_reporting.creators_api_access_status."
+  },
+  "rakuten": {
+    "today_sales": 0.0,
+    "today_reward": 0.0,
+    "month_sales": 2550.0,
+    "month_reward": 102.0,
+    "last_import": "2026-10-12 08:22",
+    "import_stale": true,
+    "sales_available": true
+  }
+}
