@@ -1,0 +1,835 @@
+{
+  "generated_at": "2026-11-06T23:31:33.777843+09:00",
+  "date": "2026-11-06",
+  "anomalies": [
+    "⚠️ 楽天アフィリエイトの売上CSV取込が615時間前から更新されていません(最終取込: 2026-10-12 08:22)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
+  ],
+  "x": {
+    "slots": [
+      {
+        "time": "08:30",
+        "planned": 3,
+        "actual": 3,
+        "recovered": 0,
+        "shortfall": 0,
+        "status": "on_target"
+      },
+      {
+        "time": "13:00",
+        "planned": 3,
+        "actual": 3,
+        "recovered": 0,
+        "shortfall": 0,
+        "status": "on_target"
+      },
+      {
+        "time": "18:00",
+        "planned": 3,
+        "actual": 3,
+        "recovered": 0,
+        "shortfall": 0,
+        "status": "on_target"
+      }
+    ],
+    "slot_status": [
+      {
+        "status": "on_target",
+        "planned": 3,
+        "actual": 3,
+        "detail": "",
+        "slot": "08:30"
+      },
+      {
+        "status": "on_target",
+        "planned": 3,
+        "actual": 3,
+        "detail": "",
+        "slot": "13:00"
+      },
+      {
+        "status": "on_target",
+        "planned": 3,
+        "actual": 3,
+        "detail": "",
+        "slot": "18:00"
+      }
+    ],
+    "slot_other": 0,
+    "posts_today": 9,
+    "posts_month": 36,
+    "success": 9,
+    "failed": 0,
+    "skipped_duplicate": 9,
+    "daily_cap": 9,
+    "capped": true,
+    "clicks": 0,
+    "clicks_available": false,
+    "tweets": [
+      {
+        "id": "2118486582260806114",
+        "url": "https://x.com/1338426867951443968/status/2118486582260806114",
+        "metrics": null
+      },
+      {
+        "id": "2118487840338104339",
+        "url": "https://x.com/1338426867951443968/status/2118487840338104339",
+        "metrics": null
+      },
+      {
+        "id": "2118489097861726451",
+        "url": "https://x.com/1338426867951443968/status/2118489097861726451",
+        "metrics": null
+      },
+      {
+        "id": "2118554528987353191",
+        "url": "https://x.com/1338426867951443968/status/2118554528987353191",
+        "metrics": null
+      },
+      {
+        "id": "2118555787911892994",
+        "url": "https://x.com/1338426867951443968/status/2118555787911892994",
+        "metrics": null
+      },
+      {
+        "id": "2118557046001820159",
+        "url": "https://x.com/1338426867951443968/status/2118557046001820159",
+        "metrics": null
+      },
+      {
+        "id": "2118630304088732149",
+        "url": "https://x.com/1338426867951443968/status/2118630304088732149",
+        "metrics": null
+      },
+      {
+        "id": "2118631285522383048",
+        "url": "https://x.com/1338426867951443968/status/2118631285522383048",
+        "metrics": null
+      },
+      {
+        "id": "2118632543696179495",
+        "url": "https://x.com/1338426867951443968/status/2118632543696179495",
+        "metrics": null
+      }
+    ],
+    "extended": {
+      "impressions_total": null,
+      "impressions_available": false,
+      "impressions_avg_per_post": null,
+      "engagement_total": null,
+      "engagement_available": false,
+      "engagement_rate": null,
+      "posts_detail": [
+        {
+          "item_code": "akol:10000484",
+          "slot": "18:00",
+          "selection_source": "market",
+          "market_demand_score": 64.68,
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "genre_source": "market_ranking",
+          "dual_coverage": false,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "attenir:10000252",
+          "slot": "13:00",
+          "selection_source": "market",
+          "market_demand_score": 73.26,
+          "genre_label": "美容・コスメ・香水",
+          "genre_source": "market_ranking",
+          "dual_coverage": false,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "beautypark2017:10002719",
+          "slot": "13:00",
+          "selection_source": "market",
+          "market_demand_score": 70.85,
+          "genre_label": "美容・コスメ・香水",
+          "genre_source": "market_ranking",
+          "dual_coverage": false,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "brighte-onlineshop:10000000",
+          "slot": "08:30",
+          "selection_source": "rising",
+          "market_demand_score": 53.62,
+          "genre_label": "美容・コスメ・香水",
+          "genre_source": "market_ranking",
+          "dual_coverage": false,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "lifedrinkcompany:10000022",
+          "slot": "08:30",
+          "selection_source": "keyword",
+          "market_demand_score": null,
+          "genre_label": "全ジャンル",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "omosan:10000665",
+          "slot": "18:00",
+          "selection_source": "market",
+          "market_demand_score": 64.83,
+          "genre_label": "食品",
+          "genre_source": "market_ranking",
+          "dual_coverage": false,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "pykespeak:10002322",
+          "slot": "13:00",
+          "selection_source": "market",
+          "market_demand_score": 42.78,
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "genre_source": "product_category",
+          "dual_coverage": false,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "scope:10009500",
+          "slot": "18:00",
+          "selection_source": "market",
+          "market_demand_score": 37.71,
+          "genre_label": "キッチン用品・食器・調理器具",
+          "genre_source": "product_category",
+          "dual_coverage": false,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "tvert:10000064",
+          "slot": "08:30",
+          "selection_source": "rising",
+          "market_demand_score": 75.9,
+          "genre_label": "美容・コスメ・香水",
+          "genre_source": "market_ranking",
+          "dual_coverage": false,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        }
+      ],
+      "slot_impressions": {
+        "08:30": {
+          "posts": 3,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        },
+        "13:00": {
+          "posts": 3,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        },
+        "18:00": {
+          "posts": 3,
+          "impressions_total": null,
+          "impressions_available": false,
+          "engagement_total": null,
+          "engagement_available": false
+        }
+      },
+      "by_item": [
+        {
+          "item_code": "akol:10000484",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "attenir:10000252",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "beautypark2017:10002719",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "brighte-onlineshop:10000000",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "lifedrinkcompany:10000022",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "omosan:10000665",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "pykespeak:10002322",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "scope:10009500",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "tvert:10000064",
+          "impressions": null,
+          "engagement": null
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 2,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 4,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "全ジャンル",
+          "count": 1,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "食品",
+          "count": 1,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 1,
+          "impressions_total": null,
+          "engagement_total": null
+        }
+      ],
+      "by_selection_source": {
+        "market": {
+          "count": 6,
+          "impressions_total": null,
+          "impressions_avg": null,
+          "engagement_total": null
+        },
+        "rising": {
+          "count": 2,
+          "impressions_total": null,
+          "impressions_avg": null,
+          "engagement_total": null
+        },
+        "keyword": {
+          "count": 1,
+          "impressions_total": null,
+          "impressions_avg": null,
+          "engagement_total": null
+        }
+      },
+      "by_market_demand_band": [
+        {
+          "band": "60-80",
+          "count": 5,
+          "impressions_total": null
+        },
+        {
+          "band": "40-60",
+          "count": 2,
+          "impressions_total": null
+        },
+        {
+          "band": "unknown",
+          "count": 1,
+          "impressions_total": null
+        },
+        {
+          "band": "20-40",
+          "count": 1,
+          "impressions_total": null
+        }
+      ],
+      "by_appeal_type_available": false
+    }
+  },
+  "pinterest": {
+    "planned": 8,
+    "posts_today": 8,
+    "failed": 0,
+    "skipped_duplicate": 0,
+    "pending": 0,
+    "clicks": 0,
+    "clicks_available": false,
+    "extended": {
+      "slot_counts": {
+        "09:00": {
+          "attempted": 3,
+          "success": 3,
+          "failed": 0
+        },
+        "12:30": {
+          "attempted": 3,
+          "success": 3,
+          "failed": 0
+        },
+        "17:00": {
+          "attempted": 2,
+          "success": 2,
+          "failed": 0
+        },
+        "20:15": {
+          "attempted": 0,
+          "success": 0,
+          "failed": 0
+        }
+      },
+      "slot_other": {
+        "attempted": 0,
+        "success": 0,
+        "failed": 0
+      },
+      "success_total": 8,
+      "failed_total": 0,
+      "by_item": [
+        {
+          "item_code": "attenir:10000252"
+        },
+        {
+          "item_code": "biolucia:10000004"
+        },
+        {
+          "item_code": "brighte-onlineshop:10000000"
+        },
+        {
+          "item_code": "eleking:10048680"
+        },
+        {
+          "item_code": "ohora:10004243"
+        },
+        {
+          "item_code": "partition-lab:10041745"
+        },
+        {
+          "item_code": "scope:10095803"
+        },
+        {
+          "item_code": "stylife:15348833"
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 5
+        },
+        {
+          "genre_label": "家電",
+          "count": 1
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 1
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 1
+        }
+      ],
+      "by_selection_source": {
+        "market": 2,
+        "rising": 1,
+        "explore": 5
+      },
+      "impressions_available": false,
+      "impressions": null,
+      "engagement_available": false,
+      "engagement": null
+    }
+  },
+  "room": {
+    "candidate_today": 5,
+    "approved_today": 0,
+    "completed_today": 0,
+    "extended": {
+      "candidate_to_completed_rate": 0.0,
+      "candidate_to_completed_rate_available": true,
+      "by_item": [
+        {
+          "item_code": "eleking:10048680",
+          "rank": 13,
+          "market_demand_score": 49.64
+        },
+        {
+          "item_code": "ohora:10004243",
+          "rank": 18,
+          "market_demand_score": 49.62
+        },
+        {
+          "item_code": "partition-lab:10041745",
+          "rank": 16,
+          "market_demand_score": 50.34
+        },
+        {
+          "item_code": "scope:10095803",
+          "rank": 13,
+          "market_demand_score": 50.86
+        },
+        {
+          "item_code": "stylife:15348833",
+          "rank": 14,
+          "market_demand_score": 49.92
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "家電",
+          "count": 1
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 2
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 1
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 1
+        }
+      ],
+      "by_selection_source": {
+        "explore": 5
+      },
+      "rank_list": [
+        13,
+        18,
+        16,
+        13,
+        14
+      ],
+      "market_demand_score_list": [
+        49.64,
+        49.62,
+        50.34,
+        50.86,
+        49.92
+      ],
+      "rising_count": 0
+    }
+  },
+  "market_demand": {
+    "ranking_available": true,
+    "top_demand": [
+      {
+        "item_code": "teamo:10001200",
+        "item_name": "コンタクトレンズ ワンデー 近視 遠視 選べる【2箱4箱】 TeAmo CLEAR 1DAY UV 低含水 高含水 ティアモ クリア ワンデー まとめ買い 1箱30枚 TeAmo コンタクト クリア 近視用 遠視用 1日使い捨て クリアワンデー 度あり UVカット ソフトコンタクト 送料無料 【最安値に挑戦】",
+        "rank": 1,
+        "market_demand_score": 78.53,
+        "genre_id": null
+      },
+      {
+        "item_code": "kouragumi:10001520",
+        "item_name": "11/2/23:59まで★ポイント10倍確定！お試し送料無料2,490円～ 骨取りサバ切身 1kg 無塩or有塩が選べる♪骨とり 骨なし 鯖 さば 冷凍食品 お中元 ギフト 【P】",
+        "rank": 1,
+        "market_demand_score": 76.84,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "tvert:10000064",
+        "item_name": "【ポイント5倍★11/1限定】【送料無料】乳液 セラミド 高保湿 さらさら 乾燥 敏感 インナードライ 楽天ベストコスメ2023 殿堂入り 学術誌掲載 60m 選べる3タイプ トゥベール トゥヴェール ナノエマルジョン／ナノエマルジョンプラス／ナノエマルジョンディープ",
+        "rank": 5,
+        "market_demand_score": 75.9,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "kanidokoro:10001780",
+        "item_name": "【最大10万P当たる!?】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/31 23:59迄エントリーで】",
+        "rank": 1,
+        "market_demand_score": 75.05,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "dajie:10000003",
+        "item_name": "【本日限定！15％OFF！】 公式 スツーレ® 簡易トイレ 非常用トイレ 防災トイレ 携帯トイレ 凝固剤 15年保存 10回 50回 120回 ポータブルトイレ 抗菌消臭 排便袋付 持ち運び 車中泊 防災 災害用 非常用 防災グッズ",
+        "rank": 1,
+        "market_demand_score": 75.05,
+        "genre_id": 215783
+      }
+    ],
+    "top_rising": [
+      {
+        "item_code": "hisamatsu:10000014",
+        "item_name": "おせち 早割 博多久松 2027 4〜5人前 おせち料理 おせちランキング 累計313週以上1位達成和洋折衷本格料亭おせち『博多』≪3段重・おせち全50品・4〜5人前≫【送料無料】特典 4人前 5人前",
+        "rank": 7,
+        "previous_rank": 27,
+        "rank_velocity": 0.8333,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "book:22103916",
+        "item_name": "MILESixTONES(初回盤＋通常盤 Blu-rayセット)【Blu-ray】 [ SixTONES ]",
+        "rank": 12,
+        "previous_rank": 29,
+        "rank_velocity": 0.7083,
+        "genre_id": null
+      },
+      {
+        "item_code": "tvert:10000064",
+        "item_name": "【ポイント5倍★11/1限定】【送料無料】乳液 セラミド 高保湿 さらさら 乾燥 敏感 インナードライ 楽天ベストコスメ2023 殿堂入り 学術誌掲載 60m 選べる3タイプ トゥベール トゥヴェール ナノエマルジョン／ナノエマルジョンプラス／ナノエマルジョンディープ",
+        "rank": 5,
+        "previous_rank": 22,
+        "rank_velocity": 0.7083,
+        "genre_id": 100939
+      },
+      {
+        "item_code": "sfd-ymt:10000345",
+        "item_name": "＼早割特価／【楽天総合1位】特大タラバ蟹1kg 2kg 3kg 5kg 独自のワンフローズン 超特大プレミアムサイズ3kg/5kg カニ タラバガニ たらば かに たらば蟹 たらばかに 贈答 ギフト 母の日 父の日 お中元 敬老の日 お歳暮 年末年始 お年賀 新年 祝い 誕生日",
+        "rank": 16,
+        "previous_rank": 30,
+        "rank_velocity": 0.5833,
+        "genre_id": 100227
+      },
+      {
+        "item_code": "brighte-onlineshop:10000000",
+        "item_name": "＜今なら19,800円相当！＞ ラヴィットで紹介【イベント開催中】 ELEKI LIFT 【公式】美顔器 リフトアップ ブライト エレキリフト / Brighte 美顔器 | ems 美容 美容家電 角質汚れ フェイスライン エイジングケア クーポン適応条件あり",
+        "rank": 3,
+        "previous_rank": 17,
+        "rank_velocity": 0.5833,
+        "genre_id": 100939
+      }
+    ],
+    "tier_counts": {
+      "keyword": 1,
+      "market": 8,
+      "rising": 2,
+      "explore": 5
+    },
+    "extended": {
+      "ranking_fetch_calls_expected": 12,
+      "ranking_fetch_success": 0,
+      "ranking_fetch_failed": 12,
+      "ranking_fetch_ran_today": true,
+      "items_fetched_today": 0,
+      "rank_velocity_avg": null,
+      "by_genre_adopted": [
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 2
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 7
+        },
+        {
+          "genre_label": "家電",
+          "count": 1
+        },
+        {
+          "genre_label": "unknown",
+          "count": 3
+        },
+        {
+          "genre_label": "食品",
+          "count": 1
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 1
+        }
+      ],
+      "top_market_demand": [
+        {
+          "item_code": "teamo:10001200",
+          "item_name": "コンタクトレンズ ワンデー 近視 遠視 選べる【2箱4箱】 TeAmo CLEAR 1DAY UV 低含水 高含水 ティアモ クリア ワンデー まとめ買い 1箱30枚 TeAmo コンタクト クリア 近視用 遠視用 1日使い捨て クリアワンデー 度あり UVカット ソフトコンタクト 送料無料 【最安値に挑戦】",
+          "rank": 1,
+          "market_demand_score": 78.53,
+          "genre_id": null
+        },
+        {
+          "item_code": "kouragumi:10001520",
+          "item_name": "11/2/23:59まで★ポイント10倍確定！お試し送料無料2,490円～ 骨取りサバ切身 1kg 無塩or有塩が選べる♪骨とり 骨なし 鯖 さば 冷凍食品 お中元 ギフト 【P】",
+          "rank": 1,
+          "market_demand_score": 76.84,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "tvert:10000064",
+          "item_name": "【ポイント5倍★11/1限定】【送料無料】乳液 セラミド 高保湿 さらさら 乾燥 敏感 インナードライ 楽天ベストコスメ2023 殿堂入り 学術誌掲載 60m 選べる3タイプ トゥベール トゥヴェール ナノエマルジョン／ナノエマルジョンプラス／ナノエマルジョンディープ",
+          "rank": 5,
+          "market_demand_score": 75.9,
+          "genre_id": 100939
+        },
+        {
+          "item_code": "kanidokoro:10001780",
+          "item_name": "【最大10万P当たる!?】おせち 福袋 2027 3〜4人前以上保証 高級おせちを含む56種から1種をお届け 冷蔵 送料無料 予約 お節料理【送料無料】2027年 お正月 お節料理 予約 冷蔵おせち お節 御節 冷蔵 元祖【10/31 23:59迄エントリーで】",
+          "rank": 1,
+          "market_demand_score": 75.05,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "dajie:10000003",
+          "item_name": "【本日限定！15％OFF！】 公式 スツーレ® 簡易トイレ 非常用トイレ 防災トイレ 携帯トイレ 凝固剤 15年保存 10回 50回 120回 ポータブルトイレ 抗菌消臭 排便袋付 持ち運び 車中泊 防災 災害用 非常用 防災グッズ",
+          "rank": 1,
+          "market_demand_score": 75.05,
+          "genre_id": 215783
+        }
+      ],
+      "top_rising": [
+        {
+          "item_code": "hisamatsu:10000014",
+          "item_name": "おせち 早割 博多久松 2027 4〜5人前 おせち料理 おせちランキング 累計313週以上1位達成和洋折衷本格料亭おせち『博多』≪3段重・おせち全50品・4〜5人前≫【送料無料】特典 4人前 5人前",
+          "rank": 7,
+          "previous_rank": 27,
+          "rank_velocity": 0.8333,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "book:22103916",
+          "item_name": "MILESixTONES(初回盤＋通常盤 Blu-rayセット)【Blu-ray】 [ SixTONES ]",
+          "rank": 12,
+          "previous_rank": 29,
+          "rank_velocity": 0.7083,
+          "genre_id": null
+        },
+        {
+          "item_code": "tvert:10000064",
+          "item_name": "【ポイント5倍★11/1限定】【送料無料】乳液 セラミド 高保湿 さらさら 乾燥 敏感 インナードライ 楽天ベストコスメ2023 殿堂入り 学術誌掲載 60m 選べる3タイプ トゥベール トゥヴェール ナノエマルジョン／ナノエマルジョンプラス／ナノエマルジョンディープ",
+          "rank": 5,
+          "previous_rank": 22,
+          "rank_velocity": 0.7083,
+          "genre_id": 100939
+        },
+        {
+          "item_code": "sfd-ymt:10000345",
+          "item_name": "＼早割特価／【楽天総合1位】特大タラバ蟹1kg 2kg 3kg 5kg 独自のワンフローズン 超特大プレミアムサイズ3kg/5kg カニ タラバガニ たらば かに たらば蟹 たらばかに 贈答 ギフト 母の日 父の日 お中元 敬老の日 お歳暮 年末年始 お年賀 新年 祝い 誕生日",
+          "rank": 16,
+          "previous_rank": 30,
+          "rank_velocity": 0.5833,
+          "genre_id": 100227
+        },
+        {
+          "item_code": "brighte-onlineshop:10000000",
+          "item_name": "＜今なら19,800円相当！＞ ラヴィットで紹介【イベント開催中】 ELEKI LIFT 【公式】美顔器 リフトアップ ブライト エレキリフト / Brighte 美顔器 | ems 美容 美容家電 角質汚れ フェイスライン エイジングケア クーポン適応条件あり",
+          "rank": 3,
+          "previous_rank": 17,
+          "rank_velocity": 0.5833,
+          "genre_id": 100939
+        }
+      ],
+      "tier_counts": {
+        "keyword": 1,
+        "market": 8,
+        "rising": 2,
+        "explore": 5
+      },
+      "market_ranking_available": true
+    }
+  },
+  "instagram": {
+    "connected": false,
+    "slots": [
+      {
+        "time": "09:30",
+        "planned": 1,
+        "actual": 0,
+        "recovered": 0
+      },
+      {
+        "time": "19:30",
+        "planned": 1,
+        "actual": 0,
+        "recovered": 0
+      }
+    ],
+    "slot_other": 0,
+    "posts_today": 0,
+    "posts_month": 0,
+    "success": 0,
+    "failed": 0,
+    "skipped_duplicate": 0,
+    "daily_cap": 2,
+    "capped": false,
+    "media": []
+  },
+  "amazon_phase1": {
+    "links_total": 103,
+    "target_products_total": 1725,
+    "buttons_live": 103,
+    "site_day": "2026-11-06",
+    "new_matches_today": 0,
+    "high_confidence_total": 62,
+    "unmatched_total": 1622,
+    "match_method_counts": {
+      "A": 0,
+      "B": 24,
+      "C": 38,
+      "manual": 41
+    },
+    "tier_breakdown_safe_only": {
+      "A": 0,
+      "B": 24,
+      "C": 38,
+      "legacy": 38,
+      "unknown": 0,
+      "total": 100
+    },
+    "ambiguous_pending_review": 20,
+    "needs_review": 4,
+    "x_dual_coverage_posts_today": 0,
+    "x_rakuten_only_posts_today": 9,
+    "clicks_available": false,
+    "raw_clicks": 0,
+    "unique_clicks": 0,
+    "clicks_by_item": [],
+    "clicks_by_source": [],
+    "sales_available": false,
+    "sales": null,
+    "orders_available": false,
+    "orders": null,
+    "commission_available": false,
+    "commission": null,
+    "clicks": 0,
+    "note": "Clicks are our own redirect-hit count (Phase A, live). Sales/orders/commission are Amazon's official Reporting API data and remain unavailable (null, not 0) until Creators API access is confirmed on Associates Central — see app.amazon_reporting.creators_api_access_status."
+  },
+  "rakuten": {
+    "today_sales": 0.0,
+    "today_reward": 0.0,
+    "month_sales": 0.0,
+    "month_reward": 0.0,
+    "last_import": "2026-10-12 08:22",
+    "import_stale": true,
+    "sales_available": true
+  }
+}
