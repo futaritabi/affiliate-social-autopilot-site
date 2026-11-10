@@ -1,70 +1,116 @@
 {
-  "generated_at": "2026-11-09T23:31:24.378543+09:00",
-  "date": "2026-11-09",
+  "generated_at": "2026-11-10T23:31:18.796817+09:00",
+  "date": "2026-11-10",
   "anomalies": [
-    "⚠️ 楽天アフィリエイトの売上CSV取込が687時間前から更新されていません(最終取込: 2026-10-12 08:22)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
+    "⚠️ 楽天アフィリエイトの売上CSV取込が711時間前から更新されていません(最終取込: 2026-10-12 08:22)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
   ],
   "x": {
     "slots": [
       {
         "time": "08:30",
         "planned": 3,
-        "actual": 0,
+        "actual": 3,
         "recovered": 0,
-        "shortfall": 3,
-        "status": "api_failure"
+        "shortfall": 0,
+        "status": "on_target"
       },
       {
         "time": "13:00",
         "planned": 3,
-        "actual": 0,
+        "actual": 3,
         "recovered": 0,
-        "shortfall": 3,
-        "status": "api_failure"
+        "shortfall": 0,
+        "status": "on_target"
       },
       {
         "time": "18:00",
         "planned": 3,
-        "actual": 0,
+        "actual": 3,
         "recovered": 0,
-        "shortfall": 3,
-        "status": "api_failure"
+        "shortfall": 0,
+        "status": "on_target"
       }
     ],
     "slot_status": [
       {
-        "status": "api_failure",
+        "status": "on_target",
         "planned": 3,
-        "actual": 0,
-        "detail": "Buffer 予約失敗: Invalid post: Whoops, it looks like you've already got this one scheduled or posted around the same time. We're not able (item_code=lifedrinkcompany:10000022 slot=08:30)",
+        "actual": 3,
+        "detail": "",
         "slot": "08:30"
       },
       {
-        "status": "api_failure",
+        "status": "on_target",
         "planned": 3,
-        "actual": 0,
-        "detail": "Buffer 予約失敗: Invalid post: Whoops, it looks like you've already got this one scheduled or posted around the same time. We're not able (item_code=lifedrinkcompany:10000022 slot=13:00)",
+        "actual": 3,
+        "detail": "",
         "slot": "13:00"
       },
       {
-        "status": "api_failure",
+        "status": "on_target",
         "planned": 3,
-        "actual": 0,
-        "detail": "Buffer 予約失敗: Invalid post: Whoops, it looks like you've already got this one scheduled or posted around the same time. We're not able (item_code=lifedrinkcompany:10000022 slot=18:00)",
+        "actual": 3,
+        "detail": "",
         "slot": "18:00"
       }
     ],
     "slot_other": 0,
-    "posts_today": 0,
-    "posts_month": 54,
-    "success": 0,
-    "failed": 3,
-    "skipped_duplicate": 0,
+    "posts_today": 9,
+    "posts_month": 63,
+    "success": 9,
+    "failed": 0,
+    "skipped_duplicate": 9,
     "daily_cap": 9,
-    "capped": false,
+    "capped": true,
     "clicks": 0,
     "clicks_available": false,
-    "tweets": [],
+    "tweets": [
+      {
+        "id": "2119936134104903976",
+        "url": "https://x.com/1338426867951443968/status/2119936134104903976",
+        "metrics": null
+      },
+      {
+        "id": "2119937391641129259",
+        "url": "https://x.com/1338426867951443968/status/2119937391641129259",
+        "metrics": null
+      },
+      {
+        "id": "2119938649403863056",
+        "url": "https://x.com/1338426867951443968/status/2119938649403863056",
+        "metrics": null
+      },
+      {
+        "id": "2120004080760135693",
+        "url": "https://x.com/1338426867951443968/status/2120004080760135693",
+        "metrics": null
+      },
+      {
+        "id": "2120005339135279110",
+        "url": "https://x.com/1338426867951443968/status/2120005339135279110",
+        "metrics": null
+      },
+      {
+        "id": "2120006596939919623",
+        "url": "https://x.com/1338426867951443968/status/2120006596939919623",
+        "metrics": null
+      },
+      {
+        "id": "2120079721274683548",
+        "url": "https://x.com/1338426867951443968/status/2120079721274683548",
+        "metrics": null
+      },
+      {
+        "id": "2120080836414390656",
+        "url": "https://x.com/1338426867951443968/status/2120080836414390656",
+        "metrics": null
+      },
+      {
+        "id": "2120082094839803939",
+        "url": "https://x.com/1338426867951443968/status/2120082094839803939",
+        "metrics": null
+      }
+    ],
     "extended": {
       "impressions_total": null,
       "impressions_available": false,
@@ -72,34 +118,270 @@
       "engagement_total": null,
       "engagement_available": false,
       "engagement_rate": null,
-      "posts_detail": [],
+      "posts_detail": [
+        {
+          "item_code": "anuajapan:10000450",
+          "slot": "08:30",
+          "selection_source": "market",
+          "market_demand_score": 67.47,
+          "genre_label": "美容・コスメ・香水",
+          "genre_source": "market_ranking",
+          "dual_coverage": false,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "enetroom:10193459",
+          "slot": "18:00",
+          "selection_source": "explore",
+          "market_demand_score": 54.28,
+          "genre_label": "家電",
+          "genre_source": "product_category",
+          "dual_coverage": false,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "hisamatsu:10000014",
+          "slot": "13:00",
+          "selection_source": "rising",
+          "market_demand_score": 65.76,
+          "genre_label": "食品",
+          "genre_source": "market_ranking",
+          "dual_coverage": false,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "irisplaza-r:10154813",
+          "slot": "18:00",
+          "selection_source": "explore",
+          "market_demand_score": 59.54,
+          "genre_label": "家電",
+          "genre_source": "product_category",
+          "dual_coverage": false,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "lifedrinkcompany:10000022",
+          "slot": "08:30",
+          "selection_source": "keyword",
+          "market_demand_score": null,
+          "genre_label": "全ジャンル",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "roomy:10018139",
+          "slot": "13:00",
+          "selection_source": "market",
+          "market_demand_score": 62.95,
+          "genre_label": "家電",
+          "genre_source": "market_ranking",
+          "dual_coverage": false,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "scope:10069838",
+          "slot": "18:00",
+          "selection_source": "explore",
+          "market_demand_score": 61.54,
+          "genre_label": "キッチン用品・食器・調理器具",
+          "genre_source": "market_ranking",
+          "dual_coverage": false,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "vesync:10000022",
+          "slot": "08:30",
+          "selection_source": "market",
+          "market_demand_score": 68.49,
+          "genre_label": "家電",
+          "genre_source": "market_ranking",
+          "dual_coverage": false,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "yunth:10000000",
+          "slot": "13:00",
+          "selection_source": "rising",
+          "market_demand_score": 65.3,
+          "genre_label": "美容・コスメ・香水",
+          "genre_source": "market_ranking",
+          "dual_coverage": false,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        }
+      ],
       "slot_impressions": {
         "08:30": {
-          "posts": 0,
+          "posts": 3,
           "impressions_total": null,
           "impressions_available": false,
           "engagement_total": null,
           "engagement_available": false
         },
         "13:00": {
-          "posts": 0,
+          "posts": 3,
           "impressions_total": null,
           "impressions_available": false,
           "engagement_total": null,
           "engagement_available": false
         },
         "18:00": {
-          "posts": 0,
+          "posts": 3,
           "impressions_total": null,
           "impressions_available": false,
           "engagement_total": null,
           "engagement_available": false
         }
       },
-      "by_item": [],
-      "by_genre": [],
-      "by_selection_source": {},
-      "by_market_demand_band": [],
+      "by_item": [
+        {
+          "item_code": "anuajapan:10000450",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "enetroom:10193459",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "hisamatsu:10000014",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "irisplaza-r:10154813",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "lifedrinkcompany:10000022",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "roomy:10018139",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "scope:10069838",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "vesync:10000022",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "yunth:10000000",
+          "impressions": null,
+          "engagement": null
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "美容・コスメ・香水",
+          "count": 2,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "家電",
+          "count": 4,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "食品",
+          "count": 1,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "全ジャンル",
+          "count": 1,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 1,
+          "impressions_total": null,
+          "engagement_total": null
+        }
+      ],
+      "by_selection_source": {
+        "market": {
+          "count": 3,
+          "impressions_total": null,
+          "impressions_avg": null,
+          "engagement_total": null
+        },
+        "explore": {
+          "count": 3,
+          "impressions_total": null,
+          "impressions_avg": null,
+          "engagement_total": null
+        },
+        "rising": {
+          "count": 2,
+          "impressions_total": null,
+          "impressions_avg": null,
+          "engagement_total": null
+        },
+        "keyword": {
+          "count": 1,
+          "impressions_total": null,
+          "impressions_avg": null,
+          "engagement_total": null
+        }
+      },
+      "by_market_demand_band": [
+        {
+          "band": "60-80",
+          "count": 6,
+          "impressions_total": null
+        },
+        {
+          "band": "40-60",
+          "count": 2,
+          "impressions_total": null
+        },
+        {
+          "band": "unknown",
+          "count": 1,
+          "impressions_total": null
+        }
+      ],
       "by_appeal_type_available": false
     }
   },
@@ -143,38 +425,34 @@
       "failed_total": 0,
       "by_item": [
         {
-          "item_code": "at-rescue:10002460"
+          "item_code": "anuajapan:10000450"
         },
         {
-          "item_code": "brita:10000161"
+          "item_code": "hisamatsu:10000014"
         },
         {
-          "item_code": "kouragumi:10001537"
+          "item_code": "kakuchi:10003279"
         },
         {
-          "item_code": "kurashi-zakka:10002482"
+          "item_code": "roomy:10018139"
         },
         {
-          "item_code": "lifedrinkcompany:10000022"
+          "item_code": "sfd-ymt:10000345"
         },
         {
-          "item_code": "plywood:10022493"
+          "item_code": "shuuemura:10000018"
         },
         {
-          "item_code": "sorekani:10000055"
+          "item_code": "vesync:10000022"
         },
         {
-          "item_code": "surutto:10000019"
+          "item_code": "yunth:10000000"
         }
       ],
       "by_genre": [
         {
-          "genre_label": "日用品雑貨・文房具・手芸",
-          "count": 1
-        },
-        {
-          "genre_label": "家電",
-          "count": 2
+          "genre_label": "美容・コスメ・香水",
+          "count": 3
         },
         {
           "genre_label": "食品",
@@ -182,17 +460,16 @@
         },
         {
           "genre_label": "キッチン用品・食器・調理器具",
-          "count": 2
+          "count": 1
         },
         {
-          "genre_label": "全ジャンル",
-          "count": 1
+          "genre_label": "家電",
+          "count": 2
         }
       ],
       "by_selection_source": {
-        "market": 6,
-        "explore": 1,
-        "keyword": 1
+        "market": 4,
+        "rising": 4
       },
       "impressions_available": false,
       "impressions": null,
@@ -201,34 +478,17 @@
     }
   },
   "room": {
-    "candidate_today": 1,
+    "candidate_today": 0,
     "approved_today": 2,
     "completed_today": 2,
     "extended": {
-      "candidate_to_completed_rate": 2.0,
-      "candidate_to_completed_rate_available": true,
-      "by_item": [
-        {
-          "item_code": "kurashi-zakka:10002482",
-          "rank": 18,
-          "market_demand_score": 43.26
-        }
-      ],
-      "by_genre": [
-        {
-          "genre_label": "キッチン用品・食器・調理器具",
-          "count": 1
-        }
-      ],
-      "by_selection_source": {
-        "explore": 1
-      },
-      "rank_list": [
-        18
-      ],
-      "market_demand_score_list": [
-        43.26
-      ],
+      "candidate_to_completed_rate": null,
+      "candidate_to_completed_rate_available": false,
+      "by_item": [],
+      "by_genre": [],
+      "by_selection_source": {},
+      "rank_list": [],
+      "market_demand_score_list": [],
       "rising_count": 0
     }
   },
@@ -315,8 +575,8 @@
     ],
     "tier_counts": {
       "keyword": 1,
-      "market": 12,
-      "rising": 0,
+      "market": 8,
+      "rising": 4,
       "explore": 3
     },
     "extended": {
@@ -328,11 +588,15 @@
       "rank_velocity_avg": null,
       "by_genre_adopted": [
         {
-          "genre_label": "unknown",
-          "count": 7
+          "genre_label": "美容・コスメ・香水",
+          "count": 3
         },
         {
           "genre_label": "家電",
+          "count": 3
+        },
+        {
+          "genre_label": "unknown",
           "count": 2
         },
         {
@@ -340,12 +604,12 @@
           "count": 2
         },
         {
-          "genre_label": "キッチン用品・食器・調理器具",
-          "count": 3
+          "genre_label": "食品",
+          "count": 2
         },
         {
-          "genre_label": "食品",
-          "count": 1
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 3
         }
       ],
       "top_market_demand": [
@@ -429,8 +693,8 @@
       ],
       "tier_counts": {
         "keyword": 1,
-        "market": 12,
-        "rising": 0,
+        "market": 8,
+        "rising": 4,
         "explore": 3
       },
       "market_ranking_available": true
@@ -466,7 +730,7 @@
     "links_total": 103,
     "target_products_total": 1737,
     "buttons_live": 103,
-    "site_day": "2026-11-09",
+    "site_day": "2026-11-10",
     "new_matches_today": 0,
     "high_confidence_total": 62,
     "unmatched_total": 1634,
@@ -487,7 +751,7 @@
     "ambiguous_pending_review": 20,
     "needs_review": 4,
     "x_dual_coverage_posts_today": 0,
-    "x_rakuten_only_posts_today": 0,
+    "x_rakuten_only_posts_today": 9,
     "clicks_available": false,
     "raw_clicks": 0,
     "unique_clicks": 0,
