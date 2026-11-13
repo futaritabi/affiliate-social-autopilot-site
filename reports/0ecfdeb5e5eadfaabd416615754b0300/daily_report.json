@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-12T23:31:20.791702+09:00",
-  "date": "2026-11-12",
+  "generated_at": "2026-11-13T23:31:11.446573+09:00",
+  "date": "2026-11-13",
   "anomalies": [
-    "⚠️ 楽天アフィリエイトの売上CSV取込が759時間前から更新されていません(最終取込: 2026-10-12 08:22)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
+    "⚠️ 楽天アフィリエイトの売上CSV取込が783時間前から更新されていません(最終取込: 2026-10-12 08:22)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
   ],
   "x": {
     "slots": [
@@ -25,10 +25,10 @@
       {
         "time": "18:00",
         "planned": 3,
-        "actual": 9,
-        "recovered": 6,
-        "shortfall": 0,
-        "status": "on_target"
+        "actual": 0,
+        "recovered": 0,
+        "shortfall": 3,
+        "status": "api_failure"
       }
     ],
     "slot_status": [
@@ -47,70 +47,24 @@
         "slot": "13:00"
       },
       {
-        "status": "on_target",
+        "status": "api_failure",
         "planned": 3,
-        "actual": 9,
-        "detail": "",
+        "actual": 0,
+        "detail": "Buffer 予約失敗: Invalid post: Whoops, it looks like you've already got this one scheduled or posted around the same time. We're not able (item_code=lifedrinkcompany:10000022 slot=18:00)",
         "slot": "18:00"
       }
     ],
     "slot_other": 0,
-    "posts_today": 9,
+    "posts_today": 0,
     "posts_month": 81,
-    "success": 9,
-    "failed": 2,
+    "success": 0,
+    "failed": 3,
     "skipped_duplicate": 0,
     "daily_cap": 9,
-    "capped": true,
+    "capped": false,
     "clicks": 0,
     "clicks_available": false,
-    "tweets": [
-      {
-        "id": "2120804612328341754",
-        "url": "https://x.com/1338426867951443968/status/2120804612328341754",
-        "metrics": null
-      },
-      {
-        "id": "2120805612279812577",
-        "url": "https://x.com/1338426867951443968/status/2120805612279812577",
-        "metrics": null
-      },
-      {
-        "id": "2120806870650703878",
-        "url": "https://x.com/1338426867951443968/status/2120806870650703878",
-        "metrics": null
-      },
-      {
-        "id": "2120808129013145674",
-        "url": "https://x.com/1338426867951443968/status/2120808129013145674",
-        "metrics": null
-      },
-      {
-        "id": "2120809386821963829",
-        "url": "https://x.com/1338426867951443968/status/2120809386821963829",
-        "metrics": null
-      },
-      {
-        "id": "2120810645675237874",
-        "url": "https://x.com/1338426867951443968/status/2120810645675237874",
-        "metrics": null
-      },
-      {
-        "id": "2120811903832228340",
-        "url": "https://x.com/1338426867951443968/status/2120811903832228340",
-        "metrics": null
-      },
-      {
-        "id": "2120813161557213338",
-        "url": "https://x.com/1338426867951443968/status/2120813161557213338",
-        "metrics": null
-      },
-      {
-        "id": "2120814420108468489",
-        "url": "https://x.com/1338426867951443968/status/2120814420108468489",
-        "metrics": null
-      }
-    ],
+    "tweets": [],
     "extended": {
       "impressions_total": null,
       "impressions_available": false,
@@ -118,125 +72,7 @@
       "engagement_total": null,
       "engagement_available": false,
       "engagement_rate": null,
-      "posts_detail": [
-        {
-          "item_code": "decori:10000575",
-          "slot": "18:00",
-          "selection_source": "explore",
-          "market_demand_score": 56.99,
-          "genre_label": "全ジャンル",
-          "genre_source": "product_category",
-          "dual_coverage": false,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "kitchenavi:10000414",
-          "slot": "18:00",
-          "selection_source": "market",
-          "market_demand_score": 69.99,
-          "genre_label": "キッチン用品・食器・調理器具",
-          "genre_source": "market_ranking",
-          "dual_coverage": false,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "kouragumi:10001520",
-          "slot": "18:00",
-          "selection_source": "market",
-          "market_demand_score": 65.27,
-          "genre_label": "食品",
-          "genre_source": "product_category",
-          "dual_coverage": false,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "lifedrinkcompany:10000022",
-          "slot": "18:00",
-          "selection_source": "keyword",
-          "market_demand_score": null,
-          "genre_label": "全ジャンル",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "pricon:10003151",
-          "slot": "18:00",
-          "selection_source": "market",
-          "market_demand_score": 63.38,
-          "genre_label": "全ジャンル",
-          "genre_source": "product_category",
-          "dual_coverage": false,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "scope:10052257",
-          "slot": "18:00",
-          "selection_source": "explore",
-          "market_demand_score": 58.09,
-          "genre_label": "キッチン用品・食器・調理器具",
-          "genre_source": "market_ranking",
-          "dual_coverage": false,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "scope:10086833",
-          "slot": "18:00",
-          "selection_source": "explore",
-          "market_demand_score": 57.07,
-          "genre_label": "キッチン用品・食器・調理器具",
-          "genre_source": "market_ranking",
-          "dual_coverage": false,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "selectshopmint:10000057",
-          "slot": "18:00",
-          "selection_source": "explore",
-          "market_demand_score": 56.3,
-          "genre_label": "美容・コスメ・香水",
-          "genre_source": "market_ranking",
-          "dual_coverage": false,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "selectshopmint:10000069",
-          "slot": "18:00",
-          "selection_source": "explore",
-          "market_demand_score": 56.59,
-          "genre_label": "美容・コスメ・香水",
-          "genre_source": "market_ranking",
-          "dual_coverage": false,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        }
-      ],
+      "posts_detail": [],
       "slot_impressions": {
         "08:30": {
           "posts": 0,
@@ -253,123 +89,17 @@
           "engagement_available": false
         },
         "18:00": {
-          "posts": 9,
+          "posts": 0,
           "impressions_total": null,
           "impressions_available": false,
           "engagement_total": null,
           "engagement_available": false
         }
       },
-      "by_item": [
-        {
-          "item_code": "decori:10000575",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "kitchenavi:10000414",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "kouragumi:10001520",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "lifedrinkcompany:10000022",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "pricon:10003151",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "scope:10052257",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "scope:10086833",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "selectshopmint:10000057",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "selectshopmint:10000069",
-          "impressions": null,
-          "engagement": null
-        }
-      ],
-      "by_genre": [
-        {
-          "genre_label": "全ジャンル",
-          "count": 3,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "キッチン用品・食器・調理器具",
-          "count": 3,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "食品",
-          "count": 1,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "美容・コスメ・香水",
-          "count": 2,
-          "impressions_total": null,
-          "engagement_total": null
-        }
-      ],
-      "by_selection_source": {
-        "explore": {
-          "count": 5,
-          "impressions_total": null,
-          "impressions_avg": null,
-          "engagement_total": null
-        },
-        "market": {
-          "count": 3,
-          "impressions_total": null,
-          "impressions_avg": null,
-          "engagement_total": null
-        },
-        "keyword": {
-          "count": 1,
-          "impressions_total": null,
-          "impressions_avg": null,
-          "engagement_total": null
-        }
-      },
-      "by_market_demand_band": [
-        {
-          "band": "40-60",
-          "count": 5,
-          "impressions_total": null
-        },
-        {
-          "band": "60-80",
-          "count": 3,
-          "impressions_total": null
-        },
-        {
-          "band": "unknown",
-          "count": 1,
-          "impressions_total": null
-        }
-      ],
+      "by_item": [],
+      "by_genre": [],
+      "by_selection_source": {},
+      "by_market_demand_band": [],
       "by_appeal_type_available": false
     }
   },
@@ -413,45 +143,45 @@
       "failed_total": 0,
       "by_item": [
         {
-          "item_code": "candymagic:10000575"
+          "item_code": "kanidokoro:10001780"
         },
         {
-          "item_code": "kitchenavi:10000414"
+          "item_code": "kobe-beauty-labo:10002820"
         },
         {
-          "item_code": "kouragumi:10001520"
+          "item_code": "kyunan:10012864"
         },
         {
-          "item_code": "next-online:10000215"
+          "item_code": "masuyone:10000016"
         },
         {
-          "item_code": "omosan:10000332"
+          "item_code": "quads:10000095"
         },
         {
-          "item_code": "pricon:10003151"
+          "item_code": "quads:10000127"
         },
         {
-          "item_code": "scope:10052257"
+          "item_code": "teamo:10001200"
         },
         {
-          "item_code": "takami-labo:10000519"
+          "item_code": "vesync:10000001"
         }
       ],
       "by_genre": [
         {
-          "genre_label": "全ジャンル",
-          "count": 2
-        },
-        {
-          "genre_label": "キッチン用品・食器・調理器具",
+          "genre_label": "食品",
           "count": 3
         },
         {
-          "genre_label": "食品",
-          "count": 2
+          "genre_label": "美容・コスメ・香水",
+          "count": 1
         },
         {
-          "genre_label": "美容・コスメ・香水",
+          "genre_label": "家電",
+          "count": 3
+        },
+        {
+          "genre_label": "全ジャンル",
           "count": 1
         }
       ],
@@ -467,8 +197,8 @@
   },
   "room": {
     "candidate_today": 0,
-    "approved_today": 8,
-    "completed_today": 8,
+    "approved_today": 0,
+    "completed_today": 0,
     "extended": {
       "candidate_to_completed_rate": null,
       "candidate_to_completed_rate_available": false,
@@ -576,24 +306,28 @@
       "rank_velocity_avg": null,
       "by_genre_adopted": [
         {
-          "genre_label": "家電",
-          "count": 1
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 2
         },
         {
-          "genre_label": "unknown",
+          "genre_label": "食品",
           "count": 5
         },
         {
           "genre_label": "キッチン用品・食器・調理器具",
-          "count": 5
-        },
-        {
-          "genre_label": "食品",
-          "count": 1
+          "count": 2
         },
         {
           "genre_label": "美容・コスメ・香水",
+          "count": 2
+        },
+        {
+          "genre_label": "家電",
           "count": 3
+        },
+        {
+          "genre_label": "unknown",
+          "count": 1
         }
       ],
       "top_market_demand": [
@@ -714,7 +448,7 @@
     "links_total": 103,
     "target_products_total": 1737,
     "buttons_live": 103,
-    "site_day": "2026-11-12",
+    "site_day": "2026-11-13",
     "new_matches_today": 0,
     "high_confidence_total": 62,
     "unmatched_total": 1634,
@@ -735,7 +469,7 @@
     "ambiguous_pending_review": 20,
     "needs_review": 4,
     "x_dual_coverage_posts_today": 0,
-    "x_rakuten_only_posts_today": 9,
+    "x_rakuten_only_posts_today": 0,
     "clicks_available": false,
     "raw_clicks": 0,
     "unique_clicks": 0,
