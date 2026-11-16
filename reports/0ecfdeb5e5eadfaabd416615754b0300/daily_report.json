@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-15T23:31:10.033284+09:00",
-  "date": "2026-11-15",
+  "generated_at": "2026-11-16T23:31:05.952508+09:00",
+  "date": "2026-11-16",
   "anomalies": [
-    "⚠️ 楽天アフィリエイトの売上CSV取込が47時間前から更新されていません(最終取込: 2026-11-14 00:07)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。",
-    "🚨 X: 08:30枠の実行記録がありません(Windowsタスクスケジューラが起動しなかった可能性)。タスク「Rakuten X Post 0830」の最終実行結果を確認してください。",
-    "🚨 X: 13:00枠の実行記録がありません(Windowsタスクスケジューラが起動しなかった可能性)。タスク「Rakuten X Post 1300」の最終実行結果を確認してください。",
-    "🚨 X: 18:00枠の実行記録がありません(Windowsタスクスケジューラが起動しなかった可能性)。タスク「Rakuten X Post 1800」の最終実行結果を確認してください。",
-    "🚨 商品候補が1日間更新されていません(最終生成日: 2026-11-14)。main.py(7:30の商品選定)が候補0件になっている可能性があります。logs/2026-11-15.logのERROR行を確認してください。",
-    "⚠️ X投稿は本日9件の予定でしたが、実績・失敗・重複スキップいずれも0件です。投稿処理自体が試行されていない可能性が高いです(候補切れ・スケジュール未実行等)。"
+    "⚠️ 楽天アフィリエイトの売上CSV取込が71時間前から更新されていません(最終取込: 2026-11-14 00:07)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。",
+    "🚨 商品候補が2日間更新されていません(最終生成日: 2026-11-14)。main.py(7:30の商品選定)が候補0件になっている可能性があります。logs/2026-11-16.logのERROR行を確認してください。",
+    "⚠️ X投稿は本日9件の予定でしたが、実績・失敗・重複スキップいずれも0件です。投稿処理自体が試行されていない可能性が高いです(候補切れ・スケジュール未実行等)。",
+    "🚨 X/Pinterest: 本日の候補が古いためスキップされました(4回)。詳細: today=2026-11-16 latest_candidates_run_date=2026-11-14 slot=n/a",
+    "🚨 Instagram: 本日の候補が古いためスキップされました(2回)。詳細: today=2026-11-16 latest_candidates_run_date=2026-11-14 slot=09:30",
+    "🚨 ROOM: 本日の候補が古いためスキップされました(1回)。詳細: today=2026-11-16 latest_candidates_run_date=2026-11-14"
   ],
   "x": {
     "slots": [
@@ -17,7 +17,7 @@
         "actual": 0,
         "recovered": 0,
         "shortfall": 3,
-        "status": "no_run"
+        "status": "stale_candidates"
       },
       {
         "time": "13:00",
@@ -25,7 +25,7 @@
         "actual": 0,
         "recovered": 0,
         "shortfall": 3,
-        "status": "no_run"
+        "status": "stale_candidates"
       },
       {
         "time": "18:00",
@@ -33,29 +33,29 @@
         "actual": 0,
         "recovered": 0,
         "shortfall": 3,
-        "status": "no_run"
+        "status": "stale_candidates"
       }
     ],
     "slot_status": [
       {
-        "status": "no_run",
+        "status": "stale_candidates",
         "planned": 3,
         "actual": 0,
-        "detail": "本日このスロットの実行記録がありません(スケジューラ未実行の可能性)",
+        "detail": "today=2026-11-16 latest_candidates_run_date=2026-11-14 slot=08:30",
         "slot": "08:30"
       },
       {
-        "status": "no_run",
+        "status": "stale_candidates",
         "planned": 3,
         "actual": 0,
-        "detail": "本日このスロットの実行記録がありません(スケジューラ未実行の可能性)",
+        "detail": "today=2026-11-16 latest_candidates_run_date=2026-11-14 slot=13:00",
         "slot": "13:00"
       },
       {
-        "status": "no_run",
+        "status": "stale_candidates",
         "planned": 3,
         "actual": 0,
-        "detail": "本日このスロットの実行記録がありません(スケジューラ未実行の可能性)",
+        "detail": "today=2026-11-16 latest_candidates_run_date=2026-11-14 slot=18:00",
         "slot": "18:00"
       }
     ],
