@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-17T23:33:04.870916+09:00",
-  "date": "2026-11-17",
+  "generated_at": "2026-11-18T23:31:04.623912+09:00",
+  "date": "2026-11-18",
   "anomalies": [
-    "⚠️ 楽天アフィリエイトの売上CSV取込が95時間前から更新されていません(最終取込: 2026-11-14 00:07)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。",
-    "🚨 商品候補が3日間更新されていません(最終生成日: 2026-11-14)。main.py(7:30の商品選定)が候補0件になっている可能性があります。logs/2026-11-17.logのERROR行を確認してください。",
+    "⚠️ 楽天アフィリエイトの売上CSV取込が119時間前から更新されていません(最終取込: 2026-11-14 00:07)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。",
+    "🚨 商品候補が4日間更新されていません(最終生成日: 2026-11-14)。main.py(7:30の商品選定)が候補0件になっている可能性があります。logs/2026-11-18.logのERROR行を確認してください。",
     "⚠️ X投稿は本日9件の予定でしたが、実績・失敗・重複スキップいずれも0件です。投稿処理自体が試行されていない可能性が高いです(候補切れ・スケジュール未実行等)。",
-    "🚨 X/Pinterest: 本日の候補が古いためスキップされました(4回)。詳細: today=2026-11-17 latest_candidates_run_date=2026-11-14 slot=n/a",
-    "🚨 Instagram: 本日の候補が古いためスキップされました(2回)。詳細: today=2026-11-17 latest_candidates_run_date=2026-11-14 slot=09:30",
-    "🚨 ROOM: 本日の候補が古いためスキップされました(1回)。詳細: today=2026-11-17 latest_candidates_run_date=2026-11-14"
+    "🚨 X/Pinterest: 本日の候補が古いためスキップされました(4回)。詳細: today=2026-11-18 latest_candidates_run_date=2026-11-14 slot=n/a",
+    "🚨 Instagram: 本日の候補が古いためスキップされました(2回)。詳細: today=2026-11-18 latest_candidates_run_date=2026-11-14 slot=09:30",
+    "🚨 ROOM: 本日の候補が古いためスキップされました(1回)。詳細: today=2026-11-18 latest_candidates_run_date=2026-11-14"
   ],
   "x": {
     "slots": [
@@ -41,21 +41,21 @@
         "status": "stale_candidates",
         "planned": 3,
         "actual": 0,
-        "detail": "today=2026-11-17 latest_candidates_run_date=2026-11-14 slot=08:30",
+        "detail": "today=2026-11-18 latest_candidates_run_date=2026-11-14 slot=08:30",
         "slot": "08:30"
       },
       {
         "status": "stale_candidates",
         "planned": 3,
         "actual": 0,
-        "detail": "today=2026-11-17 latest_candidates_run_date=2026-11-14 slot=13:00",
+        "detail": "today=2026-11-18 latest_candidates_run_date=2026-11-14 slot=13:00",
         "slot": "13:00"
       },
       {
         "status": "stale_candidates",
         "planned": 3,
         "actual": 0,
-        "detail": "today=2026-11-17 latest_candidates_run_date=2026-11-14 slot=18:00",
+        "detail": "today=2026-11-18 latest_candidates_run_date=2026-11-14 slot=18:00",
         "slot": "18:00"
       }
     ],
