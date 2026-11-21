@@ -1,75 +1,117 @@
 {
-  "generated_at": "2026-11-21T03:14:48.695665+09:00",
+  "generated_at": "2026-11-21T23:30:55.462969+09:00",
   "date": "2026-11-21",
   "anomalies": [
-    "⚠️ 楽天アフィリエイトの売上CSV取込が171時間前から更新されていません(最終取込: 2026-11-14 00:07)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。",
-    "🚨 X: 08:30枠の実行記録がありません(Windowsタスクスケジューラが起動しなかった可能性)。タスク「Rakuten X Post 0830」の最終実行結果を確認してください。",
-    "🚨 X: 13:00枠の実行記録がありません(Windowsタスクスケジューラが起動しなかった可能性)。タスク「Rakuten X Post 1300」の最終実行結果を確認してください。",
-    "🚨 X: 18:00枠の実行記録がありません(Windowsタスクスケジューラが起動しなかった可能性)。タスク「Rakuten X Post 1800」の最終実行結果を確認してください。",
-    "🚨 商品候補が1日間更新されていません(最終生成日: 2026-11-20)。main.py(7:30の商品選定)が候補0件になっている可能性があります。logs/2026-11-21.logのERROR行を確認してください。",
-    "⚠️ X投稿は本日9件の予定でしたが、実績・失敗・重複スキップいずれも0件です。投稿処理自体が試行されていない可能性が高いです(候補切れ・スケジュール未実行等)。"
+    "⚠️ 楽天アフィリエイトの売上CSV取込が191時間前から更新されていません(最終取込: 2026-11-14 00:07)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。",
+    "🚨 ROOM: 本日の候補が古いためスキップされました(2回)。詳細: today=2026-11-21 latest_candidates_run_date=2026-11-20"
   ],
   "x": {
     "slots": [
       {
         "time": "08:30",
         "planned": 3,
-        "actual": 0,
+        "actual": 3,
         "recovered": 0,
-        "shortfall": 3,
-        "status": "no_run"
+        "shortfall": 0,
+        "status": "on_target"
       },
       {
         "time": "13:00",
         "planned": 3,
-        "actual": 0,
+        "actual": 3,
         "recovered": 0,
-        "shortfall": 3,
-        "status": "no_run"
+        "shortfall": 0,
+        "status": "on_target"
       },
       {
         "time": "18:00",
         "planned": 3,
-        "actual": 0,
+        "actual": 3,
         "recovered": 0,
-        "shortfall": 3,
-        "status": "no_run"
+        "shortfall": 0,
+        "status": "on_target"
       }
     ],
     "slot_status": [
       {
-        "status": "no_run",
+        "status": "on_target",
         "planned": 3,
-        "actual": 0,
-        "detail": "本日このスロットの実行記録がありません(スケジューラ未実行の可能性)",
+        "actual": 3,
+        "detail": "",
         "slot": "08:30"
       },
       {
-        "status": "no_run",
+        "status": "on_target",
         "planned": 3,
-        "actual": 0,
-        "detail": "本日このスロットの実行記録がありません(スケジューラ未実行の可能性)",
+        "actual": 3,
+        "detail": "",
         "slot": "13:00"
       },
       {
-        "status": "no_run",
+        "status": "on_target",
         "planned": 3,
-        "actual": 0,
-        "detail": "本日このスロットの実行記録がありません(スケジューラ未実行の可能性)",
+        "actual": 3,
+        "detail": "",
         "slot": "18:00"
       }
     ],
     "slot_other": 0,
-    "posts_today": 0,
-    "posts_month": 96,
-    "success": 0,
+    "posts_today": 9,
+    "posts_month": 105,
+    "success": 9,
     "failed": 0,
-    "skipped_duplicate": 0,
+    "skipped_duplicate": 9,
     "daily_cap": 9,
-    "capped": false,
+    "capped": true,
     "clicks": 0,
     "clicks_available": false,
-    "tweets": [],
+    "tweets": [
+      {
+        "id": "2123922399603081612",
+        "url": "https://x.com/1338426867951443968/status/2123922399603081612",
+        "metrics": null
+      },
+      {
+        "id": "2123923657751687668",
+        "url": "https://x.com/1338426867951443968/status/2123923657751687668",
+        "metrics": null
+      },
+      {
+        "id": "2123924915866746972",
+        "url": "https://x.com/1338426867951443968/status/2123924915866746972",
+        "metrics": null
+      },
+      {
+        "id": "2123990347244093573",
+        "url": "https://x.com/1338426867951443968/status/2123990347244093573",
+        "metrics": null
+      },
+      {
+        "id": "2123991605346521297",
+        "url": "https://x.com/1338426867951443968/status/2123991605346521297",
+        "metrics": null
+      },
+      {
+        "id": "2123992863490900118",
+        "url": "https://x.com/1338426867951443968/status/2123992863490900118",
+        "metrics": null
+      },
+      {
+        "id": "2124065867629473859",
+        "url": "https://x.com/1338426867951443968/status/2124065867629473859",
+        "metrics": null
+      },
+      {
+        "id": "2124067103120466248",
+        "url": "https://x.com/1338426867951443968/status/2124067103120466248",
+        "metrics": null
+      },
+      {
+        "id": "2124068361009070247",
+        "url": "https://x.com/1338426867951443968/status/2124068361009070247",
+        "metrics": null
+      }
+    ],
     "extended": {
       "impressions_total": null,
       "impressions_available": false,
@@ -77,40 +119,248 @@
       "engagement_total": null,
       "engagement_available": false,
       "engagement_rate": null,
-      "posts_detail": [],
+      "posts_detail": [
+        {
+          "item_code": "auc-ulmax:10180369",
+          "slot": "13:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "生活用品",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "auc-ulmax:10180372",
+          "slot": "13:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "生活用品",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "candy:10453765",
+          "slot": "08:30",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "goods-live:10000228",
+          "slot": "08:30",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "lifedrinkcompany:10000022",
+          "slot": "08:30",
+          "selection_source": "keyword",
+          "market_demand_score": null,
+          "genre_label": "全ジャンル",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "shimada-ya:10011605",
+          "slot": "13:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "キッチン用品",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "skindesign:10002150",
+          "slot": "18:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "theordinary:10000000",
+          "slot": "18:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "tk-kosme:10000366",
+          "slot": "18:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        }
+      ],
       "slot_impressions": {
         "08:30": {
-          "posts": 0,
+          "posts": 3,
           "impressions_total": null,
           "impressions_available": false,
           "engagement_total": null,
           "engagement_available": false
         },
         "13:00": {
-          "posts": 0,
+          "posts": 3,
           "impressions_total": null,
           "impressions_available": false,
           "engagement_total": null,
           "engagement_available": false
         },
         "18:00": {
-          "posts": 0,
+          "posts": 3,
           "impressions_total": null,
           "impressions_available": false,
           "engagement_total": null,
           "engagement_available": false
         }
       },
-      "by_item": [],
-      "by_genre": [],
-      "by_selection_source": {},
-      "by_market_demand_band": [],
+      "by_item": [
+        {
+          "item_code": "auc-ulmax:10180369",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "auc-ulmax:10180372",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "candy:10453765",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "goods-live:10000228",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "lifedrinkcompany:10000022",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "shimada-ya:10011605",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "skindesign:10002150",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "theordinary:10000000",
+          "impressions": null,
+          "engagement": null
+        },
+        {
+          "item_code": "tk-kosme:10000366",
+          "impressions": null,
+          "engagement": null
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "生活用品",
+          "count": 2,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "美容",
+          "count": 5,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "全ジャンル",
+          "count": 1,
+          "impressions_total": null,
+          "engagement_total": null
+        },
+        {
+          "genre_label": "キッチン用品",
+          "count": 1,
+          "impressions_total": null,
+          "engagement_total": null
+        }
+      ],
+      "by_selection_source": {
+        "amazon_safe": {
+          "count": 8,
+          "impressions_total": null,
+          "impressions_avg": null,
+          "engagement_total": null
+        },
+        "keyword": {
+          "count": 1,
+          "impressions_total": null,
+          "impressions_avg": null,
+          "engagement_total": null
+        }
+      },
+      "by_market_demand_band": [
+        {
+          "band": "unknown",
+          "count": 9,
+          "impressions_total": null
+        }
+      ],
       "by_appeal_type_available": false
     }
   },
   "pinterest": {
-    "planned": 0,
-    "posts_today": 0,
+    "planned": 8,
+    "posts_today": 8,
     "failed": 0,
     "skipped_duplicate": 0,
     "pending": 0,
@@ -119,18 +369,18 @@
     "extended": {
       "slot_counts": {
         "09:00": {
-          "attempted": 0,
-          "success": 0,
+          "attempted": 3,
+          "success": 3,
           "failed": 0
         },
         "12:30": {
-          "attempted": 0,
-          "success": 0,
+          "attempted": 3,
+          "success": 3,
           "failed": 0
         },
         "17:00": {
-          "attempted": 0,
-          "success": 0,
+          "attempted": 2,
+          "success": 2,
           "failed": 0
         },
         "20:15": {
@@ -144,11 +394,61 @@
         "success": 0,
         "failed": 0
       },
-      "success_total": 0,
+      "success_total": 8,
       "failed_total": 0,
-      "by_item": [],
-      "by_genre": [],
-      "by_selection_source": {},
+      "by_item": [
+        {
+          "item_code": "brita:10000161"
+        },
+        {
+          "item_code": "dajie:10000000"
+        },
+        {
+          "item_code": "jism:13496225"
+        },
+        {
+          "item_code": "melittajapan:10000008"
+        },
+        {
+          "item_code": "nagomilab:10000046"
+        },
+        {
+          "item_code": "starfilter:10000112"
+        },
+        {
+          "item_code": "theordinary:10000000"
+        },
+        {
+          "item_code": "zoff:10004562"
+        }
+      ],
+      "by_genre": [
+        {
+          "genre_label": "家電",
+          "count": 3
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 2
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 1
+        },
+        {
+          "genre_label": "美容",
+          "count": 1
+        },
+        {
+          "genre_label": "全ジャンル",
+          "count": 1
+        }
+      ],
+      "by_selection_source": {
+        "market": 5,
+        "explore": 2,
+        "amazon_safe": 1
+      },
       "impressions_available": false,
       "impressions": null,
       "engagement_available": false,
@@ -252,19 +552,40 @@
       }
     ],
     "tier_counts": {
-      "keyword": 0,
-      "market": 0,
+      "keyword": 1,
+      "market": 12,
       "rising": 0,
-      "explore": 0
+      "explore": 3
     },
     "extended": {
       "ranking_fetch_calls_expected": 12,
       "ranking_fetch_success": 0,
-      "ranking_fetch_failed": 0,
-      "ranking_fetch_ran_today": false,
+      "ranking_fetch_failed": 12,
+      "ranking_fetch_ran_today": true,
       "items_fetched_today": 0,
       "rank_velocity_avg": null,
-      "by_genre_adopted": [],
+      "by_genre_adopted": [
+        {
+          "genre_label": "家電",
+          "count": 6
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 2
+        },
+        {
+          "genre_label": "食品",
+          "count": 2
+        },
+        {
+          "genre_label": "unknown",
+          "count": 3
+        },
+        {
+          "genre_label": "キッチン用品・食器・調理器具",
+          "count": 2
+        }
+      ],
       "top_market_demand": [
         {
           "item_code": "teamo:10001200",
@@ -345,10 +666,10 @@
         }
       ],
       "tier_counts": {
-        "keyword": 0,
-        "market": 0,
+        "keyword": 1,
+        "market": 12,
         "rising": 0,
-        "explore": 0
+        "explore": 3
       },
       "market_ranking_available": true
     }
@@ -383,7 +704,7 @@
     "links_total": 103,
     "target_products_total": 1737,
     "buttons_live": 103,
-    "site_day": "2026-11-20",
+    "site_day": "2026-11-21",
     "new_matches_today": 0,
     "high_confidence_total": 62,
     "unmatched_total": 1634,
@@ -403,8 +724,8 @@
     },
     "ambiguous_pending_review": 20,
     "needs_review": 4,
-    "x_dual_coverage_posts_today": 0,
-    "x_rakuten_only_posts_today": 0,
+    "x_dual_coverage_posts_today": 8,
+    "x_rakuten_only_posts_today": 1,
     "clicks_available": false,
     "raw_clicks": 0,
     "unique_clicks": 0,
