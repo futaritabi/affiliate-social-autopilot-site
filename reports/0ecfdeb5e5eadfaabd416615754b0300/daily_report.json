@@ -1,9 +1,8 @@
 {
-  "generated_at": "2026-11-21T23:30:55.462969+09:00",
-  "date": "2026-11-21",
+  "generated_at": "2026-11-22T23:30:52.195949+09:00",
+  "date": "2026-11-22",
   "anomalies": [
-    "⚠️ 楽天アフィリエイトの売上CSV取込が191時間前から更新されていません(最終取込: 2026-11-14 00:07)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。",
-    "🚨 ROOM: 本日の候補が古いためスキップされました(2回)。詳細: today=2026-11-21 latest_candidates_run_date=2026-11-20"
+    "⚠️ 楽天アフィリエイトの売上CSV取込が215時間前から更新されていません(最終取込: 2026-11-14 00:07)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
   ],
   "x": {
     "slots": [
@@ -57,7 +56,7 @@
     ],
     "slot_other": 0,
     "posts_today": 9,
-    "posts_month": 105,
+    "posts_month": 114,
     "success": 9,
     "failed": 0,
     "skipped_duplicate": 9,
@@ -67,48 +66,48 @@
     "clicks_available": false,
     "tweets": [
       {
-        "id": "2123922399603081612",
-        "url": "https://x.com/1338426867951443968/status/2123922399603081612",
+        "id": "2124284787275739509",
+        "url": "https://x.com/1338426867951443968/status/2124284787275739509",
         "metrics": null
       },
       {
-        "id": "2123923657751687668",
-        "url": "https://x.com/1338426867951443968/status/2123923657751687668",
+        "id": "2124286045864751458",
+        "url": "https://x.com/1338426867951443968/status/2124286045864751458",
         "metrics": null
       },
       {
-        "id": "2123924915866746972",
-        "url": "https://x.com/1338426867951443968/status/2123924915866746972",
+        "id": "2124287305070325876",
+        "url": "https://x.com/1338426867951443968/status/2124287305070325876",
         "metrics": null
       },
       {
-        "id": "2123990347244093573",
-        "url": "https://x.com/1338426867951443968/status/2123990347244093573",
+        "id": "2124352734837043525",
+        "url": "https://x.com/1338426867951443968/status/2124352734837043525",
         "metrics": null
       },
       {
-        "id": "2123991605346521297",
-        "url": "https://x.com/1338426867951443968/status/2123991605346521297",
+        "id": "2124353993233027139",
+        "url": "https://x.com/1338426867951443968/status/2124353993233027139",
         "metrics": null
       },
       {
-        "id": "2123992863490900118",
-        "url": "https://x.com/1338426867951443968/status/2123992863490900118",
+        "id": "2124355251683647755",
+        "url": "https://x.com/1338426867951443968/status/2124355251683647755",
         "metrics": null
       },
       {
-        "id": "2124065867629473859",
-        "url": "https://x.com/1338426867951443968/status/2124065867629473859",
+        "id": "2124428232602669360",
+        "url": "https://x.com/1338426867951443968/status/2124428232602669360",
         "metrics": null
       },
       {
-        "id": "2124067103120466248",
-        "url": "https://x.com/1338426867951443968/status/2124067103120466248",
+        "id": "2124429492034617354",
+        "url": "https://x.com/1338426867951443968/status/2124429492034617354",
         "metrics": null
       },
       {
-        "id": "2124068361009070247",
-        "url": "https://x.com/1338426867951443968/status/2124068361009070247",
+        "id": "2124430748715303385",
+        "url": "https://x.com/1338426867951443968/status/2124430748715303385",
         "metrics": null
       }
     ],
@@ -121,7 +120,7 @@
       "engagement_rate": null,
       "posts_detail": [
         {
-          "item_code": "auc-ulmax:10180369",
+          "item_code": "auc-ulmax:10107790",
           "slot": "13:00",
           "selection_source": "amazon_safe",
           "market_demand_score": null,
@@ -134,7 +133,7 @@
           "engagement_available": false
         },
         {
-          "item_code": "auc-ulmax:10180372",
+          "item_code": "auc-ulmax:10180374",
           "slot": "13:00",
           "selection_source": "amazon_safe",
           "market_demand_score": null,
@@ -147,7 +146,46 @@
           "engagement_available": false
         },
         {
-          "item_code": "candy:10453765",
+          "item_code": "beautylife-store:10000187",
+          "slot": "18:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "beautylife-store:10000534",
+          "slot": "18:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "brighte-onlineshop:10000000",
+          "slot": "18:00",
+          "selection_source": "rising",
+          "market_demand_score": 53.62,
+          "genre_label": "美容・コスメ・香水",
+          "genre_source": "market_ranking",
+          "dual_coverage": false,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "fracora:10000002",
           "slot": "08:30",
           "selection_source": "amazon_safe",
           "market_demand_score": null,
@@ -160,34 +198,8 @@
           "engagement_available": false
         },
         {
-          "item_code": "goods-live:10000228",
+          "item_code": "k-style:10001777",
           "slot": "08:30",
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "美容",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "lifedrinkcompany:10000022",
-          "slot": "08:30",
-          "selection_source": "keyword",
-          "market_demand_score": null,
-          "genre_label": "全ジャンル",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "shimada-ya:10011605",
-          "slot": "13:00",
           "selection_source": "amazon_safe",
           "market_demand_score": null,
           "genre_label": "キッチン用品",
@@ -199,8 +211,8 @@
           "engagement_available": false
         },
         {
-          "item_code": "skindesign:10002150",
-          "slot": "18:00",
+          "item_code": "netsbee:10049027",
+          "slot": "08:30",
           "selection_source": "amazon_safe",
           "market_demand_score": null,
           "genre_label": "美容",
@@ -212,21 +224,8 @@
           "engagement_available": false
         },
         {
-          "item_code": "theordinary:10000000",
-          "slot": "18:00",
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "美容",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "tk-kosme:10000366",
-          "slot": "18:00",
+          "item_code": "sangakushop:10000799",
+          "slot": "13:00",
           "selection_source": "amazon_safe",
           "market_demand_score": null,
           "genre_label": "美容",
@@ -263,47 +262,47 @@
       },
       "by_item": [
         {
-          "item_code": "auc-ulmax:10180369",
+          "item_code": "auc-ulmax:10107790",
           "impressions": null,
           "engagement": null
         },
         {
-          "item_code": "auc-ulmax:10180372",
+          "item_code": "auc-ulmax:10180374",
           "impressions": null,
           "engagement": null
         },
         {
-          "item_code": "candy:10453765",
+          "item_code": "beautylife-store:10000187",
           "impressions": null,
           "engagement": null
         },
         {
-          "item_code": "goods-live:10000228",
+          "item_code": "beautylife-store:10000534",
           "impressions": null,
           "engagement": null
         },
         {
-          "item_code": "lifedrinkcompany:10000022",
+          "item_code": "brighte-onlineshop:10000000",
           "impressions": null,
           "engagement": null
         },
         {
-          "item_code": "shimada-ya:10011605",
+          "item_code": "fracora:10000002",
           "impressions": null,
           "engagement": null
         },
         {
-          "item_code": "skindesign:10002150",
+          "item_code": "k-style:10001777",
           "impressions": null,
           "engagement": null
         },
         {
-          "item_code": "theordinary:10000000",
+          "item_code": "netsbee:10049027",
           "impressions": null,
           "engagement": null
         },
         {
-          "item_code": "tk-kosme:10000366",
+          "item_code": "sangakushop:10000799",
           "impressions": null,
           "engagement": null
         }
@@ -322,7 +321,7 @@
           "engagement_total": null
         },
         {
-          "genre_label": "全ジャンル",
+          "genre_label": "美容・コスメ・香水",
           "count": 1,
           "impressions_total": null,
           "engagement_total": null
@@ -341,7 +340,7 @@
           "impressions_avg": null,
           "engagement_total": null
         },
-        "keyword": {
+        "rising": {
           "count": 1,
           "impressions_total": null,
           "impressions_avg": null,
@@ -351,7 +350,12 @@
       "by_market_demand_band": [
         {
           "band": "unknown",
-          "count": 9,
+          "count": 8,
+          "impressions_total": null
+        },
+        {
+          "band": "40-60",
+          "count": 1,
           "impressions_total": null
         }
       ],
@@ -363,7 +367,7 @@
     "posts_today": 8,
     "failed": 0,
     "skipped_duplicate": 0,
-    "pending": 0,
+    "pending": 8,
     "clicks": 0,
     "clicks_available": false,
     "extended": {
@@ -398,56 +402,51 @@
       "failed_total": 0,
       "by_item": [
         {
-          "item_code": "brita:10000161"
+          "item_code": "auc-risecreation:10004620"
         },
         {
-          "item_code": "dajie:10000000"
+          "item_code": "auc-ulmax:10107790"
         },
         {
-          "item_code": "jism:13496225"
+          "item_code": "auc-ulmax:10180374"
         },
         {
-          "item_code": "melittajapan:10000008"
+          "item_code": "beautylife-store:10000187"
         },
         {
-          "item_code": "nagomilab:10000046"
+          "item_code": "beautylife-store:10000534"
         },
         {
-          "item_code": "starfilter:10000112"
+          "item_code": "k-style:10001777"
         },
         {
-          "item_code": "theordinary:10000000"
+          "item_code": "netsbee:10049027"
         },
         {
-          "item_code": "zoff:10004562"
+          "item_code": "sangakushop:10000799"
         }
       ],
       "by_genre": [
         {
           "genre_label": "家電",
-          "count": 3
+          "count": 1
         },
         {
-          "genre_label": "日用品雑貨・文房具・手芸",
+          "genre_label": "生活用品",
           "count": 2
         },
         {
-          "genre_label": "キッチン用品・食器・調理器具",
-          "count": 1
-        },
-        {
           "genre_label": "美容",
-          "count": 1
+          "count": 4
         },
         {
-          "genre_label": "全ジャンル",
+          "genre_label": "キッチン用品",
           "count": 1
         }
       ],
       "by_selection_source": {
-        "market": 5,
-        "explore": 2,
-        "amazon_safe": 1
+        "market": 1,
+        "amazon_safe": 7
       },
       "impressions_available": false,
       "impressions": null,
@@ -552,9 +551,9 @@
       }
     ],
     "tier_counts": {
-      "keyword": 1,
-      "market": 12,
-      "rising": 0,
+      "keyword": 0,
+      "market": 11,
+      "rising": 1,
       "explore": 3
     },
     "extended": {
@@ -566,11 +565,19 @@
       "rank_velocity_avg": null,
       "by_genre_adopted": [
         {
-          "genre_label": "家電",
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 3
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
           "count": 6
         },
         {
-          "genre_label": "日用品雑貨・文房具・手芸",
+          "genre_label": "家電",
+          "count": 1
+        },
+        {
+          "genre_label": "unknown",
           "count": 2
         },
         {
@@ -578,12 +585,8 @@
           "count": 2
         },
         {
-          "genre_label": "unknown",
-          "count": 3
-        },
-        {
           "genre_label": "キッチン用品・食器・調理器具",
-          "count": 2
+          "count": 1
         }
       ],
       "top_market_demand": [
@@ -666,9 +669,9 @@
         }
       ],
       "tier_counts": {
-        "keyword": 1,
-        "market": 12,
-        "rising": 0,
+        "keyword": 0,
+        "market": 11,
+        "rising": 1,
         "explore": 3
       },
       "market_ranking_available": true
@@ -701,26 +704,26 @@
     "media": []
   },
   "amazon_phase1": {
-    "links_total": 103,
+    "links_total": 108,
     "target_products_total": 1737,
-    "buttons_live": 103,
-    "site_day": "2026-11-21",
-    "new_matches_today": 0,
-    "high_confidence_total": 62,
-    "unmatched_total": 1634,
+    "buttons_live": 108,
+    "site_day": "2026-11-22",
+    "new_matches_today": 5,
+    "high_confidence_total": 67,
+    "unmatched_total": 1629,
     "match_method_counts": {
       "A": 0,
-      "B": 24,
+      "B": 29,
       "C": 38,
       "manual": 41
     },
     "tier_breakdown_safe_only": {
       "A": 0,
-      "B": 24,
+      "B": 29,
       "C": 38,
       "legacy": 38,
       "unknown": 0,
-      "total": 100
+      "total": 105
     },
     "ambiguous_pending_review": 20,
     "needs_review": 4,
