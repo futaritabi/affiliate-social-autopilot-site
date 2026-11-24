@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-11-23T23:30:51.595891+09:00",
-  "date": "2026-11-23",
+  "generated_at": "2026-11-24T23:30:50.851978+09:00",
+  "date": "2026-11-24",
   "anomalies": [
-    "⚠️ 楽天アフィリエイトの売上CSV取込が239時間前から更新されていません(最終取込: 2026-11-14 00:07)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
+    "⚠️ 楽天アフィリエイトの売上CSV取込が263時間前から更新されていません(最終取込: 2026-11-14 00:07)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
   ],
   "x": {
     "slots": [
@@ -54,90 +54,60 @@
         "slot": "18:00"
       }
     ],
-    "slot_other": 6,
-    "posts_today": 15,
-    "posts_month": 129,
-    "success": 15,
+    "slot_other": 0,
+    "posts_today": 9,
+    "posts_month": 138,
+    "success": 9,
     "failed": 0,
-    "skipped_duplicate": 24,
+    "skipped_duplicate": 0,
     "daily_cap": 9,
     "capped": true,
     "clicks": 0,
     "clicks_available": false,
     "tweets": [
       {
-        "id": "2124647174927454453",
-        "url": "https://x.com/1338426867951443968/status/2124647174927454453",
+        "id": "2125009563006971923",
+        "url": "https://x.com/1338426867951443968/status/2125009563006971923",
         "metrics": null
       },
       {
-        "id": "2124648433625538885",
-        "url": "https://x.com/1338426867951443968/status/2124648433625538885",
+        "id": "2125010822053204053",
+        "url": "https://x.com/1338426867951443968/status/2125010822053204053",
         "metrics": null
       },
       {
-        "id": "2124649693116244074",
-        "url": "https://x.com/1338426867951443968/status/2124649693116244074",
+        "id": "2125012080637907001",
+        "url": "https://x.com/1338426867951443968/status/2125012080637907001",
         "metrics": null
       },
       {
-        "id": "2124681966825975885",
-        "url": "https://x.com/1338426867951443968/status/2124681966825975885",
+        "id": "2125077510480118181",
+        "url": "https://x.com/1338426867951443968/status/2125077510480118181",
         "metrics": null
       },
       {
-        "id": "2124683225142292725",
-        "url": "https://x.com/1338426867951443968/status/2124683225142292725",
+        "id": "2125078769153032371",
+        "url": "https://x.com/1338426867951443968/status/2125078769153032371",
         "metrics": null
       },
       {
-        "id": "2124684709137371237",
-        "url": "https://x.com/1338426867951443968/status/2124684709137371237",
+        "id": "2125080027356172389",
+        "url": "https://x.com/1338426867951443968/status/2125080027356172389",
         "metrics": null
       },
       {
-        "id": "2124685741850599676",
-        "url": "https://x.com/1338426867951443968/status/2124685741850599676",
+        "id": "2125153373947047955",
+        "url": "https://x.com/1338426867951443968/status/2125153373947047955",
         "metrics": null
       },
       {
-        "id": "2124686999990730925",
-        "url": "https://x.com/1338426867951443968/status/2124686999990730925",
+        "id": "2125154266813735061",
+        "url": "https://x.com/1338426867951443968/status/2125154266813735061",
         "metrics": null
       },
       {
-        "id": "2124688258252624190",
-        "url": "https://x.com/1338426867951443968/status/2124688258252624190",
-        "metrics": null
-      },
-      {
-        "id": "2124715122660704641",
-        "url": "https://x.com/1338426867951443968/status/2124715122660704641",
-        "metrics": null
-      },
-      {
-        "id": "2124716381170000065",
-        "url": "https://x.com/1338426867951443968/status/2124716381170000065",
-        "metrics": null
-      },
-      {
-        "id": "2124717639746347228",
-        "url": "https://x.com/1338426867951443968/status/2124717639746347228",
-        "metrics": null
-      },
-      {
-        "id": "2124790691297476755",
-        "url": "https://x.com/1338426867951443968/status/2124790691297476755",
-        "metrics": null
-      },
-      {
-        "id": "2124791879036260475",
-        "url": "https://x.com/1338426867951443968/status/2124791879036260475",
-        "metrics": null
-      },
-      {
-        "id": "2124793199608652165",
-        "url": "https://x.com/1338426867951443968/status/2124793199608652165",
+        "id": "2125155524807213487",
+        "url": "https://x.com/1338426867951443968/status/2125155524807213487",
         "metrics": null
       }
     ],
@@ -150,24 +120,11 @@
       "engagement_rate": null,
       "posts_detail": [
         {
-          "item_code": "a-price:10783843",
-          "slot": "08:30",
-          "selection_source": "market",
-          "market_demand_score": 51.01,
+          "item_code": "auc-ulmax:10163287",
+          "slot": "13:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
           "genre_label": "家電",
-          "genre_source": "market_ranking",
-          "dual_coverage": true,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "auc-ulmax:10241024",
-          "slot": null,
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "生活用品",
           "genre_source": "product_category",
           "dual_coverage": null,
           "impressions": null,
@@ -176,169 +133,104 @@
           "engagement_available": false
         },
         {
-          "item_code": "kobe-beauty-labo:10000074",
-          "slot": "13:00",
-          "selection_source": "market",
-          "market_demand_score": 57.88,
-          "genre_label": "家電",
-          "genre_source": "market_ranking",
-          "dual_coverage": false,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "murphyshop:10001552",
-          "slot": null,
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "キッチン用品",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "rakuten24:10947941",
-          "slot": "08:30",
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "unknown",
-          "genre_source": "unknown",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "rcmdki:10424906",
-          "slot": "13:00",
-          "selection_source": "market",
-          "market_demand_score": 57.49,
-          "genre_label": "キッチン用品・食器・調理器具",
-          "genre_source": "market_ranking",
-          "dual_coverage": false,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "scope:10108500",
-          "slot": "13:00",
-          "selection_source": "market",
-          "market_demand_score": 57.69,
-          "genre_label": "キッチン用品・食器・調理器具",
-          "genre_source": "market_ranking",
-          "dual_coverage": false,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "selectshopmint:10000057",
+          "item_code": "c-urban:10014807",
           "slot": "18:00",
-          "selection_source": "explore",
-          "market_demand_score": 56.3,
-          "genre_label": "美容・コスメ・香水",
-          "genre_source": "market_ranking",
-          "dual_coverage": false,
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
           "impressions": null,
           "impressions_available": false,
           "engagement": null,
           "engagement_available": false
         },
         {
-          "item_code": "shuuemura:10000018",
+          "item_code": "cocodecow:10395611",
           "slot": "18:00",
-          "selection_source": "market",
-          "market_demand_score": 56.58,
-          "genre_label": "美容・コスメ・香水",
-          "genre_source": "market_ranking",
-          "dual_coverage": false,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "thebodyshop:10013769",
-          "slot": null,
           "selection_source": "amazon_safe",
           "market_demand_score": null,
-          "genre_label": "美容",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "tk-kosme:10001398",
-          "slot": null,
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "美容",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "tk-kosme:10001598",
-          "slot": null,
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "美容",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "tk-kosme:10002325",
-          "slot": "08:30",
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "美容",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "wakuwaku00:10003410",
-          "slot": null,
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "キッチン用品",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "yama-oatmeal-institute:10000026",
-          "slot": "18:00",
-          "selection_source": "market",
-          "market_demand_score": 54.25,
           "genre_label": "食品",
-          "genre_source": "market_ranking",
-          "dual_coverage": false,
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "f142069-odawara:10001585",
+          "slot": "18:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "loveyours:10049229",
+          "slot": "08:30",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "家電",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "rouge-yao:10020190",
+          "slot": "13:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "tk-kosme:10001176",
+          "slot": "13:00",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "tk-kosme:10001536",
+          "slot": "08:30",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "美容",
+          "genre_source": "product_category",
+          "dual_coverage": null,
+          "impressions": null,
+          "impressions_available": false,
+          "engagement": null,
+          "engagement_available": false
+        },
+        {
+          "item_code": "yacom-tokyo:10014584",
+          "slot": "08:30",
+          "selection_source": "amazon_safe",
+          "market_demand_score": null,
+          "genre_label": "キッチン用品",
+          "genre_source": "product_category",
+          "dual_coverage": null,
           "impressions": null,
           "impressions_available": false,
           "engagement": null,
@@ -370,77 +262,47 @@
       },
       "by_item": [
         {
-          "item_code": "a-price:10783843",
+          "item_code": "auc-ulmax:10163287",
           "impressions": null,
           "engagement": null
         },
         {
-          "item_code": "auc-ulmax:10241024",
+          "item_code": "c-urban:10014807",
           "impressions": null,
           "engagement": null
         },
         {
-          "item_code": "kobe-beauty-labo:10000074",
+          "item_code": "cocodecow:10395611",
           "impressions": null,
           "engagement": null
         },
         {
-          "item_code": "murphyshop:10001552",
+          "item_code": "f142069-odawara:10001585",
           "impressions": null,
           "engagement": null
         },
         {
-          "item_code": "rakuten24:10947941",
+          "item_code": "loveyours:10049229",
           "impressions": null,
           "engagement": null
         },
         {
-          "item_code": "rcmdki:10424906",
+          "item_code": "rouge-yao:10020190",
           "impressions": null,
           "engagement": null
         },
         {
-          "item_code": "scope:10108500",
+          "item_code": "tk-kosme:10001176",
           "impressions": null,
           "engagement": null
         },
         {
-          "item_code": "selectshopmint:10000057",
+          "item_code": "tk-kosme:10001536",
           "impressions": null,
           "engagement": null
         },
         {
-          "item_code": "shuuemura:10000018",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "thebodyshop:10013769",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "tk-kosme:10001398",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "tk-kosme:10001598",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "tk-kosme:10002325",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "wakuwaku00:10003410",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "yama-oatmeal-institute:10000026",
+          "item_code": "yacom-tokyo:10014584",
           "impressions": null,
           "engagement": null
         }
@@ -453,38 +315,8 @@
           "engagement_total": null
         },
         {
-          "genre_label": "生活用品",
-          "count": 1,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "キッチン用品",
-          "count": 2,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "unknown",
-          "count": 1,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "キッチン用品・食器・調理器具",
-          "count": 2,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "美容・コスメ・香水",
-          "count": 2,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
           "genre_label": "美容",
-          "count": 4,
+          "count": 5,
           "impressions_total": null,
           "engagement_total": null
         },
@@ -493,23 +325,17 @@
           "count": 1,
           "impressions_total": null,
           "engagement_total": null
+        },
+        {
+          "genre_label": "キッチン用品",
+          "count": 1,
+          "impressions_total": null,
+          "engagement_total": null
         }
       ],
       "by_selection_source": {
-        "market": {
-          "count": 6,
-          "impressions_total": null,
-          "impressions_avg": null,
-          "engagement_total": null
-        },
         "amazon_safe": {
-          "count": 8,
-          "impressions_total": null,
-          "impressions_avg": null,
-          "engagement_total": null
-        },
-        "explore": {
-          "count": 1,
+          "count": 9,
           "impressions_total": null,
           "impressions_avg": null,
           "engagement_total": null
@@ -517,13 +343,8 @@
       },
       "by_market_demand_band": [
         {
-          "band": "40-60",
-          "count": 7,
-          "impressions_total": null
-        },
-        {
           "band": "unknown",
-          "count": 8,
+          "count": 9,
           "impressions_total": null
         }
       ],
@@ -532,10 +353,10 @@
   },
   "pinterest": {
     "planned": 8,
-    "posts_today": 9,
+    "posts_today": 8,
     "failed": 0,
     "skipped_duplicate": 0,
-    "pending": 3,
+    "pending": 0,
     "clicks": 0,
     "clicks_available": false,
     "extended": {
@@ -570,46 +391,46 @@
       "failed_total": 0,
       "by_item": [
         {
-          "item_code": "auc-ulmax:10241024"
+          "item_code": "auc-ulmax:10163287"
         },
         {
-          "item_code": "murphyshop:10001552"
+          "item_code": "cocodecow:10395611"
         },
         {
-          "item_code": "rakuten24:10947941"
+          "item_code": "f142069-odawara:10001585"
         },
         {
-          "item_code": "thebodyshop:10013769"
+          "item_code": "loveyours:10049229"
         },
         {
-          "item_code": "tk-kosme:10001398"
+          "item_code": "rouge-yao:10020190"
         },
         {
-          "item_code": "tk-kosme:10001598"
+          "item_code": "tk-kosme:10001176"
         },
         {
-          "item_code": "tk-kosme:10002325"
+          "item_code": "tk-kosme:10001536"
         },
         {
-          "item_code": "wakuwaku00:10003410"
+          "item_code": "yacom-tokyo:10014584"
         }
       ],
       "by_genre": [
         {
-          "genre_label": "生活用品",
-          "count": 1
-        },
-        {
-          "genre_label": "キッチン用品",
+          "genre_label": "家電",
           "count": 2
         },
         {
-          "genre_label": "unknown",
+          "genre_label": "食品",
           "count": 1
         },
         {
           "genre_label": "美容",
           "count": 4
+        },
+        {
+          "genre_label": "キッチン用品",
+          "count": 1
         }
       ],
       "by_selection_source": {
@@ -622,7 +443,7 @@
     }
   },
   "room": {
-    "candidate_today": 7,
+    "candidate_today": 9,
     "approved_today": 0,
     "completed_today": 0,
     "extended": {
@@ -630,57 +451,71 @@
       "candidate_to_completed_rate_available": true,
       "by_item": [
         {
-          "item_code": "auc-ulmax:10241024",
+          "item_code": "auc-ulmax:10163287",
           "rank": null,
           "market_demand_score": null
         },
         {
-          "item_code": "murphyshop:10001552",
+          "item_code": "c-urban:10014807",
           "rank": null,
           "market_demand_score": null
         },
         {
-          "item_code": "thebodyshop:10013769",
+          "item_code": "cocodecow:10395611",
           "rank": null,
           "market_demand_score": null
         },
         {
-          "item_code": "tk-kosme:10001398",
+          "item_code": "f142069-odawara:10001585",
           "rank": null,
           "market_demand_score": null
         },
         {
-          "item_code": "tk-kosme:10001598",
+          "item_code": "loveyours:10049229",
           "rank": null,
           "market_demand_score": null
         },
         {
-          "item_code": "tk-kosme:10002325",
+          "item_code": "rouge-yao:10020190",
           "rank": null,
           "market_demand_score": null
         },
         {
-          "item_code": "wakuwaku00:10003410",
+          "item_code": "tk-kosme:10001176",
+          "rank": null,
+          "market_demand_score": null
+        },
+        {
+          "item_code": "tk-kosme:10001536",
+          "rank": null,
+          "market_demand_score": null
+        },
+        {
+          "item_code": "yacom-tokyo:10014584",
           "rank": null,
           "market_demand_score": null
         }
       ],
       "by_genre": [
         {
-          "genre_label": "生活用品",
-          "count": 1
-        },
-        {
-          "genre_label": "キッチン用品",
+          "genre_label": "家電",
           "count": 2
         },
         {
           "genre_label": "美容",
-          "count": 4
+          "count": 5
+        },
+        {
+          "genre_label": "食品",
+          "count": 1
+        },
+        {
+          "genre_label": "キッチン用品",
+          "count": 1
         }
       ],
       "by_selection_source": {
-        "amazon_safe": 7
+        "amazon_safe": 9
       },
       "rank_list": [],
       "market_demand_score_list": [],
@@ -770,9 +605,9 @@
     ],
     "tier_counts": {
       "keyword": 0,
-      "market": 9,
+      "market": 8,
       "rising": 0,
-      "explore": 6
+      "explore": 7
     },
     "extended": {
       "ranking_fetch_calls_expected": 12,
@@ -783,28 +618,28 @@
       "rank_velocity_avg": null,
       "by_genre_adopted": [
         {
-          "genre_label": "家電",
+          "genre_label": "食品",
           "count": 3
         },
         {
-          "genre_label": "日用品雑貨・文房具・手芸",
-          "count": 2
-        },
-        {
-          "genre_label": "食品",
-          "count": 2
-        },
-        {
-          "genre_label": "キッチン用品・食器・調理器具",
-          "count": 4
+          "genre_label": "美容・コスメ・香水",
+          "count": 3
         },
         {
           "genre_label": "unknown",
           "count": 1
         },
         {
-          "genre_label": "美容・コスメ・香水",
+          "genre_label": "キッチン用品・食器・調理器具",
           "count": 3
+        },
+        {
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 4
+        },
+        {
+          "genre_label": "家電",
+          "count": 1
         }
       ],
       "top_market_demand": [
@@ -888,9 +723,9 @@
       ],
       "tier_counts": {
         "keyword": 0,
-        "market": 9,
+        "market": 8,
         "rising": 0,
-        "explore": 6
+        "explore": 7
       },
       "market_ranking_available": true
     }
@@ -922,31 +757,31 @@
     "media": []
   },
   "amazon_phase1": {
-    "links_total": 108,
+    "links_total": 107,
     "target_products_total": 1737,
-    "buttons_live": 108,
-    "site_day": "2026-11-23",
-    "new_matches_today": 5,
-    "high_confidence_total": 67,
-    "unmatched_total": 1629,
+    "buttons_live": 107,
+    "site_day": "2026-11-24",
+    "new_matches_today": 0,
+    "high_confidence_total": 66,
+    "unmatched_total": 1630,
     "match_method_counts": {
       "A": 0,
       "B": 29,
-      "C": 38,
+      "C": 37,
       "manual": 41
     },
     "tier_breakdown_safe_only": {
       "A": 0,
       "B": 29,
-      "C": 38,
+      "C": 37,
       "legacy": 38,
       "unknown": 0,
-      "total": 105
+      "total": 104
     },
     "ambiguous_pending_review": 20,
     "needs_review": 4,
     "x_dual_coverage_posts_today": 9,
-    "x_rakuten_only_posts_today": 6,
+    "x_rakuten_only_posts_today": 0,
     "clicks_available": false,
     "raw_clicks": 0,
     "unique_clicks": 0,
