@@ -1,116 +1,70 @@
 {
-  "generated_at": "2026-11-27T23:31:34.651828+09:00",
-  "date": "2026-11-27",
+  "generated_at": "2026-11-28T23:31:31.405020+09:00",
+  "date": "2026-11-28",
   "anomalies": [
-    "⚠️ 楽天アフィリエイトの売上CSV取込が335時間前から更新されていません(最終取込: 2026-11-14 00:07)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
+    "⚠️ 楽天アフィリエイトの売上CSV取込が359時間前から更新されていません(最終取込: 2026-11-14 00:07)。https://affiliate.rakuten.co.jp/report/ から最新のCSVをダウンロードしてください。"
   ],
   "x": {
     "slots": [
       {
         "time": "08:30",
         "planned": 3,
-        "actual": 3,
+        "actual": 0,
         "recovered": 0,
-        "shortfall": 0,
-        "status": "on_target"
+        "shortfall": 3,
+        "status": "api_failure"
       },
       {
         "time": "13:00",
         "planned": 3,
-        "actual": 3,
+        "actual": 0,
         "recovered": 0,
-        "shortfall": 0,
-        "status": "on_target"
+        "shortfall": 3,
+        "status": "api_failure"
       },
       {
         "time": "18:00",
         "planned": 3,
-        "actual": 3,
+        "actual": 0,
         "recovered": 0,
-        "shortfall": 0,
-        "status": "on_target"
+        "shortfall": 3,
+        "status": "api_failure"
       }
     ],
     "slot_status": [
       {
-        "status": "on_target",
+        "status": "api_failure",
         "planned": 3,
-        "actual": 3,
-        "detail": "",
+        "actual": 0,
+        "detail": "Buffer 認証エラー(APIキー無効・BUFFER_API_KEY を更新するまで送信しません) (item_code=skindesign:10002146 slot=08:30)",
         "slot": "08:30"
       },
       {
-        "status": "on_target",
+        "status": "api_failure",
         "planned": 3,
-        "actual": 3,
-        "detail": "",
+        "actual": 0,
+        "detail": "Buffer 認証エラー(APIキー無効・BUFFER_API_KEY を更新するまで送信しません) (item_code=skindesign:10002146 slot=13:00)",
         "slot": "13:00"
       },
       {
-        "status": "on_target",
+        "status": "api_failure",
         "planned": 3,
-        "actual": 3,
-        "detail": "",
+        "actual": 0,
+        "detail": "Buffer 認証エラー(APIキー無効・BUFFER_API_KEY を更新するまで送信しません) (item_code=skindesign:10002146 slot=18:00)",
         "slot": "18:00"
       }
     ],
     "slot_other": 0,
-    "posts_today": 9,
+    "posts_today": 0,
     "posts_month": 165,
-    "success": 9,
-    "failed": 0,
-    "skipped_duplicate": 9,
+    "success": 0,
+    "failed": 3,
+    "skipped_duplicate": 0,
     "daily_cap": 9,
-    "capped": true,
+    "capped": false,
     "clicks": 0,
     "clicks_available": false,
-    "tweets": [
-      {
-        "id": "2126096726251524145",
-        "url": "https://x.com/1338426867951443968/status/2126096726251524145",
-        "metrics": null
-      },
-      {
-        "id": "2126097985025028297",
-        "url": "https://x.com/1338426867951443968/status/2126097985025028297",
-        "metrics": null
-      },
-      {
-        "id": "2126099242896839162",
-        "url": "https://x.com/1338426867951443968/status/2126099242896839162",
-        "metrics": null
-      },
-      {
-        "id": "2126164674437660796",
-        "url": "https://x.com/1338426867951443968/status/2126164674437660796",
-        "metrics": null
-      },
-      {
-        "id": "2126165932888166655",
-        "url": "https://x.com/1338426867951443968/status/2126165932888166655",
-        "metrics": null
-      },
-      {
-        "id": "2126167190701326456",
-        "url": "https://x.com/1338426867951443968/status/2126167190701326456",
-        "metrics": null
-      },
-      {
-        "id": "2126240554199494738",
-        "url": "https://x.com/1338426867951443968/status/2126240554199494738",
-        "metrics": null
-      },
-      {
-        "id": "2126241430033121413",
-        "url": "https://x.com/1338426867951443968/status/2126241430033121413",
-        "metrics": null
-      },
-      {
-        "id": "2126242688181698719",
-        "url": "https://x.com/1338426867951443968/status/2126242688181698719",
-        "metrics": null
-      }
-    ],
+    "tweets": [],
     "extended": {
       "impressions_total": null,
       "impressions_available": false,
@@ -118,230 +72,34 @@
       "engagement_total": null,
       "engagement_available": false,
       "engagement_rate": null,
-      "posts_detail": [
-        {
-          "item_code": "beautylife-store:10000007",
-          "slot": "18:00",
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "美容",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "c-urban:10001770",
-          "slot": "13:00",
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "美容",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "christina:10000000",
-          "slot": "08:30",
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "美容",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "cocodecow:10355230",
-          "slot": "18:00",
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "食品",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "cocodecow:10831793",
-          "slot": "18:00",
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "食品",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "dmpl:10001452",
-          "slot": "13:00",
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "美容",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "kaguzaku:10006112",
-          "slot": "13:00",
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "キッチン用品",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "kaguzaku:10006610",
-          "slot": "08:30",
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "キッチン用品",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        },
-        {
-          "item_code": "roomy:10015932",
-          "slot": "08:30",
-          "selection_source": "amazon_safe",
-          "market_demand_score": null,
-          "genre_label": "キッチン用品",
-          "genre_source": "product_category",
-          "dual_coverage": null,
-          "impressions": null,
-          "impressions_available": false,
-          "engagement": null,
-          "engagement_available": false
-        }
-      ],
+      "posts_detail": [],
       "slot_impressions": {
         "08:30": {
-          "posts": 3,
+          "posts": 0,
           "impressions_total": null,
           "impressions_available": false,
           "engagement_total": null,
           "engagement_available": false
         },
         "13:00": {
-          "posts": 3,
+          "posts": 0,
           "impressions_total": null,
           "impressions_available": false,
           "engagement_total": null,
           "engagement_available": false
         },
         "18:00": {
-          "posts": 3,
+          "posts": 0,
           "impressions_total": null,
           "impressions_available": false,
           "engagement_total": null,
           "engagement_available": false
         }
       },
-      "by_item": [
-        {
-          "item_code": "beautylife-store:10000007",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "c-urban:10001770",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "christina:10000000",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "cocodecow:10355230",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "cocodecow:10831793",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "dmpl:10001452",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "kaguzaku:10006112",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "kaguzaku:10006610",
-          "impressions": null,
-          "engagement": null
-        },
-        {
-          "item_code": "roomy:10015932",
-          "impressions": null,
-          "engagement": null
-        }
-      ],
-      "by_genre": [
-        {
-          "genre_label": "美容",
-          "count": 4,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "食品",
-          "count": 2,
-          "impressions_total": null,
-          "engagement_total": null
-        },
-        {
-          "genre_label": "キッチン用品",
-          "count": 3,
-          "impressions_total": null,
-          "engagement_total": null
-        }
-      ],
-      "by_selection_source": {
-        "amazon_safe": {
-          "count": 9,
-          "impressions_total": null,
-          "impressions_avg": null,
-          "engagement_total": null
-        }
-      },
-      "by_market_demand_band": [
-        {
-          "band": "unknown",
-          "count": 9,
-          "impressions_total": null
-        }
-      ],
+      "by_item": [],
+      "by_genre": [],
+      "by_selection_source": {},
+      "by_market_demand_band": [],
       "by_appeal_type_available": false
     }
   },
@@ -385,51 +143,61 @@
       "failed_total": 0,
       "by_item": [
         {
-          "item_code": "beautylife-store:10000007"
+          "item_code": "at-rescue:10002460"
         },
         {
-          "item_code": "book:22095438"
+          "item_code": "book:22103916"
         },
         {
-          "item_code": "cocodecow:10355230"
+          "item_code": "enetroom:10193459"
         },
         {
-          "item_code": "cocodecow:10831793"
+          "item_code": "gsk-prime:10004296"
         },
         {
-          "item_code": "dmpl:10001452"
+          "item_code": "jetprice:10285916"
         },
         {
-          "item_code": "hiromifashionhouse:10005004"
+          "item_code": "miraclim:10002777"
         },
         {
-          "item_code": "irisplaza-r:10170526"
+          "item_code": "rakuten24:11354091"
         },
         {
-          "item_code": "kouragumi:10000367"
+          "item_code": "skindesign:10002146"
         }
       ],
       "by_genre": [
         {
-          "genre_label": "美容",
-          "count": 2
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 1
         },
         {
           "genre_label": "全ジャンル",
           "count": 1
         },
         {
-          "genre_label": "食品",
-          "count": 4
+          "genre_label": "家電",
+          "count": 1
         },
         {
-          "genre_label": "日用品雑貨・文房具・手芸",
+          "genre_label": "美容",
+          "count": 3
+        },
+        {
+          "genre_label": "食品",
+          "count": 1
+        },
+        {
+          "genre_label": "美容・コスメ・香水",
           "count": 1
         }
       ],
       "by_selection_source": {
-        "amazon_safe": 4,
-        "market": 4
+        "market": 2,
+        "rising": 1,
+        "explore": 1,
+        "amazon_safe": 4
       },
       "impressions_available": false,
       "impressions": null,
@@ -438,7 +206,7 @@
     }
   },
   "room": {
-    "candidate_today": 2,
+    "candidate_today": 4,
     "approved_today": 0,
     "completed_today": 0,
     "extended": {
@@ -446,28 +214,38 @@
       "candidate_to_completed_rate_available": true,
       "by_item": [
         {
-          "item_code": "cocodecow:10831793",
+          "item_code": "gsk-prime:10004296",
           "rank": null,
           "market_demand_score": null
         },
         {
-          "item_code": "dmpl:10001452",
+          "item_code": "jetprice:10285916",
+          "rank": null,
+          "market_demand_score": null
+        },
+        {
+          "item_code": "miraclim:10002777",
+          "rank": null,
+          "market_demand_score": null
+        },
+        {
+          "item_code": "skindesign:10002146",
           "rank": null,
           "market_demand_score": null
         }
       ],
       "by_genre": [
         {
-          "genre_label": "食品",
-          "count": 1
+          "genre_label": "美容",
+          "count": 3
         },
         {
-          "genre_label": "美容",
+          "genre_label": "食品",
           "count": 1
         }
       ],
       "by_selection_source": {
-        "amazon_safe": 2
+        "amazon_safe": 4
       },
       "rank_list": [],
       "market_demand_score_list": [],
@@ -570,20 +348,24 @@
       "rank_velocity_avg": null,
       "by_genre_adopted": [
         {
-          "genre_label": "unknown",
-          "count": 7
+          "genre_label": "美容・コスメ・香水",
+          "count": 2
         },
         {
-          "genre_label": "食品",
+          "genre_label": "日用品雑貨・文房具・手芸",
+          "count": 3
+        },
+        {
+          "genre_label": "unknown",
           "count": 5
         },
         {
           "genre_label": "キッチン用品・食器・調理器具",
-          "count": 2
+          "count": 3
         },
         {
-          "genre_label": "美容・コスメ・香水",
-          "count": 1
+          "genre_label": "食品",
+          "count": 2
         }
       ],
       "top_market_demand": [
@@ -704,7 +486,7 @@
     "links_total": 107,
     "target_products_total": 1738,
     "buttons_live": 107,
-    "site_day": "2026-11-27",
+    "site_day": "2026-11-28",
     "new_matches_today": 0,
     "high_confidence_total": 66,
     "unmatched_total": 1631,
@@ -724,7 +506,7 @@
     },
     "ambiguous_pending_review": 20,
     "needs_review": 4,
-    "x_dual_coverage_posts_today": 9,
+    "x_dual_coverage_posts_today": 0,
     "x_rakuten_only_posts_today": 0,
     "clicks_available": false,
     "raw_clicks": 0,
